@@ -8,8 +8,7 @@
 Hello I will very slowly update all my notes onto here, don't mind the messiness haha
 
 **Map of Contents:**
-- [SWEN241](SWEN_MOC)
-
+hopefully this work...
 
 ### Some swag renders
 
