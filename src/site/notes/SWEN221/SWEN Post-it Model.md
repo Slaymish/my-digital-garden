@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-post-it-model/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-post-it-model/","dgPassFrontmatter":true}
 ---
 
 Related: #java 
