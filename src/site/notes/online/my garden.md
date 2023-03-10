@@ -8,7 +8,8 @@
 Hello I will very slowly update all my notes onto here, don't mind the messiness haha
 
 **Map of Contents:**
-hopefully this work...
+[[UNI MOC\|UNI MOC]]
+[[SWEN221/SWEN_MOC\|SWEN_MOC]]
 
 ### Some swag renders
 
