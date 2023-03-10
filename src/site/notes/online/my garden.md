@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/online/my-garden/","tags":["gardenEntry"]}
+{"dg-home":true,"dg-publish":true,"permalink":"/online/my-garden/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 
