@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-moc/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/swen-221/swen-moc/"}
 ---
 
 Related: #programming #java 
