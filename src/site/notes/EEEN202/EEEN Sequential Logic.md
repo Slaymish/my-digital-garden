@@ -20,7 +20,13 @@ Hamish Burke || 10-03-2023
 
 ### The NAND Gate Latch
 ![400][SCR-20230310-r63.png]
+- Output depends on startup
 
+### Setting the NAND Latch
+![400][SCR-20230310-vfc.png]
+
+
+***
 
 ## Flip-flop
 - Synchronous
