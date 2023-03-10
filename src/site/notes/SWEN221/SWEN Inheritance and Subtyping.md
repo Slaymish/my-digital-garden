@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-inheritance-and-subtyping/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-221/swen-inheritance-and-subtyping/"}
 ---
 
 Related: #java #programming 
