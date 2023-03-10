@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/uni-moc/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-home":false,"dg-publish":true,"permalink":"/uni-moc/","dgPassFrontmatter":true}
 ---
 
 
