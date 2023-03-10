@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-interfaces/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-interfaces/","dgPassFrontmatter":true}
 ---
 
 Related: #java [[SWEN221/SWEN Inheritance and Subtyping\|SWEN Inheritance and Subtyping]]
