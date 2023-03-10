@@ -3,18 +3,9 @@
 ---
 
 
-# Hello World!!
-*hghwhsvchs*
+[[UNI MOC\|UNI MOC]]
+[[SWEN221/SWEN_BasicJavaRecap\|SWEN_BasicJavaRecap]]
 
-
-## Info
-- sfhvsihg
-- sggijsi
-- sigdfij
-	- jgisvj
-	- sifvi
-- sjgivdis
-	- gnis
 
 
 ## Code
