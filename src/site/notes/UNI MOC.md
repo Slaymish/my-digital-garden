@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/uni-moc/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/uni-moc/"}
 ---
 
 
