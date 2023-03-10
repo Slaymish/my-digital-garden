@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-super-constructors/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-super-constructors/","dgPassFrontmatter":true}
 ---
 
 Related: #java 
