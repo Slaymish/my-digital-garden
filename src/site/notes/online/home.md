@@ -9,7 +9,11 @@ Hello I will very slowly update all my notes onto here, don't mind the messiness
 
 **Map of Contents:**
 [[UNI MOC\|UNI MOC]]
-[[SWEN221/SWEN_MOC\|SWEN_MOC]]
+	[[SWEN221/SWEN_MOC\|SWEN_MOC]]
+	[[COMP261/COMP MOC\|COMP MOC]]
+	[[EEEN202/EEEN MOC\|EEEN MOC]]
+	[[NWEN241/NWEN MOC\|NWEN MOC]]
+
 
 ### Some swag renders
 
@@ -17,6 +21,10 @@ Hello I will very slowly update all my notes onto here, don't mind the messiness
 <p align="center">
 Nothing here yet...
 </p>
+
+
+***
+
 
 
 
