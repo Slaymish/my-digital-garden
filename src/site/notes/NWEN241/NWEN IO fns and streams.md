@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-io-fns-and-streams/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-io-fns-and-streams/","dgPassFrontmatter":true}
 ---
 
 
