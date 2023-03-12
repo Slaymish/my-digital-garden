@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-time-travelling/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-time-travelling/","dgPassFrontmatter":true}
 ---
 
 Related: #java 
