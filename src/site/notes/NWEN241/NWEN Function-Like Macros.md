@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-function-like-macros/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-function-like-macros/","dgPassFrontmatter":true}
 ---
 
 
