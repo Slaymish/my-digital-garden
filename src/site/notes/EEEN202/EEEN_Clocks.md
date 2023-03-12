@@ -32,3 +32,6 @@ Hamish Burke || 13-03-2023
 > Control inputs have an effect on the output
 > ONLY at the active clock transition (NGT or PGT)
 
+
+
+
