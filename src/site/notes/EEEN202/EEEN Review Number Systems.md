@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-review-number-systems/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-review-number-systems/","dgPassFrontmatter":true}
 ---
 
 
