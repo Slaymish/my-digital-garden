@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-moc/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-moc/","dgPassFrontmatter":true}
 ---
 
 
@@ -20,6 +20,11 @@ Hamish Burke || 02-03-2023
 [[EEEN202/EEEN Boolean Theorems and Simplification\|EEEN Boolean Theorems and Simplification]]
 [[EEEN202/EEEN K Maps\|EEEN K Maps]]
 [[EEEN202/EEEN Sequential Logic\|EEEN Sequential Logic]]
+
+[[EEEN202/EEEN Lab 2 Info\|EEEN Lab 2 Info]]
+
+
+
 
 
 
