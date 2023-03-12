@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-lab-prep-tasks/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-lab-prep-tasks/","dgPassFrontmatter":true}
 ---
 
 
