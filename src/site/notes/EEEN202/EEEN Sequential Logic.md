@@ -79,7 +79,7 @@ Hamish Burke || 10-03-2023
 
 ## Flip-flop
 - Synchronous
-	- Triggered by a clock
+	- Triggered by a [clock](EEEN_Clocks)
 
 
 
