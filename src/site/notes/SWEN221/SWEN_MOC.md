@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/swen-221/swen-moc/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-moc/","dgPassFrontmatter":true}
 ---
 
 Related: #programming #java 
