@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/comp-261/comp-moc/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/comp-261/comp-moc/","dgPassFrontmatter":true}
 ---
 
 
