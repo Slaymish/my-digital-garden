@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-lab-1-report-questions/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-lab-1-report-questions/","dgPassFrontmatter":true}
 ---
 
 
