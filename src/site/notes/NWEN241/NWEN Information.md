@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-information/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-information/","dgPassFrontmatter":true}
 ---
 
 
