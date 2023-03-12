@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-k-maps/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-k-maps/","dgPassFrontmatter":true}
 ---
 
 Related: 
