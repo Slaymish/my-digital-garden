@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-c-fundamentals/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-c-fundamentals/","dgPassFrontmatter":true}
 ---
 
 
