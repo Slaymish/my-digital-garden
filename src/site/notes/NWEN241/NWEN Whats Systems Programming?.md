@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-whats-systems-programming/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-whats-systems-programming/","dgPassFrontmatter":true}
 ---
 
 Related: #programming 
