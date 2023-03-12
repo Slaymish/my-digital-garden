@@ -78,6 +78,9 @@ Hamish Burke || 10-03-2023
 
 
 ## Flip-flop
+{ #7a35e0}
+
+
 - Synchronous
 	- Triggered by a [clock](EEEN_Clocks)
 
