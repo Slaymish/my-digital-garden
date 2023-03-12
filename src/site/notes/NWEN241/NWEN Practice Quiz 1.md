@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-practice-quiz-1/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-practice-quiz-1/","dgPassFrontmatter":true}
 ---
 
 
