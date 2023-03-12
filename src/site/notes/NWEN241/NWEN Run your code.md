@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nwen-241/nwen-run-your-code/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-run-your-code/","dgPassFrontmatter":true}
 ---
 
 
