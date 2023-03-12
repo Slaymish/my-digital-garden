@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eeen-202/eeen-logic-gates/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-logic-gates/","dgPassFrontmatter":true}
 ---
 
 
