@@ -49,6 +49,7 @@ The 74HCT153 is a dual 4-input multiplexer (MUX) that can select one of four inp
 
 When SEL is high (logic 1), the MUX operates in the 4:1 MUX mode, where the two control inputs A and B select which of the four inputs (I0-I3) is routed to the output. The truth table for this mode is as follows:
 
+
 | SEL | A   | B   | l0  | l1  | l2  | l3  | Y   |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1   | 0   | 0   | D0  | D1  | D2  | D3  | Y0  |
@@ -62,6 +63,7 @@ In this mode, the two ENABLE inputs (E1 and E2) function as active-low enable si
 ## 8.3 Prime Number detector
 
 1. Truth table (including any simplificaitons)
+
 | A   | B   | C   | Decimal |  OUT   | 
 | --- | --- | --- | ------- | --- |
 | 0   | 0   | 0   | 0       |   0  |
