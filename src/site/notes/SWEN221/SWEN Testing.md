@@ -17,7 +17,16 @@ Hamish Burke || 13-03-2023
 ### Regression testing:
 - Running your automated tests everytime you change anything in the code
 
+***
+
 <h1 align="center">
 Fail Faster my friend... Fail Faster!
 </h1>
 
+***
+
+# Unit Testing
+- Tests each method in code individually
+- Create input
+- Call method
+- Check result
