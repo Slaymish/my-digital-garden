@@ -30,7 +30,10 @@ struct structure_tag {
 - Derived and user-defined types
 - Pointers to basic, derived and user-defined data types
 
-### Examples
+***
+
+
+## Examples
 ```C
 struct student_info { // Named struct
 	char name [20];
@@ -48,3 +51,14 @@ struct student_info { // Named struct
 ```
 - Variables of type struct student_info
 
+
+#### Declaring a variable struct current_student
+```C
+struct student_info current_student;
+```
+
+#### Declaring an array of structs
+```C
+struct student_info nwen241class[250];
+```
+- Reserves space for 250 element array of records (structs)
