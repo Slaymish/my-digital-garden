@@ -16,7 +16,7 @@ Hamish Burke || 27-02-2023
 [[NWEN241/NWEN C Program Design\|NWEN C Program Design]]
 [[NWEN241/NWEN Run your code\|NWEN Run your code]]
 [[NWEN241/NWEN C Fundamentals\|NWEN C Fundamentals]]
-[[NWEN241/NWEN Arrays\|NWEN Arrays]]
+[[NWEN241/NWEN_Arrays\|NWEN_Arrays]]
 [[NWEN241/NWEN Strings\|NWEN Strings]]
 [[NWEN241/NWEN Function-Like Macros\|NWEN Function-Like Macros]]
 [[NWEN241/NWEN Structures\|NWEN Structures]]
