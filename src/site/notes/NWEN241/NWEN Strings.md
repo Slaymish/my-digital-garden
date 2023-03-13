@@ -12,7 +12,7 @@ Hamish Burke || 27-02-2023
 
 ## Whats a String in C?
 - A C string a just an array that contains ASCII characters
-	- its a char array ([[NWEN241/NWEN Arrays\|NWEN Arrays]])
+	- its a char array ([[NWEN241/NWEN_Arrays\|NWEN_Arrays]])
 	- Need null char to make it a valid string
 
 ## Null Character in Strings
