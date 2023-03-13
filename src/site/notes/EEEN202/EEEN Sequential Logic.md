@@ -22,6 +22,9 @@ Hamish Burke || 10-03-2023
 ***
 
 ### The NAND Gate Latch
+{ #ea60f4}
+
+
 ![400][SCR-20230310-r63.png]
 - Output depends on startup
 
