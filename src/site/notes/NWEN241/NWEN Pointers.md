@@ -71,6 +71,5 @@ x = &a;
 ```C
 int a = 100, b, *x;
 x = &a; // makes x point to a
-b = *x; 
-
+b = *x; // sets b to 100
 ```
