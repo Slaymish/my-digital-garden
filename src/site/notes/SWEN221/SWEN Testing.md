@@ -12,6 +12,7 @@ Hamish Burke || 13-03-2023
 - input file -> program run -> output file
 - A test is another program/script
 - Can use *System.In* and *System.Out*
+- Faster and more reliable than manual testing
 
 ### Regression testing:
 - Running your automated tests everytime you change anything in the code
