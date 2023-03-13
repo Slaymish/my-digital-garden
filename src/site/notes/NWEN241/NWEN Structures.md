@@ -33,7 +33,7 @@ struct structure_tag {
 ***
 
 
-## Examples
+# Examples
 ```C
 struct student_info { // Named struct
 	char name [20];
@@ -62,3 +62,60 @@ struct student_info current_student;
 struct student_info nwen241class[250];
 ```
 - Reserves space for 250 element array of records (structs)
+
+***
+
+# Creating New User Defined Types
+
+- can define a struct as a new data type
+- Instead of having to write struct student_info everytime
+```C
+typedef struct {
+	char name [20];
+	int student_id;
+	int age;
+} StudentInfo // alias
+```
+
+- Now can use that alias to assign var to the struct
+```C
+StudentInfo current_student;
+```
+
+### Initializing Structs
+- At declaration
+```C
+typedef struct {
+...
+} StudentInfo
+
+StudentInfo current_student = {"John Doe", 12345678, 18};
+StudentInfo another_student = {"John Doe", 12345678}; 
+
+// Designated Initialization
+StudentInfo s1 = { .age = 18, .name = "John Doe"};
+// or
+StudentInfo s2 = { age: 18, name: "John Doe"};
+```
+- Remaining fields get set to 0
+
+***
+
+# Accessing/Manipulating structs
+- Can reference a component of a struct with the *direct component selction operator*, which is a period
+```C
+strcpy(student1.name, "John Smith");
+student1.age = 18;
+printf("%s is in age %d\n", student1.name, student1.age)
+```
+
+- Can copy an entire struct
+```C
+student1 = student2;
+```
+
+
+
+
+
+
