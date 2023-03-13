@@ -19,6 +19,8 @@ Hamish Burke || 27-02-2023
 [[NWEN241/NWEN Arrays\|NWEN Arrays]]
 [[NWEN241/NWEN Strings\|NWEN Strings]]
 [[NWEN241/NWEN Function-Like Macros\|NWEN Function-Like Macros]]
+[[NWEN241/NWEN Structures\|NWEN Structures]]
+
 
 
 
