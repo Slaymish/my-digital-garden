@@ -114,8 +114,20 @@ printf("%s is in age %d\n", student1.name, student1.age)
 student1 = student2;
 ```
 
+***
 
+# Passing structs to Functions
 
+```C
+typedef struct {
+	char name[20];
+	double diameter;
+	int moons;
+	double orbit_time, rotation_time;
+	
+} planet_t;
+```
 
+- When a struct var is passed as an input argument, all component values are **copied** into the local structure variable
 
 
