@@ -5,6 +5,7 @@
 [[online/home\|home]]
 Hamish Burke || 14-03-2023
 ***
+
 ```
 Linking:
 [[note_name]] = Link to note
@@ -24,10 +25,6 @@ Misc:
 **txt** = Bold
 # Header = Large header (use multi '#' for diff sizes)
 *** = Page break
-
-
-
-
 ```
 
 
