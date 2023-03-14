@@ -6,6 +6,8 @@
 Hamish Burke || 02-03-2023
 ***
 
+[[online/home\|home]]
+
 
 ## Trimester 1:
 - [[EEEN202/EEEN MOC\|EEEN MOC]]
