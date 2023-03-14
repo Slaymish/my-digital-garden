@@ -7,11 +7,11 @@ Hamish Burke || 14-03-2023
 ***
 
 ```
-Linking:
-[[note_name]] = Link to note
+Linking: (use two square brackets)
+[note_name] = Link to note
 [note_name\|display_name] = Change display name on link
 [note_name^block] = Link to block in note
-[[note_name^block\|display_name]] = Link to block & change name
+[note_name^block\|display_name] = Link to block & change name
 
 Math:
 $math goes here$ = Formats equation
