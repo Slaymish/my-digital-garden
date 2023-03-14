@@ -14,6 +14,9 @@ Hamish Burke || 14-03-2023
 - Easy to make more complex grammars/languages
 
 # Regular Grammars
+{ #85c3b3}
+
+
 *Simpler grammer*
 - Easier to parse 
 - Equivalent to finite state automata. 
