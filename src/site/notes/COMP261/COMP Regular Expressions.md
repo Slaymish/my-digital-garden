@@ -63,3 +63,8 @@ These are sufficient for everything
 ## Extensions
 *X{n,m}* = X, at least n but not more than m times
 *X{n} X{n,}* = X, exactly n time, or at least n times
+\[^....\] = matches any character **except** whats in the [....]
+\\d, \\s, \\w, \\W = abbreviations for common [...]: digit, space, word char, non-word char
+^ $ = match the boundry between chars at beginner or end of a line
+\\b = match the boundry between a word and non-word (either side)
+\\ = makes special characters ordinary (may need double \\ \\ )
