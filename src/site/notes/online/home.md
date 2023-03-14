@@ -13,7 +13,7 @@
 	[[NWEN241/NWEN MOC\|NWEN MOC]]
 
 
-## To Do
+### To Do
 - [ ] NWEN Web Questions
 - [ ] EEEN Lab01 Report
 - [x] EEEN Lab02 Pre-lab
@@ -24,7 +24,7 @@
 - [ ] COMP Test01 (Thurs)
 
 
-## Some swag renders
+### Some swag renders
 
 
 <p align="center">
@@ -37,7 +37,7 @@ Nothing here yet...
 
 
 
-## Code Example
+### Code Example
 ```java
 public static void main(String[] args){
 	System.out.println("hihiihih");
