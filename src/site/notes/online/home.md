@@ -15,6 +15,17 @@ Hello I will very slowly update all my notes onto here, don't mind the messiness
 	[[NWEN241/NWEN MOC\|NWEN MOC]]
 
 
+## To Do
+- [ ] NWEN Web Questions
+- [ ] EEEN Lab01 Report
+- [x] EEEN Lab02 Pre-lab
+- [ ] EEEN Lab02 Report
+- [ ] COMP Assignment 1
+- [ ] NWEN Assignment 1
+- [ ] SWEN Assignment 1
+- [ ] COMP Test01 (Thurs)
+
+
 ### Some swag renders
 
 
@@ -31,7 +42,7 @@ Nothing here yet...
 ## Code Example
 ```java
 public static void main(String[] args){
-	System.out.println("Helloo");
+	System.out.println("hihiihih");
 }
 ```
 
