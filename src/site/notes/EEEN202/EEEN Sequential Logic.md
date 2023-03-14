@@ -85,7 +85,7 @@ Hamish Burke || 10-03-2023
 
 
 - Synchronous
-	- Triggered by a [clock](EEEN_Clocks)
+	- Triggered by a [[EEEN202/EEEN_Clocks\|clock]]
 
 
 
