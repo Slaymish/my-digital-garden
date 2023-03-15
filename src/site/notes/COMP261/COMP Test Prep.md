@@ -14,3 +14,12 @@ Hamish Burke || 16-03-2023
 	- Still be familiar with [[COMP261/COMP Regular Expressions#^00f123\|basic regex grammar]]
 
 - Language defined by the Non-terminal at the start
+
+## Converting to AST
+- Keep the things you'd make classes with
+- Get rid of stuff that gives no extra info
+- Have to give justification for each change **and** thing you keep same
+
+
+
+
