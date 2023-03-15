@@ -144,6 +144,9 @@ System.out.println(new C().m());
 
 This would return C
 
+> [!Java Docs]
+> Adding @Override pulls any documentation for the overridden method
+
 
 ***
 **Subtyping:**
