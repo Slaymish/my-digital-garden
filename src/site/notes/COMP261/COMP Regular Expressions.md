@@ -44,9 +44,9 @@ scan.useDelimiter("\\s+|({}(),;)|(?<=[{}(),;])");
 	- - = is a range
 	- match 10, 82 not 03, or 4
 - $tes+t:?\ [1-9][0-9]*$
-	- + = 1 or more repetitions
-	- * = 0 or more repetitions
-	- ? = 0 or 1 repetitions (optional)
+	- \+ = 1 or more repetitions
+	- \* = 0 or more repetitions
+	- \? = 0 or 1 repetitions (optional)
 	- match
 		- test: 34
 		- tesst 29
