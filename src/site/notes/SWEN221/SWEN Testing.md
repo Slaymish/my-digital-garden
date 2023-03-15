@@ -31,6 +31,8 @@ Fail Faster my friend... Fail Faster!
 - Call method
 - Check result
 
+***
+
 
 ## JUnit
 *Unit Testing Framework*
@@ -57,3 +59,66 @@ import org.junit.jupiter.api.Test;
 - assertSame, assertNotSame
 - **assertThrows(Err.class,()->my)**
 - fail(), fail(String msg)
+
+***
+
+## Example
+
+Base code:
+```java
+record MyDate(int day, int month, int year){
+	public MyDate{
+		if(day <= 0 || month < 0){throw new RuntimeException(/**/);}
+		if(day > 31 || month > 12){throw new RuntimeException(/**/);}
+		...
+		
+	}
+
+	private static boolean isLeapYear(int year){
+		...
+	}
+}
+```
+
+A simple JUnit test
+
+## Testing the Happy Path
+```java
+public class MyDateTest{
+	@Test public void testConstructValidDate(){
+		new MyDate(1,1,1);
+		new MyDate(1,5,2006);
+		new MyDate(28,5,2004);
+		new MyDate(4,3,2004);
+	}
+}
+```
+
+
+## Testing the Unhappy Path
+```java
+@Test public void testConstructInvalidDate(){
+	assertThrows(re, ()->new MyDate(0,0,0) );
+	assertThrows(re, ()->new MyDate(29,2,2006) );
+	assertThrows(re, ()->new MyDate(31,6,2006) );
+	assertThrows(re, ()->new MyDate(11,1,-1) );
+}
+```
+
+***
+
+# How does JUnit work
+
+- The main method is inside the Junit library
+- Recieves the name of the test class/classes in input
+- Their old main class runs our code
+	- [[SWEN221/SWEN Time Travelling\|time travelling]]!
+
+**Code is testable if:**
+- Easy to create objects to run
+- Easy to run operations
+- Easy to check the result of the operations
+
+
+## Property testing
+- Generate some input and check general properties
