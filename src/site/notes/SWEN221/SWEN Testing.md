@@ -30,3 +30,30 @@ Fail Faster my friend... Fail Faster!
 - Create input
 - Call method
 - Check result
+
+
+## JUnit
+*Unit Testing Framework*
+
+http://junit.sourceforge.net/
+- Tests are java methods
+- Test suites are Java classes
+- Annotations mark them out
+- API for writing tests
+- Supports IDE's
+
+### Your test class
+```java
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+```
+##### assert** methods:
+- assertTrue(bool)
+- assertTrue(String msg, bool)
+- **assertEquals(Object expect, Object actual)**
+- assertEquals(float expect, float actual, float delta)
+- assertNull, assertNotNull
+- assertFalse
+- assertSame, assertNotSame
+- **assertThrows(Err.class,()->my)**
+- fail(), fail(String msg)
