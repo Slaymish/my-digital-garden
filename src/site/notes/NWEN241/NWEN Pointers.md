@@ -40,6 +40,7 @@ char c = 'A';
 
 # Declaring a Pointer
 - Pointers are typed based on the type of entity they point to
+- Address size is 4 bytes
 ```C
 data_type *name;
 ```
@@ -120,9 +121,9 @@ int z[10];
 z+i == &z[i]
 ```
 
+***
 
-
-### Traversing Arrays using Pointers
+## Traversing Arrays using Pointers
 
 **Usual Way**
 ```C
@@ -143,6 +144,14 @@ for int *ip = a; ip < a + len; ip++){
 ```
 
 
+
+# General (void) pointers
+- A void pointer is a pointer that can hold the address of any type of data.
+- The void keyword is used to specify that a function returns nothing or that a pointer parameter points to a memory location of unspecified type.
+- Void pointers are often used in generic programming, where the type of data being operated on may not be known in advance.
+- A void pointer cannot be dereferenced directly; it must first be casted to a pointer of a specific data type before it can be used to access the data. 
+- Void pointers are commonly used in memory allocation functions such as malloc(), calloc() and realloc().
+- When a void pointer is casted to another pointer type, it is important to ensure that the types are compatible, otherwise undefined behavior can occur.
 
 
 
