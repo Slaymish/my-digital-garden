@@ -49,6 +49,8 @@ public static int factorial(int n){
 
 
 # Finally clause
+- Gets in the last word, even after an exception is thrown
+- Eg closing a file
 ```java
 try { 
 	int result = 10 / 2; 
@@ -60,3 +62,5 @@ catch (ArithmeticException e) {
 finally { 
 	System.out.println("This will always execute, regardless of whether an exception occurred or not."); }
 ```
+
+
