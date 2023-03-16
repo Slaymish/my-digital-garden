@@ -73,3 +73,24 @@ int a = 100, b, *x;
 x = &a; // makes x point to a
 b = *x; // sets b to 100
 ```
+
+
+### Null pointer
+- can point a pointer to null so it isn't pointing to a random part of memory
+```c
+int a = 10, *x = null;
+```
+
+
+### Usage of Pointers
+1. Accessing info stored in [[NWEN241/NWEN_Arrays\|arrays]]
+2. Pass parameter to functions
+3. Enable dynamic data stuctures
+
+
+> [!Arrays and Pointers]
+> Arrays are a [[NWEN241/NWEN_Arrays#^822933\|fixed pointer]]
+
+
+
+
