@@ -64,3 +64,9 @@ finally {
 ```
 
 
+
+
+# Don't overpower the hero
+*Handle* exceptions instead of just catching them
+
+
