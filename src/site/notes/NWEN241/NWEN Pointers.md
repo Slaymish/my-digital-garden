@@ -82,6 +82,8 @@ int a = 10, *x = null;
 ```
 
 
+***
+
 ### Usage of Pointers
 1. Accessing info stored in [[NWEN241/NWEN_Arrays\|arrays]]
 2. Pass parameter to functions
@@ -90,6 +92,57 @@ int a = 10, *x = null;
 
 > [!Arrays and Pointers]
 > Arrays are a [[NWEN241/NWEN_Arrays#^822933\|fixed pointer]]
+
+### Ways to access an array
+```C
+int z[10], *ip;
+ip = &z[0];
+```
+**The first elem of this arr can be accessed in all these ways**
+- z[0]
+- ip[0]
+- \*z
+- \*ip
+
+
+***
+
+## Pointer Arithmetic
+- Addition and subtraction can be performed on pointers
+```c
+data_type *name;
+name + k // evaled as name + k*sizeof(data_type)
+
+name - k // evaled as name - sizeof(data_type)
+
+// In general
+int z[10];
+z+i == &z[i]
+```
+
+
+
+### Traversing Arrays using Pointers
+
+**Usual Way**
+```C
+int a[] = { ... };
+int len = sizeOf(a)/sizeof(int); // length of arr
+for(int i = 0; i < len; i++){
+	// do smth with a[i]
+}
+```
+
+**With pointers**
+```C
+int a[] = { ... };
+int len = sizeof(a)/sizeof(int);
+for int *ip = a; ip < a + len; ip++){
+	// do smth with *ip
+}
+```
+
+
 
 
 
