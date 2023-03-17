@@ -35,3 +35,23 @@ gcc hello.c -o hello
 ## cppcheck
 - For C and C++ code that checks for coding errors, security vulnerabilities, and other issues that can lead to unexpected behavior or crashes.
 - Can detect programming errors, including memory leaks, null pointer dereferences, uninitialized variables, and buffer overflows.
+
+***
+
+# GDB
+*GNU Debugger*
+
+- Can step through code
+
+**Notes:**
+- Developed by GNU Project
+- Command-line interface
+- Debugging tool for C, C++, Ada, and more
+- Supports Linux, macOS, Windows (and other systems)
+- Breakpoints and watchpoints
+- Step-by-step execution
+- Inspect variables and memory
+- Evaluate expressions
+- Call stack manipulation
+- Extensible with Python and Guile
+- Remote debugging support
