@@ -8,7 +8,12 @@ Hamish Burke || 19-03-2023
 ***
 
 
-**purpose: to speedup of workflow of ai prompt gen gig on fiverr. app:**
+<h2 align="center">
+<strong>Purpose: <br>Speed up my workflow of AI prompt image generator gig on fiverr</strong>
+</h2>
+
+
+***
 
 
 ## APIs Used
