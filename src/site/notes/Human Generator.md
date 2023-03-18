@@ -24,6 +24,9 @@ Hamish Burke || 19-03-2023
 - Possible fine tuned Open-AI model to format prompts
 
 ***
+I want it to do is ask the user for their subject, the users response could look something like "photorealistic corporate headshots". Then add a preamble to start and a post-amble to the end of the string var. In the post-amble ask for "each prompt separated by an empty line". Make an api request (post) with that full string as the message to GPT-3. Save the result to a string, then use a scanner with a line break as the delimiter. Add all prompts to array-list (until scanner.hasNext() is false). Then go through the array-list, and a request for an image from the Dalle-2 API, with each prompt as the post message. Format the file system, with individual folders, each with the image generated and the prompt in .txt.
+
+***
 
 # Methodology
 
