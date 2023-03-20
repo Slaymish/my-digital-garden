@@ -106,7 +106,7 @@ Data Transfer:
 #### Shift register Counters
 - The output of the last FF in the register is then connected back to the fist FF in some way.
 
-Related: [[EEEN Schmitt-Trigger Devices\|Schmitt-Trigger Devices]]
+Related: [[EEEN202/EEEN Schmitt-Trigger Devices\|Schmitt-Trigger Devices]]
 
 
 
