@@ -21,6 +21,9 @@ Hamish Burke || 20-03-2023
 ## Standard trigger
 
 
+***
+
+
 # Multivibrators
 - Latches and FF's can be described as *[[EEEN202/EEEN Bistable Multivibrators\|bistable multivibrators]]*
 
@@ -37,9 +40,17 @@ Hamish Burke || 20-03-2023
 - Ideal for a clock signal
 - Not used in high-precision applications
 
+**Applications:**
+- Low end - Digital IC based clocks
+- Medium - Crystal oscillator circuits
+- Temperature controlled crystal oscillators, atomic clocks
+
+
 ## The 555 Timer
 - Useful for lab (not in exam/test)
 - Can be configured as a monostable or astable multivibrator
+
+
 
 
 
