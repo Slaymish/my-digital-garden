@@ -16,10 +16,10 @@ Two equally stable output states
 # Bistable multivibrators
 *Electronic circuits with two stable states, used for storing binary data* 
 
-**Latches:** 
+**Latches**
 - A type of bistable multivibrator that changes output states based on current input, commonly used in controlling and storing data
-**Flip-flops:** 
+**Flip-flops** 
 - Similar to latches, but with a clock input to synchronise state changes, providing controlled memory storage and data stability
-**Applications:** 
+**Applications** 
 - Both latches and flip-flops are essential building blocks for digital systems, such as registers, counters, and more complex memory structures
 
