@@ -78,14 +78,27 @@ Hamish Burke || 10-03-2023
 *Produces $Q = \neg Q = 0$
 
 
+***
 
-
-## Flip-flop
-{ #7a35e0}
-
+# Flip-flops
 
 - Synchronous
 	- Triggered by a [[EEEN202/EEEN_Clocks\|clock]]
+
+
+## Applications
+- FF's are commonly used for storage and transfer of binary data
+
+Data Transfer:
+- Parallel transfers
+	- Register contents are transferred all at the same time with a single clock cycle
+	- transferring the bits simultaneously is parallel
+- Serial transfers
+	- Register contents are transferred one bit at a time, with a *clock pulse for each bit*
+	- Slower but simpler than parallel transfers
+
+
+
 
 
 
