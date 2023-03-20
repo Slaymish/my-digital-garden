@@ -96,6 +96,20 @@ Data Transfer:
 - Serial transfers
 	- Register contents are transferred one bit at a time, with a *clock pulse for each bit*
 	- Slower but simpler than parallel transfers
+	- Data IN is one input
+
+
+### Shift register 
+- Three bit 'register' contains three FF's
+- Shift register contains two registers, and puts the data from one to the other
+
+#### Shift register Counters
+- The output of the last FF in the register is then connected back to the fist FF in some way.
+
+Related: [[EEEN Schmitt-Trigger Devices\|Schmitt-Trigger Devices]]
+
+
+
 
 
 
