@@ -84,3 +84,62 @@ If code to encode logic is 1k lines, a min of 1k lines of test and 1k lines of a
 
 
 
+Programmatically enablling assertions:
+- Only works in class stated in
+```java
+public class Main{
+	public static void main(String[] a){
+		ClassLoader.getSystemClassLoader()
+			.setDefaultAssertionStatus(true);
+		assert false:"Will it break?"; // no error
+	}
+}
+
+class other{
+	static void method(){
+		assert false:"Or here?"; // error here!
+	}
+}
+```
+
+Old test that used to be need:
+- Still found in some legacy code
+- Junit now enables assertions automatically
+```java
+@test void assertsAreRunning(){
+	try{ assert false:"AAAH";}
+	catch(AssertionError ae){return;}
+	fail("Assertions are disabled");
+}
+```
+
+
+***
+
+# Contracts
+- Precondition
+	- Blame the user of your code
+	- Can be
+		- Debugging/testing support
+		- Active documentation
+		- Can be an assert
+		- can be a throw
+- Postcondition
+
+
+**Invariants:**
+- Some property that holds for all the instances of a type
+- eg
+```java
+record Positive(int x){ Positive{assert x>0;} }
+record Even(int x) { Even{ assert x%==0; }}
+
+record Person(String name, Postive age){
+	//code here
+}
+```
+
+
+
+
+
