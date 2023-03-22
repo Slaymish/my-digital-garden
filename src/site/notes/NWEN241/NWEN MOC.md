@@ -21,6 +21,8 @@ Hamish Burke || 27-02-2023
 [[NWEN241/NWEN Function-Like Macros\|NWEN Function-Like Macros]]
 [[NWEN241/NWEN Structures\|NWEN Structures]]
 [[NWEN241/NWEN Pointers\|NWEN Pointers]]
+[[NWEN241/NWEN Storage Classes\|NWEN Storage Classes]]
+
 
 
 
