@@ -151,8 +151,73 @@ for int *ip = a; ip < a + len; ip++){
 - Void pointers are often used in generic programming, where the type of data being operated on may not be known in advance.
 - A void pointer cannot be dereferenced directly; it must first be casted to a pointer of a specific data type before it can be used to access the data. 
 - Void pointers are commonly used in memory allocation functions such as malloc(), calloc() and realloc().
-- When a void pointer is casted to another pointer type, it is important to ensure that the types are compatible, otherwise undefined behavior can occur.
+- When a void pointer is casted to another pointer type, it is important to ensure that the types are compatible, otherwise undefined behaviour can occur.
 
 
+***
+
+# Pointer Types
+
+- Pointer generally same size
+- *Shouldn't* point a var of one type to a diff type
+	- Only results in warning
+- Can cast the pointer
+	- Removes warning
+	- Still shouldn't (unexpected outcomes)
 
 
+### Accessing/Manipulating struct Pointers
+- Can reference a component of a struct with the **indirect component selection operator** (->)
+```C
+strcpy(sp->name, "John Smith");
+sp->age = 18;
+printf("%s is in age %d\n", sp->name, sp->age);
+```
+
+
+***
+
+- When invoking a fn, the actual parameter (i,j) are copied to the formal params (a,b)
+- Changing a/b doesn't change i/j
+```C
+void swap(int a, int b)
+{
+	int temp = a;
+	a = b;
+	b = temp;
+}
+
+int i = 5;
+int j = 10;
+swap(i,j);
+printf("%d %d", i,j); // out= 5 10 (unchanged)
+
+```
+
+Solution:
+## Call by Reference
+- Pass a copy of the address to the function
+- Both formal and actual parmeters refer to the same address
+- Done using pointers
+```C
+void swap(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+```
+
+### Placing restrictions
+- Add const modifier to parameter
+```C
+void print_student(const StudentInfo *s)
+{
+	printf("Name %s\n", s->name);
+
+	...
+
+
+	s->age = 100; // compiler won't allow this
+}
+```
