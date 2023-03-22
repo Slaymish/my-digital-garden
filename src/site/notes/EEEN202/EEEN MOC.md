@@ -22,7 +22,7 @@ Hamish Burke || 02-03-2023
 [[EEEN202/EEEN Sequential Logic\|EEEN Sequential Logic]]
 
 [[EEEN202/EEEN Lab 2\|EEEN Lab 2]]
-[[EEEN Lab 2 Report\|EEEN Lab 2 Report]]
+[[EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
 [[EEEN202/EEEN_Clocks\|EEEN_Clocks]]
 
 
