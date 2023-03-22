@@ -10,7 +10,7 @@ Hamish Burke || 22-03-2023
 
 [[EEEN202/EEEN Lab 2\|EEEN Lab 2]]
 
-# Section 3
+# Lab Report Tasks
 
 1.  [ ] Results from Section 3: 
 	1.  [ ] 3.1 The Basic SC Latch: Results from experiments (a) to (f) 
