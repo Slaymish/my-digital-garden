@@ -19,8 +19,7 @@ Hamish Burke || 02-03-2023
 [[SWEN221/SWEN Testing\|SWEN Testing]]
 [[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
 [[SWEN221/SWEN Assertions\|SWEN Assertions]]
-
-
+[[SWEN221/SWEN Inner Classes\|SWEN Inner Classes]]
 
 
 
