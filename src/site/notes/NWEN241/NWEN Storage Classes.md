@@ -48,3 +48,64 @@ Hamish Burke || 27-02-2023
 |                 | Outside any block |                    |                             |                   | Global   |           |
 | Extern          | Outside any block | 0                  | Once at program start       | Memory            | External | Static    |
 | register        | Inside block      | Garbage            | Every time block is entered | Maybe in register | Local    | Automatic          |
+
+
+#### Auto Storage Class Declaration
+```c
+{
+	auto double x; /* same as double x */
+	int num; /* same as auto int num; */
+}
+```
+
+#### Static Storage Class Declaration
+- Prefix **must** be included
+```c
+{
+	static double local_static;
+}
+
+static int global_static;
+```
+
+#### Extern Storage Class Declaration
+- Default storage class for vars defined outside any fns body
+```c
+extern float x; // Declare at top
+
+{
+	// ...
+}
+
+int x = 1; // Access extern
+```
+- To access in another source file
+- Define as extern in file u want to use it in
+```C
+// main.c
+int main(void)
+{
+	// ..
+}
+
+float x = 1.5;
+
+
+// another.c
+
+extern float x;
+
+void show(void)
+{
+	printf("%f\n", x); /* Access external */
+}
+
+```
+
+#### Register Storage Class Declaration
+- Fastest storage
+- Can *request* to store in register (CPU storage)
+- If declined, defaults to auto
+```C
+register int k;
+```
