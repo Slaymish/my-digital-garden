@@ -107,3 +107,7 @@ class Point3D extends Point{
 
 - Dont repeat fields in sub-classes
 - use [[SWEN221/SWEN Super constructors\|SWEN Super constructors]] instead
+
+***
+
+	# 
