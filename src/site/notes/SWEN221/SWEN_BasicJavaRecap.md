@@ -110,4 +110,6 @@ class Point3D extends Point{
 
 ***
 
-	# 
+## Use [[StringBuilder\|StringBuilder]] instead of String
+- When doing a lot of appends
+
