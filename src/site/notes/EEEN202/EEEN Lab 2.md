@@ -42,6 +42,7 @@ Hamish Burke || 13-03-2023
 
 
 **Truth table for a clocked J-K Flip Flop (triggers on PGT)**
+
 | J   | K   | CLK | Q                    |
 | --- | --- | --- | -------------------- |
 | 0   | 0   | PGT | $Q_0$ (no change)    |
@@ -51,6 +52,7 @@ Hamish Burke || 13-03-2023
 
 
 **Triggering on NGT**
+
 | A   | B   | CLK | Q                    |
 | --- | --- | --- | -------------------- |
 | 0   | 0   | NGT | $Q_0$ (no change)    |
