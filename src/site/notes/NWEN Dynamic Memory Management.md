@@ -130,6 +130,8 @@ for (X=0;X<5;X++)
 ***
 
 # Common issues
+{ #53155f}
+
 
 - Returning a pointer to an automatic variable
 ```C
@@ -145,3 +147,64 @@ int *foo(void)
 }
 ```
 
+- Heap block overrun
+	- Similar to an array going out of bounds
+```C
+void foo(void)
+{
+	int *x = (int *) malloc(10 * sizeof(int));
+
+	x[10] = 10;
+	/* only allocated up to x[9]*/
+
+	free(x);
+}
+```
+
+- [[Memory Leaks\|Memory Leak]]
+	- Loss of pointer to allocated memory
+```C
+int *pi;
+
+void foo(void)
+{
+	pi = (int*) malloc(8*sizeof(int));
+	/* leaked the old memory pointing to pi*/
+
+	free(pi);
+}
+
+int main(void)
+{
+	pi = (int*) malloc(4*sizeof(int)); // this will get lost
+	foo();
+}
+```
+
+- Potential memory leak
+	- Loss of pointer to beginning of memory block
+	- Can recover through pointer arithmetic
+```C
+int *ip = NULL;
+
+void foo(void)
+{
+	ip = (int *) malloc(2*sizeof(int));
+	...
+	ip++;
+	/* ip is not pointing to start of block anymore*/
+}
+```
+
+- Free non-heap or unallocced memory
+```C
+void foo(void)
+{
+	int fnh = 0;
+	free(&fnh); /* freeing stack memory */
+}
+```
+
+
+# Valgrind
+- Open source tool for detecting memory issues
