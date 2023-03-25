@@ -36,6 +36,7 @@ Resource for recap on binary representation
 - 4
 - 5% each
 - out next week
+- Due 11:59
 
 **Exercises:**
 - 4
@@ -46,6 +47,7 @@ Resource for recap on binary representation
 **Mid term:**
 - Content from weeks 1-5
 - 15%
+- April
 
 **Final Exam:**
 - 55%
