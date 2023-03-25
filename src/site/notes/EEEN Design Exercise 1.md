@@ -15,6 +15,10 @@ Report due 5th May
 All lab work done *before* mid trimester break
 
 
+**To-do before lab**
+- [ ] Complete circuit diagram
+
+
 ***
 
 # Week 5
@@ -23,7 +27,7 @@ All lab work done *before* mid trimester break
 - Use the signal generator on the design station
 - Set to a square wave with frequency = 2Hz
 
-## Odometer (15%)
+## [[Odometer (15%)\|Odometer (15%)]]
 - Measures every time wheel does a **full rotation**
 - Rover will travel **1 meter** for every full revolution
 - Count up to a total distance of 64 (or 60) meters of travel
@@ -71,6 +75,7 @@ All lab work done *before* mid trimester break
 - You should submit the circuit diagrams for each of the sub-systems
 	- including pin nums, ic's etc
 - No longer than 4 pages (A4) in 12pt font (excluding circuit diagrams)
+- One photo of circuit 
 ![400][SCR-20230325-qam.png]
 
 
