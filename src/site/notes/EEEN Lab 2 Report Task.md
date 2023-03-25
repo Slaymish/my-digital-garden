@@ -23,8 +23,8 @@ Hamish Burke || 22-03-2023
     
 2. [x] Truth tables and/or timing diagrams where needed to illustrate your results.
     
-3. [ ] Answers to the additional questions in Section 4: 
-	1. [ ] 4.1 Design of a latching circuit: A description of your design (including a schematic if needed) and its operation 
+3. [x] Answers to the additional questions in Section 4: 
+	1. [x] 4.1 Design of a latching circuit: A description of your design (including a schematic if needed) and its operation 
 	2. [x] 4.2 Logic diagram of a D FF using only NOR gates 
 	3. [x] 4.3 Sketch of the resultant Q waveform based on the given waveform 
 	4. [x] 4.4 Determination of the Q wave in the provided figure
