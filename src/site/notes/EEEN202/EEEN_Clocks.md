@@ -38,6 +38,9 @@ Hamish Burke || 13-03-2023
 ***
 
 ## Clock Flip-flop
+{ #b9278f}
+
+
 *See [[EEEN202/EEEN Sequential Logic#^7a35e0\|more info here]]*
 [[EEEN202/EEEN Sequential Logic#^d16fd0\|Applications]]
 
