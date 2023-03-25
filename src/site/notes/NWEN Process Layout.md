@@ -28,6 +28,8 @@ Hamish Burke || 27-02-2023
 	- Expands/shrinks
 	- Origin of term (stack overflow)
 - Heap Segment
+{ #c40dd5}
+
 	- For dynamically allocated memory
 	- Expands/shrinks
 
