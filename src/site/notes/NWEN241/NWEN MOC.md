@@ -24,6 +24,7 @@ Hamish Burke || 27-02-2023
 [[NWEN241/NWEN Storage Classes\|NWEN Storage Classes]]
 [[NWEN Process Layout\|NWEN Process Layout]]
 [[NWEN Dynamic Memory Management\|NWEN Dynamic Memory Management]]
+[[NWEN Dynamic Memory Management#^53155f\|Common issues with memory management]]
 
 
 
