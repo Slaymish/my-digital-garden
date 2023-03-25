@@ -9,7 +9,7 @@ Hamish Burke || 13-03-2023
 # Pre-lab
 [[EEEN202/EEEN Sequential Logic#^ea60f4\|EEEN Sequential Logic#^ea60f4]] - Link to notes
 ***
-[[EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
+[[EEEN202/EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
 
 ## 2.1
 *Show the construction of a basic NAND gate latch and use a truth table to show how the outputs depend on the inputs*
