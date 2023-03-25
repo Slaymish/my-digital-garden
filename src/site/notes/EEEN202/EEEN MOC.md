@@ -20,13 +20,22 @@ Hamish Burke || 02-03-2023
 [[EEEN202/EEEN Boolean Theorems and Simplification\|EEEN Boolean Theorems and Simplification]]
 [[EEEN202/EEEN K Maps\|EEEN K Maps]]
 [[EEEN202/EEEN Sequential Logic\|EEEN Sequential Logic]]
+	[[EEEN202/EEEN Sequential Logic#^1ab375\|FlipFlops]]
+	[[EEEN202/EEEN Sequential Logic#^ea60f4\|NAND Gate latch]]
+	
 
 [[EEEN202/EEEN Lab 2\|EEEN Lab 2]]
 [[EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
 [[EEEN202/EEEN_Clocks\|EEEN_Clocks]]
+	[[EEEN202/EEEN_Clocks#^b9278f\|More FF]]
 
 
 [[EEEN202/EEEN Lab 3\|EEEN Lab 3]]
+
+
+[[EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
+
+
 
 
 
