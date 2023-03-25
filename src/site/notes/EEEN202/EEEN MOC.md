@@ -25,7 +25,7 @@ Hamish Burke || 02-03-2023
 	
 
 [[EEEN202/EEEN Lab 2\|EEEN Lab 2]]
-[[EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
+[[EEEN202/EEEN Lab 2 Report Task\|EEEN Lab 2 Report Task]]
 [[EEEN202/EEEN_Clocks\|EEEN_Clocks]]
 	[[EEEN202/EEEN_Clocks#^b9278f\|More FF]]
 
@@ -33,9 +33,9 @@ Hamish Burke || 02-03-2023
 [[EEEN202/EEEN Lab 3\|EEEN Lab 3]]
 
 
-[[EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
+[[EEEN202/EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
 
-[[EEEN Design Exercise 1\|EEEN Design Exercise 1]]
+[[COMP261/EEEN Design Exercise 1\|EEEN Design Exercise 1]]
 
 
 
