@@ -54,11 +54,17 @@ One bit counter?
 	- 80 nanoseconds to reset
 
 ### MOD number
+{ #8b1771}
+
+
 - Equal to the number of *states* that a counter goes through before recycling
 - MOD num = $2^n$ 
 	- n = number of flip-flops
 
 ### Frequency Division
+{ #4e71a9}
+
+
 - Output of last FF divides the input clock frequency by the MOD num
 	- Eg 4 bit counter with 16hz clock
 		- $2^4/16$ = 1hz (final FF frequency)
