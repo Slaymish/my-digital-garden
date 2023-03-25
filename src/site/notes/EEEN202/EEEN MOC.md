@@ -35,6 +35,7 @@ Hamish Burke || 02-03-2023
 
 [[EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
 
+[[EEEN Design Exercise 1\|EEEN Design Exercise 1]]
 
 
 
