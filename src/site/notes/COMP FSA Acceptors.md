@@ -51,3 +51,4 @@ while (state is not endState & text has a next char){
 if(state is an endState)return true
 else return false
 ```
+- Works for a *deterministic* FSA
