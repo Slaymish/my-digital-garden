@@ -27,9 +27,3 @@ Hamish Burke || 27-02-2023
 [[NWEN241/NWEN Dynamic Memory Management#^53155f\|Common issues with memory management]]
 [[Debugging with GDB\|Debugging with GDB]]
 
-
-
-
-
-
-
