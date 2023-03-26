@@ -25,19 +25,21 @@ void main()
 ```
 
 ```shell
-gcc swap.c -g -o swap // -g compiles with debugging
+gcc swap.c -g -o swap // '-g' compiles with debugging
 gdb ./swap
 run
 ```
 
-**GDB commands:**
+**GDB  debug commands:**
 - `l` prints code
 - `break <linenum>` adds a breakpoint at linenum
 	- or `br <linenum>`
 - `print <var>` Print var value
 - `print &<var>` print memory address of var
+- `print *<pointer>` Dereferencing a pointer
 - At breakpoints
 	- `next` = Steps into functions
 	- `step` = Goes over functions
+
 
 
