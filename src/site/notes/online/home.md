@@ -29,7 +29,7 @@
 	[[COMP261/COMP Regular Expressions\|Regular Expressions]]
 	[[COMP FSA Acceptors\|FSA Acceptors]]
 	[[COMP261/COMP Test Prep\|COMP Test Prep]]
-[[StringBuilder\|StringBuilder]]
+	[[StringBuilder\|StringBuilder]]
 **SWEN:**
 	[[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
 	[[SWEN221/SWEN Assertions\|SWEN Assertions]]
