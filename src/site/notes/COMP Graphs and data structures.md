@@ -45,3 +45,17 @@ Hamish Burke || 26-03-2023
 	- Nodes connected to most other nodes
 	- $|edges| \approx |nodes|^2$
 
+
+***
+
+# Graph Data Structure
+
+Traditional data structures:
+- [[Adjacency matrix\|Adjacency matrix]]
+- [[ Adjacency list\| Adjacency list]]
+
+Object-based data structures:
+- Collection of Node objects with lists of neighbours
+- Collection of Edges objects with pairs of connections
+
+
