@@ -13,15 +13,32 @@
 	[[NWEN241/NWEN MOC\|NWEN MOC]]
 
 
-### To Do
-- [ ] NWEN Web Questions
-- [ ] EEEN Lab01 Report
-- [x] EEEN Lab02 Pre-lab
-- [ ] EEEN Lab02 Report
-- [ ] COMP Assignment 1
-- [ ] NWEN Assignment 1
-- [ ] SWEN Assignment 1
-- [ ] COMP Test01 (Thurs)
+# Lastest Notes
+**NWEN:**
+	[[NWEN241/NWEN Storage Classes\|NWEN Storage Classes]]
+	[[NWEN241/NWEN Process Layout\|NWEN Process Layout]]
+	[[NWEN241/NWEN Dynamic Memory Management\|NWEN Dynamic Memory Management]]
+	[[NWEN241/NWEN Dynamic Memory Management#^53155f\|Common issues with memory management]]
+	[[Debugging with GDB\|Debugging with GDB]]
+**EEEN:**
+	[[EEEN202/EEEN_Clocks\|EEEN_Clocks]]
+	[[EEEN202/EEEN Lab 3\|EEEN Lab 3]]
+	[[EEEN202/EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
+	[[COMP261/EEEN Design Exercise 1\|EEEN Design Exercise 1]]
+**COMP:**
+	[[COMP261/COMP Regular Expressions\|Regular Expressions]]
+	[[COMP FSA Acceptors\|FSA Acceptors]]
+	[[COMP261/COMP Test Prep\|COMP Test Prep]]
+[[StringBuilder\|StringBuilder]]
+**SWEN:**
+	[[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
+	[[SWEN221/SWEN Assertions\|SWEN Assertions]]
+	[[SWEN221/SWEN Inner Classes\|SWEN Inner Classes]]
+	[[SWEN221/SWEN Nested Classes\|SWEN Nested Classes]]
+	[[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
+	[[COMP Graphs and data structures\|COMP Graphs and data structures]]
+
+
 
 
 ### Some swag renders
