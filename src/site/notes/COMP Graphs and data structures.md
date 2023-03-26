@@ -51,7 +51,7 @@ Hamish Burke || 26-03-2023
 # Graph Data Structure
 
 Traditional data structures:
-- [[Adjacency matrix\|Adjacency matrix]]
+- [[Adjacency Matrix\|Adjacency Matrix]]
 - [[ Adjacency list\| Adjacency list]]
 
 Object-based data structures:
