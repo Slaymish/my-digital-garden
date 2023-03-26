@@ -55,3 +55,5 @@ gcc hello.c -o hello
 - Call stack manipulation
 - Extensible with Python and Guile
 - Remote debugging support
+
+- [[Debugging with GDB\|Debugging with GDB]]
