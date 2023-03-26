@@ -46,6 +46,8 @@ So 6 J-K FF's to make it count to 64, as each FF is one bit
 
 
 For stop signal, find the states of $Q_1-Q_6$  at 50 (110010)
+Add all HI outputs into a NAND gate, out of that is stop signal
+
 ***
 
 ## For BCD convertor
