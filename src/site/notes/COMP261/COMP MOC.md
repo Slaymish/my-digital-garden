@@ -10,6 +10,8 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 Hamish Burke || 02-03-2023
 ***
 [[COMP261/COMP Information\|Information]]
+
+### Parsing
 [[COMP261/COMP Parsing\|Parsing]]
 [[COMP261/COMP Recursive Descent Parsing\|Recursive Descent Parsing]]
 [[COMP261/COMP Regular Expressions\|Regular Expressions]]
@@ -17,3 +19,7 @@ Hamish Burke || 02-03-2023
 [[COMP261/COMP Test Prep\|COMP Test Prep]]
 [[StringBuilder\|StringBuilder]]
 
+***
+
+### Graphs and data structures
+[[COMP Graphs and data structures\|COMP Graphs and data structures]]
