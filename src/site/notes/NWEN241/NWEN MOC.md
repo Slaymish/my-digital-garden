@@ -10,7 +10,6 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 27-02-2023
 ***
 
-
 [[NWEN241/NWEN Information\|NWEN Information]] - Info on tests/assignments
 [[NWEN241/NWEN Whats Systems Programming?\|NWEN Whats Systems Programming?]]
 [[NWEN241/NWEN C Program Design\|NWEN C Program Design]]
