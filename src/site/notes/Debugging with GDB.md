@@ -30,6 +30,9 @@ gdb ./swap
 run
 ```
 
+*add '-pg' to compiler to look at time profile*
+	use `grpof` to run output
+
 **GDB  debug commands:**
 - `l` prints code
 - `break <linenum>` adds a breakpoint at linenum
@@ -40,6 +43,7 @@ run
 - At breakpoints
 	- `next` = Steps into functions
 	- `step` = Goes over functions
+
 
 
 
