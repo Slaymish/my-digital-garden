@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-infomation/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-221/swen-infomation/"}
 ---
 
 Related: #
