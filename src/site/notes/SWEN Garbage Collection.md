@@ -51,6 +51,31 @@ Hamish Burke || 27-03-2023
 - Reclaim unmarked objects
 
 
+***
+
+# JVM Tuning
+- Can locally change options
+-  Memory management etc
+
+
+- Can attempt to force Garbage Collection:
+```java
+System.gc(); // requests it, can fail
+```
+
+#### WeakReferences
+- Java class: `WeakReference` is a part of the `java.lang.ref` package used to create weak references to objects.
+- Memory management: It enables more efficient garbage collection by allowing the JVM to collect objects when they're no longer in use.
+- Use case: Ideal for creating caches, as it enables the garbage collector to reclaim memory resources once the object is no longer needed.
+- Behavior: When a `WeakReference` is the only reference to an object, it is eligible to be garbage collected.
+- Creation: To create a `WeakReference`, use the constructor `WeakReference<T>(T referent)`, where `T` is the object's type.
+- Accessing: `.get()` method is used to access the referent. If the referent has been garbage collected, this method returns `null`.
+- Clearing: Use `.clear()` to explicitly clear the reference, making the referent eligible for garbage collection.
+
+
+Next: Generics
+
+
 
 [^1]: [[NWEN241/NWEN Dynamic Memory Management\|NWEN Dynamic Memory Management]]
 [^2]: [[NWEN241/NWEN Storage Classes#^c0dd0a\|Same as C heap]]
