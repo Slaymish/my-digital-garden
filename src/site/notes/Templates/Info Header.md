@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/templates/info-header/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/templates/info-header/"}
 ---
 
 Related: #
