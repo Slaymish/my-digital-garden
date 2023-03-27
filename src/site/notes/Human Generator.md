@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/human-generator/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/human-generator/"}
 ---
 
 Related: #java #programming 
