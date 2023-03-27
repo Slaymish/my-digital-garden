@@ -25,6 +25,7 @@
 	[[EEEN202/EEEN Lab 3\|EEEN Lab 3]]
 	[[EEEN202/EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
 	[[COMP261/EEEN Design Exercise 1\|EEEN Design Exercise 1]]
+	[[EEEN Synchronous Counters\|EEEN Synchronous Counters]]
 **COMP:**
 	[[COMP261/COMP Regular Expressions\|Regular Expressions]]
 	[[COMP FSA Acceptors\|FSA Acceptors]]
