@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/lilliput/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/lilliput/"}
 ---
 
 Related: #java 
