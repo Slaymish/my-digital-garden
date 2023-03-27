@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/cache-misses/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/cache-misses/"}
 ---
 
 Related: #
