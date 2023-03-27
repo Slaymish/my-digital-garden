@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-dynamic-memory-management/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/nwen-241/nwen-dynamic-memory-management/"}
 ---
 
 Related: #programming 
