@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-synchronous-counters/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-synchronous-counters/"}
 ---
 
 Related: 
