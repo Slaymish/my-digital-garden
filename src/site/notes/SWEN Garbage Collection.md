@@ -15,6 +15,11 @@ Hamish Burke || 27-03-2023
 - Memory address **can** be changed during object lifetime
 
 
+## Updates to come
+- [[Valhalla\|Valhalla]]
+	- Combines primitive types and objects
+- Lilliput
+	- Less memory for each object
 
 
 
