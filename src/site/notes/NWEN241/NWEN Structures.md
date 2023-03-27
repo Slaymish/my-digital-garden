@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-structures/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/nwen-241/nwen-structures/"}
 ---
 
 Related: #programming 
