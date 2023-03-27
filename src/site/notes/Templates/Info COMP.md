@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/templates/info-comp/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/templates/info-comp/"}
 ---
 
 Related: #programming #java 
