@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-lab-1-report-answers/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/eeen-lab-1-report-answers/"}
 ---
 
 Hamish Burke || 08-03-2023
