@@ -11,6 +11,8 @@ Hamish Burke || 27-02-2023
 - Not similar to java classes
 
 **Variables have lifetime:**
+{ #c0dd0a}
+
 - begins when allocated memory
 - ends when memory is de-allocated
 
