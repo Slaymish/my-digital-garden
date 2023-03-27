@@ -2,7 +2,7 @@
 {"dg-home":false,"dg-publish":true,"permalink":"/swen-garbage-collection/","dgPassFrontmatter":true}
 ---
 
-Related: [[VAULT/Garbage Collection\|Garbage collection]] [[VAULT/Memory Leaks\|mem leak]] #java #programming  
+Related: [[Garbage Collection\|Garbage Collection]] [[Memory Leaks\|Memory Leaks]] #java #programming  
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
