@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/debugging-with-gdb/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/debugging-with-gdb/"}
 ---
 
 Related: #programming 
