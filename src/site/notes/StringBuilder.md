@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/string-builder/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/string-builder/"}
 ---
 
 Related: #programming #java 
