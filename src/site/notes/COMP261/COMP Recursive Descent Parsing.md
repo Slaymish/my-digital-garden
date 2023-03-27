@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/comp-261/comp-recursive-descent-parsing/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/comp-261/comp-recursive-descent-parsing/"}
 ---
 
 
