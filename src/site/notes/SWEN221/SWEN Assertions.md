@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-assertions/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-221/swen-assertions/"}
 ---
 
 Related: #
