@@ -31,13 +31,13 @@
 	[[COMP FSA Acceptors\|FSA Acceptors]]
 	[[COMP261/COMP Test Prep\|COMP Test Prep]]
 	[[StringBuilder\|StringBuilder]]
+	[[COMP Graphs and data structures\|COMP Graphs and data structures]]
 **SWEN:**
 	[[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
 	[[SWEN221/SWEN Assertions\|SWEN Assertions]]
 	[[SWEN221/SWEN Inner Classes\|SWEN Inner Classes]]
 	[[SWEN221/SWEN Nested Classes\|SWEN Nested Classes]]
 	[[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
-	[[COMP Graphs and data structures\|COMP Graphs and data structures]]
 	[[SWEN Garbage Collection\|SWEN Garbage Collection]]
 
 
