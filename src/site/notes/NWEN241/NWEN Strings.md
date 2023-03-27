@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/nwen-241/nwen-strings/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/nwen-241/nwen-strings/"}
 ---
 
 
