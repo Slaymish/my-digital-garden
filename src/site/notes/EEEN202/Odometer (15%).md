@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/odometer-15/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/odometer-15/"}
 ---
 
 Related: 
