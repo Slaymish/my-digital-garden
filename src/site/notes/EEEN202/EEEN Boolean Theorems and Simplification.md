@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-boolean-theorems-and-simplification/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/eeen-boolean-theorems-and-simplification/"}
 ---
 
 Related: 
