@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/obsidian-help/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/obsidian-help/"}
 ---
 
 [[online/home\|home]]
