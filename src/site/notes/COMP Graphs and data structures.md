@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/comp-graphs-and-data-structures/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/comp-graphs-and-data-structures/"}
 ---
 
 Related: #programming #java 
