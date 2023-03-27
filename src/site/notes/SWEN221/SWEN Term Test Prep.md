@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-term-test-prep/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-221/swen-term-test-prep/"}
 ---
 
 Related: #java #programming #practise 
