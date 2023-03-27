@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/comp-fsa-acceptors/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/comp-fsa-acceptors/"}
 ---
 
 Related: #programming #java 
