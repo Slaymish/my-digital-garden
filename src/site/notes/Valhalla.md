@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/valhalla/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/valhalla/"}
 ---
 
 Related: #
