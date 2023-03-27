@@ -12,6 +12,8 @@ Linking: (use two square brackets)
 [note_name\|display_name] = Change display name on link
 [note_name^block] = Link to block in note
 [note_name^block\|display_name] = Link to block & change name
+[^1] = Add footnote
+[^1]: bleh = footnote info
 
 Math:
 $math goes here$ = Formats equation
@@ -25,6 +27,7 @@ Misc:
 **txt** = Bold
 # Header = Large header (use multi '#' for diff sizes)
 *** = Page break
+
 ```
 
 
