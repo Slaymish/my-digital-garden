@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/adjacency-matrix/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/adjacency-matrix/"}
 ---
 
 Related: #programming #java [[COMP Graphs and data structures\|Graphs]]
