@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-garbage-collection/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-garbage-collection/"}
 ---
 
 Related: [[Garbage Collection\|Garbage Collection]] [[Memory Leaks\|Memory Leaks]] #java #programming  
