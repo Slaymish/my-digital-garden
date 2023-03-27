@@ -59,6 +59,8 @@ One bit counter?
 
 - Equal to the number of *states* that a counter goes through before recycling
 - MOD num = $2^n$ 
+{ #6c61c8}
+
 	- n = number of flip-flops
 
 ### Frequency Division
