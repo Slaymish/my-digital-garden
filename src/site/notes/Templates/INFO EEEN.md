@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/templates/info-eeen/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/templates/info-eeen/"}
 ---
 
 Related: 
