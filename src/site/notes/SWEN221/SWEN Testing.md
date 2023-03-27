@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/swen-221/swen-testing/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/swen-221/swen-testing/"}
 ---
 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
