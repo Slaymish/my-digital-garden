@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/depth-first-traversal/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/depth-first-traversal/"}
 ---
 
 Related: #programming #java 
