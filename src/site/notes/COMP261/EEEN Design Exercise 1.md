@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/comp-261/eeen-design-exercise-1/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/comp-261/eeen-design-exercise-1/"}
 ---
 
 Related: 
