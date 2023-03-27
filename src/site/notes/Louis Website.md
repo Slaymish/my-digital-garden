@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/louis-website/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/louis-website/"}
 ---
 
 Related: #website 
