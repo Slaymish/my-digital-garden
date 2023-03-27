@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/math-problems/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/math-problems/"}
 ---
 
 Related: #math #practise 
