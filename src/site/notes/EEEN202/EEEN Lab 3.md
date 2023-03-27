@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-lab-3/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/eeen-lab-3/"}
 ---
 
 Related: [[EEEN202/EEEN Sequential Logic\|EEEN Sequential Logic]]
