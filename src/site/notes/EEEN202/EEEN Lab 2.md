@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-lab-2/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/eeen-lab-2/"}
 ---
 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
