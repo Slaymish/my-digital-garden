@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/comp-261/comp-regular-expressions/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/comp-261/comp-regular-expressions/"}
 ---
 
 Related: #programming #java 
