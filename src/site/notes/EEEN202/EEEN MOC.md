@@ -38,6 +38,7 @@ Hamish Burke || 02-03-2023
 [[COMP261/EEEN Design Exercise 1\|EEEN Design Exercise 1]]
 
 
+[[EEEN Synchronous Counters\|EEEN Synchronous Counters]]
 
 
 
