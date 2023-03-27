@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/eeen-202/eeen-clocks/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/eeen-202/eeen-clocks/"}
 ---
 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
