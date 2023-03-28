@@ -13,6 +13,10 @@
 	[[NWEN241/NWEN MOC\|NWEN MOC]]
 
 
+[[Final SWEN Notes\|Final SWEN Notes]]
+[[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
+
+
 # Lastest Notes
 **NWEN:**
 	[[NWEN241/NWEN Storage Classes\|NWEN Storage Classes]]
