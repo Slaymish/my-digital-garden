@@ -61,3 +61,25 @@ union union_tag {
 } variable_list;
 ```
 
+
+***
+
+# Linked Lists
+
+- Node in linked list declaration
+```C
+typedef stuct node
+{   char data;
+	struct node *next;
+} Nodes;
+```
+
+
+**Node var init:**
+```C
+NOde node4 = {'t', NULL};
+Node node3 = {'s', &node4};
+Node node2 = {'i', &node3};
+Node node1 = {'l', &node2};
+Node *head = &node1
+```
