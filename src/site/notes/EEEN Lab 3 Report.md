@@ -130,11 +130,30 @@ It'll repeat from after  the 8th state
 
 ## Frequency Divider from 50 Hz to 1 Hz 
 
+  J  |  K  |  CLK  |  Q(t)  |  Q(t+1)
+-----|-----|-------|--------|---------
+  0  |  0  |   X   |   Q    |    Q
+  0  |  1  |   ↑   |   Q    |    0
+  1  |  0  |   ↑   |   0    |    Q
+  1  |  1  |   ↑   |  ~Q    |    Q
+
+
 #### i. Logic Diagram
-(Insert image or describe the logic diagram for the frequency divider to generate a 1 Hz clock signal from a 50 Hz input)
+
+
+
+
+
 
 #### ii. Circuit Diagram with 74LS293 Counter ICs
-(Insert image or describe the circuit diagram using one or more 74LS293 counter ICs and any additional logic gates)
+
+
+
+
+
+
+
+
 
 ***
 
