@@ -83,3 +83,13 @@ Node node2 = {'i', &node3};
 Node node1 = {'l', &node2};
 Node *head = &node1
 ```
+
+
+## Singly-Linked List Traversal 
+```C
+Node *p = head;
+for ( ; p != NULL; p = p->next)
+	printf("$c", p->data)
+```
+
+next: File stream I/O
