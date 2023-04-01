@@ -113,3 +113,21 @@ fflush(fp); // write buffer to file (only needed with 'w' and 'a')
 ```
 
 
+***
+
+### fscanf()
+- Same as scanf() except need stream (FILE *) as a arg
+	- scanf()  = reads formatted input from stdin stream
+	- fscanf() = reads formatted input from specified stream
+
+EG:
+```C
+int a,b;
+FILE *fp;
+fp = fopen("datafile","r");
+fscanf(fp, "%d %d", &a, &b);
+
+
+// scanf("%d", &a) == fscanf(stdin, "%d", &a)
+```
+
