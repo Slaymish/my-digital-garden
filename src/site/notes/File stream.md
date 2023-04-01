@@ -131,3 +131,37 @@ fscanf(fp, "%d %d", &a, &b);
 // scanf("%d", &a) == fscanf(stdin, "%d", &a)
 ```
 
+- '%x' interpretes input as hex num
+
+
+***
+
+## Detecting end of file
+
+- End-of-file indicator (EOF) informs the program when there are no more data (no more bytes) to be processed
+- fscanf() returns EOF if end-of-file is rached, or errors were encountered when reading from stream
+
+Example:
+```C
+int ret, var;
+ret = fscanf(fp, "%d", &var);
+if (ret == EOF){
+	printf("end of file encountered.\n");
+}
+```
+
+--- OR ---
+
+- feof() function returns a non-zero value (true) or zero (false) condition
+	- TRUE if EOF reached (or errors encountered during read)
+	- FALSE otherwise
+
+EG:
+```C
+int var;
+fscanf(fp,"%d",&var);
+if(feof(fp)){
+	printf("end of file encountered.\n");
+}
+```
+
