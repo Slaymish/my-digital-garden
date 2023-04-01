@@ -75,6 +75,23 @@ Traditional data structures:
 
 ***
 
+### Connected Components (undirected)
+
+```
+ConnectedComponents(graph)
+	comptNum = 0;
+	for each node in nodes;
+		if nodes is not visited:
+			traverse(node,comptNum)
+			comptNum++
+
+traverse(node,comptNum)
+	vist node
+	node.compt = comptNum
+	for each neighbour of node:
+		if neighbour is not visited:
+			TraverseGraph(neighbour,comptNum)
+```
 
 
 
