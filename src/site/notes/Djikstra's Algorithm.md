@@ -64,7 +64,7 @@ FindShortestPaths(start,goal):
 
 ***
 
-## Cost of Djikstra's alorithm?
+## Cost of Djikstra's algorithm?
 *If a graph has N nodes and E edges*
 
 **Identify the most expensive line**
