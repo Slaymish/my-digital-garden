@@ -57,6 +57,63 @@ This is MOD eight, this 3 FF's [^1]
 	- Use K-map for simplification 
 
 
+***
+
+# Examples of Synchronous Counters
+
+**Will be in test!**
+
+Control input -> combinatorial logic elements -> sequential logic elements (clk in) -->> out and back into combinatorial logic elements
+
+
+
+## 3 bit synchronous counter
+{ #6d563d}
+
+
+Going through states:
+- 000
+- 001
+- 011
+- 010
+- 110
+- 100
+- 000
+
+- **Use D FF's**
+##### Steps:
+1. Determine counting sequence and desired num of bits (FF's) needed
+	1. MOD 6, thus 3FF's but with two undesired states
+2. Draw state transition diagram
+	1. Shows all state (including undesired)
+	2. If an undesired state happens, it should go to 000 on next count
+3. Draw [[Excitation table for D FF counter\|excitation table]]
+	1. Write present state in normal binary order (000,001 etc)
+4. Design logic circuits
+	1. [[EEEN202/EEEN K Maps\|Create K Maps]]
+		1. Relate to input params
+		2. 3 inputs = 3 K-maps
+		3. $D_2=Q_1 \neg Q_0$ 
+		4. $D_1=\neg Q_2 Q_1 + \neg Q_2 Q_0$ 
+		5. $D_0 = \neg Q_2 \neg Q_1$
+	2. Use results of K maps to create the logic
+	3. OR use a MUX
+		1. Use excitation table
+		2. Will need 3 MUXes
+
+
+***
+
+## For lab
+
+
+- use a latch for the stop signal
+
+
+
+
+
+
 
 
 
