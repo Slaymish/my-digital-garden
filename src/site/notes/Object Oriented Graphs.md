@@ -29,6 +29,8 @@ HashMap<Pair<Node,Node>,Edge> allEdges;
 Collections can be Lists or Sets
 </p>
 
+***
+
 
 ### Nodes Class
 - Contains collection of edges
