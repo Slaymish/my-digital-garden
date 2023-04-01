@@ -132,6 +132,7 @@ fscanf(fp, "%d %d", &a, &b);
 ```
 
 - '%x' interpretes input as hex num
+	- Can also be used to write a num as hex to file
 
 
 ***
@@ -163,5 +164,17 @@ fscanf(fp,"%d",&var);
 if(feof(fp)){
 	printf("end of file encountered.\n");
 }
+```
+
+***
+
+# fprintf()
+
+eg:
+```C
+int a = 100, b=200;
+FILE *fp;
+fp = fopen("datafile","w");
+fprintf(fp,"%d %d",a,b);
 ```
 
