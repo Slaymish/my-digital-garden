@@ -54,8 +54,27 @@ Traditional data structures:
 - [[Adjacency Matrix\|Adjacency Matrix]]
 - [[ Adjacency list\| Adjacency list]]
 
-Object-based data structures:
+[[Object Oriented Graphs\|Object-based data structures]]:
 - Collection of Node objects with lists of neighbours
 - Collection of Edges objects with pairs of connections
+
+
+***
+
+
+# Graph Algorithms
+
+**Algorithm 1:** [[Recursive DFS\|Recursive DFS]]
+
+**Algorithm 2:** [[Iterative Graph Traversal\|Iterative]]
+
+**Algorithm 3 (shortest path):** [[Djikstra's Algorithm\|Djikstra's Algorithm]]
+
+**Algorithm 4 (shortest path):** [[A* Algorithm\|A* Algorithm]]
+
+
+***
+
+
 
 
