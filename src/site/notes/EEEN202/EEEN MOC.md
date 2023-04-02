@@ -39,6 +39,7 @@ Hamish Burke || 02-03-2023
 [[EEEN Assignment 1\|EEEN Assignment 1]]
 
 
+[[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 
 
 
