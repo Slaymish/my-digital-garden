@@ -134,7 +134,7 @@ class Aux1 {
 
 ***
 
-# A Var type
+# Var type
 
 ```java
 final class Var<T> {
@@ -156,5 +156,6 @@ final class Var<T> {
 ```java
 record Person(Var<String> name, Var<Integer> age){}
 ```
+
 
 
