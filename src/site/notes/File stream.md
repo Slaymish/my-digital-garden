@@ -119,6 +119,7 @@ fflush(fp); // write buffer to file (only needed with 'w' and 'a')
 - Same as scanf() except need stream (FILE *) as a arg
 	- scanf()  = reads formatted input from stdin stream
 	- fscanf() = reads formatted input from specified stream
+- Returns number of words read
 
 EG:
 ```C
@@ -176,5 +177,47 @@ int a = 100, b=200;
 FILE *fp;
 fp = fopen("datafile","w");
 fprintf(fp,"%d %d",a,b);
+```
+
+
+
+***
+
+# Example
+*Capitalise the first letter of each line*
+
+```c
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void)
+{
+	FILE *in, *out;
+	char line[100];
+
+
+	in = fopen("somewhere.txt","r");
+	if(in==NULL){
+		printf("Error opening input file.\n");
+		return -1;
+	}
+
+	out = fopen("Somewhere.txt","w");
+	if(out==NULL){
+		printf("Error opening output file.\n");
+		return -1;
+	}
+
+	while(!feof(in)){
+		fgets(line,99,in); //gets line
+		line[0] = toupper(line[0]); // first char of line
+		fprintf(out,"%s",line);
+	}
+
+
+	fclose(in);
+	fclose(out);
+}
+
 ```
 
