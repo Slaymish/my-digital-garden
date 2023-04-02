@@ -23,8 +23,7 @@ Hamish Burke || 02-03-2023
 [[SWEN221/SWEN Nested Classes\|SWEN Nested Classes]]
 [[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
 [[SWEN Garbage Collection\|SWEN Garbage Collection]]
-
-
+[[SWEN Generics\|SWEN Generics]]
 
 
 
