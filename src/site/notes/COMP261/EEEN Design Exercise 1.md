@@ -64,6 +64,7 @@ All lab work done *before* mid trimester break
 - G2G1G0
 - Only one bit changes at a time
 - Minimises risk of errors
+- *D FF's and MUXes might be easiest*
 
 ## System Integration and Testing (10%)
 - Ensure that every sub-system is working correctly *as* you construct them
