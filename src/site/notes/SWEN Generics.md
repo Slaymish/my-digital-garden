@@ -158,4 +158,7 @@ record Person(Var<String> name, Var<Integer> age){}
 ```
 
 
+***
+
+- [ ] Read generics reading in resources
 
