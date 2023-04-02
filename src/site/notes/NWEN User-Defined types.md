@@ -61,7 +61,23 @@ union union_tag {
 } variable_list;
 ```
 
+#### Application:
+- Data structure for a record which can contain at least 2 type, but only one type is active at any given time
+- Good for saving memory (compared to structs), when you know only one of the values is active 
 
+## Tagged union
+
+```C
+enum record_type {MOVIE,BOOK};
+
+struct data {
+	enum record_type type;
+	union value {
+		struct movie m;
+		struct book b;
+	} value;
+};
+```
 ***
 
 # Linked Lists
@@ -92,4 +108,4 @@ for ( ; p != NULL; p = p->next)
 	printf("$c", p->data)
 ```
 
-next: File stream I/O
+next: [[NWEN File Stream IO\|NWEN File Stream IO]]
