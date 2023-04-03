@@ -210,3 +210,41 @@ Cup<? extends Drink> myCup = CupProvider.getCup();
 
 
 
+***
+
+## Wildcard Capture
+
+- Wildcard type = '?'
+	- EG `List<?> x`
+
+
+```java
+void m(Cup<?> c) {
+	this.test(c);
+}
+
+<X> void test(Cup<X> cx){
+
+}
+
+void swap(ArrayList<?> list){
+	swapTwo(list);
+}
+
+<X> swapTwo(ArrayList<X> l){}
+```
+
+
+***
+
+## Lower Bound
+
+```java
+static <T> void sort(List<T> list, Comparator<? super T> c)
+
+// Sorts the specified list according to the order induced by the specified comparator
+```
+
+- Super indicates lower bound
+- The comparator is able to compare any kind of super elements with respect to T is accepted
+	- EG a list of ColoredPoints can be compared with a Comparator<Point>
