@@ -162,3 +162,51 @@ record Person(Var<String> name, Var<Integer> age){}
 
 - [ ] Read generics reading in resources
 
+***
+
+```java
+void doSomething(List<Object> os){
+	os.add(new Integer(1));c //eg this would break it
+}
+
+void foo() {
+	List<Object> os = new ArrayList<Object>();
+	List<String> ss = new ArrayList<String>();
+
+
+	doSomething(os); // works
+	doSomething(os); // doesn't work
+}
+```
+
+
+Instead generics:
+```java
+class Cup<T> {
+	T f;
+	Cup(T f){
+		this.f = f;
+	}
+}
+
+Cup<Tea> myCup = new Cup<Tea>(new Tea());
+```
+
+### Wildcards type
+
+```java
+Cup<?> myCup = CupProvider.getCup();
+
+// can add bounds
+Cup<? extends Drink> myCup = CupProvider.getCup();
+```
+
+
+### Subtyping
+- `Cup<Tea> ≠ Cup<Object>`
+- `Cup<Tea> = Cup<?>`
+- `Cup<Tea> = Cup<? extends Drink>`
+- `Cup<? extends Tea> = Cup<? extends Drink>`
+
+
+
