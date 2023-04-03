@@ -57,7 +57,7 @@ All lab work done *before* mid trimester break
 
 # Week 6
 
-## Grey Code Generator (15%)
+## [[Grey Code Generator (15%)\|Grey Code Generator (15%)]]
 - Generate a 3-bit gray code pattern
 - Should contain a direction bit D that'll allow it to count UP (D=1) or DOWN (D=0) in grey code.
 	- Rest of system will assume only forwards
