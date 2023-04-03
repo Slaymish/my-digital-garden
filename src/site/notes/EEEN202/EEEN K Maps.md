@@ -15,7 +15,7 @@ Hamish Burke || 10-03-2023
 
 #### Looping pairs
 - One variable can get eliminated
-![500][SCR-20230310-js6.png]
+ 
 - Can also loop groups of four adj 1's
 	- Will elim two variables
 	- (can also elim four with 8adj's)
