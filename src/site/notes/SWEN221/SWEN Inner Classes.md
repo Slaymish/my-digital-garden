@@ -95,6 +95,9 @@ class Outer {
 ***
 
 # Anonymous Classes
+{ #b98b6a}
+
+
 - Used everywhere
 - An extension of existing class
 - Can override methods/define fields
