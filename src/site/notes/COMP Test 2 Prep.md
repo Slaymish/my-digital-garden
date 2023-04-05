@@ -21,6 +21,8 @@ Watch:
 To be in test:
 -  [[Djikstra's Algorithm\|Djikstra's Algorithm]]
 - [[A* Algorithm\|A* Algorithm]]
+	- Each node has heuristic
+	- Djikstra, but go to lower heuristic instead
 - [[COMP Graphs and data structures#^dabfa7\|Connected comonents]]
 
 
