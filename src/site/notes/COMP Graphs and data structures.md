@@ -93,6 +93,9 @@ traverse(node,comptNum)
 	for each neighbour of node:
 		if neighbour is not visited:
 			TraverseGraph(neighbour,comptNum)
+
+
+// all nodes that have the same component num, are directly connected
 ```
 
 
