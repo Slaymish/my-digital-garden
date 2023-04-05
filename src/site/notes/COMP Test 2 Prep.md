@@ -23,7 +23,10 @@ To be in test:
 - [[A* Algorithm\|A* Algorithm]]
 	- Each node has heuristic
 	- Djikstra, but go to lower heuristic instead
+	- priority queue sorted by cost + heuristic
+	- when u *visit* a node, you know its the shortest path
 - [[COMP Graphs and data structures#^dabfa7\|Connected comonents]]
+- [[COMP261/COMP Regular Expressions\|Regular expressions]]
 
 
 
