@@ -26,6 +26,9 @@ gcc hello.c -o hello
 
 ***
 ### Complilation Process:
+{ #2995be}
+
+
 1. Preprocessing Phase
 2. Compilation Phase
 3. Assembly Phase
