@@ -96,3 +96,67 @@ $= O((E+N) \ Log N)$
 		- Biases the choice towards nodes that are on the way to the goal
 	- This is [[A* Algorithm\|A* Algorithm]]
 
+
+***
+
+#### Example code:
+
+```java
+public List<Node> findShortestPath(Node start, Node goal) {
+    PriorityQueue<NodeEdge> fringe = new PriorityQueue<>();
+    Map<Node, Edge> backpointers = new HashMap<>();
+    Set<Node> visited = new HashSet<>();
+    fringe.add(new NodeEdge(start, null, 0));
+    
+    while (!fringe.isEmpty()) {
+        NodeEdge nodeEdge = fringe.poll();
+        Node node = nodeEdge.node;
+        
+        if (!visited.contains(node)) {
+            visited.add(node);
+            backpointers.put(node, nodeEdge.edge);
+            if (node == goal) {
+                return reconstructPath(start, goal, backpointers);
+            }
+            for (Edge edge : node.edges) {
+                Node neighbour = edge.neighbour;
+                if (!visited.contains(neighbour)) {
+                    int lengthToNeighbour = nodeEdge.length + edge.length;
+                    fringe.add(new NodeEdge(neighbour, edge, lengthToNeighbour));
+                }
+            }
+        }
+    }
+    return null;
+}
+
+private List<Node> reconstructPath(Node start, Node goal, Map<Node, Edge> backpointers) {
+    List<Node> path = new ArrayList<>();
+    Node current = goal;
+    while (current != start) {
+        path.add(current);
+        current = backpointers.get(current).start;
+    }
+    path.add(start);
+    Collections.reverse(path);
+    return path;
+}
+
+private class NodeEdge implements Comparable<NodeEdge> {
+    public Node node;
+    public Edge edge;
+    public int length;
+
+    public NodeEdge(Node node, Edge edge, int length) {
+        this.node = node;
+        this.edge = edge;
+        this.length = length;
+    }
+
+    @Override
+    public int compareTo(NodeEdge other) {
+        return Integer.compare(length, other.length);
+    }
+} 
+
+```
