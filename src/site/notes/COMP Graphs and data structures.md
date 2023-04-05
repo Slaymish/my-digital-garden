@@ -76,6 +76,8 @@ Traditional data structures:
 ***
 
 ### Connected Components (undirected)
+{ #dabfa7}
+
 
 ```
 ConnectedComponents(graph)
