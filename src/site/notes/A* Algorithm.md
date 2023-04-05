@@ -63,7 +63,7 @@ FindShortestPath(start,goal):
 
 ## Admissible heuristic for A*
 
-- Is admissible if it **always** underestimates the remaining cost
+- Is admissible if it always **underestimates** the remaining cost
 	- Overestimating can cause A* to avoid a path (even it its the best)
 
 
@@ -74,6 +74,7 @@ FindShortestPath(start,goal):
 	- dist-to-X + est(X) ≤ dist-to-X + edge-X-Y + est(Y)
 - Consistent heuristic:
 	- est(X) - est(Y) ≤ edge-X-Y
+	- heuristic 1 - heuristic 2 ≤ length between node 1/2
 
 
 
