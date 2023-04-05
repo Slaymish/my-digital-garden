@@ -26,3 +26,8 @@ To be in test:
 
 
 [[Djisktra walkthrough\|Djisktra walkthrough]]
+
+
+https://ecs.wgtn.ac.nz/foswiki/pub/Main/ExamArchiveCOMP261/test2019.pdf
+
+
