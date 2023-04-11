@@ -28,11 +28,13 @@ To be in test:
 - [[COMP Graphs and data structures#^dabfa7\|Connected comonents]]
 - [[COMP261/COMP Regular Expressions\|Regular expressions]]
 
-
-
 [[Djisktra walkthrough\|Djisktra walkthrough]]
-
 
 https://ecs.wgtn.ac.nz/foswiki/pub/Main/ExamArchiveCOMP261/test2019.pdf
 
 
+The test will cover:
+-   Regular Expressions (see [Tutorial 3](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/Tutorial3) and [week 4 slides](https://ecs.wgtn.ac.nz/foswiki/pub/Courses/COMP261_2023T1/LectureSchedule/regexps.pdf))
+-   Representing graphs,
+-   Algorithms for path finding in graphs and strongly connected components   
+    (Slides for weeks 4-6 and tutorial 4)
