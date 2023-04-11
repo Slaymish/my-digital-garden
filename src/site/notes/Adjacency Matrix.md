@@ -9,6 +9,9 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 Hamish Burke || 26-03-2023
 ***
 
+- Symmetric = symmetric across diags (undirected graph)
+
+
 **Two numbers representing the nodes**
 
 - Use an *array* to represent info about nodes
