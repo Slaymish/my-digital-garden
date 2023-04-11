@@ -32,8 +32,3 @@ To convert a truth table into gray code, you can follow these steps:
 6. The final column is the gray code equivalent of the binary code in the truth table.
 
 
-
-## Test
-Use a K-map to simplify
-$y= \neg C (\neg A \neg B  \neg D + D) + A \neg B C + \neg D$
-
