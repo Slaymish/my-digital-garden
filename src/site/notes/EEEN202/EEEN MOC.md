@@ -42,6 +42,10 @@ Hamish Burke || 02-03-2023
 [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 
 
+***
+second half:
+[[EEEN Test Prep\|EEEN Test Prep]]
+
 
 
 
