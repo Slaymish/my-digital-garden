@@ -28,3 +28,13 @@ Hamish Burke || 27-02-2023
 [[NWEN User-Defined types\|NWEN User-Defined types]]
 [[NWEN File Stream IO\|NWEN File Stream IO]]
 [[NWEN Valgrind\|NWEN Valgrind]]
+
+***
+
+second half
+
+[[NWEN System Calls\|NWEN System Calls]]
+[[NWEN Interprocess Communication\|NWEN Interprocess Communication]]
+
+
+
