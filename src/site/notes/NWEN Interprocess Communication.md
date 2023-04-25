@@ -21,3 +21,22 @@ Hamish Burke || 27-02-2023
 
 *Each time a program is run a new process is created*
 
+
+## Process lifecycle
+- new
+	- is being created
+- ready
+	- waiting to be assigned to a processor
+- running
+	- instructions are being executed
+- waiting
+	- waiting for some event to occur
+- terminated
+	- finished execution
+
+
+### System process commands
+
+
+
+## Interprocess communication
