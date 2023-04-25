@@ -66,7 +66,7 @@ Due:
 - [ ] SWEN Practise Questions
 
 
-### Friday 28th
+## Friday 28th
 Due:
 - SWEN Test ==6pm==
 - COMP Assignment ==12pm==
