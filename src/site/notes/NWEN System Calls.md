@@ -55,3 +55,20 @@ void main(void)
 # System call interface
 - App devs do not have direct access to system calls
 - Can access through system call api
+
+
+
+# System calls
+`#include <sys/type.h>`
+`#include <sys/socket.h>`
+
+- socket()
+- bind()
+- listen()
+- accept()
+- connect()
+- sent()/recv()
+- close()
+
+Used to make a [[NWEN Sockets#^02aff4\|TCP server]]
+
