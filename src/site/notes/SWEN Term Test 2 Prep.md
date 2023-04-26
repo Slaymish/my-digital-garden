@@ -79,3 +79,10 @@ Kangaroos{
 	- .getValue()
 - Use stream on .entrySet()
 
+
+```java
+return ps.entrySet().stream()
+	.min(Comparator.comparing(e->e.getValue().distance(target)))
+	.map(e->e.getKey()) // Map on optional here
+	.orElseThrow(IllegalArgumentException::new);
+```
