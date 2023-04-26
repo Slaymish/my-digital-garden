@@ -30,10 +30,6 @@ Hamish Burke || 27-02-2023
 
 # System Call invocations
 
-
-
-
-
 ### System Call invocation example
 
 ```C
@@ -53,3 +49,9 @@ void main(void)
 - System call interface receives request
 	- sys_write()
 	- in kernel mode
+
+
+
+# System call interface
+- App devs do not have direct access to system calls
+- Can access through system call api
