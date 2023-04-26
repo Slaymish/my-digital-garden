@@ -72,7 +72,7 @@ f.set(4,f); // Allows for changing private fields
 
 
 
-# Why is flection useful
+# Why is reflection useful
 *Used to plug-in loading and automatically upgradable programs*
 
 ```java
@@ -83,4 +83,5 @@ Question q = (Question)c
 
 // Now can use question object with any more reflection
 ```
+
 
