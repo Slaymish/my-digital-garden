@@ -34,7 +34,11 @@ Hamish Burke || 27-02-2023
 second half
 
 [[NWEN System Calls\|NWEN System Calls]]
+[[NWEN Processes\|NWEN Processes]]
 [[NWEN Interprocess Communication\|NWEN Interprocess Communication]]
+[[NWEN Sockets\|NWEN Sockets]]
+
+
 
 
 
