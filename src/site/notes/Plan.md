@@ -51,10 +51,10 @@ Hamish Burke || 25-04-2023
 *Due: nothing*
 
 **Todo:**
-- [ ] NWEN Exercise 3 - Activity 2
+- [ ] Practice EEEN Test Problem set
+- [ ] NWEN Exercise 3 - Activity 1 and 2
 - [ ] Complete COMP Task 5 (challenge)
 - [ ] Start SWEN Assignment 2
-- [ ] Practice EEEN Test Problem set
 
 ## Thursday 27th
 Due:
