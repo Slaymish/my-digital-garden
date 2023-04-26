@@ -72,3 +72,15 @@ f.set(4,f); // Allows for changing private fields
 
 
 
+# Why is flection useful
+*Used to plug-in loading and automatically upgradable programs*
+
+```java
+Class<?> c = Class.forNmae("question.QW0_0");
+Question q = (Question)c
+	.getDeclaredConstructor()
+	.newInstance();
+
+// Now can use question object with any more reflection
+```
+
