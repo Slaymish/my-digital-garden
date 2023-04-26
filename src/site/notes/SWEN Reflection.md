@@ -27,7 +27,7 @@ Class<?> x = belh.getClass(); // same as Class<? extends Object>
 ```
 
 
-Methods:
+# Methods
 ```java
 Object o = new SimpleClass();
 
@@ -57,5 +57,18 @@ Can throw:
 - NoSuchMethodException
 - InvocationTargetException
 - IllegalAccessException
+
+
+# Get/Set fields
+```java
+Field f = o.getField("aField");
+f.get(o,f); // 2
+f.set(4,f); // sets field to 4 (only if public)
+
+//if private
+f.setAccessable(true); // throws inaccessableObject in certain conditions
+f.set(4,f); // Allows for changing private fields 
+```
+
 
 
