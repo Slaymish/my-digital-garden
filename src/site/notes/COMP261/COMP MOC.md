@@ -26,6 +26,10 @@ Hamish Burke || 02-03-2023
 
 [[COMP Test 2 Prep\|COMP Test 2 Prep]]
 
-
 ***
+
+Second half
+
+[[COMP Graph Analytics\|COMP Graph Analytics]]
+[[COMP Flow Network\|COMP Flow Network]]
 
