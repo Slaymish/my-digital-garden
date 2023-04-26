@@ -70,3 +70,12 @@ Kangaroos{
 
 
 - Recursion
+
+
+# To interate a map
+- Methods
+	- .entrySet()
+	- .getKey()
+	- .getValue()
+- Use stream on .entrySet()
+
