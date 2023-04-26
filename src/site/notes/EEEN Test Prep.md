@@ -17,7 +17,7 @@ Hamish Burke || 24-04-2023
 - Arbitrary counter design - 18 marks
 
 #### How can you represent combinatorial logic?
-- Truth tables
+- Truth tables 
 - Logic diagram
 - Logic expression
 - Timing diagram
@@ -35,6 +35,6 @@ Hamish Burke || 24-04-2023
 - Know how to use/simplify muxes
 
 ## Prep
-- [ ] Work through problem sets
+- [x] Work through problem sets
 - [ ] Work through assignment (model answers)
 
