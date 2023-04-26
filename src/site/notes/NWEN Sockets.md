@@ -32,9 +32,73 @@ IP Address + port == socket
 # Create a interface between app & network
 - App creates socket
 - Socket type dictates style of communication
-	- TCP (transmission control protocol)
+	- [[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
 		- Reliable
 		- Connection oriented
-	- UDP (user datagram protocol)
+	- [[UDP (user datagram protocol)\|UDP (user datagram protocol)]]
 		- Best effort
 		- Connectionless
+
+
+# TCP Server Overview
+{ #02aff4}
+
+
+1. Create a socket with socket()
+2. Bind the socket to an adress using bind()
+3. Listen for connections with  listen()
+4. Accept a connection with accept()
+5. Send and recieve data
+
+
+```C
+// step 1
+//int socket(int domain, int type, int protocol); - method prototype
+
+int fd = socket(AF_INET,SOCK_STREAM,0);
+
+if(fd == -1){ // if not error
+	printf("Error creating socket");
+	exit(0);
+}
+
+// step 2
+// int bind(int sockfd, const struct sockaddr *addr, socklen_t addrLen); - method prototype
+// struct sockaddr contains the ip addr and port (though generic)
+// Use struct sockaddr_in - for internet
+
+struct sockaddr_in addr;
+addr.sin_family = AF_INET;
+addr.sin_port = htons(1234); // port 1234
+addr.sin_addr.s_addr = INADDR_ANY; // any address
+
+if(bin(fd, (struct sockaddr *)&addr, sickof(addr))<0){
+	printf("Error binding socket");
+	exit(0);
+}
+
+// step 3
+// int listen(int sockfd, int backLog); - method prototype
+// backLog = max num of pending connections allowed for socket
+
+if(listen(fs,SOMAXCONN)<0){
+	printf("Error listening to conections");
+	exit(0);
+}
+
+// step 4
+// ssize_t send()
+
+
+// step 5
+
+
+```
+
+
+
+# TCP Client Overview
+
+1. Create a socket with socket()
+2. Connect the socket to the address of the server with connect()
+3. Send/Recive data
