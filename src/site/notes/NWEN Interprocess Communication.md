@@ -9,34 +9,29 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 27-02-2023
 ***
 
-
-# Whats a process?
-
-| Program                                            | Process                                        |
-| -------------------------------------------------- | ---------------------------------------------- |
-| A set of instructions to do a task                 | A program in execution                         |
-| Passive entity                                     | Active entity                                  |
-| Stored in disk; doesn't require any other entities | Requires system resources (eg cpu, memory etc) |
-| Life span - longer                                 | Life span - limited                            |
-
-*Each time a program is run a new process is created*
-
-
-## Process lifecycle
-- new
-	- is being created
-- ready
-	- waiting to be assigned to a processor
-- running
-	- instructions are being executed
-- waiting
-	- waiting for some event to occur
-- terminated
-	- finished execution
+[[NWEN Processes\|NWEN Processes]]
 
 
 ### System process commands
 
 
 
+
 ## Interprocess communication
+
+
+
+
+# Client-server model
+- Client process
+	- Needs to know the existence and address of the sever
+- Server 
+	- Doesn't need to know either prior to connection
+- Once connected
+	- Both sides can send/recieve
+
+
+### Client/server Communication
+- Can use [[NWEN Sockets\|sockets]]
+
+
