@@ -46,6 +46,9 @@ Hamish Burke || 02-03-2023
 second half:
 [[EEEN Test Prep\|EEEN Test Prep]]
 
+[[EEEN Problem Set - Combinatorial Logic\|EEEN Problem Set - Combinatorial Logic]]
+
+
 
 
 
