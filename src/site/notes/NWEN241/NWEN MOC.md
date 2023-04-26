@@ -37,6 +37,7 @@ second half
 [[NWEN Processes\|NWEN Processes]]
 [[NWEN Interprocess Communication\|NWEN Interprocess Communication]]
 [[NWEN Sockets\|NWEN Sockets]]
+[[NWEN Host and network byte order\|NWEN Host and network byte order]]
 
 
 
