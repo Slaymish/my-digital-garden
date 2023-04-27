@@ -31,6 +31,8 @@ Hamish Burke || 02-03-2023
 [[SWEN Term Test 2 Prep\|SWEN Term Test 2 Prep]]
 [[SWEN Reflection\|SWEN Reflection]]
 
+[[SWEN Recent Pattern Syntax\|SWEN Recent Pattern Syntax]]
+
 
 
 
