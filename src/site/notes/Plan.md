@@ -53,7 +53,7 @@ Hamish Burke || 25-04-2023
 
 **Todo:**
 - [x] NWEN Exercise 3 - Activity 1
-- [ ] Start COMP Task 5 (challenge)
+- [x] Start COMP Task 5 (challenge)
 
 ## Wednesday 26th
 *Due: nothing*
