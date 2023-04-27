@@ -64,3 +64,53 @@ System.out.println(result);
 - 'when' 
 	- allowing to add custom boolean checks to any 'case'
 	- similar to && for switch patterns
+
+
+## yield keyword
+
+```java
+return ps.get( switch(ps) {
+	case ArrayList<Person> al->{
+		if(al.size() < 30) { yield 5;}
+		if(al.get(0).name().equals("Bob")){ yield 3;}
+		yield 10;
+	}
+	default -> throw new Error();
+});
+```
+
+## switch0-default-try-yield
+- can add statements inside expressions
+
+```java
+Person bob = switch(0) { default ->{
+	try{ yield makePerson(); }
+	catch(IOException e){ throw new Error(e); }
+}};
+
+System.out.println(bob);
+```
+
+- Only initialises bob once method has succeeded
+- If fail, bob doesn't exist
+
+
+# Sealed Types
+- Can have sealed classes and sealed interfaces
+- Can only be extended/implement in a set of 'permitted' ways
+- Combing with the switch expression, allows us to omit 'default'
+	- When switch is exhaustive
+
+```java
+sealed interface Shape permits Square, Triangle{}
+record Square(Point t1, Point br) implements Shape{}
+record Triangle(Point a, Point b, Point c) implements Shape{}
+record Point(int x, int y){}
+
+Point p = switch(myShape) {
+	case Square s-> s.t1();
+	case Triangle t-> t.a();
+}; // don't need default here
+```
+
+
