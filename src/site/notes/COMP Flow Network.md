@@ -57,3 +57,35 @@ Calculate the flow of a path by taking the minimum capacity of it
 	- Whatever comes in, must go out
 
 
+***
+
+## Example
+
+- find all paths
+	- Can use [[Breath-first traversal\|Breath-first traversal]]
+	- Has some issues
+- find the minimum capacity edge for each path
+- thats the flow for that path
+- add all them together to get total flow
+
+On edges with flow and capacity 20, write as $20/20$ where $f_e/C_e$
+
+To every edge in a flow, try to add a [[COMP Flow Network#Reverse Edges\|reverse edge]]
+
+
+***
+
+# Reverse Edges
+*Reverse edges allow us to reverse our decisions*
+
+- Use [[Breath-first traversal\|Breath-first traversal]] to find shortest edge
+- Every time you add a flow, set the capacity of the reverse edge to reflect the flow gathered
+- **Reverse edges cancel the flow**
+
+![400][SCR-20230430-t0i.png]
+
+
+
+
+All of above is the [[COMP Ford-Fulkerson method\|Ford-Fulkerson method]]
+
