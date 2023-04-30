@@ -21,7 +21,7 @@ Hamish Burke || 25-04-2023
 
 
 ### [[COMP261/COMP MOC\|COMP]]
-- [ ] Assignment 2 ==28th April==
+- [x] Assignment 2 ==28th April==
 	- [x] Task 1
 	- [x] Task 2
 	- [x] Task 3
@@ -43,7 +43,7 @@ Hamish Burke || 25-04-2023
 
 ### [[SWEN221/SWEN_MOC\|SWEN]]
 - [ ] Assignment 2 ==3rd May==
-- [ ] [[SWEN Term Test 2 Prep\|Term test 2]] ==28th April==
+- [x] [[SWEN Term Test 2 Prep\|Term test 2]] ==28th April==
 
 
 ***
@@ -61,7 +61,7 @@ Hamish Burke || 25-04-2023
 **Todo:**
 - [x] Practice EEEN Test Problem set
 - [x] NWEN Exercise 3 - Activity 1 and 2
-- [ ] Complete COMP Task 5 (challenge)
+- [x] Complete COMP Task 5 (challenge)
 - [ ] Start SWEN Assignment 2
 
 ## Thursday 27th
@@ -71,7 +71,7 @@ Due:
 **Todo:**
 - [x] NWEN Exercise 3 - Activity 3
 - [ ] Continue working on SWEN Assignment 2
-- [ ] SWEN Practise Questions
+- [x] SWEN Practise Questions
 
 
 ## Friday 28th
@@ -80,6 +80,8 @@ Due:
 - COMP Assignment ==12pm==
 
 **Todo:**
-- [ ] Finish and submit NWEN Exercise 3
+- [x] Finish and submit NWEN Exercise 3
 - [ ] Finish and submit SWEN Assignment 2
 - [ ] Double check and submit COMP Assignment 2
+
+
