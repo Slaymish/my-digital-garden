@@ -32,4 +32,6 @@ Second half
 
 [[COMP Graph Analytics\|COMP Graph Analytics]]
 [[COMP Flow Network\|COMP Flow Network]]
+[[COMP Ford-Fulkerson method\|COMP Ford-Fulkerson method]]
+[[COMP Residual Graphs\|COMP Residual Graphs]]
 
