@@ -15,16 +15,14 @@ Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 - Selects on of multiple input signals and passes it to output
 - SELECT input code determines which input is transmitted to output z
 
-
-### Two-input multiplexer
+## Two-input Multiplexer
 
 | S   | Output   |   
 | --- | --- | 
 | 0   |  $Z=l_0$   |     
 | 1   |  $Z=l_1$   |    
 
-
-### Four-input multiplexer
+## Four-input Multiplexer
 
 | $S_1$ | $S_2$ | Output  |
 | ----- | ----- | ------- |
@@ -33,8 +31,8 @@ Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 | 1     | 0     | $Z=l_2$ |
 | 1     | 1     | $Z=l_3$ |
 
-
 # 74ALS151 MUX
+
 *same as 74HC151*
 
 | $\neg E$ | $S_2$ | $S_1$ | $S_0$ | $Z$   |
@@ -48,4 +46,3 @@ Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 | L        | H     | L     | H     | $l_5$ |
 | L        | H     | H     | L     | $l_6$ |
 | L        | H     | H     | H     | $l_7$ |
-
