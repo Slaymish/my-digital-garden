@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/comp-test-2-prep/"}
 ---
 
+
+# COMP Test 2 Prep
+
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -30,7 +33,7 @@ To be in test:
 
 [[Djisktra walkthrough\|Djisktra walkthrough]]
 
-https://ecs.wgtn.ac.nz/foswiki/pub/Main/ExamArchiveCOMP261/test2019.pdf
+<https://ecs.wgtn.ac.nz/foswiki/pub/Main/ExamArchiveCOMP261/test2019.pdf>
 
 
 The test will cover:
