@@ -3,6 +3,8 @@
 ---
 
 
+# EEEN Logic Gates
+
 Related: #logic
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
