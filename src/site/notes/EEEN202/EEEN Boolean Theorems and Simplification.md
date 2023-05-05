@@ -2,12 +2,16 @@
 {"dg-publish":true,"permalink":"/eeen-202/eeen-boolean-theorems-and-simplification/"}
 ---
 
+
+# EEEN Boolean Theorems and Simplification
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 10-03-2023
 ***
-### Single variable theorems
+
+## Single Variable Theorems
 
 $x*0 = 0$
 $x*1 = x$
@@ -18,8 +22,7 @@ $x + 1 = 1$
 $x + x = x$
 $x + not(x) = 1$
 
-
-### Multivariable theorems
+## Multivariable Theorems
 
 $x+y=y+x$
 $x*y=y*x$
@@ -31,17 +34,18 @@ $x+xy=x$
 $x+not(x)y=x+y$
 $not(x)+xy=not(x)+y$
 
-### DeMorgan's Theorems
+## DeMorgan's Theorems
+
 - A NOR gate is equivalent to an AND gate with inverted inputs
 - A NAND gate is equivalent to an OR gate with inverted inputs
 
+# Combinatorial Logic
 
-## Combinatorial Logic
 - Basic logic gate fns will combined to make the circuits
 - The output depends only on the combination of logic levels at the input to the circuit
 
+# Simplifying Logic Circuits
 
-## Simplifying logic circuits
 - Use sum-of products form
 	- See ENGR 121/123 for more
 
@@ -69,7 +73,6 @@ Design a logic circuit that has three inputs, A, B, and C, whose output will be 
 | 0   | 1   | 0   | 0   |
 | 1   | 0   | 0   | 0   |
 | 0   | 0   | 0   | 0   |
-
 
 $(ABC)+(BC)+(AC)+(AB)$
 $C(AB+A+B)+(AB)$
