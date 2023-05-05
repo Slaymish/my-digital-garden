@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/nwen-241/nwen-storage-classes/"}
 ---
 
+
+# NWEN Storage Classes
+
 Related: #programming 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
@@ -22,6 +25,7 @@ Hamish Burke || 27-02-2023
 ***
 
 ## Lifetime
+
 - Static
 	- Exists for the entire program execution
 - Automatic
@@ -30,8 +34,8 @@ Hamish Burke || 27-02-2023
 	- Exists from allocation to de-allocation of memory
 	- Have to explicitly do that
 
-
 ## Scope
+
 - Local
 	- Visible in current block
 - Global
@@ -39,9 +43,6 @@ Hamish Burke || 27-02-2023
 	- From declaration to end of file
 - External
 	- Visible in all complication units
-
-
-
 
 | C Storage class | Declaration       | Default init value | Init freq                   | Stored in         | Scope    | Lifetime  |
 | --------------- | ----------------- | ------------------ | --------------------------- | ----------------- | -------- | --------- |
@@ -51,8 +52,8 @@ Hamish Burke || 27-02-2023
 | Extern          | Outside any block | 0                  | Once at program start       | Memory            | External | Static    |
 | register        | Inside block      | Garbage            | Every time block is entered | Maybe in register | Local    | Automatic          |
 
+### Auto Storage Class Declaration
 
-#### Auto Storage Class Declaration
 ```c
 {
 	auto double x; /* same as double x */
@@ -60,8 +61,10 @@ Hamish Burke || 27-02-2023
 }
 ```
 
-#### Static Storage Class Declaration
+### Static Storage Class Declaration
+
 - Prefix **must** be included
+
 ```c
 {
 	static double local_static;
@@ -70,8 +73,10 @@ Hamish Burke || 27-02-2023
 static int global_static;
 ```
 
-#### Extern Storage Class Declaration
+### Extern Storage Class Declaration
+
 - Default storage class for vars defined outside any fns body
+
 ```c
 extern float x; // Declare at top
 
@@ -81,8 +86,10 @@ extern float x; // Declare at top
 
 int x = 1; // Access extern
 ```
+
 - To access in another source file
 - Define as extern in file u want to use it in
+
 ```C
 // main.c
 int main(void)
@@ -104,10 +111,12 @@ void show(void)
 
 ```
 
-#### Register Storage Class Declaration
+### Register Storage Class Declaration
+
 - Fastest storage
 - Can *request* to store in register (CPU storage)
 - If declined, defaults to auto
+
 ```C
 register int k;
 ```
