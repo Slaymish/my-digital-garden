@@ -11,7 +11,8 @@ Hamish Burke || 24-04-2023
 
 Similar to [[SWEN221/SWEN Term Test Prep\|term test 1]]
 
-# Term test 2
+# Term Test 2
+
 *Friday 28th April*
 
 - Tutor helpdesk **Thursday 12-2pm** in CO219
@@ -20,9 +21,8 @@ Similar to [[SWEN221/SWEN Term Test Prep\|term test 1]]
 
 - Will get resource with test (ss's on screenshots)
 
+## Prep Info
 
-
-### Prep info
 - [ ] Do lab 5 questions again
 - [ ] Make own practise qs
 
@@ -32,8 +32,6 @@ Similar to [[SWEN221/SWEN Term Test Prep\|term test 1]]
 
 **For loop: continues if the two values are the same**
 `if(f.city().equals(city){ continue; }`
-
-
 
 # Examples
 
@@ -53,11 +51,12 @@ return fs.stream()
 	.orElseThrow(IllegalArgumentException::new);
 ```
 
-### .filter()
+## .filter()
+
 - Used on a stream of objects to filter and keep only those elements that meet the specified condition.
 
+## Compact Constructor
 
-### Compact constructor
 *Will be in term test*
 
 ```java
@@ -68,17 +67,15 @@ Kangaroos{
 }
 ```
 
-
 - Recursion
 
+# To Iterate a Map
 
-# To interate a map
 - Methods
 	- .entrySet()
 	- .getKey()
 	- .getValue()
 - Use stream on .entrySet()
-
 
 ```java
 return ps.entrySet().stream()
