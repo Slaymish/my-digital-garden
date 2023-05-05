@@ -14,13 +14,13 @@ Hamish Burke || 25-03-2023
 > [!INFO]
 > One FF = one bit
 
-
 Counting states:
 - Eg want a counter with 13 counting states
 	- would count from 0-12
 	- Need 4 bits
 
-# Whats a counter?
+# Whats a Counter?
+
 - Will count (and display) the number of times a event occurs
 - If the clock pulses (the event) are of a calibrated frequency
 	- eg f=1hz, can turn our counter into a timer
@@ -29,8 +29,8 @@ Counting states:
 
 ***
 
-
 # Asynchronous Counters
+
 - Every bit in the counter output code is the output from one sequential element ([[EEEN202/EEEN_Clocks#^b9278f\|FF]]). These bits do not all change at the same time (not synchronised)
 - Each FF are thus driven by a *different* clock
 ![400][SCR-20230325-nfn.png]
@@ -38,8 +38,8 @@ Counting states:
 One bit counter?
 - A synchronous JK flipflop in the toggle state
 
+## 4-bit Async counter
 
-### 4-bit async counter
 - AKA Ripple counter
 - Outputs A,B,C,D are the binary output
 ![380][SCR-20230325-nji.png]
@@ -50,10 +50,10 @@ One bit counter?
 - In 1111 counting state
 	- The NT of the 16th clock pulse is what resets it
 	- A will toggle first, then others with follow
-	- Thats the reason its not synchronous
+	- That's the reason its not synchronous
 	- 80 nanoseconds to reset
 
-### MOD number
+## MOD Number
 { #8b1771}
 
 
@@ -63,7 +63,7 @@ One bit counter?
 
 	- n = number of flip-flops
 
-### Frequency Division
+## Frequency Division
 { #4e71a9}
 
 
@@ -71,8 +71,8 @@ One bit counter?
 	- Eg 4 bit counter with 16hz clock
 		- $2^4/16$ = 1hz (final FF frequency)
 
+# Counters with MOD Num $<2^N$
 
-## Counters with MOD Num $<2^N$
 - Counter can be designed to reset on a specific counter state
 - If asked to make counter with MOD 50
 	- Counter will go from 0-49
@@ -80,20 +80,22 @@ One bit counter?
 	- Should reset on 49th counting state
 ![400][SCR-20230325-nx6.png]
 
-### Changing the MOD Num
+## Changing the MOD Num
+
 - Find smallest MOD required so $2^N$ is greater or equal to the requirements
 	- Determines the num of FF's needed
 - Connect a NAND gate to the async CLEAR inputs on all FF's
 - Determine which FF's are HIGH at the first undesired state
 	- Connect the outputs of the FF's to the NAND gate inputs
 
+## BCD/Decade Counter
 
-### BCD/Decade counter
 - 10 distinct states
 - Any MOD-10 counter is a decade counter
 - A BCD counter is a decade counter that counts from 0000 to 1001
 
 # 74LS293
+
 ![480][SCR-20230325-o56.png]
 - Has two different clock pulses
 - Can use as three bit counter (ignore first FF)
