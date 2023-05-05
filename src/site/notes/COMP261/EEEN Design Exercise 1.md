@@ -16,7 +16,7 @@ All lab work done *before* mid trimester break
 
 
 **To-do before lab**
-- [ ] Complete circuit diagram
+- [x] Complete circuit diagram
 
 
 ***
