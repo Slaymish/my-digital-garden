@@ -3,6 +3,8 @@
 ---
 
 
+# NWEN Practice Quiz 1
+
 Related: #programming #practise  
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
@@ -22,6 +24,7 @@ Hamish Burke || 27-02-2023
 
 
 2.  
+
 ```C
 int i,j;
 long ix;
@@ -30,6 +33,7 @@ float x;
 double dx;
 char c;
 ```
+
 	1. i + c // char[]
 	2. dx + ix // double
 	3. ((int) dx) + ix // int
