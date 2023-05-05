@@ -8,7 +8,9 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 16-03-2023
 ***
+
 # Wrong way
+
 ```java
 public static int factorial(int n){
 	if(n < 0) {return -1;}
@@ -16,15 +18,18 @@ public static int factorial(int n){
 	return n*factorial(n-1);
 }
 ```
+
 - Doesn't handle exceptions
 - Relies on user to input correct values
 
 ***
 
 # Exceptions
+
 - Better way of dealing with errors is by *throwing* an exception
 
-## Difference between throwing and returning:
+## Difference between Throwing and Returning:
+
 -   return:
     -   Exits a method
     -   Returns a value to the calling method
@@ -35,22 +40,23 @@ public static int factorial(int n){
     -   Can be caught by a try-catch block
     -   Interrupts normal program flow
 
+## Try-Catch Block
 
-## Try-Catch block
 - 'Catches' exception that have been thrown
 - Makes it so you can continue runtime
 
-
 ## Nesting exception
+
 - getCause()
 - getMessage()
 - getStackTrace()
 - Exceptions are a **language** feature
 
+# Finally Clause
 
-# Finally clause
 - Gets in the last word, even after an exception is thrown
 - Eg closing a file
+
 ```java
 try { 
 	int result = 10 / 2; 
@@ -63,10 +69,8 @@ finally {
 	System.out.println("This will always execute, regardless of whether an exception occurred or not."); }
 ```
 
+# Don't Overpower the Hero
 
-
-
-# Don't overpower the hero
 *Handle* exceptions instead of just catching them
 
 
