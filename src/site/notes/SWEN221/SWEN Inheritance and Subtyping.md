@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/swen-221/swen-inheritance-and-subtyping/"}
 ---
 
+
+# SWEN Inheritance and Subtyping
+
 Related: #java #programming 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
@@ -9,8 +12,10 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 02-03-2023
 ***
 
-### Withers:
+## Withers:
+
 - Instead of mutating an object, create a new one *with* diff data
+
 ```java
 Horse withLocation(Point2D dest) 
 {
@@ -21,11 +26,13 @@ Horse withLocation(Point2D dest)
 
 ***
 
-## Inheritance
+# Inheritance
+
 - Enables code reuse within a class hierarchy
 - Avoids code duplication
 
 Implementing inheritance:
+
 ```java
 interface Animal {
 	String name(); // fields are now just methods
@@ -43,8 +50,8 @@ interface Animal {
 }
 ```
 
+Now for the specific animal classes:
 
-Now for the specifc animal classes:
 ```java
 // Horse class
 record Horse(String name, Point2D location) implements Animal
@@ -53,7 +60,7 @@ record Horse(String name, Point2D location) implements Animal
 	{
 		return new Horse(name,dest);
 	}
-
+- [ ] p
 	public double speed(){return 10d;}
 	public void draw(Graphics2D g){/*..*/}
 }
@@ -70,9 +77,11 @@ record Dog(String name, Point2D location) implements Animal
 	public void draw(Graphics2D g){/*..*/}
 }
 ```
+
 - Record creates a new object for every change instead of mutating
 ***
 Example of **mutable** running animal:
+
 ```java
 interface Animal{ 
 	String name(); 
@@ -90,6 +99,7 @@ interface Animal{
 ```
 
 and implementing that into classes:
+
 ```java
 class Horse implements Animal{
 	public Horse(String name, Point2D location)
@@ -111,21 +121,20 @@ class Horse implements Animal{
 > 
 > Getters with have no params, and setters will have one.
 
-
 - When using immutable design for inheritance, use records
 - Use classes for mutable objects
 	- More verbose
 
 ***
 
-
-## Overriding
+# Overriding
 { #ec882d}
 
 
 - At runtime, the computer explores the hierarchy and searches for the most specific implementation
 
 EG:
+
 ```java
 interface A{
 	default String m() { return "A";}
@@ -147,7 +156,6 @@ This would return C
 > [!Java Docs]
 > Adding @Override pulls any documentation for the overridden method
 
-
 ***
 **Subtyping:**
 - Enables code reuse for our users
@@ -158,8 +166,9 @@ This would return C
 Submethods > comments for code sections
 </p>
 
-- This is becuase you can overide methods
+- This is because you can override methods
 - Doing this is called 'the template method pattern'
+
 ```java
 interface HouseDrawing extends Drawing{ 
 	default void draw(Graphics2D g){ 
