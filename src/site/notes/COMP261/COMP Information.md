@@ -3,6 +3,8 @@
 ---
 
 
+# COMP Information
+
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -26,4 +28,3 @@ Assignment 1:
 > COMP261-help@ecs.vuw.ac.nz
 > (Submit java file + images when asking questions)
 > 
-
