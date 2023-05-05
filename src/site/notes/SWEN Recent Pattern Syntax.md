@@ -9,11 +9,13 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 27-04-2023
 ***
 
-# Pattern syntax
+# Pattern Syntax
+
 *need to turn previews on*
 - Ways to declare local variable 'implicitly'
 
-## Different ways to write
+## Different Ways to Write
+
 ```java
 if(obj instanceof Person(var n, Dog(var l)) && l.x() > 3d){
 	System.out.println(l);
@@ -38,7 +40,8 @@ var varName = obj instanceof Person(var n, Dog(var l))
 // 'l' and 'n' visible only in expression
 ```
 
-# Switch patterns
+# Switch Patterns
+
 - Switch is an *expression*
 - All code after each -> must be returning the correct type
 
@@ -65,8 +68,7 @@ System.out.println(result);
 	- allowing to add custom boolean checks to any 'case'
 	- similar to && for switch patterns
 
-
-## yield keyword
+## Yield Keyword
 
 ```java
 return ps.get( switch(ps) {
@@ -80,6 +82,7 @@ return ps.get( switch(ps) {
 ```
 
 ## switch0-default-try-yield
+
 - can add statements inside expressions
 
 ```java
@@ -94,8 +97,8 @@ System.out.println(bob);
 - Only initialises bob once method has succeeded
 - If fail, bob doesn't exist
 
-
 # Sealed Types
+
 - Can have sealed classes and sealed interfaces
 - Can only be extended/implement in a set of 'permitted' ways
 - Combing with the switch expression, allows us to omit 'default'
@@ -112,5 +115,3 @@ Point p = switch(myShape) {
 	case Triangle t-> t.a();
 }; // don't need default here
 ```
-
-
