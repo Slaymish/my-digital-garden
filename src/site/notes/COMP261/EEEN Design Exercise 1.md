@@ -24,10 +24,12 @@ All lab work done *before* mid trimester break
 # Week 5
 
 ## The Clock
+
 - Use the signal generator on the design station
 - Set to a square wave with frequency = 2Hz
 
 ## [[EEEN202/Odometer (15%)\|Odometer (15%)]]
+
 - Measures every time wheel does a **full rotation**
 - Rover will travel **1 meter** for every full revolution
 - Count up to a total distance of 64 (or 60) meters of travel
@@ -42,11 +44,13 @@ All lab work done *before* mid trimester break
 		- Or get an IC that does this
 		- Or use a counter that directly gives a BCD output
 
-## Odometer display
+## Odometer Display
+
 - Two seven-segment displays
 - From odometer output
 
 ## Motor Control (10%)
+
 - Once rover travelled 50m, should generate a stop signal
 - Should stop the CLK signal 
 - Generate a 'battery charged' signal that will enable CLK again
@@ -58,6 +62,7 @@ All lab work done *before* mid trimester break
 # Week 6
 
 ## [[Grey Code Generator (15%)\|Grey Code Generator (15%)]]
+
 - Generate a 3-bit gray code pattern
 - Should contain a direction bit D that'll allow it to count UP (D=1) or DOWN (D=0) in grey code.
 	- Rest of system will assume only forwards
@@ -67,9 +72,11 @@ All lab work done *before* mid trimester break
 - *D FF's and MUXes might be easiest*
 
 ## System Integration and Testing (10%)
+
 - Ensure that every sub-system is working correctly *as* you construct them
 
-## Report (40%)
+## [[EEEN Design Report Task\|Report (40%)]]
+
 - Due 5th May
 - a description of the design process and method for each of the sub-systems
 - A short statement that you have tested it and that it works as desired. If not working correctly, it should be pointed out and discussed
@@ -82,8 +89,8 @@ All lab work done *before* mid trimester break
 
 ***
 
-
 # Design Hints
+
 - Draw the state transition diagram for these transitions
 - You should base your design on D or J-K FF as the sequential elements, and implement the combinatorial logic either in logic gates or MUX's
 - Simplify where possible in order to yield the simplest circuit
