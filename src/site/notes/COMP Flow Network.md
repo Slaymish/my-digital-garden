@@ -11,7 +11,8 @@ Hamish Burke || 27-04-2023
 
 # Flow Network
 
-### Example problems
+## Example Problems
+
 - Road Network - Flow of vehicles
 	- How *fast* can I evacuate a city in emergency
 - Distribution network - Network of pipelines
@@ -31,8 +32,8 @@ In network flow problems:
 Calculate the flow of a path by taking the minimum capacity of it
 </p>
 
+# Definition
 
-## Definition
 - For connected, **directed** graph $G=(V,E)$
 - Each edge, $e$, has a non-negative int capacity $c_e$
 - One (or more) vertex is labelled as a source $s \epsilon V$
@@ -41,15 +42,14 @@ Calculate the flow of a path by taking the minimum capacity of it
 
 ![300][SCR-20230427-gj7.png]
 
-
-### Flow in a flow network
+## Flow in a Flow Network
 
 - Each edge has a total flow, $f_e$
 - $f_e =$ amount of material carried on the edges $e$
 - $f_e$ is not the same as capacity
 
+## Constraints
 
-### Constraints
 - Capacity constraint
 	- Flow can never exceed the capacity
 - Balance constraint
@@ -59,13 +59,13 @@ Calculate the flow of a path by taking the minimum capacity of it
 
 ***
 
-## Example
+# Example
 
 - find all paths
 	- Can use [[Breath-first traversal\|Breath-first traversal]]
 	- Has some issues
 - find the minimum capacity edge for each path
-- thats the flow for that path
+- that's the flow for that path
 - add all them together to get total flow
 
 On edges with flow and capacity 20, write as $20/20$ where $f_e/C_e$
@@ -76,6 +76,7 @@ To every edge in a flow, try to add a [[COMP Flow Network#Reverse Edges\|reverse
 ***
 
 # Reverse Edges
+
 *Reverse edges allow us to reverse our decisions*
 
 - Use [[Breath-first traversal\|Breath-first traversal]] to find shortest edge
