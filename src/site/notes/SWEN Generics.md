@@ -238,4 +238,30 @@ static <T> void sort(List<T> list, Comparator<? super T> c)
 
 - Super indicates lower bound
 - The comparator is able to compare any kind of super elements with respect to T is accepted
-	- EG a list of ColoredPoints can be compared with a Comparator<Point>
+	- EG a list of ColoredPoints can be compared with a Comparator
+
+
+***
+
+# Types with &
+
+```java
+interface A{ default int five(){ reutrn 5;} }
+interface AA extends A{ int five(); } // making five abstract again
+interface B { default int two() { return 2; } }
+
+class C implements A,B{}
+
+<T extends A & B> int meth(T t){
+	return t.five() + t.two();
+}
+
+void print2(){
+	System.out.println(meth((AA&B) () -> 0));
+	// mostly used for (Supplier<C> & Serializable) ()-> the LambdaBody
+	// Happens often!
+}
+```
+
+
+
