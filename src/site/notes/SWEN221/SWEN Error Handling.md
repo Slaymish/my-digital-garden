@@ -74,3 +74,17 @@ finally {
 *Handle* exceptions instead of just catching them
 
 
+***
+
+# Exception with |
+
+```java
+void foo() {
+	try{ bar(); }
+	catch( RuntimeException | Error unchecked ){
+		// here 'uncheck is either of type
+		// 'RuntimeException' or 'Error'
+	}
+}
+```
+
