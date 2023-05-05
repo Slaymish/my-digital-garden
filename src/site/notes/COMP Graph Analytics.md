@@ -10,9 +10,11 @@ Hamish Burke || 27-04-2023
 ***
 
 # Graph Analytics
+
 *Three levels*
 
-## Graph query
+## Graph Query
+
 - Attempt to identify an explicit pattern with the graph 
 - Usually they find a *known subset* of the important nodes in the graph
 	- Eg Find me all friends Dan and Kevin share
@@ -21,7 +23,8 @@ Hamish Burke || 27-04-2023
 		- Set of friends of Kevin
 		- Intersection of two sets
 
-## Graph algorithm
+## Graph Algorithm
+
 - In addition to selecting/grouping nodes,
 - Also involves categorising them or some other processing to sort them or learn something from them
 - Eg
@@ -31,7 +34,8 @@ Hamish Burke || 27-04-2023
 - A query helps you find things you knew you where looking for
 - An algorithm can tell you what nodes are most interesting
 
-## Graph analytics
+## Graph Analytics
+
 - Tells us something about the graph in general
 - Nearly all nodes will be inspected as a part of the calculation
 - Eg
@@ -43,6 +47,7 @@ Hamish Burke || 27-04-2023
 ***
 
 ### Path Finding
+
 -  Shortest path from A-B
 - Average shortest path
 - Longest path
@@ -51,10 +56,12 @@ Hamish Burke || 27-04-2023
 	-  [[COMP Flow Network\|COMP Flow Network]]
 
 ### Centrality
+
 - Finding which nodes are more important in a network
 	- eg Articulation points
 
 ### Community Detection
+
 - Identifying common attributes
 - eg hubs/hierarchies/tendencies
 
