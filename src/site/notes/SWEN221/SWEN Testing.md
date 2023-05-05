@@ -8,14 +8,16 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 13-03-2023
 ***
 
-# Automated testing
+# Automated Testing
+
 - input file -> program run -> output file
 - A test is another program/script
 - Can use *System.In* and *System.Out*
 - Faster and more reliable than manual testing
 
-### Regression testing:
-- Running your automated tests everytime you change anything in the code
+## Regression Testing:
+
+- Running your automated tests every time you change anything in the code
 
 ***
 
@@ -26,6 +28,7 @@ Fail Faster my friend... Fail Faster!
 ***
 
 # Unit Testing
+
 - Tests each method in code individually
 - Create input
 - Call method
@@ -33,23 +36,26 @@ Fail Faster my friend... Fail Faster!
 
 ***
 
-
 ## JUnit
+
 *Unit Testing Framework*
 
-http://junit.sourceforge.net/
+<http://junit.sourceforge.net/>
 - Tests are java methods
 - Test suites are Java classes
 - Annotations mark them out
 - API for writing tests
 - Supports IDE's
 
-### Your test class
+### Your Test Class
+
 ```java
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 ```
-##### assert** methods:
+
+#### assert** Methods:
+
 - assertTrue(bool)
 - assertTrue(String msg, bool)
 - **assertEquals(Object expect, Object actual)**
@@ -65,6 +71,7 @@ import org.junit.jupiter.api.Test;
 ## Example
 
 Base code:
+
 ```java
 record MyDate(int day, int month, int year){
 	public MyDate{
@@ -83,6 +90,7 @@ record MyDate(int day, int month, int year){
 A simple JUnit test
 
 ## Testing the Happy Path
+
 ```java
 public class MyDateTest{
 	@Test public void testConstructValidDate(){
@@ -94,8 +102,8 @@ public class MyDateTest{
 }
 ```
 
-
 ## Testing the Unhappy Path
+
 ```java
 @Test public void testConstructInvalidDate(){
 	assertThrows(re, ()->new MyDate(0,0,0) );
@@ -107,10 +115,10 @@ public class MyDateTest{
 
 ***
 
-# How does JUnit work
+# How Does JUnit Work
 
 - The main method is inside the Junit library
-- Recieves the name of the test class/classes in input
+- Receives the name of the test class/classes in input
 - Their old main class runs our code
 	- [[SWEN221/SWEN Time Travelling\|time travelling]]!
 
@@ -119,6 +127,6 @@ public class MyDateTest{
 - Easy to run operations
 - Easy to check the result of the operations
 
+## Property Testing
 
-## Property testing
 - Generate some input and check general properties
