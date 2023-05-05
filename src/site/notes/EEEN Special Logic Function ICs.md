@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/eeen-special-logic-function-i-cs/"}
 ---
 
+
+# EEEN Special Logic Function ICs
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
