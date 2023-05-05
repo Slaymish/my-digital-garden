@@ -3,14 +3,16 @@
 ---
 
 
+# EEEN Review Number Systems
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]]
 Hamish Burke || 02-03-2023
 ***
 
-## Review 
+## Review
 
-#### Analog vs Digital
+### Analog Vs Digital
 
 **Analog**
 *Continuous measurement*
@@ -23,7 +25,8 @@ Hamish Burke || 02-03-2023
 - Clock
 - LED on/off
 
-### Binary Codes
+## Binary Codes
+
 Binary Code Decimal (BCD) Code
 - A group of 4 binary bits used to rep each of 10 decimal digits
 Gray Code
@@ -36,6 +39,3 @@ ASCII Code
 
 > [!To Do]
 > - [ ] Practise worksheet
-
-
-
