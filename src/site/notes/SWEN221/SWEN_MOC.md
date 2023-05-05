@@ -37,18 +37,4 @@ Hamish Burke || 02-03-2023
 [[SWEN Recent Pattern Syntax\|SWEN Recent Pattern Syntax]]
 [[SWEN Var args syntax\|SWEN Var args syntax]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[[SWEN Making abstractions\|SWEN Making abstractions]]
