@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/recursive-dfs/"}
 ---
 
+
+# Recursive DFS
+
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -13,6 +16,7 @@ Hamish Burke || 01-04-2023
 - Works on undirected *and* directed graphs
 
 ## Example Pseudo-code
+
 ```
 TraverseGraph(node)
 	if node is not visited:
@@ -24,8 +28,7 @@ TraverseGraph(node)
 
 ```
 
+### Recording Visited:
 
-
-### Recording visited:
 - Mark the node (not a good option)
 - Keep a set of visited nodes (good option)
