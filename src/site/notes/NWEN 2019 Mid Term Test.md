@@ -10,6 +10,7 @@ Hamish Burke || 27-02-2023
 ***
 
 # Section A
+
 1. ? 
 2. ?
 3. true X (false)
@@ -20,6 +21,7 @@ Hamish Burke || 27-02-2023
 8. false OK
 
 # Section B
+
 9. `char str[] = "Twelve";`
 	- 7 OK
 10. code won't compile X (3) // '0' acts as false
@@ -35,7 +37,9 @@ Hamish Burke || 27-02-2023
 20. a
 
 # Section C
+
 21. - [[NWEN241/NWEN Run your code#^2995be\|NWEN Run your code#^2995be]]
+
 ```
 Linting
 Compiling
@@ -52,12 +56,16 @@ Linking
 
 
 ```
+
 22. -
+
 ```
 ?
 ```
+
 23. -
 a)
+
 ```
 The difference is how you call them, as they are both pointers to the first value in the array. With str1, you'd called it with str[i], but with str2 its &str2[i]
 
@@ -65,7 +73,9 @@ XX
 
 First is a string variable. Second points to a string literal
 ```
+
 b)
+
 ```
 printf("%s\n",str1[7]);
 
@@ -73,7 +83,9 @@ XX
 
 printf("%c",str1[7]);
 ```
+
 c)
+
 ```
 print("%s\n",(&str2+(6*sizeof(char))));
 
@@ -81,7 +93,9 @@ XX
 
 printf("%c",*(str2+7));
 ```
+
 d)
+
 ```
 #include <string.h> OK
 
@@ -93,6 +107,7 @@ XX
 
 strcpy(str1,str2);
 ```
+
 24. -
 a) 2305 OK
 b) 2304 OK
