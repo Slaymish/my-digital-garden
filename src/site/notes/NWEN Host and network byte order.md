@@ -10,8 +10,10 @@ Hamish Burke || 27-02-2023
 ***
 
 # Little-endian
+
 - Store the ==least== significant byte at the small 
 
 # Big-endian
+
 - stores the ==most== significant byte at the smallest memory address
 
