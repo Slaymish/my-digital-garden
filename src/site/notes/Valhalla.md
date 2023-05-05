@@ -10,6 +10,7 @@ Hamish Burke || 27-03-2023
 ***
 
 # Road to Valhalla
+
 - New kinds of objects
 	- Won't have an identity
 	- Fields of those objects will be final
