@@ -16,8 +16,8 @@ Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 - Only one I/P active at a time
 - Decodes to binary code
 
-
 ## Uses
+
 - Octal-to-binary encoder
 	- 8 line to 3 line
 - Decimal-to-BCD switch encoder
