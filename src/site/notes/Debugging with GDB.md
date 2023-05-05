@@ -2,12 +2,16 @@
 {"dg-publish":true,"permalink":"/debugging-with-gdb/"}
 ---
 
+
+# Debugging with GDB
+
 Related: #programming 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 27-02-2023
 ***
+
 ```C
 void swap(int a, int b)
 {
