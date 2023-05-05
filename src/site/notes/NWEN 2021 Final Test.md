@@ -10,7 +10,9 @@ Hamish Burke || 27-02-2023
 ***
 
 # Section A
+
 1. -
+
 ```
 a) #define SPEED 3.25e-26f OK
 b) long XX double
@@ -20,6 +22,7 @@ e) 1 2 4 5 7 8
 ```
 
 2. -
+
 ```
 a) int iarray[100] = {1,2,3,4};
 b) #define STRING "Hello, world"
@@ -36,6 +39,7 @@ e)
 ```
 
 3. -
+
 ```
 a) 
 	i) 1
@@ -43,6 +47,7 @@ a)
 	iii) c1.info.age would be zero as the size of the union is only the size of the largest object
 	iv) 32 + 2  = 34?
 ```
+
 ```C
 //b)
 struct node currentNode = head;
@@ -53,6 +58,7 @@ while(currentNode != NULL){
 ```
 
 4. -
+
 ```
 a)
 A memory leak occurs when you lose a pointer thats pointing to allocated memory. As theres no pointer pointing to it, it can remain unfreed and evetually build up and result in undefined program behaviour.
