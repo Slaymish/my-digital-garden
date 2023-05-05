@@ -11,16 +11,19 @@ Hamish Burke || 01-04-2023
 [[COMP Graphs and data structures\|COMP Graphs and data structures]]
 
 - Graph has a Collection of Nodes
+
 ```java
 private Collection<Node> allNodes;
 ```
+
 - Also maybe a collection of edges
+
 ```java
 private Collection<Edge> allEdges;
 ```
 
-
 - Could contain a HashMap from Pairs of Nodes to Edges
+
 ```java
 HashMap<Pair<Node,Node>,Edge> allEdges;
 ```
@@ -31,31 +34,34 @@ Collections can be Lists or Sets
 
 ***
 
+# Nodes Class
 
-### Nodes Class
 - Contains collection of edges
+
 ```java
 private Collection<Edge> edges;
 ```
+
 - Or two if directed graph
+
 ```java
 private Collection<Edge> outgoing;
 private Collection<Edge> incoming;
 ```
 
+# Edge Class
 
-## Edge Class
 - Contains two nodes
+
 ```java
 private Node from;
 private Node to;
 ```
 
-
-
 ***
 
 # Wellington Public Transport Map
+
 *Same as assignment 2*
 
 - Complex Graph structure
