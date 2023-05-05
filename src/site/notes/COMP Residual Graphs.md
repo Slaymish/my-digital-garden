@@ -23,7 +23,6 @@ $G_f$ is defined as:
 	- each edge $e = (u,v)$ with $f_e > 0$
 	- include an edge $e' = (v,u)$ in $G_f$ with capacity $f_e$
 
-
 # Augmentation Path
 
 Any flow $g$ on residual graph $G_f$ from source $s$ to destination $t$
