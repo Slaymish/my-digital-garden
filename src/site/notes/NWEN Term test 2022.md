@@ -13,8 +13,8 @@ Hamish Burke || 27-02-2023
 16 wrong
 35 total
 
-
 # Section A
+
 1. assembly XX complication
 2. -100U XX 0xbeer
 3. break XX none of above
@@ -39,22 +39,29 @@ Hamish Burke || 27-02-2023
 20. long OK
 21. `#define CHARGE 1.602e-19f` OK
 22. -
+
 ```C
 j = 2 * 12 // 24
 
 // out = 5 24 OK
 ```
+
 23. 
+
 ```
 #define FUNC(A,B) (--A)*(B) XX
 
 #define FUNC(A,B) (((A)-1)*(B))
 ```
+
 24. - 
+
 ```C
 int intarray[1000] = {1,2,3,4}; OK
 ```
+
 25. -
+
 ```C
 iarray[0]
 *ip
@@ -64,11 +71,15 @@ OK
 
 *iarray
 ```
+
 26. -
+
 ```C
 enum risk_level {low = 10,medium,high};
 ```
+
 27. -
+
 ```
 a) 1 XX 600
 b) 501 XX 604
@@ -76,17 +87,23 @@ c) 608 OK
 d) 2 OK
 e) 1 XX 2
 ```
+
 28. -
+
 ```
 15 bytes OK
 ```
+
 29. -
+
 ```
 Automatic vars only exist inside their methods. This means if you allocate to an automatic var, the variable will stop pointing to the allocated memory. This could lead to a memory leak. OK 
 
 undefined program behaviour
 ```
+
 30. -
+
 ```
 a) 0 XX 4, data in head is first bit of data
 b) 2 XX 7 follow on from above
