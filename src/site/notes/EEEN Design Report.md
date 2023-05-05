@@ -2,13 +2,10 @@
 {"dg-publish":true,"permalink":"/eeen-design-report/"}
 ---
 
-Related: 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
-[[UNI MOC\|UNI MOC]]
-Hamish Burke || 04-05-2023
-***
+Name: Hamish Burke
+Lab Partner: Seb Collis
 
-# Report
+# Design Exercise Report
 
 ## 1. Introduction
 
@@ -23,25 +20,32 @@ I first thought to create the counter with 6 J-K Flip Flops, this is because eac
 The next step was to generate a stop signal that occurred at the 50th state. To do this, I connected all outputs $1QA-1QD$ and $2QA-2QD$ that were high at the 50th state into an AND gate. These outputs were $2QC$ and $2QA$. To accomplish this, we used the 74HCT08 IC, which outputs a high signal only when all its inputs are high. This was used as our stop signal at 50m. To implement this, we connected $2QA$ of the counter to $1A$ (pin 1) of the IC, and $2QD$ to $1B$ (pin 2) of the IC.
 
 
-![300][SCR-20230505-lu8.png]
+![300](https://i.imgur.com/NiBdEo2.png)
+
+
+***
 
 ## 3. Odometer Display:
 
 Since the counter we used outputted the count in binary coded decimal (BCD), we did not need to add anything to make it work correctly with the odometer display. We plugged 1QA-2QD into the display inputs. However, we encountered a problem as one of the segments was always remaining on. We discovered that this was due to the 7-segment display being slightly broken. To ensure that the counter was working correctly, we connected all the outputs to the LED diodes and confirmed that it was functioning properly. As a result, we decided to keep the outputs of the counter connected to the LEDs, as those were the only ones working.
 
 Here is how I connected my Odometer to the 7-segment displays:
-![300][SCR-20230505-m2z.png]
+
+![300](https://i.imgur.com/5kaZreG.png)
 
 ## 4. Motor Control:
 
 We've already got our stop signal for 50m (the 50th state) from the counter, so to stop the CLK signal when that is HI we used a NOR Gate Latch. We constructed this with the 74HCT02 IC (Quad 2-input NOR gate). It has two inputs, Set (S) and Clear (C), and outputs $Q$ and $\neg Q$. The SR NOR latch can be used to stop the CLK signal when the stop signal for 50m (50th state) is reached.
 
 Construction of NOR latch:
-![300][SCR-20230505-ncd.png]
+![300](https://i.imgur.com/tcndEy8.png)
 
 To implement this, connect the stop signal for 50m to the Set input of the NOR latch. We then connected the CLEAR input to a button so we could pulse that HI when we wanted the CLK to continue. The output Q of the SR NOR latch will go high when the 50th state is reached. Connect this Q output to an AND gate (74HCT08) along with the original CLK signal as its other input. This will ensure that when Q is high, indicating that 50th state has been reached, the output of the AND gate will be low regardless of the CLK signal. The output of the AND gate is the new clock signal that stops when 50m is reached. 
 
-![300][SCR-20230505-ns8.png]
+![300](https://i.imgur.com/wJ5zTkP.png)
+
+
+***
 
 ## 5. Grey Code Generator:
 
@@ -58,7 +62,7 @@ This was a lot of IC's, so it took us most of the second lab to complete it. As 
 We did not manage to get the direction bit working in the lab time, though if we were to continue, we won't add it as a switch input, and use that in the combinatorial logic of the grey code counter.
 
 Grey-code counter circuit diagram:
-![300][SCR-20230505-o67.png]
+![300](https://i.imgur.com/oEVVXIa.png)
 
 ## 6. System Integration and Testing:
 
@@ -66,6 +70,6 @@ In conclusion, this report presents the design and development process of a syst
 
 During the integration process, we encountered several challenges such as noise in the circuit due to ungrounded inputs and a broken segment in the seven-segment display. If we were to continue working on this project, we could address these issues by grounding all unused inputs and using a different set of 7-segment displays.
 
-The final system was tested rigorously to ensure that it worked as intended. Although there were some minor glitches discovered during testing, we were able to find the reasons for most of them. The only remaining issue is the direction bit for the grey code generator, which could be addressed in future work. I'd do this by implementing the direction input as a switch in the combinatorial logic elements of the grey code generator. 
+The final system was tested to ensure that it worked as intended. Although there were some minor glitches discovered during testing, we were able to find the reasons for most of them. The only remaining issue is the direction bit for the grey code generator, which could be addressed in future work. I'd do this by implementing the direction input as a switch in the combinatorial logic elements of the grey code generator. 
 
-Overall, this project demonstrates how different sub-systems can be designed and integrated to create a functional system that achieves its intended purpose. It also highlights the importance of thorough testing throughout the development process to identify potential issues and make improvements accordingly. Future work could involve refining the grey code generator's direction bit functionality and exploring more advanced display options for better user experience.
+Overall, this project demonstrates how different sub-systems can be designed and integrated to create a functional system that achieves its intended purpose. It also highlights the importance of thorough testing throughout the development process to identify potential issues and make improvements accordingly. Future work could involve refining the grey code generator's direction bit functionality and getting it to work more reliably.
