@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/swen-221/swen-term-test-prep/"}
 ---
 
+
+# SWEN Term Test Prep
+
 Related: #java #programming #practise 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
