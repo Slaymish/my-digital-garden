@@ -10,12 +10,13 @@ Hamish Burke || 27-03-2023
 ***
 
 # Java Memory Model
+
 - Compared to C++/C, where can manually alloc/dealloc [^1]
 - Object memory address can't be accessed by programmer
 - Memory address **can** be changed during object lifetime
 
+## Updates to come
 
-### Updates to come
 - [[Valhalla\|Valhalla]]
 	- Combines primitive types and objects
 - [[Lilliput\|Lilliput]]
@@ -25,14 +26,16 @@ Hamish Burke || 27-03-2023
 ***
 
 # Objects and Memory
+
 - All objects created on the heap [^2]
 
 ## Reachable Object
+
 - If a reference is stored in a local var or static field
 - Or stored in a field or array of a reachable object
 
+### How to Handle an OutOfMemory exception
 
-### How to handle an OutOfMemory exception
 - Catch the exception
 - From beginning, declare static array of ints
 	- Size is amount you memory you need
@@ -42,6 +45,7 @@ Hamish Burke || 27-03-2023
 ***
 
 # Mark 'n Sweep
+
 *Method of garbage collection*
 
 - Reachable objects are marked
@@ -54,16 +58,19 @@ Hamish Burke || 27-03-2023
 ***
 
 # JVM Tuning
+
 - Can locally change options
 -  Memory management etc
 
 
 - Can attempt to force Garbage Collection:
+
 ```java
 System.gc(); // requests it, can fail
 ```
 
-#### WeakReferences
+## WeakReferences
+
 - Java class: `WeakReference` is a part of the `java.lang.ref` package used to create weak references to objects.
 - Memory management: It enables more efficient garbage collection by allowing the JVM to collect objects when they're no longer in use.
 - Use case: Ideal for creating caches, as it enables the garbage collector to reclaim memory resources once the object is no longer needed.
@@ -74,8 +81,6 @@ System.gc(); // requests it, can fail
 
 
 Next: Generics
-
-
 
 [^1]: [[NWEN241/NWEN Dynamic Memory Management\|NWEN Dynamic Memory Management]]
 [^2]: [[NWEN241/NWEN Storage Classes#^c0dd0a\|Same as C heap]]
