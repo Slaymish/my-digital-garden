@@ -12,6 +12,7 @@ Hamish Burke || 21-03-2023
 - Added in Java 1.4
 
 Basic use
+
 ```java
 assert <condition>;
 assert <condition> : <message>;
@@ -20,7 +21,8 @@ assert x!=null
 // If x is null and assertions enabled
 ```
 
-# How to enable assertions
+# How to Enable Assertions
+
 *May be disabled by default*
 
 CLI:
@@ -44,6 +46,7 @@ Method contracts:
 - everything method has one
 	- if not explicit, any object accepted for params is ok
 - explicit below
+
 ```java
 int factorial(int n){
 assert n>=0;
@@ -52,10 +55,10 @@ return n*factorial(n-1);
 }
 ```
 
-
 Pre/Post conditions:
-- Checks at start/end (respectivley) of method
+- Checks at start/end (respectively) of method
 - eg
+
 ```java
 void methodName(...){
 	assert precondition();
@@ -65,7 +68,6 @@ void methodName(...){
 	finally{ assert postcondition(); }
 }
 ```
-
 
 <h2 align="center">
 
@@ -86,6 +88,7 @@ If code to encode logic is 1k lines, a min of 1k lines of test and 1k lines of a
 
 Programmatically enablling assertions:
 - Only works in class stated in
+
 ```java
 public class Main{
 	public static void main(String[] a){
@@ -105,6 +108,7 @@ class other{
 Old test that used to be need:
 - Still found in some legacy code
 - Junit now enables assertions automatically
+
 ```java
 @test void assertsAreRunning(){
 	try{ assert false:"AAAH";}
@@ -113,10 +117,10 @@ Old test that used to be need:
 }
 ```
 
-
 ***
 
 # Contracts
+
 - Precondition
 	- Blame the user of your code
 	- Can be
@@ -130,6 +134,7 @@ Old test that used to be need:
 **Invariants:**
 - Some property that holds for all the instances of a type
 - eg
+
 ```java
 record Positive(int x){ Positive{assert x>0;} }
 record Even(int x) { Even{ assert x%==0; }}
@@ -138,5 +143,3 @@ record Person(String name, Postive age){
 	//code here
 }
 ```
-
-
