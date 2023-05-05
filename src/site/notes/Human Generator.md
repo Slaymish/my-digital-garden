@@ -15,8 +15,8 @@ Hamish Burke || 19-03-2023
 
 ***
 
+# APIs Used
 
-## APIs Used
 - Dalle-2
 - Mid-journey
 - Stablediffusion
@@ -46,10 +46,9 @@ App: *Generate images for each prompt*
 App: *Format pathing for images and associated prompts*
 ```
 
-
 ***
 
-#### Possible extensions:
+## Possible Extensions:
 
 ```
 App: *Jframe viewer to vote yes/no to each photo*
