@@ -10,6 +10,7 @@ Hamish Burke || 27-02-2023
 ***
 
 # Section A
+
 1. true
 2. true
 3. true
