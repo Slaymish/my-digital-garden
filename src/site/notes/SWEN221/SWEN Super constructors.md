@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/swen-221/swen-super-constructors/"}
 ---
 
+
+# SWEN Super Constructors
+
 Related: #java 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
@@ -9,9 +12,11 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 07-03-2023
 ***
 
-## Traditional Java sub-classing
+## Traditional Java Sub-classing
+
 - Point is responsible to initialize x and y
 - Point 3D may not even know x,y
+
 ```java
 class Point{
 	private double x;
@@ -32,6 +37,7 @@ class Point3d extends Point {
 	public void z(double v){z=v;}
 }
 ```
+
 - 'super' has to be the first thing in constructor
 - 'this' can only be used after the super call
 
