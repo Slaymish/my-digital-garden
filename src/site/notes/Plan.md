@@ -9,79 +9,88 @@ Hamish Burke || 25-04-2023
 
 # To-do
 
-### [[NWEN241/NWEN MOC\|NWEN]]
-- [x] Exercise 3 ==5th May==
-	- [x] Activity 1
-	- [x] Activity 2
-	- [x] Activity 3
+## [[NWEN241/NWEN MOC\|NWEN]]
+
 - [ ] Assignment 3 ==8th May==
 	- [ ] Task 1
 	- [ ] Task 2
 	- [ ] Task 3
 
+## [[COMP261/COMP MOC\|COMP]]
 
-### [[COMP261/COMP MOC\|COMP]]
-- [x] Assignment 2 ==28th April==
-	- [x] Task 1
-	- [x] Task 2
-	- [x] Task 3
-	- [x] Task 4
-	- [ ] Task 5 (challenge)
+- Test 3 ==11th May==
 
-### [[EEEN202/EEEN MOC\|EEEN]]
+## [[EEEN202/EEEN MOC\|EEEN]]
+
 - [ ] Design Exercise 1 ==5th May==
-- [x] [[EEEN Test Prep\|Test 1]] ==27th April==
-	- [x] Practise Problem set
-		- [x] 1
-		- [x] 2
-		- [x] 3
-		- [x] 4
-		- [x] 5
-		- [x] 6
-		- [ ] 7
-		- [ ] 8
+- [ ] Microcontroller Lab 1 ==9th May==
 
-### [[SWEN221/SWEN_MOC\|SWEN]]
-- [ ] Assignment 2 ==3rd May==
-- [x] [[SWEN Term Test 2 Prep\|Term test 2]] ==28th April==
+## [[SWEN221/SWEN_MOC\|SWEN]]
 
+- [ ] Connect Lab ==7th May==
+
+## Lectures:
+
+- Monday
+	- [ ] EEEN
+	- [ ] SWEN
+	- [ ] NWEN
+- Tuesday
+	- [ ] COMP
 
 ***
 
-## Tuesday 25th
+# Thursday 4th
+
 *Due: nothing*
 
 **Todo:**
-- [x] NWEN Exercise 3 - Activity 1
-- [x] Start COMP Task 5 (challenge)
+- [ ] Continue EEEN Report
+- [ ] Watch lectures 
 
-## Wednesday 26th
+# Friday 5th
+
+Due: 
+- EEEN Design Report ==6pm==
+
+**Todo:**
+- [ ] Submit EEEN Report
+- [ ] Start NWEN Assignment 3
+- [ ] COMP Tutorial ==marking==
+- [ ] Watch lectures
+
+# Saturday 6th
+
 *Due: nothing*
 
 **Todo:**
-- [x] Practice EEEN Test Problem set
-- [x] NWEN Exercise 3 - Activity 1 and 2
-- [x] Complete COMP Task 5 (challenge)
-- [ ] Start SWEN Assignment 2
+- [ ] Start EEEN Microcontroller lab
+- [ ] Continue NWEN Assignment
 
-## Thursday 27th
+# Sunday 7th
+
 Due:
-- EEEN Test ==10am==
+- SWEN Lab ==11:59pm==
 
 **Todo:**
-- [x] NWEN Exercise 3 - Activity 3
-- [ ] Continue working on SWEN Assignment 2
-- [x] SWEN Practise Questions
+- [ ] Finish NWEN Assignment 3
+- [ ] Study for Comp test
 
+# Monday 8th
 
-## Friday 28th
-Due:
-- SWEN Test ==6pm==
-- COMP Assignment ==12pm==
+Due: 
+- NWEN Assignment 3 ==11:59pm==
 
 **Todo:**
-- [x] Finish and submit NWEN Exercise 3
-- [ ] Finish and submit SWEN Assignment 2
-- [ ] Double check and submit COMP Assignment 2
+- [ ] Submit NWEN Assignment
+- [ ] Finish Microcontroller lab
+- [ ] Study for comp test
 
+# Tuesday 9th
 
+Due: 
+- EEEN Microcontroller Lab 1 ==6pm==
+
+**Todo:**
+- [ ] Submit EEEN Lab
+- [ ] Study for comp test
