@@ -45,7 +45,7 @@ Hamish Burke || 25-04-2023
 *Due: nothing*
 
 **Todo:**
-- [ ] Continue EEEN Report
+- [x] Continue EEEN Report
 - [ ] Watch lectures 
 
 # Friday 5th
@@ -56,7 +56,7 @@ Due:
 **Todo:**
 - [ ] Submit EEEN Report
 - [ ] Start NWEN Assignment 3
-- [ ] COMP Tutorial ==marking==
+- [x] COMP Tutorial ==marking==
 - [ ] Watch lectures
 
 # Saturday 6th
