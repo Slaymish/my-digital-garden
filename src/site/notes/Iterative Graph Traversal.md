@@ -11,8 +11,8 @@ Hamish Burke || 01-04-2023
 
 [[COMP Graphs and data structures\|COMP Graphs and data structures]]
 
+# Example Pseudo-code
 
-## Example Pseudo-code
 ```
 TraverseGraph(startNode):
 	Declare 'fringe' (Stack/Queue)
@@ -34,8 +34,8 @@ TraverseGraph(startNode):
 	- can also use PriorityQueue
 - Non recursive
 
+# Example BFS Java Code:
 
-## Example BFS java code:
 ```java
 public void traverseGraph(Node start){
 	Set<Node> visited = new HashSet<Node>();
@@ -56,16 +56,15 @@ public void traverseGraph(Node start){
 }
 ```
 
-
 ***
-
 
 # Finding a Path
 
 - Use priority queue
 	- Ordered by shortest straight-line distance from node to goal
 
-### Example Pseudocode
+## Example Pseudocode
+
 ```
 FindPath(start,goal):
 	fringe (PriorityQueue)
@@ -82,16 +81,14 @@ FindPath(start,goal):
 
 ```
 
-
-## Keeping track of the path
+# Keeping Track of the Path
 
 - Need to have 'backpointers'
 	- Records how we got to a node
 
 - Use a Map from node to prev node
 
-
-## Storing Paths
+# Storing Paths
 
 ```
 FindPath(start,goal):
@@ -113,15 +110,14 @@ FindPath(start,goal):
 
 - If edges directed contain from/to nodes, can only put edge in fringe
 
-
-
-## Reconstructing Paths from BackPointers
+# Reconstructing Paths from BackPointers
 { #4cc5ce}
 
 
 
 
 When backpointers is a Map<node,prev>:
+
 ```
 ReconstructPath(start,goal,backpointers)
 	path (list of nodes)
@@ -134,6 +130,7 @@ ReconstructPath(start,goal,backpointers)
 ```
 
 When backpointers is a Map<node,edge>:
+
 ```
 ReconstructPath(start,goal,backpointers)
 	path (list of edges)
@@ -145,10 +142,9 @@ ReconstructPath(start,goal,backpointers)
 	until node = start
 ```
 
-
 ***
 
-## How to find the Shortest Path
+# How to Find the Shortest Path
 
 - Assume edges have a length
 - Order PriorityQueue by length of path to node on the fringe
