@@ -10,6 +10,7 @@ Hamish Burke || 02-04-2023
 ***
 
 # Generics
+
 *Create classes, interfaces, and methods that can work with any data type*
 
 - Generics use type parameters that are defined when the class or method is declared.
@@ -39,8 +40,6 @@ v.add(new Cat());
 Cat c = v.get(0); // Don't have to cast (when using generics)
 ```
 
-
-
 ***
 
 # Shape EG (Generic Classes)
@@ -64,16 +63,14 @@ class ShapeGroup<T extends Shape> implements Shape{
 }
 ```
 
-### Using it
+## Using it
+
 ```java
 ShapeGroup<Square> sg1 = new ShapeGroup<Square>();
 sg1.add(new Square());
 ```
 
-
-
 **Alternative to above**
-
 
 ```java
 interface Shape { void draw(Graphics g);}
@@ -109,7 +106,6 @@ class A<B extends C> {...}
 
 # Generic Methods
 
-
 ```java
 class Point{int x;int y;}
 class ColPoint extends Point {int color;}
@@ -130,11 +126,9 @@ class Aux1 {
 }
 ```
 
-
-
 ***
 
-# Var type
+# Var Type
 
 ```java
 final class Var<T> {
@@ -157,7 +151,6 @@ final class Var<T> {
 record Person(Var<String> name, Var<Integer> age){}
 ```
 
-
 ***
 
 - [ ] Read generics reading in resources
@@ -179,8 +172,8 @@ void foo() {
 }
 ```
 
-
 Instead generics:
+
 ```java
 class Cup<T> {
 	T f;
@@ -192,7 +185,7 @@ class Cup<T> {
 Cup<Tea> myCup = new Cup<Tea>(new Tea());
 ```
 
-### Wildcards type
+## Wildcards Type
 
 ```java
 Cup<?> myCup = CupProvider.getCup();
@@ -201,8 +194,8 @@ Cup<?> myCup = CupProvider.getCup();
 Cup<? extends Drink> myCup = CupProvider.getCup();
 ```
 
+## Subtyping
 
-### Subtyping
 - `Cup<Tea> ≠ Cup<Object>`
 - `Cup<Tea> = Cup<?>`
 - `Cup<Tea> = Cup<? extends Drink>`
@@ -212,11 +205,10 @@ Cup<? extends Drink> myCup = CupProvider.getCup();
 
 ***
 
-## Wildcard Capture
+# Wildcard Capture
 
 - Wildcard type = '?'
 	- EG `List<?> x`
-
 
 ```java
 void m(Cup<?> c) {
@@ -234,10 +226,9 @@ void swap(ArrayList<?> list){
 <X> swapTwo(ArrayList<X> l){}
 ```
 
-
 ***
 
-## Lower Bound
+# Lower Bound
 
 ```java
 static <T> void sort(List<T> list, Comparator<? super T> c)
