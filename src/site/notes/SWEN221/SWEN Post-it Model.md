@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/swen-221/swen-post-it-model/"}
 ---
 
+
+# SWEN Post-it Model
+
 Related: #java 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
@@ -10,7 +13,7 @@ Hamish Burke || 02-03-2023
 ***
 
 - Pointers to objects similar to putting a postit on an object
-- If post-it attched to obj, you can reach it
+- If post-it attached to obj, you can reach it
 
 ![500][SCR-20230301-kkt.png]
 
