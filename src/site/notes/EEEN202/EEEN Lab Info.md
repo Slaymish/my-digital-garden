@@ -3,6 +3,8 @@
 ---
 
 
+# EEEN Lab Info
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
@@ -26,6 +28,6 @@ Marks:
 MUX:
 - always one output
 - used to switch between two diff things
-- make the selecton with control select lines
+- make the selection with control select lines
 
 
