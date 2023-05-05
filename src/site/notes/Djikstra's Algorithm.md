@@ -10,10 +10,12 @@ Hamish Burke || 01-04-2023
 ***
 [[COMP Graphs and data structures\|COMP Graphs and data structures]]
 
-# Finding the shortest path
+# Finding the Shortest Path
 
-#### Example pseudocode:
+## Example Pseudocode:
+
 - uses [[Iterative Graph Traversal#^4cc5ce\|ReconstructPath()]]
+
 ```
 FindShortestPath(start,goal):
 	fringe (PriorityQueue of <node,edge,length-to-node)
@@ -41,7 +43,8 @@ FindShortestPath(start,goal):
 
 # Finding **All** Shortest Paths:
 
-### Ex PseudoCode
+## Ex PseudoCode
+
 ```
 FindShortestPaths(start,goal):
 	fringe (PriorityQueue of <node,edge,length-to-node)
@@ -61,13 +64,14 @@ FindShortestPaths(start,goal):
 	return backpointers (= all shortest paths)
 ```
 
-
 ***
 
-## Cost of Djikstra's algorithm?
+# Cost of Djikstra's Algorithm?
+
 *If a graph has N nodes and E edges*
 
 **Identify the most expensive line**
+
 ```
 while fringe is not empty:
 	..
@@ -77,13 +81,13 @@ while fringe is not empty:
 		
 ```
 
-
 $= O((E+N) \ Log N)$
 
 
 ***
 
-## Problems
+# Problems
+
 - If we want **all** shortest paths
 	- **Djikstra is best**
 	- Never backtracks and every iteration adds a path to the answer (greedy)
@@ -99,7 +103,7 @@ $= O((E+N) \ Log N)$
 
 ***
 
-#### Example code:
+## Example Code:
 
 ```java
 public List<Node> findShortestPath(Node start, Node goal) {
