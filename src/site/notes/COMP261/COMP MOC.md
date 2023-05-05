@@ -39,3 +39,5 @@ Second half
 [[COMP Ford-Fulkerson method\|COMP Ford-Fulkerson method]]
 [[COMP Residual Graphs\|COMP Residual Graphs]]
 
+[[COMP Monopoly and Oligopoly\|COMP Monopoly and Oligopoly]]
+
