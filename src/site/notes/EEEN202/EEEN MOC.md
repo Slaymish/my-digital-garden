@@ -3,6 +3,8 @@
 ---
 
 
+# EEEN MOC
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
@@ -47,6 +49,8 @@ second half:
 [[EEEN Test Prep\|EEEN Test Prep]]
 
 [[EEEN Problem Set - Combinatorial Logic\|EEEN Problem Set - Combinatorial Logic]]
+
+[[EEEN Design Report Task\|EEEN Design Report Task]]
 
 
 
