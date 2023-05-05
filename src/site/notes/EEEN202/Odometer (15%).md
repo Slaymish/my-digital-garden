@@ -34,7 +34,8 @@ Hamish Burke || 25-03-2023
 - Make using J-K FF's
 - For stop signal, use [[EEEN202/EEEN Asynchronous Counters#^4e71a9\|Frequency division]]
 
-#### Mod
+## Mod
+
 - See [[EEEN202/EEEN Asynchronous Counters#^8b1771\|MOD number]]
 - MOD = 64
 - $2^n=64$
@@ -55,8 +56,19 @@ Add all HI outputs into a NAND gate, out of that is stop signal
 
 ***
 
-## For BCD convertor
+# For BCD Convertor
+
 - 74HCT4511?
 
-chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://assets.nexperia.com/documents/data-sheet/74HC_HCT393.pdf
+chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=<https://assets.nexperia.com/documents/data-sheet/74HC_HCT393.pdf>
+
+
+***
+
+# Real Construction
+
+Started using 74HCT393, changed to ==74HCT390== because that already counted in BCD. Plug HI's at state 50 into and gate plug that into ex or gate (74HCT86).
+
+74HCT390: Dual decade ripple counter
+<https://www.ti.com/lit/ds/symlink/cd74hct390.pdf?ts=1683174122181&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fzh-tw%252FCD74HCT390>
 
