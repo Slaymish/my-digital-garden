@@ -25,5 +25,3 @@ gcc -g buggy.c -o buggy // compile
 
 valgrind --leak-check=yes ./buggy // run
 ```
-
-
