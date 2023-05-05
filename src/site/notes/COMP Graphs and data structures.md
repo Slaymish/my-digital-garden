@@ -8,10 +8,13 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 26-03-2023
 ***
+
 # Graphs
+
 - Collection of nodes and edges
 
-### Applications
+## Applications
+
 - Places with connections
 	- Airports and flights etc
 - Entities with relationships
@@ -19,8 +22,8 @@ Hamish Burke || 26-03-2023
 - States and actions
 	- Games, plans
 
+# Kinds of Graphs
 
-# Kinds of graphs
 - Directed or undirected
 	- Symmetric or one-way
 	- Line with no arrows = undirected
@@ -35,9 +38,8 @@ Hamish Burke || 26-03-2023
 	- Edges between types
 		- eg supervisors and projects
 
+## How Connected?
 
-
-### How connected?
 - Sparse Graphs
 	- Most pairs of nodes not connected
 	- $|edges|<<|nodes|^2$
@@ -61,7 +63,6 @@ Traditional data structures:
 
 ***
 
-
 # Graph Algorithms
 
 **Algorithm 1:** [[Recursive DFS\|Recursive DFS]]
@@ -75,7 +76,7 @@ Traditional data structures:
 
 ***
 
-### Connected Components (undirected)
+## Connected Components (undirected)
 { #dabfa7}
 
 
@@ -97,6 +98,3 @@ traverse(node,comptNum)
 
 // all nodes that have the same component num, are directly connected
 ```
-
-
-
