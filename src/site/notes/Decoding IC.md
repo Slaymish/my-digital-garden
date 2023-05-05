@@ -11,6 +11,7 @@ Hamish Burke || 02-04-2023
 Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 
 # Decoders
+
 *activates an output that corresponds to a binary num on the input*
 
 - N input - $2^N$ possible combination
@@ -19,11 +20,11 @@ Is a [[EEEN Special Logic Function ICs\|EEEN Special Logic Function ICs]]
 - OUT can be active HI or LO
 
 ## Binary to Octal Decoder
+
 *A three-line-to-8-line decoder*
 
 - Aka '1-of-8' decoder
 	- Only one output HI at a time ($O_0 \ - \ O_7$)
-
 
 ## 74ALS138 Decoder
 
