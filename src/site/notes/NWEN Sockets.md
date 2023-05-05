@@ -9,7 +9,7 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 27-02-2023
 ***
 
-# Whats a socket?
+# Whats a Socket?
 
 What you need to know to allow the two procceses on a network to communicate?
 - IP address
@@ -19,17 +19,16 @@ What you need to know to allow the two procceses on a network to communicate?
 IP Address + port == socket
 </h3>
 
+# Port Numbers
 
-# Port numbers
 - Each host has 65,536 ports
-- Ports 0-1023 requires priviledges
+- Ports 0-1023 requires privileges
 - Some ports are reserved
 	- 20,21 : FTP
 	- 80,443 = http/https
 
+# Create a Interface between App & Network
 
-
-# Create a interface between app & network
 - App creates socket
 - Socket type dictates style of communication
 	- [[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
@@ -39,17 +38,15 @@ IP Address + port == socket
 		- Best effort
 		- Connectionless
 
-
 # TCP Server Overview
 { #02aff4}
 
 
 1. Create a socket with socket()
-2. Bind the socket to an adress using bind()
+2. Bind the socket to an address using bind()
 3. Listen for connections with  listen()
 4. Accept a connection with accept()
-5. Send and recieve data
-
+5. Send and receive data
 
 ```C
 // step 1
@@ -95,10 +92,8 @@ if(listen(fs,SOMAXCONN)<0){
 
 ```
 
-
-
 # TCP Client Overview
 
 1. Create a socket with socket()
 2. Connect the socket to the address of the server with connect()
-3. Send/Recive data
+3. Send/Receive data
