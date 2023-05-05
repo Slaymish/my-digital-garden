@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/adjacency-matrix/"}
 ---
 
+
+# Adjacency Matrix
+
 Related: #programming #java [[COMP Graphs and data structures\|Graphs]]
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -22,12 +25,13 @@ private Node[] nodes;
 ```
 
 - Use a 2D matrix to represent the graph
+
 ```java
 private int[] edges;
 ```
 
 - Number of rows and columns = number of nodes
-- $M_{ij} = 1$ if theres an edge from node i to node j
+- $M_{ij} = 1$ if there's an edge from node i to node j
 - $M_{ij}=0$ (blank) otherwise
 
 
@@ -45,7 +49,8 @@ private int[] edges;
 2D adjacency matrix
 - Requires $O(N^2)$ of memory space
 
-### Time cost
+### Time Cost
+
 - Find all nodes
 	- $O(N)$
 - Find all edges
