@@ -16,8 +16,8 @@ Hamish Burke || 27-02-2023
 |         | OS           |
 | Lowest  | Hardware     |
 
+# System Resources
 
-## System resources
 - Physical
 	- Eg input devices, screen displays etc
 - Virtual
@@ -28,9 +28,9 @@ Hamish Burke || 27-02-2023
 
 ***
 
-# System Call invocations
+# System Call Invocations
 
-### System Call invocation example
+## System Call Invocation Example
 
 ```C
 #include <stdio.h>
@@ -42,7 +42,8 @@ void main(void)
 }
 ```
 
-## printf()
+# printf()
+
 - Standard C library makes system call invocation
 	- write()
 	- in user mode
@@ -50,15 +51,13 @@ void main(void)
 	- sys_write()
 	- in kernel mode
 
+# System Call Interface
 
-
-# System call interface
 - App devs do not have direct access to system calls
 - Can access through system call api
 
+# System Calls
 
-
-# System calls
 `#include <sys/type.h>`
 `#include <sys/socket.h>`
 
