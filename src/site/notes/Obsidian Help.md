@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/obsidian-help/"}
 ---
 
+
+# Obsidian Help
+
 [[online/home\|home]]
 Hamish Burke || 14-03-2023
 ***
@@ -29,7 +32,3 @@ Misc:
 *** = Page break
 
 ```
-
-
-
-
