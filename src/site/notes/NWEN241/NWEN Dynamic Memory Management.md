@@ -9,19 +9,22 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 27-02-2023
 ***
 
-## Why?
+# Why?
+
 - Don't know size of array ahead of time
 
 ***
 
 # Dynamic Memory Allocation
+
 - Allocated in the [[NWEN241/NWEN Process Layout#^c40dd5\|Heap Segment]]
-- calloc()
+	- calloc()
 	- Allocated array of memory
 	- Return the address of the 1st byte 
 		- Cast the returned address to the wanted type
 	- Can return null if failed
 	- Sets all values to 0
+
 ```C
 void *calloc(size_t num, size_t esize)
 
@@ -32,7 +35,9 @@ void *calloc(size_t num, size_t esize)
 
 // Memory of size num*esize is allocated
 ```
+
 In use:
+
 ```C
 float *nums;
 // set other vars ....
@@ -48,10 +53,10 @@ if(num == NULL){
 	- NULL return if not enough memory available
 	- **Doesn't** set all values to 0
 Prototype:
+
 ```C
 void *malloc(size_t esize);
 ```
-
 
 - realloc()
 	- Extend or reduce the amount of space allocated previously
@@ -59,10 +64,13 @@ void *malloc(size_t esize);
 	- esize = new size to allocate
 	- NULL if reallocation fails
 Prototype:
+
 ```C
 void *realloc(void *ptr, size_t esize);
 ```
+
 Example:
+
 ```C
 ...
 nums = (float *)calloc(5,suzeof(float));
@@ -73,16 +81,19 @@ nums = (float *)realloc(nums, 10*sizeof(float));
 ```
 
 - free()
-	- free up a piece of memory thats no longer needed
+	- free up a piece of memory that's no longer needed
 	- If free memory allocated with calloc, entire array is released
 	- Undefined behaviour if passed (could crash):
 		- address of already freed memory
 		- address of non dynamically allocated memory
 Prototype:
+
 ```C
 void free(void *ptr);
 ```
+
 Example:
+
 ```C
 float *nums;
 ...
@@ -91,17 +102,17 @@ num = (float *) calloc(a_size, sizeof(float));
 free(nums); // num still pointing
 ```
 
-
 > [!Memory Allocation]
 > Dynamically allocated memory **doesn't** go away at end of fn's
 > you MUST explicitly free it up
 
-
 ***
 
 # Allocating Memory for 2d Arrays
+
 - Allocate an array of pointers
 - Make each pointer point to a 1D array
+
 ```C
 float **A; // A = array (pointer) of float pointers
 int X;
@@ -114,8 +125,10 @@ for (X=0;X<5;X++)
 // A[X][Y] is the Yth entry in the arr that the Xth member of A points to
 ```
 
-## Irregular-sized 2D array
+## Irregular-sized 2D Array
+
 - Benefit of using pointers
+
 ```C
 float **A; // A = array (pointer) of float pointers
 int X;
@@ -126,14 +139,14 @@ for (X=0;X<5;X++)
 	A[X] = (float *) calloc(X+1, sizeof(float));
 ```
 
-
 ***
 
-# Common issues
+# Common Issues
 { #53155f}
 
 
 - Returning a pointer to an automatic variable
+
 ```C
 int *foo(void)
 {
@@ -149,6 +162,7 @@ int *foo(void)
 
 - Heap block overrun
 	- Similar to an array going out of bounds
+
 ```C
 void foo(void)
 {
@@ -163,6 +177,7 @@ void foo(void)
 
 - [[Memory Leaks\|Memory Leak]]
 	- Loss of pointer to allocated memory
+
 ```C
 int *pi;
 
@@ -184,6 +199,7 @@ int main(void)
 - Potential memory leak
 	- Loss of pointer to beginning of memory block
 	- Can recover through pointer arithmetic
+
 ```C
 int *ip = NULL;
 
@@ -197,6 +213,7 @@ void foo(void)
 ```
 
 - Free non-heap or unallocced memory
+
 ```C
 void foo(void)
 {
@@ -205,6 +222,6 @@ void foo(void)
 }
 ```
 
-
 # Valgrind
+
 - Open source tool for detecting memory issues
