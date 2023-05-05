@@ -8,32 +8,30 @@ Hamish Burke || 18-03-2023
 ***
 
 # Landing
+
 - Two buttons, business/experimental
 	- left/right
 	- full screen
 - When either clicked
 
 # Business
+
 - Vid preview grid
 - when clicked
 	- [[Louis Website#^a93173\|go to vid view]]
 
-
 # Experimental
 
-
 # Contact view
+
 - added to each page
 
-
-
 # Video view
-
-
 
 ***
 
 # Upload Post
+
 - video
 - description
 - date released
