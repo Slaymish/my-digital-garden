@@ -15,40 +15,38 @@ Hamish Burke || 25-04-2023
 	- [ ] Task 1
 	- [ ] Task 2
 	- [ ] Task 3
+- [ ] Lectures
+	- [ ] Mon
+	- [ ] Weds
 
 ## [[COMP261/COMP MOC\|COMP]]
 
-- Test 3 ==11th May==
+- [ ] Test 3 ==11th May==
+- [ ] Lectures
+	- [ ] Lecture Thurs
+	- [ ] Lecture Fri
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
-- [ ] Design Exercise 1 ==5th May==
+- [x] Design Exercise 1 ==5th May==
 - [ ] Microcontroller Lab 1 ==9th May==
+- [ ] Lectures
+	- [ ] Mon
+	- [ ] Thurs
+	- [ ] Fri
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] Connect Lab ==7th May==
+- [ ] **WATS** ==LATE==
+- [ ] Lectures
+	- [ ] Mon
+	- [ ] Weds
+	- [ ] Thurs
 
-## Lectures:
 
-- Monday
-	- [ ] EEEN
-	- [ ] SWEN
-	- [ ] NWEN
-- Tuesday
-	- [ ] COMP
-- [ ] Wednesday
-- [ ] Thursday
 
 ***
-
-# Thursday 4th
-
-*Due: nothing*
-
-**Todo:**
-- [x] Continue EEEN Report
-- [ ] Watch lectures 
 
 # Friday 5th
 
