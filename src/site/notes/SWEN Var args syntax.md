@@ -32,6 +32,7 @@ static <T> int foo(T... ps){return ps.length;}
 ```
 
 - Be careful when you use @SafeVarargs
+
 ```java
 
 @SafeVarargs
@@ -44,8 +45,8 @@ static String[] breakBadIdea(String a){return callBadIdea(a);}
 
 ```
 
+## Correct Use of Var Args
 
-## Correct use of var args
 ```java
 @SafeVarargs
 static <T> int foo(T... ps){return ps.length;}
@@ -56,4 +57,3 @@ static <T> List<T> make(T... ps){return List.of(ps);}
 // Can pass to any var args methods in std library
 // as they are correct
 ```
-
