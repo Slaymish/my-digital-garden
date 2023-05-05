@@ -8,13 +8,16 @@ Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 10-03-2023
 ***
+
 # Sequential Logic
+
 - Combination of the combinational logic elements as well as memory elements
 
 ![500][SCR-20230310-r1t.png]
 
 ## Latch
-- Asychronous
+
+- Asynchronous
 	- No timing signal in system
 - Output triggered by input
 
@@ -29,6 +32,7 @@ Hamish Burke || 10-03-2023
 - Output depends on startup
 
 ### Setting the NAND Latch
+
 ![400][SCR-20230310-vfc.png]
 
 ![500][SCR-20230313-e53.png]
@@ -39,21 +43,22 @@ Hamish Burke || 10-03-2023
 | 0   | 1     | Q = 1     |
 | 1   | 0     | Q = 0     |
 | 0   | 0     | Invalid*   |
+
 *Produces $Q = \neg Q = 1$\*
 
 ### Problems
+
 - Last line of truth table is bad
-- not a syncronous device
+- not a synchronous device
 
+### Alternative Presentations of a NAND Gate Latch:
 
-### Alternative presentations of a NAND Gate Latch:
 ![300][SCR-20230313-e86.png]
 
 ![300][SCR-20230313-e89.png]
 
-
-
 ## Application
+
 - Eliminating mechanical switch bounce
 	- Place switch before NAND latch
 ![200][SCR-20230313-ebf.png]
@@ -75,6 +80,7 @@ Hamish Burke || 10-03-2023
 | 0   | 1     | Q = 0     |
 | 1   | 0     | Q = 1     |
 | 0   | 0     | No change |
+
 *Produces $Q = \neg Q = 0$
 
 
@@ -87,8 +93,8 @@ Hamish Burke || 10-03-2023
 - Synchronous
 	- Triggered by a [[EEEN202/EEEN_Clocks\|clock]]
 
-
 ## Applications
+
 - FF's are commonly used for storage and transfer of binary data
 
 Data Transfer:
@@ -100,12 +106,13 @@ Data Transfer:
 	- Slower but simpler than parallel transfers
 	- Data IN is one input
 
+### Shift Register
 
-### Shift register 
 - Three bit 'register' contains three FF's
 - Shift register contains two registers, and puts the data from one to the other
 
-#### Shift register Counters
+#### Shift Register Counters
+
 - The output of the last FF in the register is then connected back to the fist FF in some way.
 
 Related: [[EEEN202/EEEN Schmitt-Trigger Devices\|Schmitt-Trigger Devices]]
