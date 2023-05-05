@@ -2,21 +2,24 @@
 {"dg-publish":true,"permalink":"/eeen-test-prep/"}
 ---
 
+
+# EEEN Test Prep
+
 Related: 
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 24-04-2023
 ***
 
+## Test Content:
 
-
-### Test content:
 - Combinatorial logic - 8 marks
 - Combinatorial design - 10 marks
 - Counters - 8 marks
 - Arbitrary counter design - 18 marks
 
-#### How can you represent combinatorial logic?
+### How Can You Represent Combinatorial Logic?
+
 - Truth tables 
 - Logic diagram
 - Logic expression
@@ -24,17 +27,19 @@ Hamish Burke || 24-04-2023
 
 *Understand all the above*
 
+# [[EEEN202/EEEN K Maps\|K maps]]
 
-## [[EEEN202/EEEN K Maps\|K maps]]
 - helps us simplify
 
-## Info
+# Info
+
 - **20% weight**
 - For circuit diagrams, will give pinout
 - If just saying diagram, do a logic diagram
 - Know how to use/simplify muxes
 
-## Prep
+# Prep
+
 - [x] Work through problem sets
 - [ ] Work through assignment (model answers)
 
