@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/string-builder/"}
 ---
 
+
+# StringBuilder
+
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -14,6 +17,7 @@ Hamish Burke || 24-03-2023
 3. StringBuilder should be used when you need to perform multiple string concatenations to avoid excessive memory usage.
 
 **Example Code:**
+
 ```java
 public class StringBuilderExample {
     public static void main(String[] args) {
@@ -40,7 +44,6 @@ public class StringBuilderExample {
     }
 }
 ```
-
 
 **Using StringBuilder over Strings:**
 StringBuilder is more efficient when appending multiple times, as it avoids creating new String objects for each concatenation. This reduces memory and CPU usage, improving performance.
