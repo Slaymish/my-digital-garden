@@ -46,8 +46,7 @@ FindShortestPath(start,goal):
 
 ```
 
-
-# When does it work?
+# When Does it Work?
 
 - Its the shortest path when following conditions are satisfied
 
@@ -61,13 +60,12 @@ FindShortestPath(start,goal):
 
 ***
 
-## Admissible heuristic for A*
+## Admissible Heuristic for A*
 
 - Is admissible if it always **underestimates** the remaining cost
 	- Overestimating can cause A* to avoid a path (even it its the best)
 
-
-## Monotonic/Consistent heuristic for A*
+## Monotonic/Consistent Heuristic for A*
 
 - When visiting a node, must be the best path to a node
 - To be able to commit to visited nodes:
