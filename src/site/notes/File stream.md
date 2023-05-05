@@ -9,7 +9,8 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 27-02-2023
 ***
 
-# Stream buffering
+# Stream Buffering
+
 *common pitfall when dealing with file streams*
 
 - If you don't close file properly, stuff you've written will remain in buffer
@@ -21,8 +22,7 @@ scanf("%s", str); // User types "The quick brown fox"
 // str will only be assign "The"
 ```
 
-
-### Modes
+## Modes
 
 | Mode          | Description |     
 | ------------- | ----------- | 
@@ -37,8 +37,8 @@ scanf("%s", str); // User types "The quick brown fox"
 
 ***
 
+## C Has Access to 3 File Streams:
 
-### C has access to 3 file streams: 
 - stdin
 - stdout
 - stderr
@@ -54,7 +54,8 @@ scanf("%s", str); // User types "The quick brown fox"
 
 ***
 
-### Stream I/O Functions
+## Stream I/O Functions
+
 - fscanf
 - fprintf
 - fread
@@ -64,6 +65,7 @@ scanf("%s", str); // User types "The quick brown fox"
 ***
 
 # Opening a File
+
 *A file must be opened before it can be used*
 
 ```C
@@ -72,6 +74,7 @@ fp = fopen(filename, mode); // can be absolute or local path
 ```
 
 Example
+
 ```C
 FILE *fp;
 fp = fopen("mydata","r"); // opened for reading only
@@ -87,8 +90,8 @@ FILE *fp;
 fp = fopen("file.csv","a"); // Creates a file (if doesn't exist), otherwise appends to file
 ```
 
-
 **Check is fopen() succeeded**
+
 ```C
 FILE *fp;
 fp = fopen("data","r");
@@ -98,12 +101,12 @@ if(fp == NULL){
 }
 ```
 
-
 ***
 
-# Closing a file
+# Closing a File
 
 - Entire buffer will be flushed
+
 ```C
 fclose(fp); // close the file
 
@@ -112,16 +115,17 @@ fclose(fp); // close the file
 fflush(fp); // write buffer to file (only needed with 'w' and 'a')
 ```
 
-
 ***
 
-### fscanf()
+## fscanf()
+
 - Same as scanf() except need stream (FILE *) as a arg
 	- scanf()  = reads formatted input from stdin stream
 	- fscanf() = reads formatted input from specified stream
 - Returns number of words read
 
 EG:
+
 ```C
 int a,b;
 FILE *fp;
@@ -132,18 +136,19 @@ fscanf(fp, "%d %d", &a, &b);
 // scanf("%d", &a) == fscanf(stdin, "%d", &a)
 ```
 
-- '%x' interpretes input as hex num
+- '%x' interprets input as hex num
 	- Can also be used to write a num as hex to file
 
 
 ***
 
-## Detecting end of file
+# Detecting End of File
 
 - End-of-file indicator (EOF) informs the program when there are no more data (no more bytes) to be processed
 - fscanf() returns EOF if end-of-file is rached, or errors were encountered when reading from stream
 
 Example:
+
 ```C
 int ret, var;
 ret = fscanf(fp, "%d", &var);
@@ -159,6 +164,7 @@ if (ret == EOF){
 	- FALSE otherwise
 
 EG:
+
 ```C
 int var;
 fscanf(fp,"%d",&var);
@@ -172,6 +178,7 @@ if(feof(fp)){
 # fprintf()
 
 eg:
+
 ```C
 int a = 100, b=200;
 FILE *fp;
@@ -179,11 +186,10 @@ fp = fopen("datafile","w");
 fprintf(fp,"%d %d",a,b);
 ```
 
-
-
 ***
 
 # Example
+
 *Capitalise the first letter of each line*
 
 ```c
@@ -220,4 +226,3 @@ int main(void)
 }
 
 ```
-
