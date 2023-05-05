@@ -13,7 +13,8 @@ Two equally stable output states
 
 ***
 
-# Bistable multivibrators
+# Bistable Multivibrators
+
 *Electronic circuits with two stable states, used for storing binary data* 
 
 **Latches**
