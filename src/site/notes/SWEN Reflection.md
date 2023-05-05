@@ -10,8 +10,8 @@ Hamish Burke || 26-04-2023
 ***
 
 # Whats Reflection?
-*access with java.lang.Class*
 
+*access with java.lang.Class*
 
 ```java
 Class<? extends Point> myClass = this.getCLass();
@@ -26,8 +26,8 @@ String.class == "Foo".getClass(); // .class is a language feature
 Class<?> x = belh.getClass(); // same as Class<? extends Object>
 ```
 
-
 # Methods
+
 ```java
 Object o = new SimpleClass();
 
@@ -46,8 +46,8 @@ for(Method m: ms){
 - c.getMethods()
 	- Returns all methods in class (though not private methods)
 
+# Invoke Methods through Reflection
 
-# Invoke methods through reflection
 *Surround in try/catch*
 
 - Method m = c.getMethod("aSimpleMethod");
@@ -58,8 +58,8 @@ Can throw:
 - InvocationTargetException
 - IllegalAccessException
 
+# Get/Set Fields
 
-# Get/Set fields
 ```java
 Field f = o.getField("aField");
 f.get(o,f); // 2
@@ -70,9 +70,8 @@ f.setAccessable(true); // throws inaccessableObject in certain conditions
 f.set(4,f); // Allows for changing private fields 
 ```
 
+# Why is Reflection Useful
 
-
-# Why is reflection useful
 *Used to plug-in loading and automatically upgradable programs*
 
 ```java
@@ -83,5 +82,3 @@ Question q = (Question)c
 
 // Now can use question object with any more reflection
 ```
-
-
