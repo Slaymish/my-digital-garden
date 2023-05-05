@@ -11,27 +11,21 @@ Hamish Burke || 27-02-2023
 
 [[NWEN Processes\|NWEN Processes]]
 
+# System Process Commands
 
-### System process commands
+# Interprocess Communication
 
+# Client-server Model
 
-
-
-## Interprocess communication
-
-
-
-
-# Client-server model
 - Client process
 	- Needs to know the existence and address of the sever
 - Server 
 	- Doesn't need to know either prior to connection
 - Once connected
-	- Both sides can send/recieve
+	- Both sides can send/receive
 
+## Client/server Communication
 
-### Client/server Communication
 - Can use [[NWEN Sockets\|sockets]]
 
 
