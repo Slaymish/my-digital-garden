@@ -38,7 +38,6 @@ SwingUtilitites.invokeLater(() -> {
 	...});
 ```
 
-
 ***
 
 # Syntax
@@ -72,10 +71,10 @@ p->p.getAge()
 p->{return p.getAge();}
 ```
 
-
 ***
 
 # Functional Interfaces
+
 - Interfaces with at least one method
 
 - `Function<T,R>`
@@ -85,6 +84,7 @@ p->{return p.getAge();}
 		- andThen()
 
 Example of function:
+
 ```java
 Function<Int,Tint> add2 = x->x+2;
 Function<Int,Tint> multiply2 = x->x*2;
@@ -92,8 +92,6 @@ Function<Int,Tint> multiply2 = x->x*2;
 System.out.println(
 	add2.andThen(multiply2).apply(1));
 ```
-
-
 
 - `Consumer`
 	- A function that eats up a value
@@ -119,6 +117,7 @@ System.out.println(
 ***
 
 EG:
+
 ```java
 // TO avoid this kind of repetition
 
@@ -148,12 +147,11 @@ public interface Reduce<T>{
 }
 ```
 
-
 ***
 
 # `Optional<T>`
 
-- Makes null pointer exceptions less prominant
+- Makes null pointer exceptions less prominent
 
 ```java
 Optional<Person> marco = Optional.of(new Person("Marco",34));
