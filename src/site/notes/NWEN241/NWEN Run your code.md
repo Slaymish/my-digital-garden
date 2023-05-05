@@ -10,6 +10,7 @@ Hamish Burke || 27-02-2023
 ***
 
 **To compile:**
+
 ```shell
 gcc hello.c -o hello
 ```
@@ -17,6 +18,7 @@ gcc hello.c -o hello
 - Creates a executable named 'hello'
 
 **To run:**
+
 ```shell
 ./hello
 ```
@@ -25,7 +27,8 @@ gcc hello.c -o hello
 - './' means that the executable is at the current working directory
 
 ***
-### Complilation Process:
+
+# Complilation Process:
 { #2995be}
 
 
@@ -34,14 +37,15 @@ gcc hello.c -o hello
 3. Assembly Phase
 4. Linking Phase
 
+# Cppcheck
 
-## cppcheck
 - For C and C++ code that checks for coding errors, security vulnerabilities, and other issues that can lead to unexpected behavior or crashes.
 - Can detect programming errors, including memory leaks, null pointer dereferences, uninitialized variables, and buffer overflows.
 
 ***
 
 # GDB
+
 *GNU Debugger*
 
 - Can step through code
