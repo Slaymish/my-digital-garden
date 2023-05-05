@@ -3,6 +3,8 @@
 ---
 
 
+# COMP Lexical Analysis
+
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -10,12 +12,12 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 Hamish Burke || 03-03-2023
 ***
 
-- Need to separate the text into a squence of tokens
+- Need to separate the text into a sequence of tokens
 	- Java scanner, by default, separates at white space
 		- Not what we want!
 
-
 ## Use a 'Regular Expression'
+
 *java.util.regexp.Pattern*
 - String with 'wild cards'
 - [-+\*/] : sets of possible characters
@@ -24,6 +26,7 @@ Hamish Burke || 03-03-2023
 - (?<=before) (?=after) : specifying pre-context and post-context
 
 eg:
+
 ```java
 // these find tokens that match this pattern
 
@@ -31,7 +34,8 @@ scan.useDelimiter("\\s*(?=[<])|(?<=[>])\\s*") // works well with html!
 scan.useDelimiter("\\s+|(?=[{}(),;])|(?<=[{}(),;])") // good for java (also for assgn 1)
 ```
 
-### Tools used to do this IRL
+### Tools Used to Do This IRL
+
 - LEX, JFLEX, ANTLR etc
 
 ***
