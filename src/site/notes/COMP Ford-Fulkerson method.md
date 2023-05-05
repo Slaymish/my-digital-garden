@@ -9,7 +9,7 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 Hamish Burke || 30-04-2023
 ***
 
-# Ford-Fulkerson method
+# Ford-Fulkerson Method
 
 Based on:
 - [[COMP Residual Graphs\|Residual Graphs]] (a graph that includes [[COMP Flow Network#Reverse Edges\|reverse edges]])
@@ -19,6 +19,7 @@ Based on:
 
 
 Pseudo-code:
+
 ```
 FordFulkerson(G,s,t)
 Let f(e) = 0 for all edges (flow = 0)
@@ -54,7 +55,7 @@ For each edge e = (u,v) thats in P
 
 ***
 
-## Finding an Augmentation Path using BFS
+## Finding an Augmentation Path Using BFS
 
 ```java
 BFS(RG,s,t){
@@ -85,7 +86,6 @@ BFS(RG,s,t){
 	return null
 }
 ```
-
 
 ### Implementing Edmond Karp
 
