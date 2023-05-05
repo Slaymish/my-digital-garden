@@ -3,6 +3,8 @@
 ---
 
 
+# NWEN Information
+
 Related: #programming 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
@@ -18,15 +20,13 @@ Hamish Burke || 27-02-2023
 > *Tues 12:30-2:30*
 > alvin.valera@ecs.vuw.ac.
 
-
-
-### Systems Programming
+## Systems Programming
 
 Lecture Slides:
-- https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule
+- <https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule>
 
 Resource for recap on binary representation
-- https://www.bottomupcs.com/chapter01.xhtml
+- <https://www.bottomupcs.com/chapter01.xhtml>
 
 **Helpdesk:**
 - From week 2
