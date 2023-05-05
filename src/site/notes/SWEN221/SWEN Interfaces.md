@@ -37,21 +37,23 @@ class MinecartChest implements Chest, Minecart{
 
 - Can't extend multiple classes though
 
-### Subtyping recap
+## Subtyping Recap
 
-#### Properties:
+### Properties:
+
 - Transitive
 	- If X <: Y and Y <: Z then X <: 
 - Reflexive
 	- X <: X
 
+# Primitive Types Dont Have Normal Casting:
 
-## Primitive types dont have normal casting:
 - Less precise <: more precise
 - int <: float
 - float <: double
 
 Narrowing conversions require explicit coercion
+
 ```java
 
 // Example of coercion
@@ -62,7 +64,6 @@ int b = (int) a; // needs the (int)
 int a = 3;
 float b = a;
 ```
-
 
 <h4 align="center">
 Type coercion != Class Cast
