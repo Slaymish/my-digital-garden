@@ -10,8 +10,7 @@ Hamish Burke || 27-03-2023
 
 - Can either use JK or D flip-flops
 
-
-## Excitation table for J-K FF
+# Excitation Table for J-K FF
 
 | Present Q | Next Q | J   | K   |
 | --------- | ------ | --- | --- |
@@ -20,8 +19,7 @@ Hamish Burke || 27-03-2023
 | 1         | 0      | x   | 1   |
 | 1         | 1      | x   | 0    |
 
-
-## Excitation table for D FF
+# Excitation Table for D FF
 
 | Present Q | Next Q | Input D |
 | --------- | ------ | ------- |
@@ -30,11 +28,10 @@ Hamish Burke || 27-03-2023
 | 1         | 0      | 0       |
 | 1         | 1      | 1       |
 
-
-
 ***
 
-## Synchronous Example Counter
+# Synchronous Example Counter
+
 *Using JK FF that'll count the first eight binary states*
 
 - Write down the counting sequence
@@ -65,9 +62,7 @@ This is MOD eight, this 3 FF's [^1]
 
 Control input -> combinatorial logic elements -> sequential logic elements (clk in) -->> out and back into combinatorial logic elements
 
-
-
-## 3 bit synchronous counter
+## 3 Bit Synchronous counter
 { #6d563d}
 
 
@@ -81,7 +76,9 @@ Going through states:
 - 000
 
 - **Use D FF's**
-##### Steps:
+
+### Steps:
+
 1. Determine counting sequence and desired num of bits (FF's) needed
 	1. MOD 6, thus 3FF's but with two undesired states
 2. Draw state transition diagram
@@ -104,18 +101,8 @@ Going through states:
 
 ***
 
-## For lab
-
+## For Lab
 
 - use a latch for the stop signal
-
-
-
-
-
-
-
-
-
 
 [^1]: [[EEEN202/EEEN Asynchronous Counters#^6c61c8\|Formula here]]
