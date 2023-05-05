@@ -37,6 +37,8 @@ Hamish Burke || 25-04-2023
 	- [ ] NWEN
 - Tuesday
 	- [ ] COMP
+- [ ] Wednesday
+- [ ] Thursday
 
 ***
 
@@ -54,7 +56,7 @@ Due:
 - EEEN Design Report ==6pm==
 
 **Todo:**
-- [ ] Submit EEEN Report
+- [x] Submit EEEN Report
 - [ ] Start NWEN Assignment 3
 - [x] COMP Tutorial ==marking==
 - [ ] Watch lectures
