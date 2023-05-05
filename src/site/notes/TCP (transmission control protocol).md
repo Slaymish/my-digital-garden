@@ -10,10 +10,11 @@ Hamish Burke || 27-02-2023
 ***
 
 # TCP
+
 - Requires acknowledgement from server client is trying to connect to
 - Uses 
 
-
 # Socket
+
 - SOCK_STREAM
 
