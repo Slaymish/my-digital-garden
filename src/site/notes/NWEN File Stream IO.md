@@ -11,20 +11,22 @@ Hamish Burke || 27-02-2023
 
 I/O = The process of copying data between main memory and external devices
 
+# In C
 
-## In C
 - Each file is a sequential stream of bytes
 - C imposes no structure on a file
 
-
 # Accessing Files
+
 - Must open first
 	- Establishes a communication channel
 
-## Communication channel
+## Communication Channel
+
 *Can be a file stream or a file descriptor*
 
 - C provides functions for accessing files:
+
 |                    | File Descriptor                                             | File Stream                                                    |
 | ------------------ | ----------------------------------------------------------- | -------------------------------------------------------------- |
 | Content access     | Primitive access: contents can be access as blocks of bytes | Rich access: contents can be formatted using format specifiers |
@@ -32,9 +34,8 @@ I/O = The process of copying data between main memory and external devices
 | Special I/O modes  | Allows special access modes such as non-blocking            | Does not allow                                                 |
 | Buffering          | None                                                        | Supports 3 modes of buffering                                  |
 
-
 - For special files (eg I/O devices and sockets)
-	- [[File descriptor\|File descriptor]] is the recommended approch
+	- [[File descriptor\|File descriptor]] is the recommended approach
 
 - For regular files (files on disk)
 	- [[File stream\|File stream]] recommended
