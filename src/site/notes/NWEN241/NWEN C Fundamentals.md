@@ -3,6 +3,8 @@
 ---
 
 
+# NWEN C Fundamentals
+
 Related: #programming 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
@@ -12,7 +14,8 @@ Hamish Burke || 27-02-2023
 
 [[NWEN241/NWEN Run your code\|NWEN Run your code]] : C code run through gcc
 
-### Identifiers
+## Identifiers
+
 - Used to name macros, variables, fns, structs, unions etc
 - Java and C have *similar* rules
 - First character must be a letter
@@ -21,6 +24,7 @@ Hamish Burke || 27-02-2023
 - Can't have keyword as intentifier
 
 **Examples of valid/invalid indentifiers:**
+
 ```C
 counter // Valid
 _Temp_var_2 // Valid
@@ -31,7 +35,8 @@ continue // Invalid
 
 ***
 
-## Data Types
+# Data Types
+
 - Different datatypes are different sizes
 - Only char is fixed (1 byte)
 - Other types are machine dependent
@@ -52,20 +57,22 @@ continue // Invalid
 - Integral types can be **signed** or **unsigned**
 	- Default is signed
 	- unsigned ints can not be negative and thus has a higher range of positive values that it can assume
+
 ```C
 signed int var1;
 unsigned int var2;
 ```
 
+## Char Type
 
-#### Char Type
 - Unsigned char
 	- 0 to 255
 - Signed char
 	- -128 to 127
 - Mean to hold one ASCII characters
 
-## Constants and Literals
+# Constants and Literals
+
 - Constants are fixed values that can't be changed at runtime
 - Fixed values are called literals
 - List of literals:
@@ -83,6 +90,7 @@ Anything stating with '#' is a pre-processor
 </h3>
 
 Declaring constants:
+
 ```C
 const float PI = 3.14;
 const int MAX = 12345;
@@ -93,14 +101,14 @@ const int MAX = 12345;
 #define MAX 1234
 ```
 
+# Floating Point Literals
 
-## Floating Point Literals
 - Can be written in decimal form or exponential form
 - Can use 'f' (float) or 'L' (long double) as suffix to set datatype
 - Default (without suffix) is double
 
+# Character Literals
 
-## Character Literals
 - Enclosed in single quotes
 - '\\t' Tab
 - '\\n' New Line
@@ -108,11 +116,13 @@ const int MAX = 12345;
 
 ***
 
-## Type Casting
-- C peform automatic type casting
+# Type Casting
+
+- C perform automatic type casting
 	- Called implicit type conversion
 - Type casting will only drop the decimal
 	- (Won't round)
+
 ```C
 int i = 2;
 double d = 2.5;
@@ -122,8 +132,8 @@ i = (int)d; // Explicit type casting
 i = d; // Implicit type casting
 ```
 
+# Operators
 
-## Operators
 - Similar to [[Year 1/COMP102/Java Syntax\|Java Syntax]]
 - C specific operators
 	- * 
@@ -140,9 +150,11 @@ i = d; // Implicit type casting
 
 ***
 
-## Functions
+# Functions
+
 - No classes like java
 - Has to be declared prior to its invocation
+
 ```C
 return_type function_name( parameter_list )
 {
@@ -152,6 +164,7 @@ return_type function_name( parameter_list )
 
 - If you want to put function below main, use a fn prototype
 	- If just the header of fn
+
 ```C
 return_type function_name(parameter_list);
 
