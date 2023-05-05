@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/nwen-241/nwen-process-layout/"}
 ---
 
+
+# NWEN Process Layout
+
 Related: #programming 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
@@ -16,11 +19,12 @@ Hamish Burke || 27-02-2023
 | free               |
 | Stack Segment      |
 
+## Code Segment:
 
-### Code segment:
 - Contains programs machine code
 
-### Data spread over:
+## Data Spread Over:
+
 - Data segment
 	- Fixed space for global vars and constants
 - Stack Segment
