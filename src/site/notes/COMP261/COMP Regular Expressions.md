@@ -8,7 +8,9 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 14-03-2023
 ***
-## LL(1) grammars: 
+
+# LL(1) Grammars:
+
 - Single look-ahead
 - Type of context-free grammar
 - Easy to make more complex grammars/languages
@@ -17,23 +19,23 @@ Hamish Burke || 14-03-2023
 { #85c3b3}
 
 
-*Simpler grammer*
+*Simpler grammar*
 - Easier to parse 
 - Equivalent to finite state automata. 
 - Equivalent to regular expressions
 
 ## [[COMP261/COMP Lexical Analysis\|COMP Lexical Analysis]]
+
 *Using a regular expression*
 
 - Java scanner can use regular expression patterns to separate the tokens
+
 ```java
 scan.useDelimiter("\\s*(?=[<])|(?<=[>])\\s");
 scan.useDelimiter("\\s+|({}(),;)|(?<=[{}(),;])");
 ```
 
-
-
-## Language of Regualar Expressions
+## Language of Regular Expressions
 { #00f123}
 
 
@@ -65,12 +67,12 @@ Syntax: [ ] ( ) | * + ?
 These are sufficient for everything
 </p>
 
-
 ## Extensions
+
 *X{n,m}* = X, at least n but not more than m times
 *X{n} X{n,}* = X, exactly n time, or at least n times
 \[^....\] = matches any character **except** whats in the [....]
 \\d, \\s, \\w, \\W = abbreviations for common [...]: digit, space, word char, non-word char
-^ $ = match the boundry between chars at beginner or end of a line
-\\b = match the boundry between a word and non-word (either side)
+^ $ = match the boundary between chars at beginner or end of a line
+\\b = match the boundary between a word and non-word (either side)
 \\ = makes special characters ordinary (may need double \\ \\ )
