@@ -5,7 +5,8 @@
 
 # Hamish's Notes
 
-### **Map of Contents:**
+## **Map Of Contents:**
+
 [[UNI MOC\|UNI MOC]]
 	[[SWEN221/SWEN_MOC\|SWEN_MOC]]
 	[[COMP261/COMP MOC\|COMP MOC]]
@@ -16,8 +17,8 @@
 [[Final SWEN Notes\|Final SWEN Notes]]
 [[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
 
-
 # Lastest Notes
+
 **NWEN:**
 	[[NWEN241/NWEN Storage Classes\|NWEN Storage Classes]]
 	[[NWEN241/NWEN Process Layout\|NWEN Process Layout]]
@@ -44,11 +45,7 @@
 	[[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
 	[[SWEN Garbage Collection\|SWEN Garbage Collection]]
 
-
-
-
-### Some swag renders
-
+## Some Swag Renders
 
 <p align="center">
 Nothing here yet...
@@ -57,17 +54,13 @@ Nothing here yet...
 
 ***
 
+## Code Example
 
-
-
-### Code Example
 ```java
 public static void main(String[] args){
 	System.out.println("hihiihih");
 }
 ```
-
-
 
 ***
 
