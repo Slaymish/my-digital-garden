@@ -33,7 +33,7 @@ Hamish Burke || 27-02-2023
 
 ***
 
-second half
+## second half
 
 [[NWEN System Calls\|NWEN System Calls]]
 [[NWEN Processes\|NWEN Processes]]
@@ -41,3 +41,9 @@ second half
 [[NWEN Sockets\|NWEN Sockets]]
 [[NWEN Host and network byte order\|NWEN Host and network byte order]]
 [[NWEN Closing a Socket\|NWEN Closing a Socket]]
+
+[[Find what System Calls are invoked in a C program\|Find what System Calls are invoked in a C program]]
+[[Invoking System Calls\|Invoking System Calls]]
+[[Process control block\|Process control block]]
+[[Process Switching\|Process Switching]]
+[[Process Initialisation on Linux\|Process Initialisation on Linux]]
