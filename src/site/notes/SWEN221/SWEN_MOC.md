@@ -14,16 +14,16 @@ Hamish Burke || 02-03-2023
 
 [[SWEN221/SWEN_Infomation\|SWEN_Infomation]] - Marking and important course info
 [[SWEN221/SWEN_BasicJavaRecap\|SWEN_BasicJavaRecap]]
-[[SWEN221/SWEN Post-it Model\|SWEN Post-it Model]]
-[[SWEN221/SWEN Inheritance and Subtyping\|SWEN Inheritance and Subtyping]]
-[[SWEN221/SWEN Time Travelling\|SWEN Time Travelling]]
-[[SWEN221/SWEN Super constructors\|SWEN Super constructors]]
-[[SWEN221/SWEN Interfaces\|SWEN Interfaces]]
-[[SWEN221/SWEN Testing\|SWEN Testing]]
-[[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
-[[SWEN221/SWEN Assertions\|SWEN Assertions]]
-[[SWEN221/SWEN Inner Classes\|SWEN Inner Classes]]
-[[SWEN221/SWEN Nested Classes\|SWEN Nested Classes]]
+[[SWEN221/Post-it Model\|Post-it Model]]
+[[SWEN221/Inheritance and Subtyping\|Inheritance and Subtyping]]
+[[SWEN221/Java Time Travelling\|Java Time Travelling]]
+[[SWEN221/Super constructors\|Super constructors]]
+[[SWEN221/Interfaces\|Interfaces]]
+[[SWEN221/Java Testing\|Java Testing]]
+[[SWEN221/Error Handling\|Error Handling]]
+[[SWEN221/Java Assertions\|Java Assertions]]
+[[SWEN221/Inner Classes\|Inner Classes]]
+[[SWEN221/Nested Classes\|Nested Classes]]
 [[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
 [[SWEN Garbage Collection\|SWEN Garbage Collection]]
 [[SWEN Generics\|SWEN Generics]]
@@ -37,4 +37,5 @@ Hamish Burke || 02-03-2023
 [[SWEN Recent Pattern Syntax\|SWEN Recent Pattern Syntax]]
 [[SWEN Var args syntax\|SWEN Var args syntax]]
 
-[[SWEN Making abstractions\|SWEN Making abstractions]]
+[[Types of Programming\|Types of Programming]]
+
