@@ -9,7 +9,7 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 03-04-2023
 ***
 
-- Convenient syntax for [[SWEN221/SWEN Inner Classes#^b98b6a\|anonymous inner classes]]
+- Convenient syntax for [[SWEN221/Inner Classes#^b98b6a\|anonymous inner classes]]
 
 EG:
 - Code for event handler
