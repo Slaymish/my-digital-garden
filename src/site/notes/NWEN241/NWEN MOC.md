@@ -40,8 +40,4 @@ second half
 [[NWEN Interprocess Communication\|NWEN Interprocess Communication]]
 [[NWEN Sockets\|NWEN Sockets]]
 [[NWEN Host and network byte order\|NWEN Host and network byte order]]
-
-
-
-
-
+[[NWEN Closing a Socket\|NWEN Closing a Socket]]
