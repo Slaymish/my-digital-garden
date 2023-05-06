@@ -45,7 +45,7 @@ assert LIst.of(new Person("Bob",27)).contains(bob):"OK NOW!";
 - Does a lot of boilerplate code for you
 	- Changes .toString()
 	- Removes need for constructors
-- All fields are private and [[SWEN221/SWEN Post-it Model#^c37b3f\|SWEN Post-it Model#^c37b3f]]
+- All fields are private and [[SWEN221/Post-it Model#^c37b3f\|Post-it Model#^c37b3f]]
 - [[Shallow Immuteable\|Shallow Immuteable]]
 
 ```java
@@ -97,7 +97,7 @@ Objects are mutated
 </p>
 
 
-- Related to [[SWEN221/SWEN Post-it Model\|SWEN Post-it Model]]
+- Related to [[SWEN221/Post-it Model\|Post-it Model]]
 
 
 ***
@@ -118,7 +118,7 @@ class Point3D extends Point{
 ```
 
 - Dont repeat fields in sub-classes
-- use [[SWEN221/SWEN Super constructors\|SWEN Super constructors]] instead
+- use [[SWEN221/Super constructors\|Super constructors]] instead
 
 ***
 
