@@ -18,6 +18,7 @@ Hamish Burke || 25-04-2023
 - [ ] Lectures
 	- [ ] Mon
 	- [ ] Weds
+	- [ ] friday
 
 ## [[COMP261/COMP MOC\|COMP]]
 
@@ -39,8 +40,9 @@ Hamish Burke || 25-04-2023
 
 - [ ] Connect Lab ==7th May==
 - [ ] **WATS** ==LATE==
+- [ ] Term test 3 ==9th May==
 - [ ] Lectures
-	- [ ] Mon
+	- [x] Mon
 	- [ ] Weds
 	- [ ] Thurs
 
