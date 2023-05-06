@@ -84,11 +84,6 @@ if(listen(fs,SOMAXCONN)<0){
 }
 
 // step 4
-// ssize_t send()
-
-
-// step 5
-
 
 ```
 
