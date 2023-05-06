@@ -16,7 +16,7 @@ Hamish Burke || 25-04-2023
 	- [ ] Task 2
 	- [ ] Task 3
 - [ ] Lectures
-	- [ ] Mon
+	- [x] Mon
 	- [ ] Weds
 	- [ ] friday
 
