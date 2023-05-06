@@ -40,4 +40,5 @@ Second half
 [[COMP Residual Graphs\|COMP Residual Graphs]]
 
 [[COMP Monopoly and Oligopoly\|COMP Monopoly and Oligopoly]]
-
+[[Page Rank\|Page Rank]]
+[[Cycle\|Cycle]]
