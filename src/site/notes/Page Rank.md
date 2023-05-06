@@ -43,5 +43,54 @@ Page rank of $P$ is dependent on the page rank of the pages that have an outgoin
 
 The Page rank transferred from a given page to the target of its outgoing links is divided equally among all outbound links[^2]
 
+## Random Surfer Model
+
+- The PageRank theory holds that an imaginary surfer who is randomly clicking on links will eventually stop clicking
+
+## Damping Factor
+
+- The probability, at any step, that the person will continue following links is a damping factor $d$. The probability that they instead jump to any random page is $1-d$
+
+
+$$PR(A) = (1-d) + d \sum \frac {PR(inLinkNeighbour)}{count(outbound links of inLinkNeighbour)}$$
+
+***
+
+# Example
+
+$PR(A) = PR(B) = PR(C) = PR(D) = 1/4$
+$d=0.85$
+
+Iter 1:
+$$PR(A) = 0.15 + 0.85*(\frac {PR(B)}{2} + \frac {PR(D)}{3})$$
+
+
+$$PR(B)= 0.15 + 0.85*(\frac {PR(A)}{3} + \frac {PR(C)}{1} + \frac {PR(D)}{3})$$
+
+***
+
+# Page Rank Pseudocode
+
+```java
+computePageRank(Graph graph, int iter, double dambing factor){
+	nNodes = get count of nodes in the graph
+	// initalise
+	for each node in graph
+		set pageRank(c) = 1.0/nNodes
+	count = 1
+	Repeat 
+		for each node n in the graph
+			nRank = 0
+			for each backneighbour b of n
+				neighbourShare = pageRank(backneighbour)/count of outedges of b
+				nRank = nRank + neighbourShare
+			nRank = (1 - dampingFactor) + dampingFactor*nRank
+			pageRank(n) = nRank
+
+		count++;
+	Until count>iter
+}
+```
+
 [^1]: EG: Page rank of A depends upon page ranks of C and D
 [^2]: EG: If the page rank of C is .2, both the page rank transferred to both A and B will be .2/2 = .1
