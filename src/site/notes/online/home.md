@@ -38,10 +38,10 @@
 	[[StringBuilder\|StringBuilder]]
 	[[COMP Graphs and data structures\|COMP Graphs and data structures]]
 **SWEN:**
-	[[SWEN221/SWEN Error Handling\|SWEN Error Handling]]
-	[[SWEN221/SWEN Assertions\|SWEN Assertions]]
-	[[SWEN221/SWEN Inner Classes\|SWEN Inner Classes]]
-	[[SWEN221/SWEN Nested Classes\|SWEN Nested Classes]]
+	[[SWEN221/Error Handling\|Error Handling]]
+	[[SWEN221/Java Assertions\|Java Assertions]]
+	[[SWEN221/Inner Classes\|Inner Classes]]
+	[[SWEN221/Nested Classes\|Nested Classes]]
 	[[SWEN221/SWEN Term Test Prep\|SWEN Term Test Prep]]
 	[[SWEN Garbage Collection\|SWEN Garbage Collection]]
 
