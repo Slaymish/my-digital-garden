@@ -47,3 +47,11 @@ Hamish Burke || 27-02-2023
 [[Process control block\|Process control block]]
 [[Process Switching\|Process Switching]]
 [[Process Initialisation on Linux\|Process Initialisation on Linux]]
+	[[process ID\|process ID]]
+	[[fork()\|fork()]]
+	[[exec()\|exec()]]
+	
+
+***
+
+[[NWEN Final Exam\|NWEN Final Exam]]
