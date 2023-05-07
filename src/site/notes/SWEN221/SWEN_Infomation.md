@@ -33,6 +33,8 @@ Lecturers youtube:
 - 2 hours
 
 **Final course mark:**
+{ #a534a9}
+
 - Normal
 	- If at 80% or more, this is applied
 - Capped
