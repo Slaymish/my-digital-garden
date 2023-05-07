@@ -29,6 +29,8 @@ Microcontroller core:
 - IO inputs
 
 ## Keys Parts
+{ #a6ee6c}
+
 
 **ALU: Arithmetic Logic Unit**
 - Performs all arithmetic (addition, subtraction, multiplication, division)
