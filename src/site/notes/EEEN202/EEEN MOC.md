@@ -53,6 +53,15 @@ second half:
 [[EEEN Design Report Task\|EEEN Design Report Task]]
 
 
+***
+
+# Microprocessors
+
+[[Microprocessors\|Microprocessors]]
+[[Program Status Word\|Program Status Word]]
+[[The 8051 Instruction Set\|The 8051 Instruction Set]]
+
+
 
 
 
