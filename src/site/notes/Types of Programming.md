@@ -116,7 +116,7 @@ interface Stack {
 
 	default Stack push(int top) {
 		Stack self = this;
-		return new Stack(){
+		return new Stack(){ // This is a new different stack object
 			public <R> R match(OnEmpty<R> a, OnElem<R> b){ return b.of(top,self);}
 		};
 	}
