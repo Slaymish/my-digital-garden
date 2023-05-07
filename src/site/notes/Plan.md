@@ -16,58 +16,29 @@ Hamish Burke || 25-04-2023
 	- [ ] Task 2
 	- [ ] Task 3
 - [ ] Lectures
-	- [x] Mon
-	- [ ] Weds
 	- [ ] friday
 
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] Test 3 ==11th May==
 - [ ] Lectures
-	- [x] Lecture Thurs
 	- [ ] Lecture Fri
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
-- [x] Design Exercise 1 ==5th May==
 - [ ] Microcontroller Lab 1 ==9th May==
 - [ ] Lectures
-	- [ ] Mon
 	- [ ] Thurs
 	- [ ] Fri
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] Connect Lab ==7th May==
 - [ ] **WATS** ==LATE==
 - [ ] Term test 3 ==9th May==
-- [ ] Lectures
-	- [x] Mon
-	- [ ] Weds
-	- [ ] Thurs
 
 
 
 ***
-
-# Friday 5th
-
-Due: 
-- EEEN Design Report ==6pm==
-
-**Todo:**
-- [x] Submit EEEN Report
-- [ ] Start NWEN Assignment 3
-- [x] COMP Tutorial ==marking==
-- [ ] Watch lectures
-
-# Saturday 6th
-
-*Due: nothing*
-
-**Todo:**
-- [ ] Start EEEN Microcontroller lab
-- [ ] Continue NWEN Assignment
 
 # Sunday 7th
 
@@ -77,6 +48,9 @@ Due:
 **Todo:**
 - [ ] Finish NWEN Assignment 3
 - [ ] Study for Comp test
+- [ ] Watch lectures
+	- [x] EEEN mon
+	- [ ] SWEN Thurs
 
 # Monday 8th
 
@@ -92,7 +66,23 @@ Due:
 
 Due: 
 - EEEN Microcontroller Lab 1 ==6pm==
+- SWEN Term Test 3 ==6pm==
 
 **Todo:**
 - [ ] Submit EEEN Lab
 - [ ] Study for comp test
+
+# Wednesday 10th
+
+*Due: Nothing*
+
+**Todo:**
+
+# Thursday 11th
+
+Due: 
+- COMP Test 
+
+**Todo:**
+
+
