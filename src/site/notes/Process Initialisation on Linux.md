@@ -17,7 +17,7 @@ Hamish Burke || 27-02-2023
 
 - Every process (except init) has a parent
 
-- Every process has a process ID
+- Every process has a [[process ID\|process ID]] (pid)
 
 
 Creates a Process [[Year 1/COMP103/Trees\|tree]]
@@ -29,3 +29,16 @@ ps
 ```
 
 - Shows what processes are running on your machine
+
+
+***
+
+# Process Management system calls
+
+- All processes are created with the system call [[fork()\|fork()]]
+
+- [[exec()\|exec()]]
+
+- wait()
+
+- exit()
