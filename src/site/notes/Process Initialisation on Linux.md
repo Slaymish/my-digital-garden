@@ -33,12 +33,18 @@ ps
 
 ***
 
-# Process Management system calls
+# Process Management System Calls
 
 - All processes are created with the system call [[fork()\|fork()]]
 
 - [[exec()\|exec()]]
 
-- wait()
+- [[wait()\|wait()]]
 
-- exit()
+- [[exit()\|exit()]]
+
+
+****
+
+# fork() And exec() together
+
