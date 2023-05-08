@@ -42,3 +42,7 @@ Hamish Burke || 02-03-2023
 [[Making a tree in java\|Making a tree in java]]
 
 [[SWEN Term Test 3 Prep\|SWEN Term Test 3 Prep]]
+
+[[SWEN Stream Method\|SWEN Stream Method]]
+
+[[Lecture notes swen\|Lecture notes swen]]
