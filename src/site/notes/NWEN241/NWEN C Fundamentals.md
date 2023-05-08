@@ -178,3 +178,20 @@ return_type function_name( parameter_list )
 	// rwodvbdvbuodabsvo
 }
 ```
+
+***
+
+# Switch
+
+```C
+switch(pid){
+	case -1:
+		printf("geiigi");
+	case -1:
+		printf("geiigi");
+	case -1:
+		printf("geiigi");
+	default:
+		printf("gbriovbu");
+}
+```
