@@ -31,14 +31,15 @@ final class EmptyTree<E> implements Tree<E>{
 interface NonEmptyTree<E> extends Tree<E>{}
 
 record Leaf<E>(E label) implements NonEmptyTree<E> {
-	public String toString(){ return label+""; }
+	public int depth(){ return 1; }
 }
 
 record Node<E>(NonEmptyTree<E> left, NonEmptyTree<E> right) implements NonEmptyTree<E>{
-	public String toString(){
-	
+	public int depth(){
+		return 
 	}
 }
 
 }
 ```
+
