@@ -55,3 +55,10 @@ Hamish Burke || 27-02-2023
 ***
 
 [[NWEN Final Exam\|NWEN Final Exam]]
+
+
+***
+
+# Programming in C++
+
+[[NWEN Lecture\|NWEN Lecture]]
