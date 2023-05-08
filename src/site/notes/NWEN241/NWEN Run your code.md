@@ -64,3 +64,20 @@ gcc hello.c -o hello
 - Remote debugging support
 
 - [[Debugging with GDB\|Debugging with GDB]]
+
+
+***
+
+# Run C++
+
+## Compile
+
+```shell
+g++ hello.cpp -o helloex
+```
+
+## Run
+
+```shell
+./helloex
+```
