@@ -12,7 +12,7 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Assignment 3 ==8th May==
-	- [ ] Task 1
+	- [x] Task 1
 	- [ ] Task 2
 	- [ ] Task 3
 - [ ] Lectures
