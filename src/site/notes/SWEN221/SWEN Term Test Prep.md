@@ -18,10 +18,30 @@ Hamish Burke || 23-03-2023
 
 ### Q3: longestString
 
-- Given a List<String> ss
+- Given a `List<String> ss`
 - Can add own asserts: `assert myCondition: myMessage`
 - Use `.length()` on Strings
 - Alternative solution:
+
+
+```java
+return ss.stream()
+		.max(Comparator.comparing
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```java
 return ss.stream()
