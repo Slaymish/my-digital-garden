@@ -45,4 +45,4 @@ Hamish Burke || 02-03-2023
 
 [[SWEN Stream Method\|SWEN Stream Method]]
 
-[[Lecture notes swen\|Lecture notes swen]]
+[[Minecraft Bug - If statements\|Minecraft Bug - If statements]]
