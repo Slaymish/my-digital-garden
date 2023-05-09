@@ -187,8 +187,27 @@ static List<Integer> toList(Stack s){
 
 static List<Integer> fillList(Stack s, ArrayList<Integer> l){ return s.match(
 	()-> Collections.unmodifiableList(l),
-	(top,tail)->{l.add(top); return fillList(tail,l); }
+	(top,tail)->{l.add(top); return fillList(tail,l); } // cursive call
+
+	// adds tails to l arraylist, then call fillList again will the tail as stack
 );}
 ```
 
 - In good programming, its very common to have a facade public method calling a recursive private method doing most of the job
+
+
+***
+
+```java
+public int compare(Object obj1, Object obj2)
+```
+
+```java
+
+ps.stream()
+	.max((new Comparator(){
+		public int compare(Object p1, Object p2){
+			return p1-p2;
+		}
+	}).comparing(Person::height));
+```
