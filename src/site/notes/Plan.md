@@ -25,7 +25,6 @@ Hamish Burke || 25-04-2023
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
-- [ ] Microcontroller Lab 1 ==9th May==
 - [ ] Lectures
 	- [ ] Fri
 	- [ ] Mon
@@ -39,16 +38,6 @@ Hamish Burke || 25-04-2023
 
 ***
 
-# Monday 8th
-
-Due: 
-- NWEN Assignment 3 ==11:59pm==
-
-**Todo:**
-- [ ] Submit NWEN Assignment
-- [ ] Finish Microcontroller lab
-- [ ] SWEN Test prep
-
 # Tuesday 9th
 
 Due: 
@@ -56,8 +45,8 @@ Due:
 - SWEN Term Test 3 ==6pm==
 
 **Todo:**
-- [ ] Submit EEEN Lab
-- [ ] Study for comp test
+- [x] Submit EEEN Lab
+- [ ] Finish NWEN Assignment
 - [ ] Study for comp test
 
 # Wednesday 10th
