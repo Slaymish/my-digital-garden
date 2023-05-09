@@ -126,6 +126,11 @@ interface Stack {
 		(top,tail)-> top
 	);}
 
+	default int count(){ return match(
+		()->0;,
+		(top,tail)->tail.size()+1;
+	)}
+
 	default Stack tail(){ return match(
 		()->{ throw new Error("...");},
 		(top,tail)-> tail
@@ -178,7 +183,9 @@ static List<Integer> toList(Stack s){
 	return fillList(s, new ArrayList<Integer>());
 }
 
-static List<Integer< fillList(Stack s, ArrayList<Integer> l){ return s.match(
+
+
+static List<Integer> fillList(Stack s, ArrayList<Integer> l){ return s.match(
 	()-> Collections.unmodifiableList(l),
 	(top,tail)->{l.add(top); return fillList(tail,l); }
 );}
