@@ -35,4 +35,25 @@ Hamish Burke || 27-02-2023
 
 - Library header are **not** supposed to have an extension
 - Though still works with .h/.hh/.hpp
+- Most libraries come with a xxx.h and cxxx file
 
+```
+#include <stdio.h> == #include <cstdio>
+```
+
+***
+
+# Datatypes
+
+- Character
+- Integer
+- Float
+- Double
+- Boolean
+- Wide
+
+
+Uses the [[C++ Standard Library\|C++ Standard Library]]
+
+
+[[Namespaces\|Namespaces]] are used to organize code into logical groups
