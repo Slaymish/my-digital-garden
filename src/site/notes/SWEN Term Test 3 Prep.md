@@ -131,6 +131,83 @@ class FoodProcessor {
 
 
 Marco hinted something similar to this, where you can't use run
+
+
+
+
 ![SCR-20230507-x2w.png](/img/user/SCR-20230507-x2w.png)
 
+
+
+
+
+***
+
+```java
+
+public static <T> void printMe(List<T> ray){
+	ray.forEach(System.out::println);
+}
+```
+
+```java
+
+class Plant{
+	String name;
+	int height;
+
+	public Plant(String name, int height){
+		this.name = name;
+		this.height = height;
+	}
+
+	public int getHeight(){
+		return height;
+	}
+}
+
+record Daisy extends Plant(String name, int height, Color petalColor){}
+
+public static void main(){
+	String name = findTallestPlant(
+			List.of(
+				new Plant("Pixie",105),
+				new Plant("Womper",120),
+				new Daisy("Engle",204),
+				new Daisy("EINC",180)));
+
+	Sytem.out.println(name);
+}
+
+public static <T extends Plant> findTallestPlant(List<T> fs){
+	return fs.stream()
+		.max(Comparator.comparing(Plant::getHeight))
+		.getHeight();
+	
+}
+```
+
+***
+
+# Anonoymouse Inner Calss
+
+```java
+
+public class AnonClass{
+	public static void main(String[] args){
+		Animal
+	}
+
+}
+```
+
+***
+
+# something.getClass()
+
+```java
+
+"helloworld".getClass() // returns class object 'java.smth.String'
+
+assert var1.getClass()==var2.getClass(); // asserts for classes the exact same
 
