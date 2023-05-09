@@ -12,9 +12,8 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Assignment 3 ==8th May==
-	- [x] Task 1
-	- [ ] Task 2
-	- [ ] Task 3
+	- [ ] Fix segmentation fault on 'GET'
+	- [ ] Challenge
 - [ ] Lectures
 	- [ ] friday
 
