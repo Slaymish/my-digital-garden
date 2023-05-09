@@ -57,6 +57,8 @@ second half:
 
 # Microprocessors
 
+[[EEEN Lab Microcontrollers\|EEEN Lab Microcontrollers]]
+
 [[Microprocessors\|Microprocessors]]
 [[Program Status Word\|Program Status Word]]
 [[The 8051 Instruction Set\|The 8051 Instruction Set]]
