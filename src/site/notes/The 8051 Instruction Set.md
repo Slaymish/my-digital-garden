@@ -197,6 +197,31 @@ MOVC A,@A+DPTR ; Gets target value from table start address + offset and it in A
 - [@Ri] implies contents of memory location pointed to by R0 or R1
 - Rn refer to register R0-R7 of the currently selected register bank
 
+### Examples
+
+- Includes conditional and unconditional jumps, calls, and returns
+
+### Examples
+
+```
+CJNE A, #04H, NOT_FOUR
+	; If A is not equal to 4H,
+	; jump to label NOT_FOUR
+
+NOT_FOUR: MOV A, #05H
+	; Label for when A is not equal to 4H
+```
+
+
+## Interrupt Instructions
+
+- Enable and disable interrupts in the microcontroller's operation
+- Manage interrupt routines for handling events like external inputs or timer overflows
+
+## Miscellaneous Instructions
+
+- Provide additional functionality such as NOP (No Operation) or power-saving modes like idle and power-down.
+
 ## Logical Operations
 
 - AND,OR,XOR,NOT
@@ -230,3 +255,4 @@ POLL: JNB TR0, POLL ; Wait till timer overflows
 
 - Used to control flow of program execution
 - CJNE acts as if statement
+
