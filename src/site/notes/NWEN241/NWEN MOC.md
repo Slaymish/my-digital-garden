@@ -61,4 +61,4 @@ Hamish Burke || 27-02-2023
 
 # Programming in C++
 
-[[NWEN Lecture\|NWEN Lecture]]
+[[Intro to C++\|Intro to C++]]
