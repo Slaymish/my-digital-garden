@@ -11,6 +11,8 @@ Hamish Burke || 08-05-2023
 
 # Stream Method
 
+See [[Java Streams\|Java Streams]]
+
 ## Stream.of()
 
 - Empty stream constant
@@ -67,6 +69,4 @@ class TreeIterator<E> implements Iterator<E>{
 ```
 
 ***
-
-[[Compare Strings in C\|Compare Strings in C]]
 
