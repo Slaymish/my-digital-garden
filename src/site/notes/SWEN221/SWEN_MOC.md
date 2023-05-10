@@ -46,3 +46,5 @@ Hamish Burke || 02-03-2023
 [[SWEN Stream Method\|SWEN Stream Method]]
 
 [[Minecraft Bug - If statements\|Minecraft Bug - If statements]]
+
+[[SWEN Peano Numbers and Optionals\|SWEN Peano Numbers and Optionals]]
