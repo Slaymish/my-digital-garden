@@ -33,7 +33,6 @@ Hamish Burke || 25-04-2023
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==LATE==
-- [x] Term test 3 ==9th May==
 
 
 
@@ -49,6 +48,13 @@ Hamish Burke || 25-04-2023
 - [ ] Finish SWEN Labs
 
 # Thursday 11th
+
+Due: 
+- COMP Test 
+
+**Todo:**
+
+# Friday 12th
 
 Due: 
 - COMP Test 
