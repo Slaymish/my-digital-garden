@@ -38,7 +38,7 @@ Mob.die:
 
 abstract Mob.dropSkull() // to be overriden
 
-//-------
+//-------//
 
 NormalSkeleton.dropSkull():
 	drop(skeleton_skull)
@@ -52,3 +52,18 @@ StraySkeleton.dropSkull():
 
 
 ```
+
+### When to If?
+
+- When a choice is **binary**
+	- Point inside or outside a bounding box
+	- Elements inside/outside list
+	- List empty/not
+- When working with legacy code/ methods returning booleans
+
+### When **not** to if
+
+- Because you have no idea how else to code
+- *When set of options may change over time*
+- When **response** to an option may change, or want it customisable by user
+w
