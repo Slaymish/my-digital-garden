@@ -17,7 +17,7 @@ Hamish Burke || 25-04-2023
 
 - [ ] Test 3 ==11th May==
 - [ ] Lectures
-	- [ ] Lecture Fri
+	- [x] Lecture Fri
 	- [ ] Tues
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
