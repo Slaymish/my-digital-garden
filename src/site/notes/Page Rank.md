@@ -17,17 +17,6 @@ Hamish Burke || 05-05-2023
 
 A page with more high-quality links pointing to it should be ranked higher than a page with fewer or lower-quality links.
 
-
-Here are the basic steps of the algorithm:
-
-1. Create a matrix representing the internet's link structure, where each cell represents an edge between two nodes (web pages). If there's a link from page A to page B, set the value at row A and column B in the matrix to 1, otherwise 0.
-
-2. Normalise each row in the matrix so that its elements sum up to 1. This creates a stochastic matrix representing probabilities of transitioning from one page to another.
-
-3. Choose an initial Page Rank vector (usually assigning equal probability to all nodes) and iteratively multiply this vector by the stochastic matrix until convergence is reached (i.e., when changes between iterations become very small).
-
-4. The resulting converged vector will contain values representing relative importance scores for each node.
-
 # Terminology
 
 - Back-edge
@@ -71,24 +60,40 @@ $$PR(B)= 0.15 + 0.85*(\frac {PR(A)}{3} + \frac {PR(C)}{1} + \frac {PR(D)}{3})$$
 
 # Page Rank Pseudocode
 
+- get num of nodes
+
+- for each node, set the page rank to 1/num of nodes
+- repeat for iter
+	- for each node in graph
+		- set nRank = 0
+		- for each back-edge of node
+			- 
+
 ```java
 computePageRank(Graph graph, int iter, double dambing factor){
-	nNodes = get count of nodes in the graph
+	nNodes = graph.getNodeAmount();
 	// initalise
-	for each node in graph
-		set pageRank(c) = 1.0/nNodes
-	count = 1
-	Repeat 
-		for each node n in the graph
-			nRank = 0
-			for each backneighbour b of n
-				neighbourShare = pageRank(backneighbour)/count of outedges of b
+	for(Node node: graph.getNodes()){
+		node.setPageRank(1/nNodes);
+	}
+	
+	int count = 1;
+	while(count<inter){
+		for(Node node: graph.getNode()){
+			int nRank = 0;
+			for(Node neighbour:node.getbackNeighbours()){
+				neighbourShare = pageRank(backneighbour)
+				/neighbour.outEdgeNum();
+				
 				nRank = nRank + neighbourShare
-			nRank = (1 - dampingFactor) + dampingFactor*nRank
-			pageRank(n) = nRank
-
+			}
+			nRank = (1 - dampingFactor)
+			+ dampingFactor*nRank;
+			
+			pageRank(node) = nRank
+		}
 		count++;
-	Until count>iter
+	}
 }
 ```
 
