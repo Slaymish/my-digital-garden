@@ -62,3 +62,4 @@ Hamish Burke || 27-02-2023
 # Programming in C++
 
 [[Intro to C++\|Intro to C++]]
+[[Lecture notes\|Lecture notes]]
