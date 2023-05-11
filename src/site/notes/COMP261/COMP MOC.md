@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/comp-261/comp-moc/"}
 ---
 
-
-# COMP MOC
-
 Related: #programming #java 
 Contents: [[COMP261/COMP MOC\|COMP MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
@@ -13,7 +10,7 @@ Hamish Burke || 02-03-2023
 ***
 [[COMP261/COMP Information\|Information]]
 
-## Parsing
+# Parsing
 
 [[COMP261/COMP Parsing\|Parsing]]
 [[COMP261/COMP Recursive Descent Parsing\|Recursive Descent Parsing]]
@@ -24,15 +21,14 @@ Hamish Burke || 02-03-2023
 
 ***
 
-## Graphs and Data Structures
+# Graphs and Data Structures
 
 [[COMP Graphs and data structures\|COMP Graphs and data structures]]
-
 [[COMP Test 2 Prep\|COMP Test 2 Prep]]
 
 ***
 
-Second half
+## Second Half
 
 [[COMP Graph Analytics\|COMP Graph Analytics]]
 [[COMP Flow Network\|COMP Flow Network]]
@@ -41,4 +37,8 @@ Second half
 
 [[COMP Monopoly and Oligopoly\|COMP Monopoly and Oligopoly]]
 [[Page Rank\|Page Rank]]
-[[Cycle\|Cycle]]
+[[Cycles\|Cycles]]
+[[Spanning Trees\|Spanning Trees]]
+
+
+[[COMP Test 3 Prep\|COMP Test 3 Prep]]
