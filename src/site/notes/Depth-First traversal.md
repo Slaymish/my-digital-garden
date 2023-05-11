@@ -12,6 +12,30 @@ Contents: [[COMP261/COMP MOC\|COMP MOC]]
 Hamish Burke || 27-03-2023
 ***
 
+# Recursive DFS
+
+- Works on undirected *and* directed graphs
+
+## Example Pseudo-code
+
+```
+TraverseGraph(node)
+	if node is not visited:
+		visit the node
+		process the node
+		for each neighbor of node:
+			if neighbour is not visited:
+				TraverseGraph(neighbour)
+
+```
+
+### Recording Visited:
+
+- Mark the node (not a good option)
+- Keep a set of visited nodes (good option)
+
+***
+
 Depth-first traversal in Java refers to a way of traversing a tree or graph data structure that starts at the root node and explores as far as possible along each branch before backtracking. This can be achieved using recursion or a stack data structure.
 
 Here are some notes on how to implement depth-first traversal in Java:
