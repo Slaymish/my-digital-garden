@@ -11,10 +11,13 @@ Hamish Burke || 30-04-2023
 
 # Ford-Fulkerson Method
 
+- To find the maximum flow in a network
+
 Based on:
 - [[COMP Residual Graphs\|Residual Graphs]] (a graph that includes [[COMP Flow Network#Reverse Edges\|reverse edges]])
 - [[COMP Residual Graphs#Augmentation Path\|Augmentation paths]] (path in a residual graph)
 - Cuts
+
 
 
 
