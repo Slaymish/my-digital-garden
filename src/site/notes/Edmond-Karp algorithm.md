@@ -31,15 +31,19 @@ The Edmond-Karp algorithm is used to find the maximum flow in a flow network, wh
 
 ## Complexity
 
-The time complexity of the Edmond-Karp algorithm is O(V * E^2), where V represents the number of vertices and E represents the number of edges in the network. This improvement over Ford-Fulkerson's method, which has no specific time complexity guarantee, makes Edmond-Karp more suitable for larger networks.
+The time complexity of the Edmond-Karp algorithm is $O(V * E^2)$, where V represents the number of vertices and E represents the number of edges in the network. This improvement over [[COMP Ford-Fulkerson method\|COMP Ford-Fulkerson method]] method, which has no specific time complexity guarantee, makes Edmond-Karp more suitable for larger networks.
 
-## Applications and Variants
+## Peusdo Code
 
-The Edmond-Karp algorithm has several applications in computer science and operations research:
+```
+EdmondKarp(G,s,t){
+	Let f(e) = 0 for all edges (no flow anywhere)
+	Initalize residual graph RG 
+		// for every forward edge in G, add a reverse edge
+		// with a capacity 0
 
-- Transportation problems: maximizing shipments through a limited-capacity transportation network
-- Bipartite matching: finding maximum cardinality matchings in bipartite graphs
-- Disjoint paths: finding k edge-disjoint paths between two nodes
-- Circulation problems: determining the feasibility of a circulation with lower and upper bounds on flows
-
-There are also several variants of the Edmond-Karp algorithm that focus on specific improvements or use cases, such as the Push-Relabel algorithm, which has better runtime complexity for certain types of networks, and the Dinic's algorithm, which is a faster maximum flow algorithm for unit capacity networks.
+	int maxFlow = 0;
+	Repeat
+		Use BFS to find a path P path from s to t
+}
+```
