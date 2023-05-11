@@ -65,7 +65,7 @@ Traditional data structures:
 
 # Graph Algorithms
 
-**Algorithm 1:** [[Recursive DFS\|Recursive DFS]]
+**Algorithm 1:** [[Depth-First traversal\|Depth-First traversal]]
 
 **Algorithm 2:** [[Iterative Graph Traversal\|Iterative]]
 
