@@ -12,9 +12,6 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Exercise 4 ==19th May==
-- [ ] Assignment 3 ==8th May==
-	- [ ] Fix segmentation fault on 'GET'
-	- [ ] Challenge
 
 ## [[COMP261/COMP MOC\|COMP]]
 
@@ -44,20 +41,19 @@ Hamish Burke || 25-04-2023
 
 **Todo:**
 - [ ] COMP Study
-- [ ] Submit NWEN Assignment
+- [x] Submit NWEN Assignment
 - [ ] Finish SWEN Labs
 
 # Thursday 11th
 
 Due: 
-- COMP Test 
+- COMP Test ==4pm==
 
 **Todo:**
 
 # Friday 12th
 
 Due: 
-- COMP Test 
 
 **Todo:**
 
