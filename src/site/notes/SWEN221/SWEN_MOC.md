@@ -47,4 +47,6 @@ Hamish Burke || 02-03-2023
 
 [[Minecraft Bug - If statements\|Minecraft Bug - If statements]]
 
-[[SWEN Peano Numbers and Optionals\|SWEN Peano Numbers and Optionals]]
+[[Peano Numbers construction\|Peano Numbers construction]]
+
+[[SWEN safePersons Model Answer\|How to use flatmap (term test 3 model answer)]]
