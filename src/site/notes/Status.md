@@ -15,3 +15,18 @@ Status integer can be inspected with **macros**:
 - WIFEXITED(status)
 - WEXITSTATUS(status)
 
+***
+
+```C
+exit(es); // child returns its return status through exit
+
+////
+
+pid = wait(&es);
+if(WIFEXITED(es)){ 
+	// parents reads status sent by child through macros
+	printf("Child exited, code: %d\n",WEXITSTATUS(es));
+}
+
+```
+
