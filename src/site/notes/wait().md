@@ -24,7 +24,6 @@ pid_t wait(int *status);
 When child is terminated, it returns a **termination status**
 If the status isn't NULL, the status gets returned to parent process
 
-```C
+***
 
-
-```
+if &status is not NULL, wait() stores [[Status\|Status]] info in the int to which it points
