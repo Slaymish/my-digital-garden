@@ -33,7 +33,7 @@ Hamish Burke || 27-02-2023
 
 ***
 
-## second half
+## Second Half
 
 [[NWEN System Calls\|NWEN System Calls]]
 [[NWEN Processes\|NWEN Processes]]
@@ -52,14 +52,15 @@ Hamish Burke || 27-02-2023
 	[[exec()\|exec()]]
 	
 
-***
 
 [[NWEN Final Exam\|NWEN Final Exam]]
-
-
 ***
 
 # Programming in C++
 
 [[Intro to C++\|Intro to C++]]
-[[Lecture notes\|Lecture notes]]
+[[C++ Standard Library\|C++ Standard Library]]
+[[Namespaces\|Namespaces]]
+[[C++ Classes\|C++ Classes]]
+[[C++ Inline Functions\|C++ Inline Functions]]
+[[C++ Program Structure\|C++ Program Structure]]
