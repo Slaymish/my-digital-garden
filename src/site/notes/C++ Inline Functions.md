@@ -1,0 +1,25 @@
+---
+{"dg-publish":true,"permalink":"/c-inline-functions/"}
+---
+
+
+Related: #programming 
+Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
+[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
+[[UNI MOC\|UNI MOC]]
+Hamish Burke || 12-05-2023
+***
+
+# C++ Inline Functions
+
+Including the implementation of a function within the [[C++ Classes\|class]] definition is an implicit *request* to make a function *inline*
+
+## When a Function is Inline
+
+- The compiler does not make a function call
+- The code of the function is used in place of the function call
+- Compiled code might be larger, but will execute faster
+
+### To Explicitly Request
+
+- Add inline keyword before return type in function declaration and definition
