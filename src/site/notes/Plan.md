@@ -12,13 +12,12 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Exercise 4 ==19th May==
-- [ ] Assignment 4
+- [ ] Assignment 4 ====
 
 ## [[COMP261/COMP MOC\|COMP]]
 
-- [ ] Assignment 3
+- [ ] Assignment 3 ====
 - [ ] Lectures
-	- [x] Lecture Fri
 	- [ ] Tues
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
@@ -31,7 +30,7 @@ Hamish Burke || 25-04-2023
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==LATE==
-- [ ] Lab ==SUNDAY==
+- [x] Lab 7 ==14th May==
 
 
 
@@ -45,14 +44,3 @@ Hamish Burke || 25-04-2023
 - [ ] COMP Study
 - [x] Submit NWEN Assignment
 - [ ] Finish SWEN Labs
-
-# Friday 12th
-
-*Due: Nothing*
-
-**Todo:**
-- [ ] COMP Study
-- [x] Submit NWEN Assignment
-- [ ] Finish SWEN Labs
-
-
