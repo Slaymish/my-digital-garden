@@ -49,7 +49,7 @@
 
 ## Code Examples
 
-o```java
+```java
 public static <T extends Shape> T tallestShape(List<T> shapes){
 	return shapes.stream()
 		.max(Comparator.comparing(shapes::height))
