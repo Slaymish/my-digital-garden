@@ -25,8 +25,10 @@ If unspecified, default is **private**
 
 - Public
 	- Can use insides anywhere
+	- [[C++ Inheritance\|Inherited]] by descendant classes
 - Private
 	- Can only use inside class
+	- Not accessible by descendant classes
 - Protected
 	- Used in class inheritance
 
