@@ -63,3 +63,8 @@ second half:
 [[Program Status Word\|Program Status Word]]
 [[The 8051 Instruction Set\|The 8051 Instruction Set]]
 [[Timer Operations and Programming\|Timer Operations and Programming]]
+[[Stacks and Interrupts\|Stacks and Interrupts]]
+[[Assembler Directives\|Assembler Directives]]
+	[[Segment Control\|Segment Control]]
+	[[Address Control\|Address Control]]
+	[[Symbol Definition\|Symbol Definition]]
