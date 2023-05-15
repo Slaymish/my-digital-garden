@@ -27,8 +27,8 @@ Hamish Burke || 25-04-2023
 - [ ] Read/watch vids about the 8051
 - [ ] Lectures
 	- [x] 8th
-	- [ ] 11th
-	- [ ] 12th
+	- [x] 11th
+	- [x] 12th
 	- [ ] 15th
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
