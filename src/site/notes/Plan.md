@@ -12,20 +12,21 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Exercise 4 ==19th May==
-- [ ] Assignment 4 ====
+- [ ] Assignment 4 ==29th May==
 
 ## [[COMP261/COMP MOC\|COMP]]
 
-- [ ] Assignment 3 ====
+- [ ] Assignment 3 ==26th May==
 - [ ] Lectures
 	- [ ] Tues
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] MicroController Lab 2 ==16th May==
+- [ ] Design Exercise ==2nd June==
 - [ ] Read/watch vids about the 8051
 - [ ] Lectures
-	- [ ] 8th
+	- [x] 8th
 	- [ ] 11th
 	- [ ] 12th
 	- [ ] 15th
@@ -33,16 +34,19 @@ Hamish Burke || 25-04-2023
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==LATE==
+- [ ] Assignment 3 ==26th May==
 
 
 
 ***
 
-# Friday 12th
+# Tuesday 16th May
 
-*Due: Nothing*
+Due: 
+- [ ] EEEN Lab 2 ==6pm==
+
 
 **Todo:**
-- [ ] COMP Study
-- [x] Submit NWEN Assignment
-- [ ] Finish SWEN Labs
+- [ ] Finish and Submit EEEN Lab
+- [ ] Finish WATS
+- [ ] Watch lectures
