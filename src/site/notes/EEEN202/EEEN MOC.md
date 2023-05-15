@@ -62,14 +62,4 @@ second half:
 [[Microprocessors\|Microprocessors]]
 [[Program Status Word\|Program Status Word]]
 [[The 8051 Instruction Set\|The 8051 Instruction Set]]
-
-
-
-
-
-
-
-
-
-
-
+[[Timer Operations and Programming\|Timer Operations and Programming]]
