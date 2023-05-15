@@ -39,7 +39,10 @@ $31*0.5 = 15.5mA$ (the full scale O/P)
 
 ***
 
-# Resolution
+<h1 align="center">
+Resolution
+</h1>
+
 
 - Difference in O/P voltage cause by a single code bit change on the I/P
 
