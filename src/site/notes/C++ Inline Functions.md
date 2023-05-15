@@ -12,7 +12,7 @@ Hamish Burke || 12-05-2023
 
 # C++ Inline Functions
 
-Including the implementation of a function within the [[C++ Classes\|class]] definition is an implicit *request* to make a function *inline*
+Including the implementation of a function within the [[C++ Classes\|class]] definition is an implicit **request** to make a function *inline*
 
 ## When a Function is Inline
 
@@ -23,3 +23,22 @@ Including the implementation of a function within the [[C++ Classes\|class]] def
 ### To Explicitly Request
 
 - Add inline keyword before return type in function declaration and definition
+
+```C++
+class Time {
+	public:
+		inline void print() const;
+		void set(int h, int m, int s){
+			hour = h;
+			minute = m;
+			second = s;
+		}
+}
+
+inline void Time::print(){
+	printf("%d:%d:%d\n",hour,minute,second);
+}
+```
+
+
+
