@@ -3,14 +3,14 @@
 ---
 
 
-# NWEN MOC
-
 Related: #programming #C 
 Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 27-02-2023
 ***
+
+# NWEN Map of Contents
 
 [[NWEN241/NWEN Information\|NWEN Information]] - Info on tests/assignments
 [[NWEN241/NWEN Whats Systems Programming?\|NWEN Whats Systems Programming?]]
@@ -64,3 +64,4 @@ Hamish Burke || 27-02-2023
 [[C++ Classes\|C++ Classes]]
 [[C++ Inline Functions\|C++ Inline Functions]]
 [[C++ Program Structure\|C++ Program Structure]]
+[[C++ Static Members\|C++ Static Members]]
