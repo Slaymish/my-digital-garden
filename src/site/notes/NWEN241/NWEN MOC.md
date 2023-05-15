@@ -65,3 +65,6 @@ Hamish Burke || 27-02-2023
 [[C++ Inline Functions\|C++ Inline Functions]]
 [[C++ Program Structure\|C++ Program Structure]]
 [[C++ Static Members\|C++ Static Members]]
+[[C++ Overloading\|C++ Overloading]]
+[[C++ Classes and Memeber good practices\|C++ Classes and Memeber good practices]]
+[[C++ Inheritance\|C++ Inheritance]]
