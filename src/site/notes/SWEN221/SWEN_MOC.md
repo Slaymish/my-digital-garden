@@ -3,14 +3,14 @@
 ---
 
 
-# SWEN_MOC
-
 Related: #programming #java 
 Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 02-03-2023
 ***
+
+# SWEN Map of Contents
 
 [[SWEN221/SWEN_Infomation\|SWEN_Infomation]] - Marking and important course info
 [[SWEN221/SWEN_BasicJavaRecap\|SWEN_BasicJavaRecap]]
@@ -50,3 +50,9 @@ Hamish Burke || 02-03-2023
 [[Peano Numbers construction\|Peano Numbers construction]]
 
 [[SWEN safePersons Model Answer\|How to use flatmap (term test 3 model answer)]]
+
+[[Make your own optional\|Make your own optional]]
+
+[[Suppliers and Consumers\|Suppliers and Consumers]]
+
+[[Steam.mapMulti\|Steam.mapMulti]]
