@@ -68,3 +68,6 @@ second half:
 	[[Segment Control\|Segment Control]]
 	[[Address Control\|Address Control]]
 	[[Symbol Definition\|Symbol Definition]]
+[[Using C with the 8051\|Using C with the 8051]]
+[[EEEN Microcontroller Test\|EEEN Microcontroller Test]]
+[[Digital to Analog Conversion\|Digital to Analog Conversion]]
