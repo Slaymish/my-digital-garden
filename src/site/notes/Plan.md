@@ -23,6 +23,7 @@ Hamish Burke || 25-04-2023
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] MicroController Lab 2 ==16th May==
+- [ ] Read/watch vids about the 8051
 - [ ] Lectures
 	- [ ] Fri
 	- [ ] Mon
