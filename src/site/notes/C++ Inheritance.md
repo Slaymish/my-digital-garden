@@ -13,3 +13,13 @@ Hamish Burke || 15-05-2023
 
 <https://ecs.wgtn.ac.nz/foswiki/pub/Courses/NWEN241_2023T1/LectureSchedule/NWEN241-W10-L1.pdf>
 
+Extending a single base class:
+
+```C++
+class SubClass_Name : access_mode BaseClass_name {
+	class_member_list
+};
+```
+
+access_mode is one of the [[C++ Classes#Member Access Specifiers\|member access specifiers]]
+
