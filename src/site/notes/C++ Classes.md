@@ -39,6 +39,7 @@ class Time {
 public:
 	void set(int,int,int);
 	void print() const; 
+	// const mean fn can't alter var in class
 	Time(); //constructors
 	Time(int,int,int); //constructors with args
 
@@ -89,7 +90,7 @@ class student_info {
 
 
 // parameterized constructor
-student_info:: student_info(int id,string s){
+student_info::student_info(int id,string s){
 	student_id = id;
 	name=s;
 }
