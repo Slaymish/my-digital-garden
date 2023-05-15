@@ -30,7 +30,6 @@ Hamish Burke || 25-04-2023
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==LATE==
-- [x] Lab 7 ==14th May==
 
 
 
