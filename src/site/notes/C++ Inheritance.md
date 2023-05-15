@@ -11,3 +11,5 @@ Hamish Burke || 15-05-2023
 
 - Extending [[C++ Classes\|C++ Classes]]
 
+<https://ecs.wgtn.ac.nz/foswiki/pub/Courses/NWEN241_2023T1/LectureSchedule/NWEN241-W10-L1.pdf>
+
