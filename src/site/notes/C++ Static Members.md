@@ -15,6 +15,9 @@ Hamish Burke || 15-05-2023
 - Is a variable **shared** by all instances of class
 
 ```C++
+#import <iostream>
+using namespace std;
+
 class Time{
 	public:
 		static int getCounter();
@@ -40,4 +43,14 @@ int Time::getCounter()
 {
 	return counter;
 }
+
+
+int main(void)
+{
+	cout << Time::getCounter() << "\n"; // count == 0
+	
+	Time time1; // create a time obj, and incr count
+	cout << Time::getCounter() << "\n"; // count == 1
+}
 ```
+
