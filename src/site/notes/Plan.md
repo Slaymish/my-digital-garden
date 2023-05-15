@@ -25,11 +25,11 @@ Hamish Burke || 25-04-2023
 - [ ] MicroController Lab 2 ==16th May==
 - [ ] Design Exercise ==2nd June==
 - [ ] Read/watch vids about the 8051
-- [ ] Lectures
+- [x] Lectures
 	- [x] 8th
 	- [x] 11th
 	- [x] 12th
-	- [ ] 15th
+	- [x] 15th
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
