@@ -73,7 +73,7 @@ void bob(){
 // Bob decides *when* to give cats and what cats
 
 void alice(Consumer<Consumer<Cat>> c){
-	LIst<cat> aliceCats = new ArrayList<>();
+	List<cat> aliceCats = new ArrayList<>();
 	c.accept(cat->aliceCats.add(cat));
 }
 
