@@ -54,4 +54,16 @@ To detect when timer overflow, you can:
 - Poll the timer overflow bit
 - Or enable the timer overflow interrupt
 
+## Timer Modes
+
+<https://www.engineersgarage.com/timers-8051-timer-programming/>
+
+**(i) Mode 0 : 13-bit Timer**
+
+Mode 0 is a 13 bit Timer mode and uses 8 bits of high byte and 5 bit prescaler of low byte. The value that the Timer can update in mode0 is from 0000H to 1FFFH. The 5 bits of lower byte append with the bits of higher byte. The Timer rolls over from 1FFFH to 0000H to raise the Timer flag.
+
+**(ii) Mode 1 : 16-bit Timer**
+
+Mode1 is one of the most commonly used Timer modes. It allows all 16 bits to be used for the Timer and so it allows values to vary from 0000H to FFFFH.
+
 
