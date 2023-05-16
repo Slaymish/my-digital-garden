@@ -93,7 +93,7 @@ Microcontroller core:
 - Results in faster execution, because can access both at the same time
 
 
-We are using this chip in  [[EEEN Lab Microcontrollers\|EEEN Lab Microcontrollers]]
+We are using this chip in  [[EEEN Lab 1 Hex\|EEEN Lab 1 Hex]]
 - Good example of changing the checksum on the Intel Hex Wikipedia page
 
 ## Checksum
