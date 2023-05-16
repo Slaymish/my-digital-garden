@@ -10,25 +10,29 @@ Hamish Burke || 02-03-2023
 ***
 [[COMP261/COMP Information\|Information]]
 
-# Parsing
+# Information
+
+[[COMP261/COMP Information\|Information]]
+[[COMP261/COMP Test Prep\|COMP Test Prep]]
+[[COMP Test 2 Prep\|COMP Test 2 Prep]]
+[[COMP Test 3 Prep\|COMP Test 3 Prep]]
+[[COMP Assignment 3 Info\|COMP Assignment 3 Info]]
+
+# Lecture Notes
+
+## Parsing
 
 [[COMP261/COMP Parsing\|Parsing]]
 [[COMP261/COMP Recursive Descent Parsing\|Recursive Descent Parsing]]
 [[COMP261/COMP Regular Expressions\|Regular Expressions]]
 	[[COMP FSA Acceptors\|FSA Acceptors]]
-[[COMP261/COMP Test Prep\|COMP Test Prep]]
 [[StringBuilder\|StringBuilder]]
 
-***
-
-# Graphs and Data Structures
+## Graphs and Data Structures
 
 [[COMP Graphs and data structures\|COMP Graphs and data structures]]
-[[COMP Test 2 Prep\|COMP Test 2 Prep]]
 
-***
-
-## Second Half
+### Flow Network
 
 [[COMP Graph Analytics\|COMP Graph Analytics]]
 [[COMP Flow Network\|COMP Flow Network]]
@@ -40,5 +44,9 @@ Hamish Burke || 02-03-2023
 [[Cycles\|Cycles]]
 [[Spanning Trees\|Spanning Trees]]
 
+### Compression
 
-[[COMP Test 3 Prep\|COMP Test 3 Prep]]
+[[Compression\|Compression]]
+[[Huffman coding\|Huffman coding]]
+
+
