@@ -66,8 +66,8 @@ $$PR(B)= 0.15 + 0.85*(\frac {PR(A)}{3} + \frac {PR(C)}{1} + \frac {PR(D)}{3})$$
 - repeat for iter
 	- for each node in graph
 		- set nRank = 0
+
 		- for each back-edge of node
-			- 
 
 ```java
 computePageRank(Graph graph, int iter, double dambing factor){
@@ -90,8 +90,10 @@ computePageRank(Graph graph, int iter, double dambing factor){
 			nRank = (1 - dampingFactor)
 			+ dampingFactor*nRank;
 			
-			pageRank(node) = nRank
+			NewpageRank(node) = nRank
 		}
+		// update page rank for each page with the newly computed values
+		Update pageRank with NewPageRank 
 		count++;
 	}
 }
