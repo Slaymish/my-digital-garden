@@ -2,133 +2,33 @@
 {"dg-publish":true,"permalink":"/eeen-lab-2-clock/"}
 ---
 
-Related: 
+Related: #Microcontrollers [[clock1.a51\|clock1.a51]]
 Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 16-05-2023
 ***
 
-```assembly
-		ORG	0H
-		MOV	R0,#20
-		MOV	R1,#0			//Set time value = 0, seconds, register 1
-		MOV	R2,#0			//minutes, register 2
-		MOV	R3,#0			//hours, register 3
-		ACALL SETDIS		//initialise the display
-		MOV TMOD,#0x01
-REPEAT:	MOV	TH0,#0x3C
-		MOV	TL0,#0xB0
-		SETB TR0
-WAIT:	JNB TF0,WAIT
-		CLR TR0
-		CLR TF0
-     	DJNZ R0,REPEAT
-		MOV	TH0,#0x3C
-		MOV	TL0,#0xB0
-		SETB TR0
-		MOV	R0,#19
-		CPL P2.3			//output every second
-		ACALL INCT			//Increment time
-		ACALL DIST			//Display time
-		AJMP WAIT
-		
-SETDIS: MOV	A,#38H			//Display initialisation routine
-		ACALL	COMNWRT    	
-		ACALL	DELAY1      	
-		MOV	A,#0EH     	
-		ACALL	COMNWRT		
-		ACALL	DELAY1		
-		MOV	A,#01     	
-		ACALL	COMNWRT    	
-		ACALL	DELAY2		
-		MOV	A,#06H     	
-		ACALL	COMNWRT    	
-		ACALL	DELAY1		
-		RET
-		
-INCT:	MOV A,R1			//Update time count routine (seconds)
-		ADD A, #01
-		DA A
-		MOV R1, A
-		CJNE R1, #60, INCE     //if time is not 60, return
-		MOV	R1,#0
-		
-		MOV A,R2			//Update time count routine (minutes)
-		ADD A, #01
-		DA A
-		MOV R2, A
-		CJNE R2, #60, INCE     //if time is not 60, return
-		MOV	R2,#0
-		
-		MOV A,R3			//Update time count routine (hours)
-		ADD A, #01
-		DA A
-		MOV R3, A
-		CJNE R3, #24, INCE     //if time is not 24, return
-		MOV	R3,#0
-		
-		RET
-		
-INCE:	RET
-		
-DIST:	MOV	A,#01     		//Update display routine
-		ACALL	COMNWRT    	//Reset display
-		
-		ACALL	DELAY2	
-		MOV	A,R3   			//MSD first (hours)
-		SWAP A
-		ANL A, #0Fh        //remove second digit
-		ADD A, #30
-		MOV	A,R3   			
-		ANL A, #0Fh        //remove first digit
-		ADD A, #30
-		
-		ACALL	DELAY2	
-		MOV	A,R2  			//MSD first (minutes)
-		SWAP A
-		ANL A, #0Fh         //remove second digit
-		ADD A, #30
-		MOV	A,R2  			
-		ANL A, #0Fh         //remove first digit
-		ADD A, #30
-		
-		ACALL	DELAY2	
-		MOV	A,R1 			//MSD first (seconds)
-		SWAP A
-		ANL A, #0Fh         //remove second digit
-		ADD A, #30
-		MOV	A,R1 			
-		ANL A, #0Fh         //remove first digit
-		ADD A, #30
-		
-		RET
-		
-COMNWRT:                   	
-		MOV	P1,A       	
-		CLR	P2.0       	
-		CLR	P2.1       	
-		SETB	P2.2       	
-		ACALL	DELAY1		
-		CLR	P2.2       	
-		RET
-DATAWRT:                   	
-		MOV	P1,A       	
-		SETB	P2.0       	
-		CLR	P2.1       	
-		SETB	P2.2       	
-		ACALL	DELAY1		
-		CLR	P2.2       	
-		RET
+# Additional Questions
 
-DELAY1:	MOV	R5,#30 			//Short delay
-LP1: 	DJNZ	R5,LP1		
-      	RET
-		
-DELAY2:	MOV	R5,#50 			//long delay 
-HERE2:	MOV	R4,#50	
-HERE: 	DJNZ	R4,HERE 		
-     	DJNZ	R5,HERE2
-      	RET		
-	
-		END
-```
+1) How can we speed up the process of verifying that the clock is counting correctly?  
+2) If you place an oscilloscope probe on Port2-bit3, you will see a square wave. You will notice that the widths are not exactly 1 second. How can we correct this?  
+3) Try and change the code to make the clock start at a different time.
+
+***
+
+1.  In wait, duplicate  `ACALL INCT`. This will increment the count twice every repeat of wait. This will make the count increase 2x as fast as normally. If you want to be faster, you could duplicate this line multiple times. If you wanted to test boundary cases, I would set the initial values of registers 1,2, and 3 to be closer to the values of the desired reset state. You can do this by changing the data value in `MOV Rx, #data` on lines 3-5. For example if you we're trying to test *minutes* reset, you could change `MOV R2,#0` to `MOV R2,#59`. Then you will only have to wait one minute.
+<br>
+2.  The widths of the square wave on Port2-bit3 are not exactly 1 second because the timer is not being configured to run at the correct frequency. To correct this, you can change the value of the TMOD register. If you are using a 16 MHz crystal oscillator, you would need to set the TMOD register to 0x02. For example:
+
+	```assembly
+	MOV TMOD,#0x02
+	```
+
+<br>
+4.  Same as one of my options for Q1, to change the time at which the clock starts, you can change the values of the R1, R2, and R3 registers. The R1 register stores the seconds, the R2 register stores the minutes, and the R3 register stores the hours. These can be changed on lines 3-5 at the top of the file. For example, if you wanted the clock to start at 00:10:50, I would change the code to:
+
+	```assembly
+	MOV R1, #50 // seconds
+	MOV R2, #10 // minutes
+	MOV R3, #0 // hours
+	```
