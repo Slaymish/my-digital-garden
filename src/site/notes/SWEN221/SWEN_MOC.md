@@ -13,6 +13,12 @@ Hamish Burke || 02-03-2023
 # SWEN Map of Contents
 
 [[SWEN221/SWEN_Infomation\|SWEN_Infomation]] - Marking and important course info
+[[SWEN Term Test 2 Prep\|SWEN Term Test 2 Prep]]
+[[SWEN Term Test 3 Prep\|SWEN Term Test 3 Prep]]
+[[SWEN Term Test 4 Prep\|SWEN Term Test 4 Prep]]
+
+## Lecture Notes
+
 [[SWEN221/SWEN_BasicJavaRecap\|SWEN_BasicJavaRecap]]
 [[SWEN221/Post-it Model\|Post-it Model]]
 [[SWEN221/Inheritance and Subtyping\|Inheritance and Subtyping]]
@@ -29,31 +35,16 @@ Hamish Burke || 02-03-2023
 [[SWEN Generics\|SWEN Generics]]
 [[SWEN Lambdas\|SWEN Lambdas]]
 
-***
-
-[[SWEN Term Test 2 Prep\|SWEN Term Test 2 Prep]]
 [[SWEN Reflection\|SWEN Reflection]]
-
 [[SWEN Recent Pattern Syntax\|SWEN Recent Pattern Syntax]]
 [[SWEN Var args syntax\|SWEN Var args syntax]]
-
 [[Types of Programming\|Types of Programming]]
-
 [[Making a tree in java\|Making a tree in java]]
-
-[[SWEN Term Test 3 Prep\|SWEN Term Test 3 Prep]]
-
 [[SWEN Stream Method\|SWEN Stream Method]]
-
 [[Minecraft Bug - If statements\|Minecraft Bug - If statements]]
-
 [[Peano Numbers construction\|Peano Numbers construction]]
-
 [[SWEN safePersons Model Answer\|How to use flatmap (term test 3 model answer)]]
-
 [[Make your own optional\|Make your own optional]]
-
 [[Suppliers and Consumers\|Suppliers and Consumers]]
-
 [[Steam.mapMulti\|Steam.mapMulti]]
 
