@@ -51,3 +51,91 @@ ki-> c.accept(ki)
 c::accept
 c
 ```
+
+***
+
+## Using an Auxiliary Method
+
+### With flatMap
+
+```java
+record Cat(List<Cat> kittens){}
+
+Stream<Cat> allCatsAux(Stream<Cat> cs){
+	return cs
+		.flatMap(c -> Stream.concat(
+			Stream.of(c),
+			allCatsAux(c.kittens().stream())
+		));
+}
+
+List<Cat> allCats(List<Cat> cs){ 
+	return allCatsAux(cs.stream()).toList();
+}
+```
+
+### With mapMulti
+
+```java
+record Cat(List<Cat> kittens){}
+
+void allCatsAux(Cat cat, Consumer<Cat> c){
+	c.accept(cat);
+	for(Cat ki : cat.kittens()){
+		allCatsAux(ki,c);
+	}
+}
+
+List<Cat> allCats(List<Cat> cs){ 
+	return cs.stream()
+		.<Cat>mapMulti( (cat,c) -> allCatsAux(cat,c) )
+		.toList();
+}
+```
+
+# Other Uses
+
+```java
+// flatten optionals away
+Stream<String> streamsOfOptionals( Stream<Optional<String>> oss) {
+	return oss.mapMulti( Optional::ifPresent );
+}
+```
+
+## Translating Nested-for Loops to mapMulti Streams
+
+```java
+// Translating nested for loop
+List<Point< code(List<Point> ps) {
+	List<Point> res = new Arraylist<>();
+	for(Point pi: ps){
+		if(pi.x < 0 || pi.y < 0){ continue; }
+		for(Point pj : ps){
+			if(pi == pj){ continue; }
+			if(pj.x < 0 || pj.y < 0) { continue; }
+			res.add(new Point(pi.x + pj.x, pi.y + pj.y))
+		}
+	}
+
+	return Collections.unmodifiableList(res);
+}
+```
+
+<p align="center">
+Is the same as
+</p>
+
+```java
+List<Point> code(List<Point> ps){
+	return ps.stream()
+		.filter(p-> p.x >= 0 && p.y >= 0)
+		.<Point>mapMulti( (pi,res) ->{
+			for(Point pj : ps) {
+				if(pi==pj){continue;}
+				if(pj.x < 0 || pj.y < 0){continue;}
+				res.accept(new Point(pi.x + pj.y + pj.y))
+			}
+		})
+		.toList();
+}
+```
