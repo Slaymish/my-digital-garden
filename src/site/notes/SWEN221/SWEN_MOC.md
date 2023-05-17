@@ -47,4 +47,5 @@ Hamish Burke || 02-03-2023
 [[Make your own optional\|Make your own optional]]
 [[Suppliers and Consumers\|Suppliers and Consumers]]
 [[Steam.mapMulti\|Steam.mapMulti]]
+[[Collection Operations\|Collection Operations]]
 
