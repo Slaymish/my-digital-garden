@@ -13,6 +13,7 @@ Hamish Burke || 25-04-2023
 
 - [x] Exercise 4 ==19th May==
 - [ ] Assignment 4 ==29th May==
+- [ ] Lecture 17th
 
 ## [[COMP261/COMP MOC\|COMP]]
 
@@ -27,6 +28,8 @@ Hamish Burke || 25-04-2023
 
 - [ ] **WATS** ==25th May==
 - [ ] Assignment 3 ==26th May==
+- [ ] Lecture 17th
+- [ ] Lab 8 ==19th May==
 
 
 
