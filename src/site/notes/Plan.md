@@ -18,18 +18,21 @@ Hamish Burke || 25-04-2023
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
+- [ ] Lecture 18th
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] Design Exercise ==2nd June==
 - [ ] Assignment 2 ==24th May==
+- [ ] Lecture 18th
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==25th May==
 - [ ] Assignment 3 ==26th May==
-- [ ] Lecture 17th
 - [ ] Lab 8 ==19th May==
+- [ ] `Consumer<Consumer<String>>` practise
+	- [ ] Play with `makeList,makeMap` methods from lecture slides
 
 
 
