@@ -48,4 +48,6 @@ Hamish Burke || 02-03-2023
 [[Suppliers and Consumers\|Suppliers and Consumers]]
 [[Steam.mapMulti\|Steam.mapMulti]]
 [[Collection Operations\|Collection Operations]]
+	[[Collection Operations#Lambda Collection Operations\|Lambda Collection methods]]
+	[[Collection Operations#Non Lambda Collection Methods\|Non lambda collection methods]]
 
