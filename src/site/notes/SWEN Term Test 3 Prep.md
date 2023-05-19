@@ -78,7 +78,7 @@ assert towers.stream()
 		.filter(t -> t.height() == maxH)
 		.count() == 1
 	)
-	.get();
+	.get(); 
 ```
 
 And the double for like this:
