@@ -17,6 +17,7 @@ Hamish Burke || 02-03-2023
 [[COMP Test 2 Prep\|COMP Test 2 Prep]]
 [[COMP Test 3 Prep\|COMP Test 3 Prep]]
 [[COMP Assignment 3 Info\|COMP Assignment 3 Info]]
+[[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
 
 # Lecture Notes
 
@@ -48,5 +49,4 @@ Hamish Burke || 02-03-2023
 
 [[Compression\|Compression]]
 [[Huffman coding\|Huffman coding]]
-
-
+[[Run Length Encoding\|Run Length Encoding]]
