@@ -71,4 +71,16 @@ Hamish Burke || 02-03-2023
 [[Using C with the 8051\|Using C with the 8051]]
 [[EEEN Microcontroller Test\|EEEN Microcontroller Test]]
 [[Digital to Analog Conversion\|Digital to Analog Conversion]]
+	[[Quantisation\|Quantisation]]
+	[[Comparator\|Comparator]]
+	[[Analogue to Digital Convertor\|Analogue to Digital Convertor]]
+	[[Feedback ADCs\|Feedback ADCs]]
+		[[Staircase ADC\|Staircase ADC]]
+		[[Tracking ADC\|Tracking ADC]]
+		[[Successive Approximation (SAC) Convertor\|Successive Approximation (SAC) Convertor]]
+
+
+
+[[Microcontroller Design Exercise\|Microcontroller Design Exercise]]
+[[EEEN Assignment 2\|EEEN Assignment 2]]
 
