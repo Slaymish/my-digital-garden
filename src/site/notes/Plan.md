@@ -18,61 +18,44 @@ Hamish Burke || 25-04-2023
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
-- [ ] Lecture 18th
+- [x] Lecture 18th
+- [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
+- [ ] Lecture 19th
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
-- [ ] Design Exercise ==2nd June==
-- [ ] Assignment 2 ==24th May==
-- [ ] Lecture 18th
+- [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
+- [ ] [[EEEN Assignment 2\|EEEN Assignment 2]] ==24th May==
+- [x] Lecture 18th
+- [ ] Lecture 19th
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] **WATS** ==25th May==
 - [ ] Assignment 3 ==26th May==
-- [ ] Lab 8 ==19th May==
+- [x] Lab 8 ==19th May==
 - [ ] `Consumer<Consumer<String>>` practise
 	- [ ] Play with `makeList,makeMap` methods from lecture slides
 
 
 
+For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
+
 ***
-
-# Tuesday 16th May
-
-Due: 
-- [x] EEEN Lab 2 ==6pm==
-
-
-**Todo:**
-- [x] Finish and Submit EEEN Lab
-- [x] Finish WATS
-- [x] Watch lectures
-- [x] Start NWEN Ex4
-
-# Wednesday 17th May
-
-*Due: nothing*
-
-
-**Todo:**
-- [ ] Add todos
-
-# Thursday 18th May
-
-*Due: nothing*
-
-
-**Todo:**
-- [ ] Add todos
 
 # Friday 19th May
 
 Due: 
 - [x] NWEN Ex4 ==Midnight==
+- [ ] SWEN Lab WATs ==Midnight==
 
 
 **Todo:**
 - [ ] Add todos
+- [ ] COMP Tutorial
+- [ ] Do SWEN Labs
+- [ ] Start COMP Assignment
+- [ ] Watch Lectures
+
 
 
