@@ -113,3 +113,47 @@ Will use:
 - a single digital output can be used to generate a waveform
 - done by low pass filtering a PWM output
 
+
+
+***
+
+# Convert Analog Waveform into a Digital Format
+
+## We Must
+
+- Sample the analog waveform at certain time intervals
+- Convert the amplitude of the signal at that time into a digital (binary) signal
+- Provide a time stamp for the time of sampling
+- Convert the digital signal into a decimal number to make it comprehensible to the human operator
+
+## Limitations
+
+- Can expect to have uncertainty (errors) in both the voltage and time measurement of the 
+
+
+
+![SCR-20230519-qog.png](/img/user/SCR-20230519-qog.png)
+
+- can improve the representation by adding another output state (bit)
+
+### 3-bit
+
+![SCR-20230519-qpp 1.png](/img/user/SCR-20230519-qpp%201.png)
+
+### 4-bit
+
+![SCR-20230519-qql.png](/img/user/SCR-20230519-qql.png)
+
+
+- The error (uncertainty) in decimal output decreases as bits increasing
+- Use of more bits also increases the complexity of the circuitry
+- If the input signal is higher than the top half of the input range, the **MSB will remain turned on** (clipping)
+
+The number of different binary numbers that can represent the analogue input:
+$$2^{num \ of \ bit}$$
+The number of steps between the levels would thus be:
+$$2^{num \ of \ bit}-1$$
+
+
+
+Should use [[Quantisation\|Quantisation]]
