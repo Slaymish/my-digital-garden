@@ -18,12 +18,12 @@ Hamish Burke || 25-04-2023
 
 - [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
 - [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
-- [ ] Lecture 19th
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
 - [ ] [[EEEN Assignment 2\|EEEN Assignment 2]] ==24th May==
+- [ ] EEEN Lab 3 ==23rd May==
 - [ ] Lecture 19th
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
