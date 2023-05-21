@@ -258,11 +258,20 @@ Output of 0 - 3.3V over a measuring range of 0-800°C
 
 i) By how much would the output of a 12-bit ADC with a 0-5V input range change over the full input range of the thermocouple
 
+```
+
+```
 
 ii) What would the temperature resolution of this system be?
 
+$Resolution = \frac{Full \ scale \ analog \ output}{2^2-1}=K$
+
 
 iii) What would the temperature resolution be if a 16-bit ADC was used?
+
+```
+
+```
 
 ## 6. Writing Assembly Code
 
