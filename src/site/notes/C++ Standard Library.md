@@ -49,3 +49,4 @@ cin = Object used to read input
 
 
 
+[[Strings in C++\|Strings in C++]]
