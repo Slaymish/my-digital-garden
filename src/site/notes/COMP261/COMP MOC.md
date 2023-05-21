@@ -50,3 +50,5 @@ Hamish Burke || 02-03-2023
 [[Compression\|Compression]]
 [[Huffman coding\|Huffman coding]]
 [[Run Length Encoding\|Run Length Encoding]]
+[[Lempel-Ziv\|Lempel-Ziv]]
+[[String Search\|String Search]]
