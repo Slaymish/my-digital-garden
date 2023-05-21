@@ -43,19 +43,15 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Friday 19th May
+# Sunday 21st May
 
-Due: 
-- [x] NWEN Ex4 ==Midnight==
-- [ ] SWEN Lab WATs ==Midnight==
-
+*Due: Nothing*
 
 **Todo:**
-- [ ] Add todos
-- [ ] COMP Tutorial
-- [ ] Do SWEN Labs
-- [ ] Start COMP Assignment
-- [ ] Watch Lectures
+- [ ] Lectures
+- [ ] EEEN Assignment
+- [ ] COMP Assignment 
+- [ ] SWEN Assignment
 
 
 
