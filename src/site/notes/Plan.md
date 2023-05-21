@@ -12,7 +12,7 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Assignment 4 ==29th May==
-- [ ] Lecture 17th
+- [ ] Lecture 19th
 
 ## [[COMP261/COMP MOC\|COMP]]
 
@@ -37,15 +37,26 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Sunday 21st May
+# Monday 22nd May
 
 *Due: Nothing*
 
 **Todo:**
 - [ ] Lectures
-- [x] Start EEEN Assignment
-- [ ] COMP Assignment 
-- [ ] SWEN Assignment
+	- [ ] 19th EEEN
+	- [ ] Mon EEEN
+	- [ ] Mon SWEN
+	- [ ] Mon NWEN
+- [ ] Finish EEEN Lab 3
+
+# Tuesday 23rd May
+
+Due: 
+- EEEN Lab 3 ==6pm==
+
+**Todo:**
+- [ ] todo
+
 
 
 
