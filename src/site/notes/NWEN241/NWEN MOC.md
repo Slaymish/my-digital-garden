@@ -66,5 +66,6 @@ Hamish Burke || 27-02-2023
 [[C++ Program Structure\|C++ Program Structure]]
 [[C++ Static Members\|C++ Static Members]]
 [[C++ Overloading\|C++ Overloading]]
-[[C++ Classes and Memeber good practices\|C++ Classes and Memeber good practices]]
+[[C++ Classes and Member good practices\|C++ Classes and Member good practices]]
 [[C++ Inheritance\|C++ Inheritance]]
+[[Strings in C++\|Strings in C++]]
