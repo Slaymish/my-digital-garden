@@ -12,19 +12,20 @@ Hamish Burke || 25-04-2023
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
 - [ ] Assignment 4 ==29th May==
-- [ ] Lecture 19th
 
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
+	- [ ] Flow network
+	- [ ] PageRank
 - [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
 - [ ] [[EEEN Assignment 2\|EEEN Assignment 2]] ==24th May==
-- [ ] EEEN Lab 3 ==23rd May==
-- [ ] Lecture 19th
+- [x] EEEN Lab 3 ==23rd May==
+- [ ] Practise tests
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
@@ -43,16 +44,41 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 **Todo:**
 - [ ] Lectures
-	- [ ] 19th EEEN
-	- [ ] Mon EEEN
 	- [ ] Mon SWEN
 	- [ ] Mon NWEN
-- [ ] Finish EEEN Lab 3
+- [x] Finish EEEN Lab 3
+- [x] Start on COMP
 
 # Tuesday 23rd May
 
 Due: 
 - EEEN Lab 3 ==6pm==
+
+**Todo:**
+- [ ] Finish EEEN Assignment
+- [ ] Finish SWEN Assignment
+
+# Wednesday 24th May
+
+Due: 
+- EEEN Assignment 2 ==6pm==
+
+**Todo:**
+- [ ] todo
+
+# Thursday 25th May
+
+Due: 
+- SWEN WATS
+
+**Todo:**
+- [ ] todo
+
+# Friday 26th May
+
+Due: 
+- COMP Assignment ==12pm==
+- SWEN Assignment ==11:59pm==
 
 **Todo:**
 - [ ] todo
