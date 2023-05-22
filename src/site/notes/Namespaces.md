@@ -16,6 +16,8 @@ Hamish Burke || 27-02-2023
 
 - Groups named entities
 - Changes them from global scope, to [[namespace scope\|namespace scope]]
+- Namespace can be **repeated**
+	- Can't have same elements
 
 ## General Syntax
 
@@ -96,3 +98,16 @@ int main() {
 	return 0;
 }
 ```
+
+# Ifndef
+
+```C++
+#ifndef NAMESPACE_A
+#define NAMESPACE_A
+namespace abc{
+	int x ;
+}
+#endif
+```
+
+- if namespace not already defined, code insides if's gets executed
