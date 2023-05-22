@@ -78,9 +78,15 @@ Hamish Burke || 02-03-2023
 		[[Staircase ADC\|Staircase ADC]]
 		[[Tracking ADC\|Tracking ADC]]
 		[[Successive Approximation (SAC) Convertor\|Successive Approximation (SAC) Convertor]]
+		[[Flash ADC\|Flash ADC]]
+[[Digital Storage Oscilloscope\|Digital Storage Oscilloscope]]
+[[Digital Signal Processor\|Digital Signal Processor]]
+[[Time-Varying Signals\|Time-Varying Signals]]
+
+
+
 
 
 
 [[Microcontroller Design Exercise\|Microcontroller Design Exercise]]
 [[EEEN Assignment 2\|EEEN Assignment 2]]
-
