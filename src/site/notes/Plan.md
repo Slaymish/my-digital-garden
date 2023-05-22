@@ -57,6 +57,11 @@ Due:
 **Todo:**
 - [ ] Finish EEEN Assignment
 - [ ] Finish SWEN Assignment
+- [ ] Lectures
+	- [ ] Mon SWEN
+	- [ ] Mon NWEN
+	- [ ] Tues COMP
+- [ ] EEEN Lab ==10am==
 
 # Wednesday 24th May
 
