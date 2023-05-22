@@ -98,5 +98,26 @@ student_info::student_info(int id,string s){
 }
 ```
 
+```C++
+class myClass{
+	int a;
+	int b;
+	public:
+		myClass(){
+			a = 0;
+			b = 0;
+		}
+		// Parameterized constructor
+		// Using initializer list
+		myClass(int x, int y):a(x),b(y){}
+
+
+		void setA(int x){
+			this->a = x; // similar to 'this.a' in java
+			// this pointer to refer to member of the obj
+		}
+}
+```
+
 ***
 
