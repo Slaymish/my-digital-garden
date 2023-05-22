@@ -259,7 +259,10 @@ Output of 0 - 3.3V over a measuring range of 0-800°C
 i) By how much would the output of a 12-bit ADC with a 0-5V input range change over the full input range of the thermocouple
 
 ```
+0.00122 V per disvison
+3.3V/0.00122 = 2705 steps up to 3.3V
 
+temp resolution: 800/2705 = 0.296 degrees celcius
 ```
 
 ii) What would the temperature resolution of this system be?
