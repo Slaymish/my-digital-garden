@@ -13,9 +13,10 @@ Hamish Burke || 19-05-2023
 - Doing it all in C!
 - Will start with buggy code
 - Got 2 weeks to do it
+- will probably use the [[ADC0804 8-bit SAC\|ADC0804 8-bit SAC]]
 
-- Quite a cool lab
+- potentiometer 451t0
 
-will probably use the [[ADC0804 8-bit SAC\|ADC0804 8-bit SAC]]
 
+![300][SCR-20230523-f0b.png]
 
