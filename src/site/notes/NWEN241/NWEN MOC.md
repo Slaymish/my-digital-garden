@@ -69,3 +69,9 @@ Hamish Burke || 27-02-2023
 [[C++ Classes and Member good practices\|C++ Classes and Member good practices]]
 [[C++ Inheritance\|C++ Inheritance]]
 [[Strings in C++\|Strings in C++]]
+[[C++ Generic Programming\|C++ Generic Programming]]
+[[C++ File Handling\|C++ File Handling]]
+[[C++ Dynamic Memory Allocation\|C++ Dynamic Memory Allocation]]
+[[C++ Constructors and Destructors\|C++ Constructors and Destructors]]
+
+
