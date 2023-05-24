@@ -29,7 +29,6 @@ Hamish Burke || 25-04-2023
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] **WATS** ==25th May==
 - [ ] Assignment 3 ==26th May==
 
 
@@ -38,27 +37,13 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Tuesday 23rd May
-
-Due: 
-- EEEN Lab 3 ==6pm==
-
-**Todo:**
-- [ ] Finish EEEN Assignment
-- [ ] Finish SWEN Assignment
-- [ ] Finish COMP Asssignment
-- [ ] Lectures:
-	- [ ] Mon NWEN
-	- [ ] Tues COMP
-	- [x] Wed SWEN
-	- [ ] Wed NWEN
-
 # Wednesday 24th May
 
 *Due: nothing*
 
 **Todo:**
-- [ ] todo
+- [ ] Polish EEEN Assignment
+- [ ] Finish Cloning on SWEN
 
 # Thursday 25th May
 
@@ -67,7 +52,8 @@ Due:
 - EEEN Assignment 2 ==6pm==
 
 **Todo:**
-- [ ] todo
+- [ ] Finish COMP Assignment
+- [ ] AI SWEN Assignment
 
 # Friday 26th May
 
