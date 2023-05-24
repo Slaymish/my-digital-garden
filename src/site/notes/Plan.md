@@ -19,6 +19,7 @@ Hamish Burke || 25-04-2023
 	- [ ] Flow network
 	- [ ] PageRank
 - [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
+- [ ] Assignment 4 ==16th June==
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
@@ -49,7 +50,7 @@ Due:
 - [ ] Lectures:
 	- [ ] Mon NWEN
 	- [ ] Tues COMP
-	- [ ] Wed SWEN
+	- [x] Wed SWEN
 	- [ ] Wed NWEN
 
 # Wednesday 24th May
