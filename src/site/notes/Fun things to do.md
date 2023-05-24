@@ -15,6 +15,7 @@ Hamish Burke || 18-05-2023
 - [ ] Work on portfolio website
 - [ ] Make something from mid-journey mag in blende
 - [ ] Make something with the [[Langchain framework\|Langchain framework]]
+- [ ] Play unravel 2 with tomm!!
 
 # Personal Projects
 
