@@ -59,7 +59,7 @@ private:
 ## Constructors
 
 - Similar to java constructors
-- When class performs [[NWEN241/NWEN Dynamic Memory Management\|dynamic memory allocation]], **destructor** is also needed
+- When class performs [[C++ Dynamic Memory Allocation\|C++ Dynamic Memory Allocation]], [[C++ Constructors and Destructors#Deconstructors\|Deconstructors]] is also needed
 
 - Default Constructor
 	- Accepts no args
