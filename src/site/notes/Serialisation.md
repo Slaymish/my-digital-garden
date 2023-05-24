@@ -133,3 +133,4 @@ interface SSupplierPerson extends Supplier<Person>, Serializable{
 // Serialize: Person -> SSupplierPerson -> byte[]
 // Desserialize normally, cast to SSupplierPerson, and call get()
 ```
+
