@@ -118,3 +118,18 @@ Function<Integer,Person> solution2 = (Function<Integer,Person> & Serializable)
 
 > [!INFO]
 > Does **NOT** save the actual code (bytecode) of the lambda
+
+# Serialize a `Supplier<T>` instead of a `T`
+
+```java
+interface SSupplierPerson extends Supplier<Person>, Serializable{
+	static SSupplierPerson serializableForm(Person p){ // person isn't serializable
+		String name = p.name();
+		int age = p.age();
+		return () -> new Person(name,age);
+	}
+}
+
+// Serialize: Person -> SSupplierPerson -> byte[]
+// Desserialize normally, cast to SSupplierPerson, and call get()
+```
