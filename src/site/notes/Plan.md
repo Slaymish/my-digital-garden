@@ -48,8 +48,8 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 # Thursday 25th May
 
 Due: 
-- SWEN WATS
-- EEEN Assignment 2 ==6pm==
+- [x] SWEN WATS
+- [ ] EEEN Assignment 2 ==6pm==
 
 **Todo:**
 - [ ] Finish COMP Assignment
