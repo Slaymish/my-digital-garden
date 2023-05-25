@@ -13,6 +13,11 @@ Hamish Burke || 25-05-2023
 High-speed main memory = RAM
 Slower external auxiliary memory = SSD/HDD
 
+
+![300][SCR-20230525-nla.png]
+
+- There's different [[Types of Memory\|Types of Memory]]
+
 ## Memory Cell
 
 - A device or circuit used to store a single memory bit
@@ -42,7 +47,40 @@ EG:
 > $1M = 1.048,576=2^{20}$
 > $1G=1,073,741,824=2^{30}$
 
+## Address
+
+- A unique num (binary/hex code) that identifies the location of a word in memory
+
+| Addresses | Words  |
+| --------- | ------ |
+| 000       | Word 0 |
+| 001       | Word 1 |
+| 010       | Word 2 |
+| 011       | Word 3 |
+|           |        |
+
+## Operations
+
+### Read
+
+- Also called a **fetch operation**
+- Binary word stored in a specific memory location is sensed and transferred to another device
+
+![300][SCR-20230525-noh.png]
+
+### Write
+
+- Also called a **store operation**
+- New word placed at a memory location
+- Replacing the word previously stored there
+
+![300][SCR-20230525-nkh.png]
+
+## Access Time ($t_{ACC}$)
+
+- Amount of time required to perform a **read operation**
 
 
+![750][SCR-20230525-nqk.png]
 
 
