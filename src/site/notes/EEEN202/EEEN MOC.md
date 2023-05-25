@@ -83,6 +83,7 @@ Hamish Burke || 02-03-2023
 [[Digital Storage Oscilloscope\|Digital Storage Oscilloscope]]
 [[Digital Signal Processor\|Digital Signal Processor]]
 [[Time-Varying Signals\|Time-Varying Signals]]
+[[Memory\|Memory]]
 
 
 
