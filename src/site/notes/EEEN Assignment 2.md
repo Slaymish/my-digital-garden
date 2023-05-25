@@ -154,6 +154,9 @@ Divided into three sections
 	- Upper 128
 	- Special function registers (SFR)
 
+	00H-1FH = register bank area
+	20H-2FH = Bit-addressable area
+
 ```
 384 bytes of memory physically
 
@@ -163,10 +166,12 @@ Upper 128 and SFRs share the same addresses from location 80H to FFH
 
 Answer:
 
-00h-7Fh are bit-addressable
+The internal memory structure of the 8051 consists of 3 sections. The lower 128bits, the upper 128 bits, and the Special function registers (SFR).
 
 
-Registers with byte addresses ending with 0h or 8h are also bit-addressable
+The memory addresses 00h-7Fh are bit-addressable. Also, Registers with byte addresses ending with 0h or 8h are also bit-addressable.
+
+The SFR area has 21 addresses, out of which 11 are bit-addressable SFR locations
 ```
 
 c.  
