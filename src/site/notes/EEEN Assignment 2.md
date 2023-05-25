@@ -14,10 +14,14 @@ Hamish Burke || 19-05-2023
 
 a.  The AT89C51AC3 is 'binary compatible' with which popular microcontroller?
 
+```
+The DS89C450 is binary compatible with it, meaning code written for one, can run on the other with modification
+```
+
 b.  What high-level computer architecture makes use of shared data and program memory
 
 ```
-
+The Von Neumann architecture
 ```
 
 c. What high-level computer architecture makes use of separate data and program memories
@@ -29,13 +33,16 @@ Harvard Architecture
 d. Which architecture does the 8051 employ
 
 ```
-Harvard Architecture 
+Harvard Architecture
 ```
 
 e. What does CISC stand for, and is the 8051 an example of a CISC system
 
 ```
 CISC stands for 'Complex Instruction Set Computing', which the 8051 microcontroller is an example of, concidering it has a veriety of preprogrammed instructions, like arithmetic, boolean operations, and timers
+
+
+
 ```
 
 f. In a standard 8051, how many clock cycles result in one machine cycle
