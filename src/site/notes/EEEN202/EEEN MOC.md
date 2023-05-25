@@ -60,6 +60,7 @@ Hamish Burke || 02-03-2023
 ### Microprocessors
 
 [[Microprocessors\|Microprocessors]]
+	[[Computer Architectures\|Computer Architectures]]
 [[Program Status Word\|Program Status Word]]
 [[The 8051 Instruction Set\|The 8051 Instruction Set]]
 [[Timer Operations and Programming\|Timer Operations and Programming]]
