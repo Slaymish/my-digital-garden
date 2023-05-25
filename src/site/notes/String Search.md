@@ -66,6 +66,14 @@ return -1;
 - Don't call `subString` method in the loop
 	- Don't need to copy the substring to a new string to compare with S
 
+- Have a **fail point**
+	- Where we should check next
+	- When fail, it starts from here instead of start
+	- Though its **unsafe** to jump all the way to end
+		- Jump *before* fail point
+	- Key idea of [[KMP Algorithm\|KMP Algorithm]]
+		- Use characters in partial match to determine where to start next match attempt
+
 With improvements:
 
 ```java
