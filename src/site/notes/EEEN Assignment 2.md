@@ -39,10 +39,7 @@ The Harvard Architecture
 e. What does CISC stand for, and is the 8051 an example of a CISC system
 
 ```
-CISC stands for 'Complex Instruction Set Computing', which the 8051 microcontroller is an example of, concidering it has a veriety of preprogrammed instructions, like arithmetic, boolean operations, and timers
-
-
-
+CISC stands for 'Complex Instruction Set Computing', which the 8051 microcontroller is an example of, concidering it has a veriety of preprogrammed instructions, like arithmetic, boolean operations, and timers.
 ```
 
 f. In a standard 8051, how many clock cycles result in one machine cycle
@@ -66,6 +63,8 @@ h. Given a 12 Mhz crystal, find the time (in $μs$) required for one machine cyc
 ```
 1 microsecond (μs)
 ```
+
+<br><br>
 
 ## 2. Architecture
 
@@ -134,6 +133,10 @@ j. On the 8051, what does the INC instruction do?
 INC increments the value of the chosen register by 1. If the value of the register is 0xFF, incrementing it will cause it to reset to 0. 
 ```
 
+<br><br>
+
+<br><br>
+
 ## 3. Memory
 
 a. 
@@ -144,47 +147,29 @@ The 8051 reverses 8 bytes for each ISR.
 If the code of an interrupt service routine is larger than the available 8 bytes, you would place the ISR code elsewhere in memory and use the 8 bytes to store a jump instruction to the location of the ISR code. 
 ```
 
-*** b. 
-What is internal data memory structure of the 8051 microcontroller?  
-Explain each memory part. Which area is bit addressable? which area  
-is only accessible using direct addressing?
-
-Divided into three sections
-	- Lower 128
-	- Upper 128
-	- Special function registers (SFR)
-
-	00H-1FH = register bank area
-	20H-2FH = Bit-addressable area
+b.  What is the internal data memory structure of the 8051 microcontroller?  
 
 ```
-384 bytes of memory physically
-
-Upper 128 and SFRs share the same addresses from location 80H to FFH
-
-
-
-Answer:
-
-The internal memory structure of the 8051 consists of 3 sections. The lower 128bits, the upper 128 bits, and the Special function registers (SFR).
-
-
-The memory addresses 00h-7Fh are bit-addressable. Also, Registers with byte addresses ending with 0h or 8h are also bit-addressable.
-
-The SFR area has 21 addresses, out of which 11 are bit-addressable SFR locations
+The internal memory structure of the 8051 consists of 3 sections. The lower 128bits, the upper 128 bits, and the Special function registers (SFR). The SFR area has 21 addresses, out of which 11 are bit-addressable SFR locations. The memory addresses 00h-7Fh are bit-addressable. Also, Registers with byte addresses ending with 0h or 8h are also bit-addressable.
 ```
 
 c.  
 
-> [!FINISH]
-> add timing diagram
+![file.jpeg](/img/user/file.jpeg)
+
+<br><br>
+
+<br><br>
+<br><br><br><br>
 
 ## 4. Data Display
 
-a.  **Che3ck working**
+a. 
 
 ```
-The advantage of storing a numerical value in BCD is that each number only changes one bit at a time. This means you can use the INC instruction to increment it by one.
+An advantage to using BCD is that its easier to convert BCD to decimal and vice versa compared to binary to decimal, because each digit is represented separately in BCD, reducing the complexity involved with converting it.
+
+A disadvantage is that BCD is less space effiecent than regular binary as it has to retain the formatting of 4bits per decimal digit. Binary doesn't have to stick to this, so for something like '99', it takes 8bits in BCD, and 7bits in binary. This space ineffciency would increase with bigger numbers.
 ```
 
 b. What are the ASCII values of 0-9
@@ -205,7 +190,7 @@ b. What are the ASCII values of 0-9
 c. What does the DA instruction do? **
 
 ```
-Decimal Adjust Accumulator
+Stands for Decimal Adjust
 
 Adjusts the contents of the Accumulator to correspond to a BCD (Binary Coded Decimal) number
 ```
@@ -213,35 +198,26 @@ Adjusts the contents of the Accumulator to correspond to a BCD (Binary Coded Dec
 d. What instructions must be performed *before* the DA instruction
 
 ```
-Before the DA instruction can be call, you should call the ADD or ADDC instructions. These add two BCD numbers together
+Before the DA instruction can be call, addition must be performed on the BCD numbers. This could be done with the ADD or ADDC instructions. 
 ```
 
-e. Show how ASCII numerical data could be displayed, if R0 contains a number between 0-255 which is stored in binary format
+e. Show how ASCII numerical between 0-255 could be display, which is stored in binary format
 
-- send is a subroutine 
+- WRITE_TO_DISPLAY is a subroutine
 
 ```assembly
 mov a, R0 ; copy R0 to accumulator
 div ab ; divide accumulaotor by 10
 
 add a, #30h 
-acall send;   ; send high didit
+acall WRITE_TO_DISPLAY;   ; send high didit
 
 mov a, b
 add a, #30h
-acall send   ; send low digit
-
-send: 
-	MOV P1, A ; Move the data from the accumulator to Port1 
-	CLR P3.0 ; Make RS=0 for command register 
-	CLR P3.1 ; Make RW=0 for write operation 
-	SETB P3.2 ; Make E=1 to enable (assuming E is connected to P3.2) 
-	ACALL DELAY; 
-	CLR P3.2 ; Make E=0 to latch in the data 
-	RET 
+acall WRITE_TO_DISPLAY   ; send low digit
 ```
 
-f. Show how ASCII numerical data could be displayed, if R1 contains a number between 0-99 which is stored in BCD format **
+f. Show how ASCII numerical data could be displayed, if R1 contains a number between 0-99 which is stored in BCD format
 
 ```assembly
 MOV a, R1        ; Copy R1 to accumulator
@@ -258,10 +234,10 @@ ADD a, #30h      ; Convert to ASCII
 MOV R3, a        ; Store the result in R3
 
 MOV R1, R2       ; Move the tens digit to R1
-ACALL send       ; Send tens digit to LCD
+ACALL WRITE_TO_DISPLAY       ; Send tens digit to LCD
 
 MOV R1, R3       ; Move the ones digit to R1
-ACALL send       ; Send ones digit to LCD
+ACALL WRITE_TO_DISPLAY       ; Send ones digit to LCD
 ```
 
 ## 5. Analog to Digital Conversion
@@ -284,35 +260,31 @@ Output of 0 - 3.3V over a measuring range of 0-800°C
 i) By how much would the output of a 12-bit ADC with a 0-5V input range change over the full input range of the thermocouple
 
 ```
-0.00122 V per disvison
-3.3V/0.00122 = 2705 steps up to 3.3V
+0.001221001221001 V per disvison
 
-temp resolution: 800/2705 = 0.296 degrees celcius
+3.3 / 0.001221001221001 = 2,702.7
 ```
 
 ii) What would the temperature resolution of this system be?
 
-$Resolution = \frac{Full \ scale \ analog \ output}{2^2-1}=K$
+$3.3V/0.00122 = 2705$ steps up to 3.3V
+Temperature Resolution =  $800/2705 = 0.296$ degrees celsius
 
 
 iii) What would the temperature resolution be if a 16-bit ADC was used?
 
-```
+$Resolution=\frac{5}{2^{16}-1}$
+$=\frac{5}{65535}$
+$0.000076295109483$
 
-```
+$3.3V/0.000076295109483=43,253.1$
+$Temperature Resolution = 800/43,253.1 = 0.01849578412$
+
+$$0.0184958 ˚C$$
+
+<br>
 
 ## 6. Writing Assembly Code
-
-```assembly
-addition between (contents of mem value given by contents register R0, and content of memory location 7Ah)
-
-Subtract value in R4 from result
-
-Rotate result 2bits to the right
-
-Save the value of the current register bank
-Stored in R3 register of register bank 2. Load the saved register bank
-```
 
 ```assembly
 MOV R0, #7Ah ; Load the memory location into R0
