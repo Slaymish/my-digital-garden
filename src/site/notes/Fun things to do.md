@@ -9,13 +9,13 @@ Hamish Burke || 18-05-2023
 
 # Fun Things
 
-- [ ] Make L-System tree in java
+- [x] Make L-System tree in java
 - [ ] SpeechAssistant therapist web-app
 - [ ] General Speech assistant web-app
 - [ ] Work on portfolio website
 - [ ] Make something from mid-journey mag in blende
 - [ ] Make something with the [[Langchain framework\|Langchain framework]]
-- [ ] Play unravel 2 with tomm!!
+- [x] Play unravel 2 with tomm!!
 
 # Personal Projects
 
