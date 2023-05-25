@@ -27,13 +27,13 @@ The Von Neumann architecture
 c. What high-level computer architecture makes use of separate data and program memories
 
 ```
-Harvard Architecture 
+The Harvard Architecture 
 ```
 
 d. Which architecture does the 8051 employ
 
 ```
-Harvard Architecture
+The Harvard Architecture
 ```
 
 e. What does CISC stand for, and is the 8051 an example of a CISC system
