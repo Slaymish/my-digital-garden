@@ -17,7 +17,7 @@ Hamish Burke || 25-05-2023
 
 ## Von Neumann Architecture ([[Von Neumann Architecture\|VN]])
 
-- This architecture uses the same physical memory address for instructions and data, requires two clock cycles to execute an instruction, and cannot perform instruction fetches and data transfers at the same time.​
+- This architecture **uses the same physical memory address for instructions and data**, requires two clock cycles to execute an instruction, and cannot perform instruction fetches and data transfers at the same time.​
 
 ## Complex Instruction Set Computer ([[CISC\|CISC]])
 
