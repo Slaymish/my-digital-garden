@@ -20,12 +20,14 @@ Hamish Burke || 25-04-2023
 	- [ ] PageRank
 - [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
 - [ ] Assignment 4 ==16th June==
+- [ ] 25th Lecture
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
 - [ ] [[EEEN Assignment 2\|EEEN Assignment 2]] ==24th May==
 - [ ] Practise tests
+- [ ] 25th Lecture
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
@@ -50,20 +52,26 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 Due: 
 - [x] SWEN WATS
-- [ ] EEEN Assignment 2 ==6pm==
+- [ ] EEEN Assignment 2 ==11:59pm==
 
 **Todo:**
-- [ ] Finish COMP Assignment
-- [ ] AI SWEN Assignment
+- [ ] Finish EEEN Assignment 
+- [ ] SWEN Assignment !!!
+	- [ ] Cloning
+	- [ ] AI
+- [ ] Lectures
+	- [ ] Thurs COMP
+	- [ ] Thurs EEEN
 
 # Friday 26th May
 
 Due: 
-- COMP Assignment ==12pm==
-- SWEN Assignment ==11:59pm==
+- COMP Assignment ==12pm== (2days of latedays)
+- SWEN Assignment ==11:59pm== **0 latedays**
 
 **Todo:**
-- [ ] todo
+- [ ] Submit SWEN
+- [ ] Submit Comp
 
 
 
