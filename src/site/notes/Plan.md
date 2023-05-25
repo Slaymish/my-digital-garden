@@ -30,6 +30,7 @@ Hamish Burke || 25-04-2023
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
 - [ ] Assignment 3 ==26th May==
+- [ ] Myallocator ==before sunday==
 
 
 
