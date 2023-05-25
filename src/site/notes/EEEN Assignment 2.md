@@ -15,7 +15,7 @@ Hamish Burke || 19-05-2023
 a.  The AT89C51AC3 is 'binary compatible' with which popular microcontroller?
 
 ```
-The DS89C450 is binary compatible with it, meaning code written for one, can run on the other with modification
+The DS89C450 is binary compatible with it, meaning code written for one, can usually run on the other without modification
 ```
 
 b.  What high-level computer architecture makes use of shared data and program memory
@@ -53,8 +53,12 @@ f. In a standard 8051, how many clock cycles result in one machine cycle
 
 g. Given a 40MHz crystal, find the time (in $μs$) required for one machine cycle
 
+$T=1/40MHz$
+$1\ Machine\ Cycle = 12 * 0.025$
+$1\ Machine\ Cycle = 0.3 \mu s$
+
 ```
-Given a 40MHz crystal, the time required for one machine cycle in a standard 8051 microcontroller, which consists of 12 clock cycles, is 0.3 microseconds (μs).
+Given a 40MHz crystal, the time required for one machine cycle in a standard 8051 microcontroller, which consists of 12 clock cycles, is 0.3μs.
 ```
 
 h. Given a 12 Mhz crystal, find the time (in $μs$) required for one machine cycle
@@ -80,7 +84,7 @@ The Accumulator
 c. In the 8051, how many bits is Register A?
 
 ```
-The Accumulator is an 8-bit register
+The Accumulator is an 8-bit register (1 byte)
 ```
 
 d. In the 8051, what register holds the address of the next instruction to be executed
@@ -92,7 +96,7 @@ The Stack Pointer (SP)
 e. What is 0d16 in hex?
 
 ```
-0x10
+0x10 or just 10
 ```
 
 f. What is a larger numerical value: 0d128 or 0xFF?
@@ -127,7 +131,7 @@ Causes no operations to take place for one machine cycle. Used generally for tim
 j. On the 8051, what does the INC instruction do?
 
 ```
-INC increments the value of the chosen register by 1. I the value of the register is 0xFF, incrementing it will cause it to reset to 0. 
+INC increments the value of the chosen register by 1. If the value of the register is 0xFF, incrementing it will cause it to reset to 0. 
 ```
 
 ## 3. Memory
@@ -137,7 +141,7 @@ a.
 ```
 The 8051 reverses 8 bytes for each ISR.
 
-If the code of an interrupt service routine is larger than the available 8 bytes, you would typically place the ISR code elsewhere in memory and use the 8 bytes to store a jump instruction to the location of the ISR code. 
+If the code of an interrupt service routine is larger than the available 8 bytes, you would place the ISR code elsewhere in memory and use the 8 bytes to store a jump instruction to the location of the ISR code. 
 ```
 
 *** b. 
@@ -154,6 +158,15 @@ Divided into three sections
 384 bytes of memory physically
 
 Upper 128 and SFRs share the same addresses from location 80H to FFH
+
+
+
+Answer:
+
+00h-7Fh are bit-addressable
+
+
+Registers with byte addresses ending with 0h or 8h are also bit-addressable
 ```
 
 c.  
