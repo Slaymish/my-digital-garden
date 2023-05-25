@@ -88,7 +88,7 @@ Microcontroller core:
 
 ## Memory
 
-- Harvard Architecture
+- [[Harvard Architecture\|Harvard Architecture]]
 - Separate on-chip program and data memory
 - Results in faster execution, because can access both at the same time
 
