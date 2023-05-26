@@ -19,7 +19,6 @@ Hamish Burke || 25-04-2023
 - [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
 	- [ ] Flow network
 	- [ ] PageRank
-- [ ] Finish [[COMP Tutorial Week 10\|COMP Tutorial Week 10]]
 - [ ] Assignment 4 ==16th June==
 - [ ] 25th Lecture
 - [ ] 26th Lecture
@@ -32,7 +31,6 @@ Hamish Burke || 25-04-2023
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] Assignment 3 ==26th May==
 - [ ] [[SWEN Term Test 4 Prep\|Test 4]] ==30th May==
 
 
@@ -49,9 +47,9 @@ Due:
 - SWEN Lab 9 ==11:59pm== **0 latedays**
 
 **Todo:**
-- [ ] Submit SWEN assign
+- [x] Submit SWEN assign
 - [x] Submit SWEN lab
-- [ ] Submit Comp
+
 
 
 
