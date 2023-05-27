@@ -39,16 +39,19 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Friday 26th May
+# Saturday 27th May
 
 Due: 
 - COMP Assignment ==12pm== (2days of latedays)
-- SWEN Assignment ==11:59pm== **0 latedays**
-- SWEN Lab 9 ==11:59pm== **0 latedays**
+
 
 **Todo:**
-- [x] Submit SWEN assign
-- [x] Submit SWEN lab
+- [ ] Finish Comp
+	- [ ] Flow Network
+	- [ ] Page Rank
+- [ ] Watch Lectures
+	- [ ] Thurs COMP
+	      Friday Lectures
 
 
 
