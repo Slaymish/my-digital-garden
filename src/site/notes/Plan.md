@@ -16,18 +16,17 @@ Hamish Burke || 25-04-2023
 
 ## [[COMP261/COMP MOC\|COMP]]
 
-- [ ] [[COMP Assignment 3 Info\|Assignment 3]] ==26th May==
-	- [ ] Flow network
-	- [ ] PageRank
 - [ ] Assignment 4 ==16th June==
 - [ ] 25th Lecture
 - [ ] 26th Lecture
+- [ ] Test
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
 - [ ] Practise tests
 - [ ] 26th Lecture
+- [ ] Test
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
@@ -42,16 +41,23 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 # Saturday 27th May
 
 Due: 
-- COMP Assignment ==12pm== (2days of latedays)
-
+- COMP Assignment ==12pm== 
 
 **Todo:**
-- [ ] Finish Comp
-	- [ ] Flow Network
-	- [ ] Page Rank
+- [x] Finish Comp
+	- [x] Flow Network
+	- [x] Page Rank
+
+# Sunday 28th May
+
+*Due: Nothing*
+
+**Todo:**
 - [ ] Watch Lectures
 	- [ ] Thurs COMP
-	      Friday Lectures
+	- [ ] Friday Lectures
+- [ ] NWEN Assignment 4 ==29th May==
+- [ ] Find all info on tests
 
 
 
