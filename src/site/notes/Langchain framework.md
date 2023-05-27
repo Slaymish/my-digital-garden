@@ -8,6 +8,8 @@ Hamish Burke || 19-05-2023
 ***
 
 
-This is a good beginner video <https://www.youtube.com/watch?v=NYSWn1ipbgg>
+This is a good beginner video https://www.youtube.com/watch?v=NYSWn1ipbgg
 
 x
+
+Hf ia sh fhoifh
