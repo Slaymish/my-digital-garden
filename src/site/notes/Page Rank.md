@@ -41,7 +41,7 @@ The Page rank transferred from a given page to the target of its outgoing links 
 - The probability, at any step, that the person will continue following links is a damping factor $d$. The probability that they instead jump to any random page is $1-d$
 
 
-$$PR(A) = (1-d) + d \sum \frac {PR(inLinkNeighbour)}{count(outbound links of inLinkNeighbour)}$$
+$$PR(A) = \frac{(1-d)}{n} + d \sum \frac {PR(inLinkNeighbour)}{count(outbound links of inLinkNeighbour)}$$
 
 ***
 
