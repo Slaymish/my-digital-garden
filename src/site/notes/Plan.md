@@ -57,11 +57,6 @@ Due:
 	- [ ] Thurs COMP
 	- [ ] Friday Lectures
 - [ ] NWEN Assignment 4 ==29th May==
-- [ ] Find all info on tests
-	- [x] swen
-	- [x] eeen
-	- [x] nwen
-	- [x] comp
 
 # Monday 29th May
 
@@ -69,7 +64,8 @@ Due:
 - NWEN Assignment 4 ==11:59pm==
 
 **Todo:**
-- [ ] Todo
+- [ ] Finish NWEN Assignment
+	- [ ] Fix output csv for task 4
 
 
 
