@@ -16,6 +16,7 @@ Hamish Burke || 18-05-2023
 - [ ] Make something from mid-journey mag in blende
 - [ ] Make something with the [[Langchain framework\|Langchain framework]]
 - [x] Play unravel 2 with tomm!!
+- [ ] Look over max's code
 
 # Personal Projects
 
