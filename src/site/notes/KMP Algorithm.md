@@ -34,7 +34,61 @@ Hamish Burke || 24-05-2023
 - Look for a proper suffix of failed match, which is a prefix of S, starting at each position of each position in S
 - **So suffix ends at previous position**
 
-### Pseudocode
+<table>
+  <tr>
+    <th>Index</th>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+	<td>5</td>
+	<td>6</td>
+  </tr>
+  <tr>
+    <th>S</th>
+    <td>a</td>
+    <td>n</td>
+    <td>d</td>
+    <td>a</td>
+    <td>n</td>
+	<td>d</td>
+	<td>b</td>
+  </tr>
+  <tr>
+    <th>M</th>
+	<td>-1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+
+### Building the Jump Table
+
+```
+input : S[0 .. m-1] // the string
+output: M[0 .. m-1] // match table
+
+initalise: M[0] <- -1, M[1] <- 0
+j <- 0 // position in prefix
+pos <- 2 // position in table
+
+while pos < m
+	if S[pos-1] = S[j] // substrings ..pos-1 and 0..j match
+		M[pos] <- j+1,
+		pos++, j++
+	else if j > 0
+		j <- M[j] // mismatch, restart the prefix
+	else // j = 0 (run out of candidate prefixes)
+		M[pos] <- 0,
+		pos++
+```
+
+## Pseudocode
 
 ```
 input: string S[0..m-1], text T[0 .. n-1], partial match table M[0 .. m-1]
@@ -59,3 +113,4 @@ while ((k+i)<n){
 
 return -1 // failed to find S
 ```
+
