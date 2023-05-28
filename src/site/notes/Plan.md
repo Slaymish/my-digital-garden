@@ -16,8 +16,7 @@ Hamish Burke || 25-04-2023
 
 ## [[COMP261/COMP MOC\|COMP]]
 
-- [ ] Assignment 4 ==16th June==
-- [ ] 25th Lecture
+- [ ] [[COMP Assignment 4\|COMP Assignment 4]] ==16th June==
 - [ ] 26th Lecture
 - [ ] Test 4 (thursday) ==1st June==
 
@@ -54,9 +53,9 @@ Due:
 
 **Todo:**
 - [ ] Watch Lectures
-	- [ ] Thurs COMP
+	- [x] Thurs COMP
 	- [ ] Friday Lectures
-- [ ] NWEN Assignment 4 ==29th May==
+- [x] Start NWEN Assignment 4
 
 # Monday 29th May
 
