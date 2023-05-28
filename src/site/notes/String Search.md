@@ -73,6 +73,7 @@ return -1;
 		- Jump *before* fail point
 	- Key idea of [[KMP Algorithm\|KMP Algorithm]]
 		- Use characters in partial match to determine where to start next match attempt
+	- [[Boyer-Moore\|Boyer-Moore]] as well
 
 With improvements:
 
