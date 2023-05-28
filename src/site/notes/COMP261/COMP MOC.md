@@ -52,3 +52,5 @@ Hamish Burke || 02-03-2023
 [[Run Length Encoding\|Run Length Encoding]]
 [[Lempel-Ziv\|Lempel-Ziv]]
 [[String Search\|String Search]]
+[[KMP Algorithm\|KMP Algorithm]]
+[[Boyer-Moore\|Boyer-Moore]]
