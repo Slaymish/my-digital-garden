@@ -19,18 +19,18 @@ Hamish Burke || 25-04-2023
 - [ ] Assignment 4 ==16th June==
 - [ ] 25th Lecture
 - [ ] 26th Lecture
-- [ ] Test
+- [ ] Test 4 (thursday) ==1st June==
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
 - [ ] Practise tests
 - [ ] 26th Lecture
-- [ ] Test
+- [ ] Test 2 (friday) ==2nd June==
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] [[SWEN Term Test 4 Prep\|Test 4]] ==30th May==
+- [ ] [[SWEN Term Test 4 Prep\|Test 4]] (tuesday) ==30th May==
 
 
 
@@ -58,6 +58,21 @@ Due:
 	- [ ] Friday Lectures
 - [ ] NWEN Assignment 4 ==29th May==
 - [ ] Find all info on tests
+	- [x] swen
+	- [x] eeen
+	- [x] nwen
+	- [x] comp
+
+# Monday 29th May
+
+Due: 
+- NWEN Assignment 4 ==11:59pm==
+
+**Todo:**
+- [ ] Todo
+
+
+
 
 
 
