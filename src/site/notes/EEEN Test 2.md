@@ -12,8 +12,8 @@ Hamish Burke || 29-05-2023
 
 **Friday 2nd June**
 
-- Covering over [[EEEN202/EEEN MOC#Microcontrollers\|second half]] of trimester content 
+- Covering over [[EEEN202/EEEN MOC#Microprocessors\|second half]] of trimester content 
 
+## Content
 
-
-
+- 
