@@ -23,8 +23,10 @@ Hamish Burke || 18-05-2023
 ## Notes
 
 - Remember 'longest string' questions
+- Look at Mock term test
 - **Lab 8 questions**
 - Remember [[Collection Operations\|Collection Operations]]!!!
+	- They'll be on the test document
 - can use `.new` as method (SpecialSyntax_Mini [hard])
 
 ## Reducing Stack Lab 8 Question
