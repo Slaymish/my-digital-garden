@@ -40,7 +40,7 @@ Hamish Burke || 02-03-2023
 assert LIst.of(new Person("Bob",27)).contains(bob):"OK NOW!";
 ```
 
-# Record Keyword
+# Records
 
 - Does a lot of boilerplate code for you
 	- Changes .toString()
