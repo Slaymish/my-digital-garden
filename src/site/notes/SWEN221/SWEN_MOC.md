@@ -52,3 +52,4 @@ Hamish Burke || 02-03-2023
 	[[Collection Operations#Non Lambda Collection Methods\|Non lambda collection methods]]
 [[Testing with mock objects\|Testing with mock objects]]
 [[Serialisation\|Serialisation]]
+[[Equals method\|Equals method]]
