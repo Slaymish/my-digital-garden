@@ -31,7 +31,7 @@ Hamish Burke || 25-05-2023
 
 ***
 
-## Sequential Access Memory (SAM)
+## Sequential Access Memory ([[SAM\|SAM]])
 
 - The [[Memory#Access Time ($t_{ACC}$)\|access time]] isn't constant
 - Depends on address location
@@ -40,30 +40,84 @@ Hamish Burke || 25-05-2023
 
 ***
 
-## Read Write Memory (RWM)
+## Read Write Memory ([[RWM\|RWM]])
 
 - Memory that can be written to or read from with equal ease
 
 ***
 
-## Read only Memory (ROM)
+## Read only Memory ([[ROM\|ROM]])
 
 - For application with many read cycles, typically only one write cycle
 - Alls ROM is **non volatile**
+- Uses **address bus** (address inputs) to program it
+
+**Applications**
+- Embedded microcontroller program memory
+- Data transfer/portability
+- Data tables
+- Function generator
+- Auxiliary storage
+
+### Mask Programmed ROM ([[MROM\|MROM]])
+
+- photolithographic 'mask' establishes electrical interconnection
+- Done during IC manufacturing process
+- Not user programmable
+- Really expensive to make a mask
+
+### Electrically Erasable PROM ([[EEPROM\|EEPROM]])
+
+- Uses a *special transistor* where a permanent charge is optionally stored that alter the behaviour of the transistor
+- Voltage is use to **charge** or **discharge** memory element
+- Individual bytes (words) can be erased, but often at a 'sector' at a time
+
+#### Flash Memory (Type of EEPROM)
+
+- Allow rapid in-circuit reprogramming of individual blocks
+- Combines best features of EEPROM
+- **All** flash memory is electrical variants of EEPROM
+- Can shine light on transistor, UV light puts in into a blank state that we can write to
+
+### Optical ROM
+
+- Light is used to store binary data
+- can store a large quantities of data
+- CD,DVD's etc
+- Can easily get scratched/ruined
+
 
 ***
 
-## Static Memory Devices (SRAM)
+## Static Memory Devices ([[SRAM\|SRAM]])
 
 - **Semiconductor memory** in which stored data will remain permanently as long as power is applied **without need for refreshing** (re-writing the data)
+- CMOS MCM6264C
+
+![280][SCR-20230529-lpc.png]
 
 ***
 
-## Dynamic Memory Devices (DRAM)
+## Dynamic Memory Devices ([[DRAM\|DRAM]])
 
 - Semiconductor memory where the stored data **needs** to be constantly refreshed
+- High capacity
+- Low power requirement
+- Moderate speed
 
+- **Small capacitors** used to store data
 
+### Structure and Operation
+
+- Array of cells with unique row and col positions
+- Analysis of read/write operations using:
+
+![300][SCR-20230529-lr7.png]
+
+### DRAM Refreshing
+
+- When a read operation performed, all cells in **row** will be refreshed
+- Refresh control logic is used to make sure each cell is refreshed within time limit
 
 # Typical Setup
 
