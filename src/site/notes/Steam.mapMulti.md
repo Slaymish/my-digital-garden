@@ -9,9 +9,21 @@ Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
 Hamish Burke || 15-05-2023
 ***
 
-<h1 align="center">
-Stream.mapMulti
-</h1>
+# Stream.mapMulti
+
+## What is It?
+
+- Takes a BiConsumer as an argument
+- Inside the BiConsumer, you can invoke `Consumer::accept` as many times as you like
+
+```java
+List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
+
+```
+
+
+
+***
 
 - Allows use of [[Types of Programming#Imperative Programming\|Imperative Programming]] while making use of OO and functional programming
 
@@ -25,7 +37,7 @@ FlatMap: function from element to stream of new elements
 
 mapMulti: biConsumer of element and consumer of the new elements
 
-# Example Compared to flatMap
+## Example Compared to flatMap
 
 ```java
 List<String> nameSurnames(List<Person> ps){
