@@ -130,6 +130,9 @@ $$\log _2P$$
 
 - Where $P$ is the probability of the input symbol. 
 - The **average** of this, over the while alphabet, is call the **entropy**, $H$
+
+$$H(X) = \sum _i P_i log_2 \frac {1}{P_i}$$
+
 - If $P$ was 'flat' (all letter equal $p$), $H=4.74$ bits
 - With actual $P$, it drop a bit to $4.2$ bits/char
 
