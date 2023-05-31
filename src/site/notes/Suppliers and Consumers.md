@@ -24,6 +24,14 @@ Can implement a [[SWEN Lambdas\|lambda expression]] for when .get() or .accept()
 - Defining supplier doesn't run its defined code
 - has .get()
 
+### Creating
+
+```java
+Foo f = A.doFoo(); // without supplier
+
+Supplier<Foo> f = ()->A.doFoo(); // similar to c prepoccessor?
+```
+
 ### Example
 
 ```java
