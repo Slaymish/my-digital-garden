@@ -11,7 +11,7 @@ Hamish Burke || 25-04-2023
 
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
-- [ ] Final Exam ==?? June==
+- [ ] Final Exam ==21st June==
 - [ ] Lectures
 	- [ ] 26th
 
@@ -25,7 +25,7 @@ Hamish Burke || 25-04-2023
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
-- [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==2nd June==
+- [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==9th June==
 - [ ] [[EEEN Test 2\|EEEN Test 2]] ==2nd June==
 	- [ ] Practise tests
 - [ ] Lectures
@@ -34,7 +34,7 @@ Hamish Burke || 25-04-2023
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] Test 5 ==?? June==
+- [ ] Test 5 ==15th June==
 
 
 
@@ -47,7 +47,23 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 Due: Nothing! 
 
 **Todo:**
-- [ ] Todo
+- [ ] Comp lectures
+- [ ] Comp Assignment
+- [ ] EEEN Lectures
+
+# Thursday 1st June
+
+Due: 
+- COMP Test ==4pm==
+
+**Todo:**
+- [ ] Study for COMP
+	- [ ] Practise tests
+- [ ] Study for EEEN
+
+
+
+
 
 
 
