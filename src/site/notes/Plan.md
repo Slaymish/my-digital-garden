@@ -14,6 +14,7 @@ Hamish Burke || 25-04-2023
 - [ ] Final Exam ==21st June==
 - [ ] Lectures
 	- [ ] 26th
+	- [ ] 31st
 
 ## [[COMP261/COMP MOC\|COMP]]
 
@@ -34,7 +35,7 @@ Hamish Burke || 25-04-2023
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
-- [ ] Test 5 ==15th June==
+- [ ] Test 5 ==15th June - 2:30pm==
 
 
 
