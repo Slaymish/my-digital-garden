@@ -11,7 +11,7 @@ Hamish Burke || 16-05-2023
 
 # Huffman Coding
 
-- Generate the **best** set of codes, given frequencies/probabilities on all the symbols
+- Generate the **best** set of codes, given **frequencies/probabilities** on all the symbols
 - Creates a [[Binary tree\|Binary tree]], which is used to construct the codes
 
 
@@ -48,6 +48,6 @@ while more than one node in queue: (> 1 tree)
 - use a *standard frequency table*, not based on the particular file, for code
 
 
-- 
+
 
 
