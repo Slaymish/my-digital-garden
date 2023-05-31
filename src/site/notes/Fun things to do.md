@@ -29,5 +29,3 @@ Hamish Burke || 18-05-2023
 4. **Portfolio Website**: Design and develop your personal portfolio website showcasing your skills, projects, and accomplishments. This is an essential tool for networking and job hunting in the tech industry.
 
 5. **Mid-Journey Mag Blender Project**: Pick an interesting concept or design from Mid-Journey Magazine (or any other source of inspiration) and recreate it using Blender, a 3D modeling software. This project will help you learn new techniques and improve your 3D modeling skills.
-
-Remember to set aside dedicated time to work on these projects regularly, track your progress, and share your accomplishments with others in your network or online communities for feedback and support. Good luck!
