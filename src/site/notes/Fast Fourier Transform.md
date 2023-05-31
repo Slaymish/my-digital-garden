@@ -83,3 +83,27 @@ $$P(x)=-P(-x)$$
 
 ## Extend Idea
 
+- So it works with a more general polynomial
+
+$P(x)=3x^6+4x^5+2x^4-7x^3-8x^2+6x+1$
+
+- Split $P(x)$ between even/odd powers
+
+$P(x)=(3x^6+2x^4-8x^2+1)+(4x^5-7x^3+6x)$
+$P(x)=(3x^6+2x^4-8x^2+1)+x(4x^4-7x^2+6)$
+
+
+$P_{even}(x^2)=P_{even}(-x^2)$
+
+$P_{odd}(x^2)=4(x^2)^2-7(x^2)+6$
+
+
+***
+
+$$P(x_i)=P_{even}(x_i^2)+x_iP_{odd}(x_i^2)$$
+$$P(-x_i)=P_{even}(x_i^2)-x_iP_{odd}(x_i^2)$$
+
+- Only need to evaluate $P_{even}$ and $P_{odd}$ at $n/2$ points
+- Divide and conquer algorithm ([[Fast Fourier Transform\|Fast Fourier Transform]])
+
+
