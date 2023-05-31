@@ -20,9 +20,7 @@ Hamish Burke || 25-04-2023
 
 - [ ] [[COMP Assignment 4\|COMP Assignment 4]] ==16th June==
 - [ ] Test 4 (thursday) ==1st June==
-- [ ] Lectures
-	- [x] 26th
-	- [ ] 30th
+- [ ] Practise tests
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
@@ -48,9 +46,8 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 Due: Nothing! 
 
 **Todo:**
-- [ ] Comp lectures
-- [ ] Comp Assignment
-- [ ] EEEN Lectures
+- [x] Comp lectures
+- [x] Start Comp Assignment
 
 # Thursday 1st June
 
@@ -61,6 +58,7 @@ Due:
 - [ ] Study for COMP
 	- [ ] Practise tests
 - [ ] Study for EEEN
+- [ ] EEEN Lectures
 
 
 
