@@ -54,3 +54,4 @@ Hamish Burke || 02-03-2023
 [[String Search\|String Search]]
 [[KMP Algorithm\|KMP Algorithm]]
 [[Boyer-Moore\|Boyer-Moore]]
+[[Arithmetic Coding\|Arithmetic Coding]]
