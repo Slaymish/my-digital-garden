@@ -89,9 +89,7 @@ Hamish Burke || 02-03-2023
 [[EEEN Microcontroller Recap\|EEEN Microcontroller Recap]]
 
 
-
-
-
-
 [[Microcontroller Design Exercise\|Microcontroller Design Exercise]]
 [[EEEN Assignment 2\|EEEN Assignment 2]]
+
+
