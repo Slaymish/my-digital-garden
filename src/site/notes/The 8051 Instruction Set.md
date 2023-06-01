@@ -91,7 +91,7 @@ MOV A, 020H
 
 ```
 MOV @R0,A
-	; Store the conent of
+	; Store the content of
 	; accumulator into the memory
 	; location pointed to by
 	; register R0 (8-bit address)
@@ -194,7 +194,7 @@ MOVC A,@A+DPTR ; Gets target value from table start address + offset and it in A
 - CPU has no knowledge of the data format
 - Appropriate status bits in the PSW are set when conditions are met
 
-- [@Ri] implies contents of memory location pointed to by R0 or R1
+- `[@Ri]` implies contents of memory location pointed to by R0 or R1
 - Rn refer to register R0-R7 of the currently selected register bank
 
 ### Examples
@@ -211,7 +211,6 @@ CJNE A, #04H, NOT_FOUR
 NOT_FOUR: MOV A, #05H
 	; Label for when A is not equal to 4H
 ```
-
 
 ## Interrupt Instructions
 
