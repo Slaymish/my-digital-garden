@@ -13,9 +13,9 @@ Hamish Burke || 01-06-2023
 
 ## Algorithms
 
-- [ ] [[KMP Algorithm\|KMP Algorithm]] - [[String Search\|String Search]] but with [[KMP Algorithm#Building the Jump Table\|Jump Table]]
+- [x] [[KMP Algorithm\|KMP Algorithm]] - [[String Search\|String Search]] but with [[KMP Algorithm#Building the Jump Table\|Jump Table]]
 - [x] [[Lempel-Ziv\|Lempel-Ziv]] - `[offset (to go back),length,nextCharacter]` or `[0,0,character]`
-- [ ] [[Huffman coding\|Huffman coding]] - **Best** set of codes, given frequency of all symbols ([[Binary tree\|Binary tree]])
+- [x] [[Huffman coding\|Huffman coding]] - **Best** set of codes, given frequency of all symbols ([[Binary tree\|Binary tree]])
 - [x] [[Fast Fourier Transform\|Fast Fourier Transform]]
 - [x] [[String Search#Brute Force Search\|Brute Force Search]]
 
