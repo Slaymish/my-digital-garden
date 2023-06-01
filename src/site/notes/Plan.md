@@ -41,14 +41,6 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Wednesday 31st May
-
-Due: Nothing! 
-
-**Todo:**
-- [x] Comp lectures
-- [x] Start Comp Assignment
-
 # Thursday 1st June
 
 Due: 
