@@ -19,7 +19,7 @@ Hamish Burke || 25-04-2023
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] [[COMP Assignment 4\|COMP Assignment 4]] ==16th June==
-- [ ] Test 4 (thursday) ==1st June==
+- [ ] [[COMP Test 4\|COMP Test 4]] ==1st June==
 - [ ] Practise tests
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
