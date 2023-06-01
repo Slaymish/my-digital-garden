@@ -113,5 +113,8 @@ DRAM: Dynamic ram
 
 FLASH: 
 Shine uv light on transitor to write to it, acts as read-only memory
-
 ```
+
+b)
+
+I did this is [[EEEN Assignment 2\|EEEN Assignment 2]]
