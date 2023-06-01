@@ -18,7 +18,7 @@ Hamish Burke || 19-05-2023
 
 - Lossless [[Compression\|Compression]]
 - LZ77 = simple compression, using repeated patterns
-	- basis for many later, more sophisiticated compression schemes
+	- basis for many later, more sophisticated compression schemes
 
 - Key idea:
 	- If you find a repeated pattern, replace latter ones by a link to the first
