@@ -26,7 +26,6 @@ Hamish Burke || 25-04-2023
 - [ ] [[EEEN Test 2\|EEEN Test 2]] ==2nd June==
 	- [ ] Practise tests
 - [ ] Lectures
-	- [ ] 26th
 	- [ ] 29th
 	- [ ] 1st
 
