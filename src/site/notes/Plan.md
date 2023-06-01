@@ -25,9 +25,6 @@ Hamish Burke || 25-04-2023
 - [ ] [[Microcontroller Design Exercise\|Microcontroller Design Exercise]] ==9th June==
 - [ ] [[EEEN Test 2\|EEEN Test 2]] ==2nd June==
 	- [ ] Practise tests
-- [ ] Lectures
-	- [ ] 29th
-	- [ ] 1st
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
@@ -39,17 +36,14 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Thursday 1st June
+# Friday 2nd June
 
 Due: 
-- COMP Test ==4pm==
+- EEEN Test ==10am==
 
 **Todo:**
-- [x] Study for COMP
-	- [x] Practise tests
 - [ ] Study for EEEN
-- [ ] EEEN Lectures
-
+- [ ] [[EEEN Test 2\|EEEN Test 2]]
 
 
 
