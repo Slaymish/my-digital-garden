@@ -13,7 +13,7 @@ Hamish Burke || 01-06-2023
 a) 
 
 ```
-accumulator
+accumulator 
 timer unit
 stack pointer register
 Arithmetic Logic Unit
@@ -26,7 +26,7 @@ ORG	0H ; ORG sets the memory locaiton of the location counter
 ```
 
 c)
-
+ 
 ```
 the stack pointer is a SFR that you can PUSH and POP memory addresses to, so you can back to them in the future. For example RET pops the top memory location of the SP and continues executing instructions from there.
 ```
@@ -94,7 +94,7 @@ input range/2^bits - 1
 i) 
 res = $\frac {10}{2^{14}-1}$
 res = $\frac {10}{16383}$
-res = 0.000610388817677
+res = $0.000610388817677$
 
 ii)
 6,094d
@@ -109,7 +109,6 @@ SRAM: Static ram
 SRAM perminatly holds the data stored on it while power is applied. Semiconductor memory
 
 DRAM: Dynamic ram
-
 
 FLASH: 
 Shine uv light on transitor to write to it, acts as read-only memory
