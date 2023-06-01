@@ -18,3 +18,7 @@ Hamish Burke || 29-05-2023
 
 [[EEEN Test 2 Practice questions\|EEEN Test 2 Practice questions]]
 [[EEEN Test 2 2019\|EEEN Test 2 2019]]
+
+For adcs:
+- Table made in [[EEEN Assignment 2\|EEEN Assignment 2]] in 'as far as he'll go'
+
