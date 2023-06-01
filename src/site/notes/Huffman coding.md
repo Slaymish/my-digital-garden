@@ -11,6 +11,7 @@ Hamish Burke || 16-05-2023
 
 # Huffman Coding
 
+- Los
 - Generate the **best** set of codes, given **frequencies/probabilities** on all the symbols
 - Creates a [[Binary tree\|Binary tree]], which is used to construct the codes
 
