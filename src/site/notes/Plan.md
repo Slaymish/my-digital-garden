@@ -19,8 +19,6 @@ Hamish Burke || 25-04-2023
 ## [[COMP261/COMP MOC\|COMP]]
 
 - [ ] [[COMP Assignment 4\|COMP Assignment 4]] ==16th June==
-- [ ] [[COMP Test 4\|COMP Test 4]] ==1st June==
-- [ ] Practise tests
 
 ## [[EEEN202/EEEN MOC\|EEEN]]
 
@@ -30,6 +28,7 @@ Hamish Burke || 25-04-2023
 - [ ] Lectures
 	- [ ] 26th
 	- [ ] 29th
+	- [ ] 1st
 
 ## [[SWEN221/SWEN_MOC\|SWEN]]
 
@@ -47,8 +46,8 @@ Due:
 - COMP Test ==4pm==
 
 **Todo:**
-- [ ] Study for COMP
-	- [ ] Practise tests
+- [x] Study for COMP
+	- [x] Practise tests
 - [ ] Study for EEEN
 - [ ] EEEN Lectures
 
