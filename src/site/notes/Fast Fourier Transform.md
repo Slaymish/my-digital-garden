@@ -69,7 +69,7 @@ $$O(n^2)$$
 
 ***
 
-## To Make Faster!
+# To Make Faster!
 
 for eg $P(x)=x^2$
 
@@ -172,17 +172,16 @@ When squaring these, it resamples the points around a [[Unit circle\|Unit circle
 
 ![SCR-20230601-i8b.png](/img/user/SCR-20230601-i8b.png)
 
-Output: $y=
-
-# Psudocode
+# Pseudocode
 
 ![SCR-20230601-ib4.png](/img/user/SCR-20230601-ib4.png)
 
 - Making it recursive decreased the time complexity
+	- Cus split up problem, only have to evaluate one point now
 - From $O(n^2)$ to $O(nlogn)$ n = closest power of 2 to degree of polynomial
-- 
-- 
-- ![SCR-20230601-ien.png](/img/user/SCR-20230601-ien.png)
+
+
+![SCR-20230601-ien.png](/img/user/SCR-20230601-ien.png)
 
 FFF = $O(nLogn)$ 
 n = closest power of 2 to degree of polynomial
