@@ -19,6 +19,7 @@ Hamish Burke || 01-06-2023
 	- Performs arithmetic and logic operations
 - Stack Pointer (**SP**)
 	- used to save data temporarily
+	- acts as java stack (kinda)
 - Registers
 	- Temporary fast storage of information
 - Instruction decoder timing and control unit
@@ -34,7 +35,8 @@ Built up from a microprocessor. Add some memory and several I/O devices
 
 ![200][SCR-20230601-s8y.png]
 
-Accumulator really efficient, as its connected directly to the ALU
+> [!INFO]
+> The Accumulator is really efficient, as its connected directly to the ALU
 
 # 8051 Data Memory (RAM)
 
@@ -47,7 +49,7 @@ Accumulator really efficient, as its connected directly to the ALU
 		- Direct Addressing only
 
 - 384 bytes of memory total
-- Upper 128 and SFR's share the same addresses from  80H-FFH
+- Upper 128 and SFR's share the same addresses from  **80H-FFH**
 
 # Assembler Directives
 
