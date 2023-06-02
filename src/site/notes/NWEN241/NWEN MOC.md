@@ -63,6 +63,7 @@ Hamish Burke || 27-02-2023
 [[Namespaces\|Namespaces]]
 [[C++ Classes\|C++ Classes]]
 [[C++ Inline Functions\|C++ Inline Functions]]
+[[C++ Friend function\|C++ Friend function]]
 [[C++ Program Structure\|C++ Program Structure]]
 [[C++ Static Members\|C++ Static Members]]
 [[C++ Overloading\|C++ Overloading]]
@@ -73,5 +74,6 @@ Hamish Burke || 27-02-2023
 [[C++ File Handling\|C++ File Handling]]
 [[C++ Dynamic Memory Allocation\|C++ Dynamic Memory Allocation]]
 [[C++ Constructors and Destructors\|C++ Constructors and Destructors]]
-
-
+[[Implementing a Stack\|Implementing a Stack]]
+[[Containers\|Containers]]
+[[C++ Templates\|C++ Templates]]
