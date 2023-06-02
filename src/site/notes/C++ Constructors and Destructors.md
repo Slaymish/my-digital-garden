@@ -17,6 +17,12 @@ Info on constructors in C++ [[C++ Classes#Constructors\|here]]
 
 # Deconstructors
 
+- As soon as created object gets out of scope, destructor will be called
+- Eg at end of method its declared in
+
+```C++
+class A{
+	~A(); // destructor
+}
 ```
 
-```
