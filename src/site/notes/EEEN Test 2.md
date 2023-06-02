@@ -22,3 +22,16 @@ Hamish Burke || 29-05-2023
 For adcs:
 - Table made in [[EEEN Assignment 2\|EEEN Assignment 2]] in 'as far as he'll go'
 
+# Final Notes
+
+## A/D Resolution
+
+$$Resolution = \frac{Input\ Voltage\ Range}{2^{bits}-1}$$
+
+
+## Timer Mode0 
+
+- 16-bit timer
+- Set `THx` and `TLx`. TLx counts up to 256, then THx starts counting. When THx overflows, overflow flag is set
+
+
