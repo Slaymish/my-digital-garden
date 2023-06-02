@@ -9,6 +9,44 @@ Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
 Hamish Burke || 02-06-2023
 ***
 
+# Containers
+
+- Most contains have an **Iterator**
+
+## Sequence
+
+- Arrays
+- Vector
+- List
+	- `forward_list>` Forward list (single linked list)
+	- `<list>` (doubly linked list)
+- Deque
+
+## Associative
+
+- Implement **sorted data structures**
+- Can be quickly searched
+
+- set
+- Map
+- Multi-set
+- Multi-map
+
+## Unordered
+
+- Unordered Set
+- Unordered map
+- Unordered multi-set
+- Unordered multi-map
+
+## Adapters
+
+- Queue
+- Priority queue
+- Stack
+
+***
+
 - Vector 
 	- Dynamic
 	- Contiguous
@@ -17,7 +55,7 @@ Hamish Burke || 02-06-2023
 	- Dynamic 
 	- non-contiguous
 	- sequential access
-- set
+- Set
 	- Dynamic
 	- sorted collection of unique elements
 - Map
