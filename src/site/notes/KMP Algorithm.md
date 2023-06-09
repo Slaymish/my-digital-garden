@@ -113,4 +113,3 @@ while ((k+i)<n){
 
 return -1 // failed to find S
 ```
-
