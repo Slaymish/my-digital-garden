@@ -8,6 +8,9 @@ Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
 Hamish Burke || 19-05-2023
 ***
 
+[[Microcontroller Design Exercise Report\|Microcontroller Design Exercise Report]]
+
+
 # [[Successive Approximation (SAC) Convertor\|Successive Approximation (SAC) Convertor]]
 
 - Doing it all in C!
@@ -36,3 +39,4 @@ We multiplied the returned test_val is by 0.0196
 - Connect up to a multimeter, voltages>5V (measured on multimeter) wasn't getting displayed on lcd display
 
 
+![[EEEN202.pdf]]
