@@ -21,6 +21,8 @@ Hamish Burke || 11-05-2023
 
 ## Time Complexity
 
+- Where E is the number of edges
+
 $$O(Elog(E))$$
 
 ### Pseudocode
