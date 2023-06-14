@@ -121,10 +121,12 @@ interface Stack {
 		};
 	}
 
-	default int top(){ return match(
-		()->{ throw new Error("...");},
-		(top,tail)-> top
-	);}
+	default int top(){ 
+		return match(
+			()->{ throw new Error("...");},
+			(top,tail)-> top
+		);
+	}
 
 	default int count(){ return match(
 		()->0;,
