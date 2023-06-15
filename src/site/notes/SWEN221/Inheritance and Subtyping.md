@@ -167,7 +167,7 @@ Submethods > comments for code sections
 </p>
 
 - This is because you can override methods
-- Doing this is called 'the template method pattern'
+- Doing this is called 'the[[ template method pattern\| template method pattern]]'
 
 ```java
 interface HouseDrawing extends Drawing{ 
@@ -181,4 +181,5 @@ interface HouseDrawing extends Drawing{
 		g.setColor(Color.GRAY); 
 		g.fillRect(50,200,3);
 	}
+}
 ```
