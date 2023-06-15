@@ -14,7 +14,7 @@ Hamish Burke || 07-03-2023
 
 ## Traditional Java Sub-classing
 
-- Point is responsible to initialize x and y
+- Point is responsible to initialise x and y
 - Point 3D may not even know x,y
 
 ```java
