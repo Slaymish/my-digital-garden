@@ -16,6 +16,7 @@ Hamish Burke || 02-03-2023
 [[SWEN Term Test 2 Prep\|SWEN Term Test 2 Prep]]
 [[SWEN Term Test 3 Prep\|SWEN Term Test 3 Prep]]
 [[SWEN Term Test 4 Prep\|SWEN Term Test 4 Prep]]
+[[SWEN Term Test 5 Prep\|SWEN Term Test 5 Prep]]
 
 ## Lecture Notes
 
