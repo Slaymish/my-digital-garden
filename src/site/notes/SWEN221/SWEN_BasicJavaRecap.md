@@ -37,7 +37,7 @@ Hamish Burke || 02-03-2023
 
 ```java
 //eg
-assert LIst.of(new Person("Bob",27)).contains(bob):"OK NOW!";
+assert List.of(new Person("Bob",27)).contains(bob):"OK NOW!";
 ```
 
 # Records
