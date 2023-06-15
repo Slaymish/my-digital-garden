@@ -27,6 +27,15 @@ static list<Person> safePersons(Map<Point,List<Person>> ps, LIst<Point> dl){
 		.filter(e -> !dl.contains(e))
 		.flatMap(e - > ps.get(e).stream()) // 
 		.toList();
+
+	// with mapMulti
+	ps.entrySet()
+		.stream()
+		.filter(e -> !dl.contains(e.getKey()))
+		.<Person>mapMulti((entry,con)->{
+			entry.getValue().stream().forEach(con::accept);
+		})
+		.toList();
 }
 ```
 
