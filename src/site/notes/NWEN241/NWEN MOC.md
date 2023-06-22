@@ -77,3 +77,4 @@ Hamish Burke || 27-02-2023
 [[Implementing a Stack\|Implementing a Stack]]
 [[Containers\|Containers]]
 [[C++ Templates\|C++ Templates]]
+[[Initializing Objects\|Initializing Objects]]
