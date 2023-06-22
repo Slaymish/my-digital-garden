@@ -18,6 +18,7 @@ Hamish Burke || 24-05-2023
 ## Template Parameters
 
 - Used to pass data types as an argument
+- typename is legacy code
 
 ```C++
 <class TYPE> /* or */ <typename TYPE>
@@ -38,9 +39,16 @@ void printMax(T a, T b){
 	cout<<"Max "<< (a > b ? a : b);
 }
 
-// using
-printMax<int>(a,b);
+ // instantiate a specific instance of the template
+printMax<int>(a,b); // compiler generates fn replaces each T with int
 printMax<float>(a,b);
+```
+
+```C++
+printMax(5,10); // int a , int b
+printMax(5.0,10.0); // float a, float b
+
+printMax(5,10.0); // Compiler dependent (usually generates error)
 ```
 
 ## Class Templates
@@ -65,8 +73,8 @@ class Item
 {
 	T data;
 public:
-	Item() : Data(T())
-	{}
+	Item() : Data(T()) { }
+	
 	void SetData(T nValue)
 		{Data = nValue;}
 
@@ -76,6 +84,12 @@ public:
 	void PrintData()
 		{cout << Data;}
 };
+
+Item<int> i1;
+Item<float> f1;
+
+
+
 ```
 
 ### Writing Member Functions outside Class Template
