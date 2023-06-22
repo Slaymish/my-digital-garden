@@ -11,6 +11,13 @@ Hamish Burke || 27-02-2023
 
 # Final Exam
 
+
+## Practise Tests
+
+- [[NWEN 2006 Exam\|NWEN 2006 Exam]]
+- 
+
+
 - June 21st **9:30am**
 - 2hr test
 - Split
