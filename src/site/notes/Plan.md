@@ -11,12 +11,9 @@ Hamish Burke || 25-04-2023
 
 ## [[NWEN241/NWEN MOC\|NWEN]]
 
-- [ ] Final Exam ==21st June 9:30am==
+- [ ] [[NWEN Final Exam\|NWEN Final Exam]] ==21st June 9:30am==
 - [ ] Lectures
-	- [x] 26th
-	- [x] 31st
 	- [ ] 29th
-	- [x] 2nd ==3:10pm==
 	- [ ] Go through `Friends Templates Containers` slides
 
 ## [[COMP261/COMP MOC\|COMP]]
@@ -41,23 +38,38 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-# Thursday 15th June
+# Tuesday 20th June
+
+*Due: Nothing*
+
+Todo:
+- [ ] Study for NWEN
+- [ ] 29th Lecture
+- [ ] Practice Tests
+
+# Wednesday 21st June
 
 *Due:
-- SWEN Test ==2:30pm==
+- NWEN Final Exam ==9:30am==
 
-**Todo:**
-- [x] Study for SWEN
-- [x] Finish COMP
+Todo:
+- [ ] todo
 
-# Friday 16th June
+# Thursday 22nd June
+
+*Due: nothing*
+
+Todo:
+- [ ] todo
+
+# Friday 23rd June
 
 *Due:
-- Comp Assignment ==12pm==
-	- **1 day, 2 hours, and 59 minutes** late submission remaining
+- COMP Marking Tutorial ==12pm==
 
-**Todo:**
-- [ ] Lectures
+Todo:
+- [ ] todo
+
 
 
 
