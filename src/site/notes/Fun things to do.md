@@ -17,7 +17,8 @@ Hamish Burke || 18-05-2023
 - [ ] Make something with the [[Langchain framework\|Langchain framework]]
 - [ ] Play unravel 2 with tomm!!
 - [ ] Look over max's code
-- [ ] AI Raspberry PI assistant (google home type thing)
+- [ ] [[AI Raspberry PI assistant\|AI Raspberry PI assistant]] (google home type thing)
+- [ ] Test the GPT-4 function calling update
 
 # Personal Projects
 
