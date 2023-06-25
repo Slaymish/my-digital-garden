@@ -11,7 +11,7 @@ Hamish Burke || 24-05-2023
 
 # Knuth-Morris-Pratt Algorithm
 
-- After a mismatch, advance to the earliest place where search string could possibly match
+- After a mismatch, **advance to the earliest place where search string could possibly match**
 - *Faster* than a simple [[String Search\|String Search]]
 
 > [!INFO]
