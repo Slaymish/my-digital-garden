@@ -3,7 +3,7 @@
 ---
 
 Related: 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 29-05-2023
 ***
@@ -12,7 +12,7 @@ Hamish Burke || 29-05-2023
 
 **Friday 2nd June**
 
-- Covering over [[EEEN202/EEEN MOC#Microprocessors\|second half]] of trimester content 
+- Covering over [[EEEN202/EEEN202 MOC#Microprocessors\|second half]] of trimester content 
 
 ## Content
 
