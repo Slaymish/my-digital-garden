@@ -3,7 +3,7 @@
 ---
 
 Related: 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 16-05-2023
 ***
@@ -11,7 +11,7 @@ Hamish Burke || 16-05-2023
 # Report
 
 *Use a short report to show the following results*
-[[EEEN202/EEEN MOC\|EEEN MOC]]
+[[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
   
 
 ## 8.1
