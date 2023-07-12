@@ -6,7 +6,7 @@
 # EEEN Lab Prep Tasks
 
 Related: #practise 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 06-03-2023
 ***
