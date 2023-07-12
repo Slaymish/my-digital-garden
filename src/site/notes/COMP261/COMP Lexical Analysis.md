@@ -6,7 +6,7 @@
 # COMP Lexical Analysis
 
 Related: #programming #java 
-Contents: [[COMP261/COMP MOC\|COMP MOC]]
+Contents: [[COMP261/COMP261 MOC\|COMP261 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 03-03-2023
