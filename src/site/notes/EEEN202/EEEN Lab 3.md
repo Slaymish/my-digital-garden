@@ -3,7 +3,7 @@
 ---
 
 Related: [[EEEN202/EEEN Sequential Logic\|EEEN Sequential Logic]]
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 20-03-2023
 ***
