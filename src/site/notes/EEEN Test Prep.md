@@ -6,7 +6,7 @@
 # EEEN Test Prep
 
 Related: 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 24-04-2023
 ***
