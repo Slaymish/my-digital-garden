@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/swen-225-assignment-1-class-diagram/"}
 ---
 
-Related: [[SWEN221/SWEN221 MOC\|SWEN221 MOC]]
+Related: [[SWEN221/SWEN221 MOC\|SWEN221 MOC]] [[SWEN225 Assignment 1\|SWEN225 Assignment 1]]
 Contents: [[SWEN225 MOC\|SWEN225 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN225_2023T2/CourseSchedule)
 [[UNI MOC\|UNI MOC]]
