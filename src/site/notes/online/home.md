@@ -9,7 +9,7 @@
 
 ## Lastest Notes
 
-[[NWEN241/NWEN MOC\|NWEN241]]
+[[NWEN241/NWEN241 MOC\|NWEN241]]
 - [[NWEN System Calls\|NWEN System Calls]]
 - [[NWEN Processes\|NWEN Processes]]
 - [[NWEN Interprocess Communication\|NWEN Interprocess Communication]]
@@ -18,7 +18,7 @@
 - [[Process Initialisation on Linux\|Process Initialisation on Linux]]
 - [[Intro to C++\|Intro to C++]]
 
-[[EEEN202/EEEN MOC\|EEEN202]]
+[[EEEN202/EEEN202 MOC\|EEEN202]]
 - [[EEEN202/EEEN Asynchronous Counters\|EEEN Asynchronous Counters]]
 - [[EEEN Design Report\|EEEN Design Report]]
 - [[EEEN Synchronous Counters\|EEEN Synchronous Counters]]
@@ -27,14 +27,14 @@
 - [[The 8051 Instruction Set\|The 8051 Instruction Set]]
 - [[EEEN Design Report\|EEEN Design Report]]
 
-[[COMP261/COMP MOC\|COMP261]]
+[[COMP261/COMP261 MOC\|COMP261]]
 - [[COMP261/COMP Regular Expressions\|Regular Expressions]]
 - [[COMP FSA Acceptors\|FSA Acceptors]]
 - [[COMP261/COMP Test Prep\|COMP Test Prep]]
 - [[StringBuilder\|StringBuilder]]
 - [[COMP Graphs and data structures\|COMP Graphs and data structures]]
 
-[[SWEN221/SWEN_MOC\|SWEN221]]
+[[SWEN221/SWEN221 MOC\|SWEN221]]
 - [[SWEN Garbage Collection\|SWEN Garbage Collection]]
 - [[SWEN Reflection\|SWEN Reflection]]
 - [[SWEN Recent Pattern Syntax\|SWEN Recent Pattern Syntax]]
@@ -44,6 +44,14 @@
 - [[SWEN Stream Method\|SWEN Stream Method]]
 - [[Minecraft Bug - If statements\|Minecraft Bug - If statements]]
 - [[Java Streams\|Java Streams]]
+
+
+[[SWEN225 MOC\|SWEN225 MOC]]
+[[NWEN243 MOC\|NWEN243 MOC]]
+[[CGRA251 MOC\|CGRA251 MOC]]
+[[CYBR271 MOC\|CYBR271 MOC]]
+
+
 
 ***
 
