@@ -67,6 +67,22 @@ Used in [[Routing\|Routing]]
 	- Stops packets from ending up in a loop for too long
 	- If a router is misconfigured
 
+## Classful IP Allocation
+
+- ICANN
+	- Internet Corporation for Assigned Names and Numbers
+
+| Class   | Starting bits | Network Bits | Host Bits | No. Devices |
+| ------- | ------------- | ------------ | --------- | ----------- |
+| Class A | 0             | 7            | 24        | 16 Million  |
+| Class B | 10            | 14           | 16        | 65,000      |
+| Class C | 110           | 21           | 8         | 256-2       |
+
+- Issue is that not network bits available
+- To address this, introduced [[CIDR\|CIDR]]
+
+***
+
 ## Fragmentation and Reassembly
 
 Allow the packets to be **fragmented** (broken up) when they are too big for a given network technology
