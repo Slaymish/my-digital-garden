@@ -31,9 +31,17 @@ Most primitive state machine (not [[UML\|UML]])
 
 Can also be represented as state transition **tables**
 
+- Are **XOR** diagrams
+
 ***
 
 ## Harel StateCharts
+
+- Are **OR** diagrams
+
+Can determine if the program will terminate
+Because it is a form of Petri Nets
+- Not turing complete
 
 - Multiple States
 - Named after David Harel
@@ -68,6 +76,7 @@ A State could contains:
 - Have a **start state**
 	- Black dot (where program starts)
  - Target thing is end state
+	 - End states are unlimited
 
 ![Pasted image 20230727114309.png](/img/user/Pasted%20image%2020230727114309.png)
 
@@ -92,3 +101,18 @@ The grey box is the superstate
 
 ![Pasted image 20230727144902.png](/img/user/Pasted%20image%2020230727144902.png)
 
+# Concurrent Substates
+
+- Separates concurrent behaviour
+- Each line is called a 'swim lane'
+- Dotted line between the two, in a superstate
+	- They don't interact (cross the dotted line)
+
+- Total number of needed states is the **product** of both swim lanes
+
+# Fork and Join
+
+- Separate one arrow into two
+- Both paths have to complete before it can terminate
+
+![Pasted image 20230727145902.png](/img/user/Pasted%20image%2020230727145902.png)
