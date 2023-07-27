@@ -9,13 +9,13 @@ Hamish Burke || 25-04-2023
 
 # To-do
 
-## [[NWEN241/NWEN MOC\|NWEN]]
+## [[NWEN241/NWEN241 MOC\|NWEN]]
 
-## [[COMP261/COMP MOC\|COMP]]
+## [[COMP261/COMP261 MOC\|COMP]]
 
-## [[EEEN202/EEEN MOC\|EEEN]]
+## [[EEEN202/EEEN202 MOC\|EEEN]]
 
-## [[SWEN221/SWEN_MOC\|SWEN]]
+## [[SWEN221/SWEN221 MOC\|SWEN]]
 
 For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
@@ -26,9 +26,9 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 *Due: Nothing*
 
 **Todo:**
-- [ ] Todo
-- [ ] Switch from MATH245 to SWEN225
-- [ ] Calculate total course grades
+- [x] Todo
+- [x] Switch from MATH245 to SWEN225
+- [x] Calculate total course grades
 
 
 
