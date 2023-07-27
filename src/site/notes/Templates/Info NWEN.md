@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/templates/info-nwen/"}
 ---
 
-Related: #programming 
-Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
-[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
+Related: [[NWEN241/NWEN241 MOC\|NWEN241 MOC]]
+Contents: [[NWEN243 MOC\|NWEN243 MOC]]
+[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN243_2023T2/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || {{date}}
 ***
