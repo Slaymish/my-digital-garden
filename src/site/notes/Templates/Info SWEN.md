@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/templates/info-swen/"}
 ---
 
-Related: #
-Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
-[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
+Related: [[SWEN221/SWEN221 MOC\|SWEN221 MOC]]
+Contents: [[SWEN225 MOC\|SWEN225 MOC]]
+[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN225_2023T2/CourseSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || {{date}}
 ***
