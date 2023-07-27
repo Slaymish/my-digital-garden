@@ -6,7 +6,7 @@
 # Grey Code Generator (15%)
 
 Related: 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 03-04-2023
 ***
