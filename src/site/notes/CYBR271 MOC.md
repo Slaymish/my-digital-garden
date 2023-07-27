@@ -12,5 +12,8 @@ Hamish Burke || 03-07-2023
 [[CYBR Info\|CYBR Info]]
 [[Threat Model\|Threat Model]]
 	[[STRIDE\|STRIDE]]
+	[[STRIDE Tables\|STRIDE Tables]]
 [[Security Cards\|Security Cards]]
 [[Local Body Elections\|Local Body Elections]]
+
+
