@@ -50,33 +50,50 @@ Classes have **three** sections:
 
 # Relationships
 
-- Inheritance
-	- Arrow goes **into** parent class, from subclass
+**Inheritance**
+- Arrow goes **into** parent class, from subclass
 - Association
 	- No arrow, connection between classes
-- Aggregation
-	- Hollow diamond
-	- *Can* 
-- Composition
-	- White diamond
+
+**Aggregation** - Hollow Diamond
+
+ - Airplanes in an airport
+	 - Have a collections of things that can exist on their own
+- No additional semantics
+- If in doubt, use reg association (just a line)
+
+
+**Composition** - Black Diamond
+ - An engine in a car
+	  - The contained item is a part of the containing item
+- Synchronises lifetimes (transitively)
+- Anti-symmetric
 
 ## Associations
 
 - Association have names
 	- That describe the relationship
-- Assoications have role names
+- Associations have role names
 
 Eg:
 - produces, enables etc
+
+| Cetegory            | Example                   |     |
+| ------------------- | ------------------------- | --- |
+| A is a member of B  | Pilot-Airline             |     |
+| A uses or manages B | CEO-Airline               |     |
+| A communicates to B | Pilot-Air traffic control |     |
 
 # Multiplicities
 
 Goes next to class, specifies how many instances can be made of a class
 
-- `1` =  exacctly one
+- Implicitly is one
+
+- `1` =  exactly one
 - `1..*` = one or more
 - `*` = many (zero or more)
 - `0..1` = optional (zero or one)
-- `2..4,6..8` = numericall.y specified
+- `2..4,6..8` = Numerically specified
 
 
