@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/eeen-202/eeen-clocks/"}
 ---
 
-Contents: [[EEEN202/EEEN MOC\|EEEN MOC]]
+Contents: [[EEEN202/EEEN202 MOC\|EEEN202 MOC]]
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 13-03-2023
 ***
