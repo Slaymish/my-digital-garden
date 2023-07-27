@@ -11,7 +11,6 @@ Hamish Burke || 24-07-2023
 
 # Hobby Detectives
 
-
 [[SWEN225 Assignment 1 Class Diagram\|SWEN225 Assignment 1 Class Diagram]]
 
 
