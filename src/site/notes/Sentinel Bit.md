@@ -3,7 +3,7 @@
 ---
 
 Related: #programming #java  [[Compression\|Compression]]
-Contents: [[COMP261/COMP MOC\|COMP MOC]]
+Contents: [[COMP261/COMP261 MOC\|COMP261 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/COMP261_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 19-05-2023
@@ -14,6 +14,8 @@ Hamish Burke || 19-05-2023
 Can be used in [[Compression#Variable Length Codes\|Variable length codes]] as a possible fix to decide boundaries
 
 between different symbols. This is an extra bit that is added at the end of each code to indicate the end of a symbol. 
+
+Can also be used as an option for [[Framing\|Framing]]
 
 ## Example
 
