@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/maps/"}
 ---
 
-Related: #
+Related: #java #programming #data-structures
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 06-07-2023
 ***
@@ -24,7 +24,7 @@ Hamish Burke || 06-07-2023
 
 ### Pseudocode
 
-```
+```rust
 fn hash(inputstr : string) -> int 
 {
 	int longIndice = hash(inputstr)
@@ -70,59 +70,63 @@ fn getItem(key: string) -> object
 ```java
 class ToTest {
   public static void main(String[] args) {
-    MyMap mapp = new MyMap();
-    mapp.add(3,(Object) "testtt");
+    MyMap<Integer,String> mapp = new MyMap<Integer,String>();
+    mapp.add(3, "testtt");
+    mapp.add(1, "blehh");
 
-	System.out.println(mapp.get(3));
+	System.out.println(mapp.get(3)); // should print testtt
   }
 }   
 
-record MapData(int key, Object value, MapData next){
-    MapData(int key, Object value){
-      this(key,value,null);
-    }
-
-    public MapData setNext(MapData nextOne){
-      return new MapData(key,value,nextOne);
-    }
-}
-
-class MyMap {
-  private final int arraySize = 10;
-  private MapData mapArray[];
-
-  public MyMap(){
-    mapArray = new MapData[arraySize];
-  }
-
-  private int hash(int key){
-    int randomPrime = 1204814; // my incrediblee hashing algorithm
-    return key*randomPrime % arraySize;
-  }
-
-
+class MyMap<K extends Object,V extends Object> {
+  private final int arraySize = 10; // larger size = less collisions
+  private LinkedPair[] mapArray = null; 
   
-  public void add(int key, Object value){
-    int i = hash(key);
-    MapData slot = mapArray[i];
-    if(slot==null){slot = new MapData(key,value);}
-    while(slot.next()!=null){
-      if(slot.key()==key) return; // dup key
-      slot = slot.next(); // might not work cus immutable??
-    }
-    slot.setNext(new MapData(key,value));
+  private void initArray(){
+    mapArray = (LinkedPair[]) new LinkedPair[arraySize];
   }
 
-  public Object get(int key){
-    int i = hash(key);
-    if(mapArray[i]==null) return null;
-    MapData slot = mapArray[i];
-    while(slot.key()!=key){
-      slot = slot.next();
+  private int hash(K key){
+   return (int) key.hashCode() % arraySize;
+  }
+
+  class LinkedPair{
+    public Object key;
+    public Object value;
+    public LinkedPair next;
+    public LinkedPair(Object _key, Object _value){
+      key = _key;
+      value = _value;
+      next = null;
     }
-    return slot.value();
+  }
+  
+  public void add(K key, V value){
+    if(mapArray==null) initArray();
+    int index = hash(key);
+    if(mapArray[index]!=null){
+      LinkedPair slot = mapArray[index];
+      while(slot.next!=null){
+       if(slot.key==key) return; // dup key
+       slot = slot.next; // might not work cus immutable??
+      }
+      slot.next = new LinkedPair((Object) key,(Object) value);
+    }
+    else{
+      mapArray[index] = new LinkedPair(key,value); 
+    }
+ }
+
+  public V get(K key){
+    int index = hash(key);
+    if(mapArray[index]==null) return null;
+    LinkedPair slot = mapArray[index];
+    while((K) slot.key!=key){
+      slot = slot.next;
+    }
+    return (V) slot.value;
   }
 }
 
- 
+
 ```
