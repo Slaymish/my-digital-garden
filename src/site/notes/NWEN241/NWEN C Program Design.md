@@ -6,7 +6,7 @@
 # NWEN C Program Design
 
 Related: #programming #C 
-Contents: [[NWEN241/NWEN MOC\|NWEN MOC]]
+Contents: [[NWEN241/NWEN241 MOC\|NWEN241 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
 Hamish Burke || 27-02-2023
 ***
