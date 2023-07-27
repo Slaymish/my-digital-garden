@@ -3,7 +3,7 @@
 ---
 
 Related: #
-Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
+Contents: [[SWEN221/SWEN221 MOC\|SWEN221 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 10-05-2023
@@ -57,6 +57,9 @@ while(stuff --> 0){...}
 
 if(sutff-- > 0){...}
 while(stuff-- > 0){...}
+
+stuff = 5;
+while(stuff --> 0 ){System.out.println("Hi" + stuff);}
 
 ```
 
