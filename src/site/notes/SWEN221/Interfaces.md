@@ -3,7 +3,7 @@
 ---
 
 Related: #java [[SWEN221/Inheritance and Subtyping\|Inheritance and Subtyping]]
-Contents: [[SWEN221/SWEN_MOC\|SWEN_MOC]]
+Contents: [[SWEN221/SWEN221 MOC\|SWEN221 MOC]]
 [Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 08-03-2023
