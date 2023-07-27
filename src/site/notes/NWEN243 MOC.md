@@ -10,6 +10,8 @@ Hamish Burke || 10-07-2023
 ***
 
 [[NWEN243 info\|NWEN243 info]]
+[[NWEN243 Project 1\|NWEN243 Project 1]]
+
 
 # Cloud Computing
 
@@ -19,5 +21,24 @@ Hamish Burke || 10-07-2023
 [[Data Link Layer\|Data Link Layer]]
 	[[Framing\|Framing]]
 	[[Error Detection\|Error Detection]]
-[[Exponential backoff\|Exponential backoff]]
-[[CSMA\|CSMA]]
+	[[Exponential backoff\|Exponential backoff]]
+	[[CSMA\|CSMA]]
+	[[Local Area Networks\|Local Area Networks]]
+
+
+[[Internet Protocol\|Internet Protocol]]
+[[Routing\|Routing]]
+[[Reading IP Addresses\|Reading IP Addresses]]
+[[IP Forwarding\|IP Forwarding]]
+[[ARP\|ARP]]
+[[DHCP\|DHCP]]
+[[ICMP\|ICMP]]
+
+
+
+***
+
+
+layer 1: physical
+layer 2: [[Data Link Layer\|Data Link Layer]]
+layer 3: routing
