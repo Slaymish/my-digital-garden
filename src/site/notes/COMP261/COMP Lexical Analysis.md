@@ -20,10 +20,10 @@ Hamish Burke || 03-03-2023
 
 *java.util.regexp.Pattern*
 - String with 'wild cards'
-- [-+\*/] : sets of possible characters
+- `[-+\*/]` : sets of possible characters
 - | : specifying alternatives
-- \* + ? : specifying repetitions
-- (?<=before) (?=after) : specifying pre-context and post-context
+- `* + ?` : specifying repetitions
+- `(?<=before) (?=after)`: specifying pre-context and post-context
 
 eg:
 
@@ -44,6 +44,3 @@ scan.useDelimiter("\\s+|(?=[{}(),;])|(?<=[{}(),;])") // good for java (also for 
 - Define a pattern matching the tokens
 	- *instead of a pattern matching the separators between tokens*
 - Make a method that will search for and return the next token
-
-
-
