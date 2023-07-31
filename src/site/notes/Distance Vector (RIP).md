@@ -11,15 +11,31 @@ Hamish Burke || 31-07-2023
 
 # RIP
 
+<https://book.systemsapproach.org/internetworking/routing.html#distance-vector-rip>
+
 - Aak Bellman-Ford
 - Each [[Local Area Networks\|Local Area Networks]] is one node in a graph
 
 - Each node keeps a **vector of distances** to every other node
 - Algorithm **settles/converges** to the best solution
+- **Unstable**, can cause link failures if stuff goes down
+	- Which is why [[OSPF\|OSPF]] is used now
 
 1. Starts with initial **routing table**
 
 Similar to [[Forwarding Table\|Forwarding Table]], but for routes
+
+## Periodic Update
+
+- serves to let other nodes know this node still exists
+
+## Triggered Update
+
+- occurs whenever a node notices a *link failure*
+
+## Response to Link Failure
+
+# Example of Algorithm
 
 ## For A
 
