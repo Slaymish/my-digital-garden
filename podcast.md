@@ -1,0 +1,10 @@
+
+Hello and welcome to the latest episode of our podcast on AI, computer science, and politics, from a leftist perspective. Today, we have some exciting news to discuss, as well as some expert insights from our guest speakers.
+
+First up, let's talk about the latest developments in AI. According to recent news articles, there has been a surge in AI applications in healthcare and education. However, this raises important questions about privacy, data security, and the potential for algorithmic bias. Our first guest speaker, **Dr. Jane Smith**, a leading AI researcher, will help us unpack these issues and discuss the ethical implications of AI in these sectors.
+
+Moving on to computer science news, we have some updates on the ongoing debate around net neutrality. The recent repeal of net neutrality regulations by the FCC has sparked a lot of controversy, with many arguing that this will lead to a more unequal and monopolized internet. Our second guest speaker, Professor John Doe, a computer science expert, will give us his take on this issue and discuss the potential consequences of the FCC's decision.
+
+Finally, let's turn to politics. There has been a lot of discussion lately about the role of AI in politics, particularly in the context of election campaigns and social media. Recent news articles have highlighted the use of AI-powered bots and algorithms to manipulate public opinion and spread disinformation. Our third guest speaker, political analyst Sarah Lee, will help us understand the implications of these developments for democracy and discuss potential solutions to this problem.
+
+So, there you have it - a brief overview of the topics we'll be discussing on today's episode. We hope you'll join us for some thought-provoking and insightful conversations with our expert guests. Thanks for tuning in, and we'll see you next time!

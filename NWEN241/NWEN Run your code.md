@@ -1,0 +1,83 @@
+---
+dg-home: false
+dg-publish: true
+---
+
+Related: #programming #C 
+Contents: [[NWEN241 MOC]]
+[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/NWEN241_2023T1/LectureSchedule)
+Hamish Burke || 27-02-2023
+***
+
+**To compile:**
+
+```shell
+gcc hello.c -o hello
+```
+
+- Creates a executable named 'hello'
+
+**To run:**
+
+```shell
+./hello
+```
+
+- Can only run the compiled file
+- './' means that the executable is at the current working directory
+
+***
+
+# Complilation Process:
+
+^2995be
+
+1. Preprocessing Phase
+2. Compilation Phase
+3. Assembly Phase
+4. Linking Phase
+
+# Cppcheck
+
+- For C and C++ code that checks for coding errors, security vulnerabilities, and other issues that can lead to unexpected behavior or crashes.
+- Can detect programming errors, including memory leaks, null pointer dereferences, uninitialized variables, and buffer overflows.
+
+***
+
+# GDB
+
+*GNU Debugger*
+
+- Can step through code
+
+**Notes:**
+- Developed by GNU Project
+- Command-line interface
+- Debugging tool for C, C++, Ada, and more
+- Supports Linux, macOS, Windows (and other systems)
+- Breakpoints and watchpoints
+- Step-by-step execution
+- Inspect variables and memory
+- Evaluate expressions
+- Call stack manipulation
+- Extensible with Python and Guile
+- Remote debugging support
+
+- [[Debugging with GDB]]
+
+
+***
+
+# Run C++
+
+## Compile
+
+```shell
+g++ hello.cpp -o helloex
+```
+
+## Run
+
+```shell
+./helloex
+```

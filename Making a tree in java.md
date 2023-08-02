@@ -1,0 +1,45 @@
+---
+dg-home: false
+dg-publish: true
+---
+Related: #java [[Year 1/COMP103/Trees|Trees]]
+Contents: [[SWEN221 MOC]]
+[Lecture Schedule](https://ecs.wgtn.ac.nz/Courses/SWEN221_2023T1/LectureSchedule)
+[[UNI MOC]]
+Hamish Burke || 06-05-2023
+***
+
+# Define a Tree
+
+## Usage Eg
+
+```java
+Tree<Integer> empty = Tree.empty();
+```
+
+## Starting
+
+```java
+interface Tree<E>{
+	int depth();
+}
+
+final class EmptyTree<E> implements Tree<E>{
+	public int depth(){ return 0; }
+}
+
+interface NonEmptyTree<E> extends Tree<E>{}
+
+record Leaf<E>(E label) implements NonEmptyTree<E> {
+	public int depth(){ return 1; }
+}
+
+record Node<E>(NonEmptyTree<E> left, NonEmptyTree<E> right) implements NonEmptyTree<E>{
+	public int depth(){
+		return 
+	}
+}
+
+}
+```
+
