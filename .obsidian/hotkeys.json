@@ -1,0 +1,26 @@
+{
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:Templates/H1 Center.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:Templates/H2 Center.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "2"
+    }
+  ]
+}
