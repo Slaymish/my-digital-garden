@@ -95,14 +95,16 @@ A State could contains:
 
 # SuperState
 
-To lessen the amount of out/in lines for something
+- Reduces complexity by **hiding**
 
-The grey box is the superstate
+To lessen the amount of out/in lines for something
+- The grey box is the superstate
 
 ![Pasted image 20230727144902.png](/img/user/Pasted%20image%2020230727144902.png)
 
-# Concurrent Substates
+# Concurrent Machines
 
+- *Parallel Execution*
 - Separates concurrent behaviour
 - Each line is called a 'swim lane'
 - Dotted line between the two, in a superstate
@@ -116,3 +118,12 @@ The grey box is the superstate
 - Both paths have to complete before it can terminate
 
 ![Pasted image 20230727145902.png](/img/user/Pasted%20image%2020230727145902.png)
+
+## Linking
+
+Can link with [[UML Class Diagram\|UML Class Diagram]]
+- In state diagram, can reference the method that'll affect the state
+
+```
+lock / {report("unlocking dorr!");} -> Locked;
+```
