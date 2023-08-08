@@ -40,7 +40,6 @@ Hamish Burke || 24-07-2023
 - TheMurder extends *MurderScenario*
 
 - Guess extends *MurderScenario*
-	- ??
 
 - SolveAttempt extend *MurderScenario*
 	- isSameAsMurder()
