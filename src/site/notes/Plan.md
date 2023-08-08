@@ -19,54 +19,36 @@ Hamish Burke || 25-04-2023
 
 ## [[SWEN225 MOC\|SWEN225 MOC]]
 
-- [ ] Assignment 1 - ==Due 8th August (next tuesday)==
-- [ ] Monday lecture
+- [ ] Assignment 1 - ==Due 8th August (next Tuesday)==
+- [ ] Get lab2 marked
 
 ## [[CGRA251 MOC\|CGRA251 MOC]]
 
 - [ ] Assignment 1 - ==Due 10th August (next thursday)==
 
+
 For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-### Monday 31st July
+### Tuesday 8th August
 
-*Due: Nothing*
-
-**Todo:**
-- Watch SWEN lecture
-- Check in/work on SWEN assignment
-- Start on CYBR assignment
-
-### Tuesday 1st August
-
-Due: 
-- NWEN lab ==1pm==
+*Due: 
+- SWEN Assignment 1 ==11:59pm==
 - COMP103 Lab ==4pm==
 
 **Todo:**
-- Go over COMP103 assignment 2
+- [ ] Finish SWEN Assignment
+- [ ] COMP103 Lab prep
+- [ ] Call Kal about NWEN
+- [ ] CGRA with Tomm
 
-### Wednesday 2nd August
+### Wednesday 9th August
 
 *Due: Nothing*
 
 **Todo:**
-- todo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [ ] Lectures Tues
+	- [ ] CYBR
+	- [ ] CGRA
+- [ ] Work on game (due on 10th!!)
