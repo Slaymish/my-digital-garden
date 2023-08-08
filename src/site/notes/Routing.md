@@ -20,3 +20,8 @@ Routing is needed to interconnect multiple different [[Local Area Networks\|Loca
 Nodes that interconnect the networks are called *routers*
 
 [[Internet Protocol\|Internet Protocol]] is able to run over **any** L2 technology/protocol
+
+## How to Route
+
+[[Distance Vector (RIP)\|Distance Vector (RIP)]]
+[[OSPF\|OSPF]]
