@@ -14,7 +14,7 @@ Hamish Burke || 03-07-2023
 Due Sunday, 13 Aug 2023 , worth 25% of the final grade, automatic late day marked out of 100.
 
 
-- When indetifying threats
+- When identifying threats
 	- State how to mitigate
 		- And exactly how that'd be implemented
 		  - eg: Ask person for token/password. Could also use MFA . System will send txt to person, with access code before allow registration to complete.
