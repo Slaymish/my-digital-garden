@@ -41,7 +41,7 @@ Real life Example of using [[Security Cards\|Security Cards]]
 Look at card by relevance!
 1. Order - Human impact, motivations, resources, methods
 
-## Ppls Respsones
+## Peoples Responses
 
 ### Group 1
 
