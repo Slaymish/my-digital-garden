@@ -96,4 +96,7 @@ Goes next to class, specifies how many instances can be made of a class
 - `0..1` = optional (zero or one)
 - `2..4,6..8` = Numerically specified
 
+## Extends/Implements
 
+- Extends == solid line
+- Implements == dashed line
