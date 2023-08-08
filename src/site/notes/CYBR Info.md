@@ -29,11 +29,11 @@ Practical work will use  **C** and **Java** programs
 
 # Learning Objectives
 
-- Describe the role of, and develop **security requirements** and abuse scenarios based upon, an understanding of the differences between  the methodologies used by attack and a testers to discover security vulnerabilities that could lerad to security risks
+- Describe the role of, and develop **security requirements** and abuse scenarios based upon, an understanding of the differences between  the methodologies used by attack and a testers to discover security vulnerabilities that could lead to security risks
 
 - Apply knowledge of threat/vulns and how these may interact to choosing and implementing client-side and server-side software security controls to mitigate software security risks
 
-- Evaluate the security of software using a range of security techniques including vlunerability assessment, fuzzing and code review
+- Evaluate the security of software using a range of security techniques including vulnerability assessment, fuzzing and code review
 
 
 
