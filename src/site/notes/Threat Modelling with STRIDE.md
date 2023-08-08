@@ -9,3 +9,23 @@ Contents: [[CYBR271 MOC\|CYBR271 MOC]]
 Hamish Burke || 03-07-2023
 ***
 
+# Local Body Election
+
+[[Local Body Elections\|Local Body Elections]] security cards were already discussed
+
+
+Auth and voting:
+- Elector will go to website, enter **access code**
+- enter **DoB**
+- Both have to match to vote
+
+Actors:
+- Person
+- Elector
+
+Databases:
+- of person
+- of elector
+- of votes
+
+[[Data flow diagrams\|Data flow diagrams]]
