@@ -34,7 +34,7 @@ IP Address + port == socket
 	- [[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
 		- Reliable
 		- Connection oriented
-	- [[UDP (user datagram protocol)\|UDP (user datagram protocol)]]
+	- [[UDP\|UDP]]
 		- Best effort
 		- Connectionless
 
