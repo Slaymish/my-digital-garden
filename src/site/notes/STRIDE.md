@@ -63,6 +63,10 @@ Create a **Model** of the software/technology you're building.
 	- **T**ampering
 	- **R**epudiation
 	- **I**nformation Disclosure
+		- Permissions
+		- Security
+		- Network
+		- Misc
 	- **D**enial of Service
 	- **E**levation of Privilege
 
@@ -84,33 +88,23 @@ Structure helps with *completeness* and *predictability*
 - Consider how each STRIDE threat would impact your system
 	- "How could a clever attacker spoof this part of the system?... tamper with?..."
 	- Go through all the letters
+	- Use [[STRIDE Tables\|STRIDE Tables]]
+- Track issues as you find 
+	- Use [[Threat Tracking Tables\|Threat Tracking Tables]]
 
-## STIDE Tables
 
-Use STRIDE tables to write your analysis and ideas
+***
 
-| Threat              | What the attacker does                   | Notes/Examples                                                     |
-| ------------------- | ---------------------------------------- | ------------------------------------------------------------------ |
-| Spoofing a process  | Create a file before the real process    | Then your process relies on it                                     |
-|                    | Abuses names                             | Creates a version of 'sudo' and alter PATH                         |
-| Spoofing a filename | Create a file in the local directory     | Library executable or config file                                  |
-|                    | Creates a link, changes it               | Also called 'race condition' or TOCTOU (time of check/time of use) |
-|                     | Creates many files in a target directory | Code can easily create all possible /tmp/foo.random                                                                   |
+# STRIDE per Element
 
-## Spoofing over a Network
+- Best for beginners
 
-| Threat Example     | What the attacker does              | Notes                                     |
-| ------------------ | ----------------------------------- | ----------------------------------------- |
-| Spoofing a machine | [[ARP spoofing\|ARP spoofing]]                        |                                           |
-|                    | IP Spoofing                         |                                           |
-|                    | [[DNS Spoofing\|DNS Spoofing]]                        |                                           |
-|                    | [[DNS compromise\|DNS compromise]]                      | Can be at the TLD, register or DNS server |
-| Spoofing a person  | Take over account                   | "Stranded in london"                      |
-|                    | Set the display name                |                                           |
-| Spoofing a role    | Declares themselves to be that role | Sometimes opening a special account, setting up a domain/website, other 'verifiers' |
+| DFD element | S   | T   | R   | I   | D   | E   |
+| ----------- | --- | --- | --- | --- | --- | --- |
+| Entity      |     |     |     |     |     |     |
+| Data flow   |     |     |     |     |     |     |
+| Data store  |     |     |     |     |     |     |
+| Process     |     |     |     |     |     |     |
 
-## Tampering with a File
+***
 
-| Threat Example   | What the attacker does | Notes |
-| ---------------- | ---------------------- | ----- |
-| Modifying a file |                        | ...   |
