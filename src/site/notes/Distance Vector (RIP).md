@@ -13,7 +13,7 @@ Hamish Burke || 31-07-2023
 
 <https://book.systemsapproach.org/internetworking/routing.html#distance-vector-rip>
 
-- Aak Bellman-Ford
+- Aak **Bellman-Ford**
 - Each [[Local Area Networks\|Local Area Networks]] is one node in a graph
 
 - Each node keeps a **vector of distances** to every other node
@@ -33,11 +33,9 @@ Similar to [[Forwarding Table\|Forwarding Table]], but for routes
 
 - occurs whenever a node notices a *link failure*
 
-## Response to Link Failure
+## Example of Algorithm
 
-# Example of Algorithm
-
-## For A
+### For A
 
 | Dest | Cost | Next-hop |
 | ---- | ---- | -------- |
@@ -47,7 +45,7 @@ Similar to [[Forwarding Table\|Forwarding Table]], but for routes
 | C    | ∞    | -        |
 | D    | ∞    | -        |
 
-## For B
+### For B
 
 | Dest | Cost | Next-hop |
 | ---- | ---- | -------- |
@@ -61,7 +59,7 @@ Similar to [[Forwarding Table\|Forwarding Table]], but for routes
 
 Each time you find a better route, update the values in the routing table
 
-## For A
+### For A
 
 | Dest | Cost | Next-hop |
 | ---- | ---- | -------- |
