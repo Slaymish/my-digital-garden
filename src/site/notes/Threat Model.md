@@ -51,3 +51,41 @@ Book: Threat Modeling: Designing for Security
 
 A fun way to do it is with [[Security Cards\|Security Cards]]
 
+
+
+
+***
+
+### For Api's
+
+- Perform security checks inside the boundary
+- When using cryptography, make sure its in constant time
+	- Can do a [[timing attack\|timing attack]] 
+
+## Mitigate
+
+- Add/use technology to prevent attacks
+
+### Custom Mitigations
+
+- Easy to get wrong
+- Hard and expensive to test
+
+***
+
+## Accepting Risk
+
+- Works best when its your risk
+- Careful when 'accepting' risk for your customers
+
+### Customer risk Acceptance
+
+- Via UI
+	- Eg terms of service
+- Sometimes customer has details you can't have 
+
+#### Transferring Risk
+
+- Via lincense agreements, ToS, etc
+- Silently
+- Both can lead to unhappy customers
