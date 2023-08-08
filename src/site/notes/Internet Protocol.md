@@ -57,6 +57,8 @@ Used in [[Routing\|Routing]]
 	- used when a router has to **fragment** a packet due to the network tech having a smaller **MTU**
 	- Each broken up packet will have the same Ident value
 - [[Checksum\|Checksum]] 
+{ #b7966a}
+
 	- just on the header, not the data
 - A DestinationAddr (32 bits)
 - SourceAddr (32 bits)
