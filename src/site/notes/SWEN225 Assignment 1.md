@@ -11,7 +11,10 @@ Hamish Burke || 24-07-2023
 
 # Hobby Detectives
 
+Due on 7th
+
 [[SWEN225 Assignment 1 Class Diagram\|SWEN225 Assignment 1 Class Diagram]]
+[[SWEN225 Assignment 1 Reflection\|SWEN225 Assignment 1 Reflection]]
 
 
 - 3-4 players
@@ -86,4 +89,6 @@ Hamish Burke || 24-07-2023
 - If matches murder exactly, the player wins
 - Otherwise, player is excluded from making further guesses or solve attempts
 	- Can't win anymore, but will continue to refute guesses by others
+
+
 
