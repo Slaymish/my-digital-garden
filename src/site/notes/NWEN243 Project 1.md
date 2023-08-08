@@ -216,7 +216,7 @@ a)
 
 b)
 
-![SCR-20230801-nfos-2.png](/img/user/SCR-20230801-nfos-2.png)
+![SCR-20230808-mopq-2.png](/img/user/SCR-20230808-mopq-2.png)
 
 c) **
 
@@ -226,7 +226,7 @@ commons links at start/end? Justify
 
 ## Q9
 
-![SCR-20230805-skbz-2.png](/img/user/SCR-20230805-skbz-2.png)![SCR-20230805-skgk-2.png](/img/user/SCR-20230805-skgk-2.png)
+![400][SCR-20230805-skbz-2.png]![400][SCR-20230805-skgk-2.png]
 
 ```
 I did a traceroute from the aws instance ecs.vuw.ac.nz. I repeated this and shown above, even the first hop is different (as well as others [eg 2,3 etc]). This shows the multiplicity of paths available between any two nodes.
