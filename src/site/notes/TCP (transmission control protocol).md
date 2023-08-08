@@ -11,8 +11,20 @@ Hamish Burke || 27-02-2023
 
 # TCP
 
+- Protocol for [[End-to-End Communication\|End-to-End Communication]] layer
 - Requires acknowledgement from server client is trying to connect to
-- Uses 
+
+## Byte Oriented
+
+- Send can write bytes into a TCP connection
+- Receiver reads bytes out of it
+
+## Header
+
+- [[Port Numbers\|Port Numbers]]
+	- Source and Destination
+- SequenceNum
+- Acknowledgement number
 
 # Socket
 
