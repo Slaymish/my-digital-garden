@@ -44,3 +44,11 @@ The **Gang of Four** came up with this way to describe a pattern
 - Collaboration
 - Consequences
 - Related Patterns
+
+### Designing With Design Patterns
+
+- Enumerate all relevant patterns
+- Compare each pair of pattern, and find which pattern would make the context for the other
+- Find the **Senior-most** pattern (the pattern that doesn't get its context made by another pattern)
+
+
