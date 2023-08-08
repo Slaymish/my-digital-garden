@@ -25,7 +25,7 @@ If they jam, they backoff:
 
 ## What We've Learnt
 
-A signle ethernet can connect max 1024
+A single ethernet can connect max 1024
 A point-to-point link connects only two (like the people).
 Wireless networks are range limited (by their *radios*)
 
