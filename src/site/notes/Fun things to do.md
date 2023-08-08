@@ -10,15 +10,16 @@ Hamish Burke || 18-05-2023
 # Fun Things
 
 - [x] Make L-System tree in java
-- [ ] SpeechAssistant therapist web-app
+- [x] SpeechAssistant therapist web-app
 - [ ] General Speech assistant web-app
-- [ ] Work on portfolio website
+- [x] Work on portfolio website
 - [ ] Make something from mid-journey mag in blende
 - [ ] Make something with the [[Langchain framework\|Langchain framework]]
 - [ ] Play unravel 2 with tomm!!
 - [ ] Look over max's code
 - [ ] [[AI Raspberry PI assistant\|AI Raspberry PI assistant]] (google home type thing)
 - [ ] Test the GPT-4 function calling update
+- [ ] [[OSU Replay Viewer\|OSU Replay Viewer]]
 
 # Personal Projects
 
