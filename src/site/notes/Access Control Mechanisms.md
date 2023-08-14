@@ -27,6 +27,7 @@ This is what happens in Windows, Linux, Mac, Unix
 #### Unix File Permission
 
 - `ls -l`
+- [[9-bit permission model\|9-bit permission model]]
 
 | Directory/file/link | User rights | Groups rights | Others rights |
 | ------------------- | ----------- | ------------- | ------------- |
@@ -38,6 +39,18 @@ This is what happens in Windows, Linux, Mac, Unix
 	- Aka superuser (sudo)
 - Unix identifies user using a UID
 - Users can be granted rights/permissions
+
+### Unix Groups
+
+Type `groups` to display all groups on system (in unix terminals)
+
+- Logical collection of users on a system
+- All members of the same group share the same perms
+
+### Unix Others
+
+- Rule evaluates wheather the user is 
+
 
 ## Mandatory Access Control (DAC)
 
