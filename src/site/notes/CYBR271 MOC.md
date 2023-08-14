@@ -31,3 +31,14 @@ Hamish Burke || 03-07-2023
 [[ThreatDragon\|ThreatDragon]]
 
 [[Attack Libraries\|Attack Libraries]]
+
+
+
+[[Access Control Mechanisms\|Access Control Mechanisms]]
+	[[9-bit permission model\|9-bit permission model]]
+
+
+[[Privileged Programs\|Privileged Programs]]
+[[Privileged Programs\|Privileged Programs]]
+[[Privilege Elevation\|Privilege Elevation]]
+[[Set-UID\|Set-UID]]
