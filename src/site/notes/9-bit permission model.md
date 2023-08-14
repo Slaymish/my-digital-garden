@@ -17,11 +17,27 @@ Hamish Burke || 03-07-2023
 | g   | 1   | 0   | 1   |
 | o   | 1   | 0   | 1   |
 
+u = 3
+g = 2
+o = 2
+
 ```
 u = File owner Permissions
 g = group Permissions
 o = other Permissions (ie not pert of both owner or group)
 ```
+
+- Used in `chmod`
+
+```
+sudo chmod 4755 myProgram
+```
+
+- 7 = user
+- 5 = groups
+- 5 = others 
+
+- 4 is a special attribute
 
 ## Permissions
 
