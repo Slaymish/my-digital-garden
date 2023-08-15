@@ -40,9 +40,11 @@ Hamish Burke || 10-07-2023
 [[IPv6\|IPv6]]
 [[End-to-End Communication\|End-to-End Communication]]
 
+[[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
+	[[Sliding Window Algorithm\|Sliding Window Algorithm]]
+	[[Stop and Wait\|Stop and Wait]]
 
 ***
-
 
 layer 1: [[Representing Data as Bits\|Physical Layer]]
 layer 2: [[Data Link Layer\|Data Link Layer]]
