@@ -36,27 +36,16 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 - [ ] NWEN Mid-term Test
 - [ ] SWEN Lab
 - [ ] Marking
+- [ ] *Lab Prep*
 
 ## Lectures
 
 ### Thursday
 
-- [ ] CYBR
-- [x] CGRA
-- [x] NWEN
 - [ ] SWEN
-
-### Friday
-
-- [ ] CYBR
-- [x] CGRA
 
 ### Monday
 
 - [ ] NWEN
 - [ ] SWEN
 
-### Tuesday
-
-- [x] CYBR
-- [x] CGRA
