@@ -14,6 +14,9 @@ Hamish Burke || 03-07-2023
 [[Git Source Control\|Git Source Control]]
 [[Communication Techniques\|Communication Techniques]]
 [[Coding Collaboration\|Coding Collaboration]]
+[[Sheets in Games\|Sheets in Games]]
+[[HTTP Requests\|HTTP Requests]]
+
 # Code Review
 
 - Getting project done
