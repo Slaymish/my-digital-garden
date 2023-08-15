@@ -35,6 +35,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] NWEN Mid-term Test
 - [ ] SWEN Lab
+- [ ] Marking
 
 ## Lectures
 
