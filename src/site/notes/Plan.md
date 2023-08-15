@@ -42,16 +42,21 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 ### Thursday
 
 - [ ] CYBR
-- [ ] CGRA
-- [ ] NWEN
+- [x] CGRA
+- [x] NWEN
 - [ ] SWEN
 
 ### Friday
 
 - [ ] CYBR
-- [ ] CGRA
+- [x] CGRA
 
 ### Monday
 
 - [ ] NWEN
 - [ ] SWEN
+
+### Tuesday
+
+- [x] CYBR
+- [x] CGRA
