@@ -14,7 +14,18 @@ Hamish Burke || 27-02-2023
 - Protocol for [[End-to-End Communication\|End-to-End Communication]] layer (layer 4)
 - Requires acknowledgement from server client is trying to connect to
 
-## Three-way Handshake
+> [!INFO]
+> TCP is **Byte Orientated**
+
+## Features
+
+- **Reliable Connection**
+- Ordered packets
+- Dataflow control
+- Send can write **bytes** into a TCP connection
+- Receiver reads bytes out of it
+
+### Three-way Handshake
 
 1. Client send first message
 
@@ -50,11 +61,6 @@ ACK num = Y + 1
 
 Flags = ACK
 ```
-
-# Byte Oriented
-
-- Send can write **bytes** into a TCP connection
-- Receiver reads bytes out of it
 
 ## How Its Reliable
 
