@@ -27,7 +27,10 @@ g = group Permissions
 o = other Permissions (ie not pert of both owner or group)
 ```
 
+Rows add to each number in `chmod` cmd
+
 - Used in `chmod`
+- Octal numbers
 
 ```
 sudo chmod 4755 myProgram
