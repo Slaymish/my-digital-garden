@@ -12,11 +12,21 @@ Hamish Burke || 10-07-2023
 [[NWEN243 info\|NWEN243 info]]
 [[NWEN243 Project 1\|NWEN243 Project 1]]
 
+
+
+[[NWEN243 Test Prep\|NWEN243 Test Prep]]
+
 # Cloud Computing
 
 [[Cloud Computing\|Cloud Computing]]
+
+**Physical Layer:**
+
 [[Representing Data as Bits\|Representing Data as Bits]]
 [[Propagation Delay (Link Latency)\|Propagation Delay (Link Latency)]]
+
+**Data link layer:**
+
 [[Data Link Layer\|Data Link Layer]]
 	[[Framing\|Framing]]
 	[[Error Detection\|Error Detection]]
@@ -25,11 +35,15 @@ Hamish Burke || 10-07-2023
 	[[Local Area Networks\|Local Area Networks]]
 
 
+**Routing Layer:**
+
+[[Switching\|Switching]]
 [[Internet Protocol\|Internet Protocol]]
 [[Routing\|Routing]]
 [[Reading IP Addresses\|Reading IP Addresses]]
 	[[Reading IP Addresses#Slash Notation\|Slash Notation]]
 [[IP Forwarding\|IP Forwarding]]
+[[Processing a IP datagram\|Processing a IP datagram]]
 [[ARP\|ARP]]
 [[DHCP\|DHCP]]
 [[ICMP\|ICMP]]
@@ -38,11 +52,19 @@ Hamish Burke || 10-07-2023
 [[OSPF\|OSPF]]
 	[[link-state packet (LSP)\|link-state packet (LSP)]]
 [[IPv6\|IPv6]]
-[[End-to-End Communication\|End-to-End Communication]]
 
+**Application Layer:**
+
+[[Application Layer Protocols\|Application Layer Protocols]]
+	[[HTTP\|HTTP]]
+	[[HTTP Status Codes\|HTTP Status Codes]]
+	[[Client-Server Paradigm\|Client-Server Paradigm]]
+[[End-to-End Communication\|End-to-End Communication]]
 [[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
 	[[Sliding Window Algorithm\|Sliding Window Algorithm]]
 	[[Stop and Wait\|Stop and Wait]]
+
+
 
 ***
 
