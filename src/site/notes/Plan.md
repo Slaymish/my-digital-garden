@@ -15,16 +15,12 @@ Hamish Burke || 25-04-2023
 
 ## [[CYBR271 MOC\|CYBR271 MOC]]
 
-- [x] Assignment 1 - ==Due 13th August==
-
 ## [[SWEN225 MOC\|SWEN225 MOC]]
-
-- [ ] Lab 3 (git and swing)
 
 ## [[CGRA251 MOC\|CGRA251 MOC]]
 
-- [x] Find out whats happening with teams/project
-	- [x] maybe some weighting thing you need to do?????
+- [x] fill out teams form
+- [x] watch animal video
 
 
 For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
@@ -34,9 +30,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 # Now
 
 - [ ] NWEN Mid-term Test
-- [ ] SWEN Lab
 - [ ] Marking
-- [ ] *Lab Prep*
 
 ## Lectures
 
@@ -46,6 +40,12 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ### Monday
 
-- [ ] NWEN
+- [x] NWEN
 - [ ] SWEN
+
+### Wednesday
+
+- [ ] SWEN
+
+
 
