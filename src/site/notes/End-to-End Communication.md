@@ -19,12 +19,11 @@ Hamish Burke || 07-08-2023
 - Delivery of at most one copy of each message
 - Supporting arbitrarily large messages
 - Supports synchronisation between the sender and the receiver
-- Allowing the receiver apply flow control to the sneder
+- Allowing the receiver apply flow control to the sender
 - Security (eg CIA)
 
 First solution: [[UDP\|UDP]]
 or [[TCP (transmission control protocol)\|TCP (transmission control protocol)]]
-
 
 ## Mux/Demux
 
