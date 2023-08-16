@@ -18,3 +18,9 @@ Hamish Burke || 24-07-2023
 
 - Data coming *into* network first goes to modem
 - Then *forwards* data to host based on forwarding table
+
+
+Port here is a **physical port**, and the router is telling the *switch* which way to route it, depending on the destination IP.
+
+Once it get correct port on the switch, the switch sends the frame to the correct [[MAC Addresses\|MAC Addresses]]
+If it doesn't have a switch (doesn't have multiple ports), the router generally sends to the correct [[MAC Addresses\|MAC Addresses]]
