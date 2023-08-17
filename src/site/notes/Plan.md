@@ -11,7 +11,7 @@ Hamish Burke || 25-04-2023
 
 ## [[NWEN243 MOC\|NWEN243 MOC]]
 
-- [ ] Mid-term exam (thursday)
+- [x] Mid-term exam (thursday)
 
 ## [[CYBR271 MOC\|CYBR271 MOC]]
 
@@ -29,7 +29,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 # Now
 
-- [ ] NWEN Mid-term Test
+- [x] NWEN Mid-term Test
 - [ ] Marking
 
 ## Lectures
