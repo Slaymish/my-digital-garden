@@ -67,14 +67,14 @@ Procedural:
 2. Applications can all use the same protocol, just implement it differently (eg web browsers)
 3. SSH
 4. Persistent TCP connection between requests
-5. PUT will only place one entry for something, while POST will create a new one every time
-6. To dynamically assign devices on a network an IP address
+5. PUT will only place **one entry** for something, while POST will create a new one every time
+6. To dynamically assign devices on a network an IP address [[DHCP\|DHCP]]
 7. the startline has the request type, the url, and http version
-8. THE CRLF specifies a new line
-9. idempotent means it won't create duplicate copies if somethings sent multiple times (ie PUT is idempotent while POST is not)
-10. SNMP manages network devices (Service protocol)
-11. WebSocket protocol **allows for real-time, two-way communication**
-12. Non-linear means you can traverse through different documents in any order
+8. THE CRLF specifies a new line [[CRLF\|CRLF]]
+9. idempotent means it won't create duplicate copies if somethings sent multiple times (ie **PUT is idempotent** while POST is not)
+10. SNMP monitoring and managing network devices (Service protocol) on a [[Local Area Networks\|Local Area Networks]]
+11. WebSocket protocol **allows for real-time, two-way communication** - still uses the [[Client-Server Paradigm\|Client-Server Paradigm]], but just two way
+12. Non-linear means you can traverse through different documents in any order [[HyperText\|HyperText]]
 13. <https://accounts.example.com/place?user=hamish&pass=myPass>
 
 ```
@@ -87,14 +87,14 @@ user=hamish&pass=myPass = params
 ```
 
 14. HTTP isn't aware of any past information. If you want states, pass the state information in the message body (ie as cookies)
-15. [[SMTP\|SMTP]] and [[IMAP\|IMAP]]
+15. [[SMTP\|SMTP]] and [[IMAP\|IMAP]] - mail services
 
 ## More... Questions!!......
 
 1. Framing is used to define boundaries between frames
 2. [[Propagation Delay (Link Latency)\|Propagation Delay (Link Latency)]]. Influences by signal strength, transmission medium, and distance between nodes
 3. IPv6 is 128bits, and displayed in hex. IPv4 is 32bits and displayed in decimal.
-4. [[ICMP\|ICMP]], traceroute traces the path packets take through the network 
+4. [[ICMP\|ICMP]], trace-route traces the path packets take through the network 
 5. [[ARP\|ARP]] to translates IP addresses into [[MAC Addresses\|MAC Addresses]]
 6. [[Exponential backoff\|Exponential backoff]] is used in the [[Data Link Layer\|Data Link Layer]] to enable [[Collision Avoidance\|Collision Avoidance]]. It does this by timing out at random intervals anytime it detects a carrier. This decreases the likelihood that two packets will be sent at the same time
 7. [[CIDR\|CIDR]] notation denotes the network bits (from the start)
