@@ -19,6 +19,7 @@ Hamish Burke || 24-07-2023
 - Data coming *into* network first goes to modem
 - Then *forwards* data to host based on forwarding table
 
+It matches the [[longest matching prefix\|longest matching prefix]] in the table (if there's multiple entries)
 
 Port here is a **physical port**, and the router is telling the *switch* which way to route it, depending on the destination IP.
 
