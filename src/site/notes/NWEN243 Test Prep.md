@@ -88,3 +88,21 @@ user=hamish&pass=myPass = params
 
 14. HTTP isn't aware of any past information. If you want states, pass the state information in the message body (ie as cookies)
 15. [[SMTP\|SMTP]] and [[IMAP\|IMAP]]
+
+## More... Questions!!......
+
+1. Framing is used to define boundaries between frames
+2. [[Propagation Delay (Link Latency)\|Propagation Delay (Link Latency)]]. Influences by signal strength, transmission medium, and distance between nodes
+3. IPv6 is 128bits, and displayed in hex. IPv4 is 32bits and displayed in decimal.
+4. [[ICMP\|ICMP]], traceroute traces the path packets take through the network 
+5. [[ARP\|ARP]] to translates IP addresses into [[MAC Addresses\|MAC Addresses]]
+6. [[Exponential backoff\|Exponential backoff]] is used in the [[Data Link Layer\|Data Link Layer]] to enable [[Collision Avoidance\|Collision Avoidance]]. It does this by timing out at random intervals anytime it detects a carrier. This decreases the likelihood that two packets will be sent at the same time
+7. [[CIDR\|CIDR]] notation denotes the network bits (from the start)
+8. [[Sliding Window Algorithm\|Sliding Window Algorithm]] - Allows the sender to send multiple frames
+9. [[OSPF\|OSPF]] link-state routing - An LSP floods a network, in order to update routing tables with the best possible routes
+10. HTTP GET **requests** while POST **responds**. POST is also idemotic
+11. [[CSMA\|CSMA]] - CSMA is a protocol that any time a carrier is sensed, it won't transmit anything until it can no longer sense it. It then will send the **entire packet**
+12. [[Client-Server Paradigm\|Client-Server Paradigm]] - [[Application Layer Protocols\|Application Layer Protocols]] - Protocols like HTTP follow the [[Client-Server Paradigm\|Client-Server Paradigm]]. This means that one of the nodes is a server (always on, static perm ip), and the other is a client (only usually connects with server, Dynamic ip).
+13. [[Stop and Wait\|Stop and Wait]] - responsibility on sender. If don't receive acknowledgement for a sent packet, wait for timeout to end then resend it.
+14. [[ICMP\|ICMP]] [[TraceRoute\|TraceRoute]] works by sending a series of packets to a node, starting with a TTL of 1 and incrementing it for each packet. When the TTL reaches zero, the node its at sends back a [[ICMP\|ICMP]] time exceeded packet to the source IP. This lets the person doing the trace-route see each node allow the packets path.
+15. [[DHCP\|DHCP]] Dynamic allocation of IP addresses
