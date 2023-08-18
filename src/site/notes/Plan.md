@@ -35,7 +35,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] Marking
 - [ ] Lectures
-- [ ] Book flights
+- [x] Book flights
 - [ ] Groceries
 	- [ ] Milo
 	- [ ] Milk
