@@ -16,6 +16,10 @@ Hamish Burke || 03-07-2023
 - Can add multiple *remotes*
 - Can use a **cron** to setup automatic actions
 
+
+Prevent conflicts with **Lock**
+Deal with conflicts with **Merge**
+
 ## .gitignore
 
 - Files in here won't get tracked
