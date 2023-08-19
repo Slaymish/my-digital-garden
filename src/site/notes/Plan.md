@@ -35,8 +35,8 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] Marking
 - [ ] Lectures
-- [x] Book flights
 - [ ] Groceries
+	- [ ] Toilet paper
 	- [ ] Milo
 	- [ ] Milk
 	- [ ] Sprinkles
@@ -52,7 +52,8 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ### Thursday 10th
 
-- [ ] SWEN
+- [x] SWEN
+- No audio for this one :/
 
 ### Monday 14th
 
