@@ -11,15 +11,16 @@ Hamish Burke || 25-04-2023
 
 ## [[NWEN243 MOC\|NWEN243 MOC]]
 
-- One NWEN Lecture
+- [ ] One NWEN Lecture
 
 ## [[CYBR271 MOC\|CYBR271 MOC]]
 
-- Two CYBR Lectures
+- [ ] Two CYBR Lectures
 
 ## [[SWEN225 MOC\|SWEN225 MOC]]
 
-- Four SWEN Lectures
+- [ ] Four SWEN Lectures
+- [ ] Assignment 2 ==27th Sunday==
 
 ## [[CGRA251 MOC\|CGRA251 MOC]]
 
@@ -33,27 +34,11 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 # Now
 
-- [ ] Marking
 - [ ] Lectures
-- [ ] Groceries
-	- [ ] Toilet paper
-	- [ ] Milo
-	- [ ] Milk
-	- [ ] Sprinkles
-	- [ ] Meat (other than chicken)
-	- [ ] Fettacine
-	- [ ] Coconut cream
-	- [ ] Sweet chilli sauce
-	- [ ] Chocolate chips (for chocchip brioche)
-	- [ ] Mixed berries (frozen)
-	- [ ] Energy drinks?
+- [ ] SWEN Assignment 2
+- [ ] Marking (Assignment 3)
 
-## Lectures 0/9
-
-### Thursday 10th
-
-- [x] SWEN
-- No audio for this one :/
+## Lectures 1/9
 
 ### Monday 14th
 
