@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/plan/"}
 ---
 
+
 Related: #practise 
 [[UNI MOC\|UNI MOC]]
 Hamish Burke || 25-04-2023
@@ -24,7 +25,8 @@ Hamish Burke || 25-04-2023
 
 ## [[CGRA251 MOC\|CGRA251 MOC]]
 
-- [ ] Start thinking of project
+- [ ] Design and Project Pipeline ==10th September==
+- [ ] Prototype due ==end of september==
 - [ ] Two CGRA Lectures
 
 
@@ -36,6 +38,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] Lectures
 - [ ] SWEN Assignment 2
+- [ ] CGRA Project
 - [ ] Marking (Assignment 3)
 
 ## Lectures 1/9
