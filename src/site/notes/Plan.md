@@ -21,7 +21,7 @@ Hamish Burke || 25-04-2023
 ## [[SWEN225 MOC\|SWEN225 MOC]]
 
 - [ ] Four SWEN Lectures
-- [ ] Assignment 2 ==27th Sunday==
+- [ ] Assignment 2 ==28th Monday==
 
 ## [[CGRA251 MOC\|CGRA251 MOC]]
 
@@ -37,7 +37,10 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 # Now
 
 - [ ] Lectures
-- [ ] SWEN Assignment 2
+- [ ] SWEN Assignment 2 ==11:59pm==
+	- [ ] reflection
+	- [ ] UML state diagram
+	- [ ] Polish project
 - [ ] CGRA Project
 - [ ] Marking (Assignment 3)
 
