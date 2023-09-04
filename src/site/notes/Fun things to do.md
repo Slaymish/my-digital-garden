@@ -20,6 +20,11 @@ Hamish Burke || 18-05-2023
 - [ ] [[AI Raspberry PI assistant\|AI Raspberry PI assistant]] (google home type thing)
 - [ ] Test the GPT-4 function calling update
 - [ ] [[OSU Replay Viewer\|OSU Replay Viewer]]
+- [ ] Blender replay viewer
+	- For every action in blender its equilient to a piece of code (`bpy.createcube(2,2,2,)`)
+	- Create a log of all of those + time
+	- Be able to replay the creation of smth in blender (maybe make a spinning timelapse of creation)
+	- save as .blreplay or smth
 
 # Personal Projects
 
