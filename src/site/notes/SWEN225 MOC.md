@@ -16,6 +16,10 @@ Book: Using UML: Software Engineering with Objects and Components, 2/E Addision-
 
 Book: Object-Oriented Design & Patterns, Wiley
 
+Book: Introduction to design patterns - A conceptual Approach
+
+Book: A timeless way of building (Peter Alexandra)
+
 # Modelling
 
 [[SWEN Planning\|SWEN Planning]]
@@ -27,7 +31,7 @@ Book: Object-Oriented Design & Patterns, Wiley
 
 [[Design Patterns\|Design Patterns]]
 [[Model-View-Controller\|Model-View-Controller]]
-
+[[Design Principles\|Design Principles]]
 # Programming
 
 [[Git Source Control\|Git Source Control]]
