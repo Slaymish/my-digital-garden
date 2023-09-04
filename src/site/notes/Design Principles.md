@@ -33,9 +33,15 @@ One way to do this is to use **Layering**
 	- Ie, Each layer uses the *interface* of the layers below, not the implementation
 - Strict builds each layer on top, not allowing change to any of the above, without changing all the ones below
 
-### Low Coupling & More Cohesion
+### Low Coupling & High Cohesion
 
+- **What you want**
 - Each 'package' has a well defined purpose
 - In each package, the objects are tightly coupled together
 - But *loose coupling between packages*
 	- Allows to programs/modules to be extended/changed by only changing one part of the code
+
+### High Coupling & Low Cohesion
+
+- This is bad
+- Anytime you change code, it may cause a number of *side effects* to propagate through the program
