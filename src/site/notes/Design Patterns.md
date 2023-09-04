@@ -32,6 +32,7 @@ Describes a *reoccurring solution* to a problem that occurs in a context
 - [[Bridge Pattern\|Bridge Pattern]]
 - [[Facade Pattern\|Facade Pattern]]
 - [[Observer Pattern\|Observer Pattern]]
+- [[Strategy Pattern\|Strategy Pattern]]
 
 ## Background
 
