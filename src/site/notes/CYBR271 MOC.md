@@ -13,7 +13,7 @@ Hamish Burke || 03-07-2023
 
 [[CYBR Info\|CYBR Info]]
 [[CYBR Assignment 1\|CYBR Assignment 1]]
-
+[[CYBR Assignment 2\|CYBR Assignment 2]]
 # Lecture Notes
 
 [[Threat Model\|Threat Model]]
@@ -40,6 +40,12 @@ Hamish Burke || 03-07-2023
 
 
 [[Privileged Programs\|Privileged Programs]]
-[[Privileged Programs\|Privileged Programs]]
 [[Privilege Elevation\|Privilege Elevation]]
 [[Set-UID\|Set-UID]]
+
+
+***
+
+# Attacks
+
+[[Buffer Overflow Attack\|Buffer Overflow Attack]]
