@@ -26,6 +26,16 @@ Cloud computing is the child of numerous technological attempts at large scale d
 - [[Autonomic Computing\|Autonomic Computing]]
 - [[Service Orientated Architecture\|Service Orientated Architecture]]
 
+## Definition
+
+- Large pool of *easily usable* and accessible virtualised resources
+- Resources can be dynamically reconfigured to adjust to a variable load (scale)
+	- Allows for an optimum resource management
+
+> [!NIST Definition]
+> Cloud computing is a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (eg networks, server, storage etc). That can be *rapidly provisioned and released* with minimal management effort.
+> This cloud model promotes **availability**
+
 ## Edge Computing
 
 - More nearby than cloud computing
