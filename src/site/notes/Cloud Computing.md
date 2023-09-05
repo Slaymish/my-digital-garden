@@ -12,6 +12,19 @@ Hamish Burke || 10-07-2023
 # Cloud Computing
 
 - An implication of using cloud computing is you need **networks** to be able to compute
+- Convergence of a lot of different technologies getting developed
+- Found a way to **commoditise** distributed systems (that we already had)
+	- By applying virtual machine technology
+
+
+Cloud computing is the child of numerous technological attempts at large scale distributed computing:
+- [[Distributed computing\|Distributed computing]]
+- [[HPC\|HPC]]
+- [[Grid Computing\|Grid Computing]]
+- [[Utility Computing\|Utility Computing]]
+- [[Ubiquitous Computing\|Ubiquitous Computing]]
+- [[Autonomic Computing\|Autonomic Computing]]
+- [[Service Orientated Architecture\|Service Orientated Architecture]]
 
 ## Edge Computing
 
@@ -41,7 +54,7 @@ Hamish Burke || 10-07-2023
 
 ### Node
 
-- Computer, phone etyc
+- Computer, phone etc
 
 ### Link
 
