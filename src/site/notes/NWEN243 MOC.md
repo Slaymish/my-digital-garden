@@ -16,9 +16,12 @@ Hamish Burke || 10-07-2023
 
 [[NWEN243 Test Prep\|NWEN243 Test Prep]]
 
-# Cloud Computing
+# Networking
 
-[[Cloud Computing\|Cloud Computing]]
+layer 1: [[Representing Data as Bits\|Physical Layer]]
+layer 2: [[Data Link Layer\|Data Link Layer]]
+layer 3: [[Routing\|Routing]]
+layer 4: [[End-to-End Communication\|End-to-End Communication]]
 
 **Physical Layer:**
 
@@ -65,10 +68,11 @@ Hamish Burke || 10-07-2023
 	[[Stop and Wait\|Stop and Wait]]
 
 
-
 ***
 
-layer 1: [[Representing Data as Bits\|Physical Layer]]
-layer 2: [[Data Link Layer\|Data Link Layer]]
-layer 3: [[Routing\|Routing]]
-layer 4: [[End-to-End Communication\|End-to-End Communication]]
+# Cloud Computing
+
+[[Cloud Computing\|Cloud Computing]]
+[[Cloud Computing - Commercial View\|Cloud Computing - Commercial View]]
+
+
