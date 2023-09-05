@@ -33,17 +33,23 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
+### RN Fr
+
+- NWEN :)
+
 # Now
 
 - [ ] Complete timesheet
-- [ ] Prep for COMP103 Lab on ==Tuesday==
-	- [ ] O notation + Assignment 4
-- [ ] Meet with CGRA Group
+- [x] Prep for COMP103 Lab on ==Tuesday==
+	- [x] O notation + Assignment 4
+- [x] Meet with CGRA Group
 - [ ] Meet with SWEN Group
 - [ ] Monday
-	- [ ] SWEN
+	- [x] SWEN
 	- [ ] NWEN
-- [ ] Be test invigilator?? (Wednesday 5pm)
+ - [ ] Tuesday
+	 - [ ] CGRA
+	 - [ ] CYBR
 
 ## Lectures 1/9
 
