@@ -12,7 +12,7 @@ Hamish Burke || 25-04-2023
 
 ## [[NWEN243 MOC\|NWEN243 MOC]]
 
-- [ ] One NWEN Lecture
+- [x] One NWEN Lecture
 - [ ] NWEN Project 2 (MusicGuru)
 
 ## [[CYBR271 MOC\|CYBR271 MOC]]
@@ -33,20 +33,11 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 ***
 
-### RN Fr
-
-- NWEN :)
-
 # Now
 
 - [ ] Complete timesheet
-- [x] Prep for COMP103 Lab on ==Tuesday==
-	- [x] O notation + Assignment 4
-- [x] Meet with CGRA Group
 - [ ] Meet with SWEN Group
-- [ ] Monday
-	- [x] SWEN
-	- [ ] NWEN
+	- [ ] Wednesday 4pm
  - [ ] Tuesday
 	 - [ ] CGRA
 	 - [ ] CYBR
@@ -56,7 +47,7 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 ### Thursday 17th
 
 - [ ] SWEN
-- [ ] NWEN
+- [x] NWEN
 - [ ] CGRA
 - [ ] CYBR
 
