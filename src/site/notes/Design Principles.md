@@ -45,3 +45,69 @@ One way to do this is to use **Layering**
 
 - This is bad
 - Anytime you change code, it may cause a number of *side effects* to propagate through the program
+
+## [[Decomposability\|Decomposability]]
+
+- Dividing things into less complex subtasks
+- Means multiple ppl can work on it, dividing work
+- Dependencies have to be explicit, in form of interfaces
+
+[[Composability\|Composability]] is using *components* in environments **different** from the one they were initially developed
+
+## Understandability
+
+- Bad example: Modules only working if activated in a certain order eg: A then B then C.
+- Instead: *lazy* initialisation
+	- if objects are required to initialised before creating another
+		- Check if obj null in constructor, insatiate it there
+		- Then return card
+		- Used in the [[Singleton Pattern\|Singleton Pattern]]
+
+### Protection
+
+- Not about stopping error but their *propagation*
+
+
+***
+
+```java
+interface Displayable<I extends ImageType> {
+	I getImage();
+	void display();
+}
+
+interface ImageType {
+	int[][] getImageAsRGB();
+}
+
+class PNG implements ImageType {
+	int[][] pngArr;
+
+	public PNG(int[][] rgbArr){
+		pngArr = convertToPNGArr(rgbArr);
+	}
+
+	@Override
+	public int[][] getImageAsRBG(){
+		return convertToRGBArr(pngArr);	
+	}
+}
+
+class JPG implements ImageType {
+	int[][] jpgArr;
+
+	public PNG(int[][] rgbArr){
+		jpgArr = convertToJPGArr(rgbArr);
+	}
+
+	@Override
+	public int[][] getImageAsRBG(){
+		return convertToRGBArr(jpgArr);	
+	}
+}
+
+
+class PNGCircle implements Displayable<PNG> {
+	
+}
+```
