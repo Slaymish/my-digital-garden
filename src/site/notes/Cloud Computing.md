@@ -36,6 +36,15 @@ Cloud computing is the child of numerous technological attempts at large scale d
 > Cloud computing is a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (eg networks, server, storage etc). That can be *rapidly provisioned and released* with minimal management effort.
 > This cloud model promotes **availability**
 
+### General Characteristics
+
+- Pay per use
+- Provide a API to build scalable apps on their services
+- Self-service interface
+- Elastic capacity
+- *Illusion* of infinite resources
+	- Resources are abstracted/virtualized
+
 ## Edge Computing
 
 - More nearby than cloud computing
