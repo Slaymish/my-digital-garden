@@ -12,14 +12,6 @@ Hamish Burke || 03-07-2023
 [[SWEN225 Assignment 2\|SWEN225 Assignment 2]]
 
 
-Book: Using UML: Software Engineering with Objects and Components, 2/E Addision-Wesley
-
-Book: Object-Oriented Design & Patterns, Wiley
-
-Book: Introduction to design patterns - A conceptual Approach
-
-Book: A timeless way of building (Peter Alexandra)
-
 # Modelling
 
 [[SWEN Planning\|SWEN Planning]]
@@ -36,3 +28,17 @@ Book: A timeless way of building (Peter Alexandra)
 
 [[Git Source Control\|Git Source Control]]
 [[Version Control\|Version Control]]
+
+
+
+***
+
+Book: Using UML: Software Engineering with Objects and Components, 2/E Addision-Wesley
+
+Book: Object-Oriented Design & Patterns, Wiley
+
+Book: Introduction to design patterns - A conceptual Approach
+
+Book: A timeless way of building (Peter Alexandra)
+
+##### Books
