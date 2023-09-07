@@ -36,11 +36,10 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 # Now
 
 - [ ] Complete timesheet
-- [ ] Meet with SWEN Group
-	- [ ] Wednesday 4pm
+- [x] Meet with SWEN Group
  - [ ] Tuesday
 	 - [ ] CGRA
-	 - [ ] CYBR
+	 - [x] CYBR
 
 ## Lectures 1/9
 
