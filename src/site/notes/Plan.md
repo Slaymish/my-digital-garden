@@ -18,6 +18,7 @@ Hamish Burke || 25-04-2023
 ## [[CYBR271 MOC\|CYBR271 MOC]]
 
 - [ ] Two CYBR Lectures
+- [ ] Assignment 2
 
 ## [[SWEN225 MOC\|SWEN225 MOC]]
 
@@ -28,6 +29,7 @@ Hamish Burke || 25-04-2023
 
 - [ ] Design and Project Pipeline ==10th September==
 - [ ] Prototype due ==end of september==
+- [ ] Assignment 2
 
 For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
@@ -37,8 +39,8 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] Complete timesheet
 - [x] Meet with SWEN Group
- - [ ] Tuesday
-	 - [ ] CGRA
+ - [x] Tuesday
+	 - [x] CGRA
 	 - [x] CYBR
 
 ## Lectures 1/9
@@ -47,11 +49,11 @@ For break, you've got a bunch of [[Fun things to do\|Fun things to do]]
 
 - [ ] SWEN
 - [x] NWEN
-- [ ] CGRA
+- [x] CGRA
 - [ ] CYBR
 
 ### Friday 18th
 
-- [ ] CGRA
+- [x] CGRA
 - [ ] CYBR
 
