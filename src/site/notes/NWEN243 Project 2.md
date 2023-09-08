@@ -13,3 +13,11 @@ Hamish Burke || 07-09-2023
 
 `telnet bats.ecs.vuw.ac.nz 5000`
 
+Todo:
+- Start/setup ec2 server
+- configure client to work
+- Add server to instance
+- Create template from instance
+
+
+
