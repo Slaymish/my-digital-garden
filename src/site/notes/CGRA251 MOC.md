@@ -17,6 +17,8 @@ Hamish Burke || 03-07-2023
 [[Sheets in Games\|Sheets in Games]]
 [[HTTP Requests\|HTTP Requests]]
 [[CGRA Project 1\|CGRA Project 1]]
+[[CGRA Assignment 2\|CGRA Assignment 2]]
+[[3d Geometry\|3d Geometry]]
 
 # Code Review
 
